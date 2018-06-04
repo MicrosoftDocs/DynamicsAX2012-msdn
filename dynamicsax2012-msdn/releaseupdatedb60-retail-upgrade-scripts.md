@@ -1,0 +1,522 @@
+﻿---
+title: ReleaseUpdateDB60_Retail Upgrade Scripts
+TOCTitle: ReleaseUpdateDB60_Retail Upgrade Scripts
+ms:assetid: f9b181ad-636b-4a47-b4f2-06d86a366e91
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ720074(v=AX.60)
+ms:contentKeyID: 49712383
+ms.date: 05/18/2015
+mtps_version: v=AX.60
+---
+
+# ReleaseUpdateDB60\_Retail Upgrade Scripts 
+
+
+_**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
+
+## In This Section
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailButtonGridButtonsIdx](releaseupdatedb60-retail-allowdupretailbuttongridbuttonsidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailButtonGridButtonsIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailbuttongridbuttonsidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailColorGroupIdx](releaseupdatedb60-retail-allowdupretailcolorgroupidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailColorGroupIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailcolorgroupidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailConnTablesIdx](releaseupdatedb60-retail-allowdupretailconntablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailConnTablesIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailconntablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailPermissionTablesIdx](releaseupdatedb60-retail-allowdupretailpermissiontablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailPermissionTablesIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailpermissiontablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailPosTablesIdx](releaseupdatedb60-retail-allowdupretailpostablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailPosTablesIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailpostablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailSizeGroupIdx](releaseupdatedb60-retail-allowdupretailsizegroupidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailSizeGroupIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailsizegroupidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStaffTableWorkerIdx](releaseupdatedb60-retail-allowdupretailstafftableworkeridx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStaffTableWorkerIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailstafftableworkeridx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStoreTableStoreNumIdx](releaseupdatedb60-retail-allowdupretailstoretablestorenumidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStoreTableStoreNumIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailstoretablestorenumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStyleGrouplIdx](releaseupdatedb60-retail-allowdupretailstylegrouplidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailStyleGrouplIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailstylegrouplidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailTenderTypeCardNumbers](releaseupdatedb60-retail-allowdupretailtendertypecardnumbers.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailTenderTypeCardNumbers Upgrade Script](releaseupdatedb60-retail-allowdupretailtendertypecardnumbers-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailTerminalTableTerminalIdx](releaseupdatedb60-retail-allowdupretailterminaltableterminalidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowDupRetailTerminalTableTerminalIdx Upgrade Script](releaseupdatedb60-retail-allowdupretailterminaltableterminalidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailButtonGridButtonsIdx](releaseupdatedb60-retail-allownodupretailbuttongridbuttonsidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailButtonGridButtonsIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailbuttongridbuttonsidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailColorGroupIdx](releaseupdatedb60-retail-allownodupretailcolorgroupidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailColorGroupIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailcolorgroupidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailConnTablesIdx](releaseupdatedb60-retail-allownodupretailconntablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailConnTablesIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailconntablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailPermissionTablesIdx](releaseupdatedb60-retail-allownodupretailpermissiontablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailPermissionTablesIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailpermissiontablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailPosTablesIdx](releaseupdatedb60-retail-allownodupretailpostablesidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailPosTablesIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailpostablesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailSizeGroupIdx](releaseupdatedb60-retail-allownodupretailsizegroupidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailSizeGroupIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailsizegroupidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailStaffTableWorkerIdx](releaseupdatedb60-retail-allownodupretailstafftableworkeridx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailStaffTableWorkerIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailstafftableworkeridx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailStoreTableStoreNumIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailstoretablestorenumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailStyleGrouplIdx](releaseupdatedb60-retail-allownodupretailstylegrouplidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailStyleGrouplIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailstylegrouplidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailTenderTypeCardNumbers](releaseupdatedb60-retail-allownodupretailtendertypecardnumbers.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailTenderTypeCardNumbers Upgrade Script](releaseupdatedb60-retail-allownodupretailtendertypecardnumbers-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailTerminalTableTerminalIdx](releaseupdatedb60-retail-allownodupretailterminaltableterminalidx.md)
+
+[ReleaseUpdateDB60\_Retail.allowNoDupRetailTerminalTableTerminalIdx Upgrade Script](releaseupdatedb60-retail-allownodupretailterminaltableterminalidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.checkAndCreateMissingNodes Upgrade Script](releaseupdatedb60-retail-checkandcreatemissingnodes-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.clearSysLastValue](releaseupdatedb60-retail-clearsyslastvalue.md)
+
+[ReleaseUpdateDB60\_Retail.clearSysLastValue Upgrade Script](releaseupdatedb60-retail-clearsyslastvalue-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.createLocationListForChildLocations](releaseupdatedb60-retail-createlocationlistforchildlocations.md)
+
+[ReleaseUpdateDB60\_Retail.createLocationListForChildLocations Upgrade Script](releaseupdatedb60-retail-createlocationlistforchildlocations-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.createSmmQuotationCompetitors](releaseupdatedb60-retail-createsmmquotationcompetitors.md)
+
+[ReleaseUpdateDB60\_Retail.createSmmQuotationCompetitors Upgrade Script](releaseupdatedb60-retail-createsmmquotationcompetitors-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.deletePrePopulatedData](releaseupdatedb60-retail-deleteprepopulateddata.md)
+
+[ReleaseUpdateDB60\_Retail.deletePrePopulatedData Upgrade Script](releaseupdatedb60-retail-deleteprepopulateddata-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkcopyTableRetailScheduler](releaseupdatedb60-retail-excludebulkcopytableretailscheduler.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkcopyTableRetailScheduler Upgrade Script](releaseupdatedb60-retail-excludebulkcopytableretailscheduler-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkcopyTableRetailStoreInventory](releaseupdatedb60-retail-excludebulkcopytableretailstoreinventory.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkcopyTableRetailStoreInventory Upgrade Script](releaseupdatedb60-retail-excludebulkcopytableretailstoreinventory-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesItemLabelSetup](releaseupdatedb60-retail-excludebulkcopytablesitemlabelsetup.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesItemLabelSetup Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablesitemlabelsetup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesRBOSetupLog](releaseupdatedb60-retail-excludebulkcopytablesrbosetuplog.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesRBOSetupLog Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablesrbosetuplog-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesRBOTransaction Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablesrbotransaction-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesReplenishmentLines](releaseupdatedb60-retail-excludebulkcopytablesreplenishmentlines.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesReplenishmentLines Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablesreplenishmentlines-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesRetailDimensions Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablesretaildimensions-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesSalesPriceSetup](releaseupdatedb60-retail-excludebulkcopytablessalespricesetup.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesSalesPriceSetup Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablessalespricesetup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesTableDistribution](releaseupdatedb60-retail-excludebulkcopytablestabledistribution.md)
+
+[ReleaseUpdateDB60\_Retail.excludeBulkCopyTablesTableDistribution Upgrade Script](releaseupdatedb60-retail-excludebulkcopytablestabledistribution-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.findOrCreateMissingCategoryParent Upgrade Script](releaseupdatedb60-retail-findorcreatemissingcategoryparent-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.publishRetailAssortments Upgrade Script](releaseupdatedb60-retail-publishretailassortments-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailButtonGrid](releaseupdatedb60-retail-refupdateretailbuttongrid.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailButtonGrid Upgrade Script](releaseupdatedb60-retail-refupdateretailbuttongrid-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailColorGroupTable](releaseupdatedb60-retail-refupdateretailcolorgrouptable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailColorGroupTable Upgrade Script](releaseupdatedb60-retail-refupdateretailcolorgrouptable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailConnDistributionGroup Upgrade Script](releaseupdatedb60-retail-refupdateretailconndistributiongroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailConnDistributionLocation](releaseupdatedb60-retail-refupdateretailconndistributionlocation.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailConnDistributionLocation Upgrade Script](releaseupdatedb60-retail-refupdateretailconndistributionlocation-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailConnDistributionSubgroup](releaseupdatedb60-retail-refupdateretailconndistributionsubgroup.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailConnDistributionSubgroup Upgrade Script](releaseupdatedb60-retail-refupdateretailconndistributionsubgroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailFormLayout](releaseupdatedb60-retail-refupdateretailformlayout.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailFormLayout Upgrade Script](releaseupdatedb60-retail-refupdateretailformlayout-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailFunctionalityProfile](releaseupdatedb60-retail-refupdateretailfunctionalityprofile.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailFunctionalityProfile Upgrade Script](releaseupdatedb60-retail-refupdateretailfunctionalityprofile-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailHardwareProfile](releaseupdatedb60-retail-refupdateretailhardwareprofile.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailHardwareProfile Upgrade Script](releaseupdatedb60-retail-refupdateretailhardwareprofile-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailImages](releaseupdatedb60-retail-refupdateretailimages.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailImages Upgrade Script](releaseupdatedb60-retail-refupdateretailimages-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailKeyboardMappingTable](releaseupdatedb60-retail-refupdateretailkeyboardmappingtable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailKeyboardMappingTable Upgrade Script](releaseupdatedb60-retail-refupdateretailkeyboardmappingtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailPermissions Upgrade Script](releaseupdatedb60-retail-refupdateretailpermissions-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailReceiptProfile](releaseupdatedb60-retail-refupdateretailreceiptprofile.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailReceiptProfile Upgrade Script](releaseupdatedb60-retail-refupdateretailreceiptprofile-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailSizeGroupTable](releaseupdatedb60-retail-refupdateretailsizegrouptable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailSizeGroupTable Upgrade Script](releaseupdatedb60-retail-refupdateretailsizegrouptable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStaffTable](releaseupdatedb60-retail-refupdateretailstafftable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStaffTable Upgrade Script](releaseupdatedb60-retail-refupdateretailstafftable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStoreTable](releaseupdatedb60-retail-refupdateretailstoretable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStoreTable Upgrade Script](releaseupdatedb60-retail-refupdateretailstoretable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStyleGroupTable](releaseupdatedb60-retail-refupdateretailstylegrouptable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailStyleGroupTable Upgrade Script](releaseupdatedb60-retail-refupdateretailstylegrouptable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTenderTypeCardTable](releaseupdatedb60-retail-refupdateretailtendertypecardtable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTenderTypeCardTable Upgrade Script](releaseupdatedb60-retail-refupdateretailtendertypecardtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTenderTypeTable](releaseupdatedb60-retail-refupdateretailtendertypetable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTenderTypeTable Upgrade Script](releaseupdatedb60-retail-refupdateretailtendertypetable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTerminalTable](releaseupdatedb60-retail-refupdateretailterminaltable.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTerminalTable Upgrade Script](releaseupdatedb60-retail-refupdateretailterminaltable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTillLayout](releaseupdatedb60-retail-refupdateretailtilllayout.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTillLayout Upgrade Script](releaseupdatedb60-retail-refupdateretailtilllayout-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTransactionServiceProfile](releaseupdatedb60-retail-refupdateretailtransactionserviceprofile.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailTransactionServiceProfile Upgrade Script](releaseupdatedb60-retail-refupdateretailtransactionserviceprofile-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailVisualProfile](releaseupdatedb60-retail-refupdateretailvisualprofile.md)
+
+[ReleaseUpdateDB60\_Retail.refUpdateRetailVisualProfile Upgrade Script](releaseupdatedb60-retail-refupdateretailvisualprofile-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateCustInvoiceJour](releaseupdatedb60-retail-updatecustinvoicejour.md)
+
+[ReleaseUpdateDB60\_Retail.updateCustInvoiceJour Upgrade Script](releaseupdatedb60-retail-updatecustinvoicejour-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResDistinctProductVariant](releaseupdatedb60-retail-updateecoresdistinctproductvariant.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResDistinctProductVariant Upgrade Script](releaseupdatedb60-retail-updateecoresdistinctproductvariant-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMaster](releaseupdatedb60-retail-updateecoresproductmaster.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMaster Upgrade Script](releaseupdatedb60-retail-updateecoresproductmaster-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterColor](releaseupdatedb60-retail-updateecoresproductmastercolor.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterColor Upgrade Script](releaseupdatedb60-retail-updateecoresproductmastercolor-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterSize](releaseupdatedb60-retail-updateecoresproductmastersize.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterSize Upgrade Script](releaseupdatedb60-retail-updateecoresproductmastersize-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterStyle](releaseupdatedb60-retail-updateecoresproductmasterstyle.md)
+
+[ReleaseUpdateDB60\_Retail.updateEcoResProductMasterStyle Upgrade Script](releaseupdatedb60-retail-updateecoresproductmasterstyle-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateHCMWorker](releaseupdatedb60-retail-updatehcmworker.md)
+
+[ReleaseUpdateDB60\_Retail.updateHCMWorker Upgrade Script](releaseupdatedb60-retail-updatehcmworker-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateItemLabelReportData](releaseupdatedb60-retail-updateitemlabelreportdata.md)
+
+[ReleaseUpdateDB60\_Retail.updateItemLabelReportData Upgrade Script](releaseupdatedb60-retail-updateitemlabelreportdata-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateLedgerJournalTable](releaseupdatedb60-retail-updateledgerjournaltable.md)
+
+[ReleaseUpdateDB60\_Retail.updateLedgerJournalTable Upgrade Script](releaseupdatedb60-retail-updateledgerjournaltable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateNumberSequenceReference](releaseupdatedb60-retail-updatenumbersequencereference.md)
+
+[ReleaseUpdateDB60\_Retail.updateNumberSequenceReference Upgrade Script](releaseupdatedb60-retail-updatenumbersequencereference-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateProductsToSpecialHierarchies](releaseupdatedb60-retail-updateproductstospecialhierarchies.md)
+
+[ReleaseUpdateDB60\_Retail.updateProductsToSpecialHierarchies Upgrade Script](releaseupdatedb60-retail-updateproductstospecialhierarchies-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateProductsToStandardHierarchy](releaseupdatedb60-retail-updateproductstostandardhierarchy.md)
+
+[ReleaseUpdateDB60\_Retail.updateProductsToStandardHierarchy Upgrade Script](releaseupdatedb60-retail-updateproductstostandardhierarchy-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAssortmentItemList](releaseupdatedb60-retail-updateretailassortmentitemlist.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAssortmentItemList Upgrade Script](releaseupdatedb60-retail-updateretailassortmentitemlist-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAssortmentTable](releaseupdatedb60-retail-updateretailassortmenttable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAssortmentTable Upgrade Script](releaseupdatedb60-retail-updateretailassortmenttable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAttributesForRetailDep](releaseupdatedb60-retail-updateretailattributesforretaildep.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAttributesForRetailDep Upgrade Script](releaseupdatedb60-retail-updateretailattributesforretaildep-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAttributesForRetailGroup](releaseupdatedb60-retail-updateretailattributesforretailgroup.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailAttributesForRetailGroup Upgrade Script](releaseupdatedb60-retail-updateretailattributesforretailgroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailBuyersPushLineQty](releaseupdatedb60-retail-updateretailbuyerspushlineqty.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailBuyersPushLineQty Upgrade Script](releaseupdatedb60-retail-updateretailbuyerspushlineqty-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailColorGroupTrans](releaseupdatedb60-retail-updateretailcolorgrouptrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailColorGroupTrans Upgrade Script](releaseupdatedb60-retail-updateretailcolorgrouptrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractArea](releaseupdatedb60-retail-updateretailconcessioncontractarea.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractArea Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractarea-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractCommHist](releaseupdatedb60-retail-updateretailconcessioncontractcommhist.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractCommHist Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractcommhist-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractCommission](releaseupdatedb60-retail-updateretailconcessioncontractcommission.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractCommission Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractcommission-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractInvoiceHis](releaseupdatedb60-retail-updateretailconcessioncontractinvoicehis.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractInvoiceHis Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractinvoicehis-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractLines](releaseupdatedb60-retail-updateretailconcessioncontractlines.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractLines Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractlines-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractLinesHis](releaseupdatedb60-retail-updateretailconcessioncontractlineshis.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractLinesHis Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractlineshis-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractPayment](releaseupdatedb60-retail-updateretailconcessioncontractpayment.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractPayment Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractpayment-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractPaymentHis](releaseupdatedb60-retail-updateretailconcessioncontractpaymenthis.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractPaymentHis Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractpaymenthis-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractSalesCost](releaseupdatedb60-retail-updateretailconcessioncontractsalescost.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConcessionContractSalesCost Upgrade Script](releaseupdatedb60-retail-updateretailconcessioncontractsalescost-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConContractSalesCostHis](releaseupdatedb60-retail-updateretailconcontractsalescosthis.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConContractSalesCostHis Upgrade Script](releaseupdatedb60-retail-updateretailconcontractsalescosthis-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnDistributionListWithTA](releaseupdatedb60-retail-updateretailconndistributionlistwithta.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnDistributionListWithTA Upgrade Script](releaseupdatedb60-retail-updateretailconndistributionlistwithta-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnDistributionLocation](releaseupdatedb60-retail-updateretailconndistributionlocation.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnDistributionLocation Upgrade Script](releaseupdatedb60-retail-updateretailconndistributionlocation-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnOneCompanyTables](releaseupdatedb60-retail-updateretailconnonecompanytables.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnOneCompanyTables Upgrade Script](releaseupdatedb60-retail-updateretailconnonecompanytables-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnTables](releaseupdatedb60-retail-updateretailconntables.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailConnTables Upgrade Script](releaseupdatedb60-retail-updateretailconntables-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailDiscountOfferLines](releaseupdatedb60-retail-updateretaildiscountofferlines.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailDiscountOfferLines Upgrade Script](releaseupdatedb60-retail-updateretaildiscountofferlines-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailDiscountOfferTable](releaseupdatedb60-retail-updateretaildiscountoffertable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailDiscountOfferTable Upgrade Script](releaseupdatedb60-retail-updateretaildiscountoffertable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailEncryptedData](releaseupdatedb60-retail-updateretailencrypteddata.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailEncryptedData Upgrade Script](releaseupdatedb60-retail-updateretailencrypteddata-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailEncryptedDataDecrypt Upgrade Script](releaseupdatedb60-retail-updateretailencrypteddatadecrypt-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailGroupTranslations Upgrade Script](https://msdn.microsoft.com/en-us/library/dn975043\(v=ax.60\))
+
+[ReleaseUpdateDB60\_Retail.updateRetailImportItemHierarchySetup](releaseupdatedb60-retail-updateretailimportitemhierarchysetup.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailImportItemHierarchySetup Upgrade Script](releaseupdatedb60-retail-updateretailimportitemhierarchysetup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailIncomeExpenseAccountTable](releaseupdatedb60-retail-updateretailincomeexpenseaccounttable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailIncomeExpenseAccountTable Upgrade Script](releaseupdatedb60-retail-updateretailincomeexpenseaccounttable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailLoyaltyPointsTable](releaseupdatedb60-retail-updateretailloyaltypointstable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailLoyaltyPointsTable Upgrade Script](releaseupdatedb60-retail-updateretailloyaltypointstable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMixAndMatchLine](releaseupdatedb60-retail-updateretailmixandmatchline.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMixAndMatchLine Upgrade Script](releaseupdatedb60-retail-updateretailmixandmatchline-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMixAndMatchTable](releaseupdatedb60-retail-updateretailmixandmatchtable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMixAndMatchTable Upgrade Script](releaseupdatedb60-retail-updateretailmixandmatchtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMultibuyDiscountTable](releaseupdatedb60-retail-updateretailmultibuydiscounttable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMultibuyDiscountTable Upgrade Script](releaseupdatedb60-retail-updateretailmultibuydiscounttable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMutibuyItems](releaseupdatedb60-retail-updateretailmutibuyitems.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailMutibuyItems Upgrade Script](releaseupdatedb60-retail-updateretailmutibuyitems-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailOperations](releaseupdatedb60-retail-updateretailoperations.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailOperations Upgrade Script](releaseupdatedb60-retail-updateretailoperations-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailParameters](releaseupdatedb60-retail-updateretailparameters.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailParameters Upgrade Script](releaseupdatedb60-retail-updateretailparameters-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailParametersEx1](releaseupdatedb60-retail-updateretailparametersex1.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailParametersEx1 Upgrade Script](releaseupdatedb60-retail-updateretailparametersex1-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailPermissions](releaseupdatedb60-retail-updateretailpermissions.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailPermissions Upgrade Script](releaseupdatedb60-retail-updateretailpermissions-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailProductHierarchy](releaseupdatedb60-retail-updateretailproducthierarchy.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailProductHierarchy Upgrade Script](releaseupdatedb60-retail-updateretailproducthierarchy-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSharedParameters](releaseupdatedb60-retail-updateretailsharedparameters.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSharedParameters Upgrade Script](releaseupdatedb60-retail-updateretailsharedparameters-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSizeGroupTrans](releaseupdatedb60-retail-updateretailsizegrouptrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSizeGroupTrans Upgrade Script](releaseupdatedb60-retail-updateretailsizegrouptrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSpecialGroupHierarchy](releaseupdatedb60-retail-updateretailspecialgrouphierarchy.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailSpecialGroupHierarchy Upgrade Script](releaseupdatedb60-retail-updateretailspecialgrouphierarchy-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStaffTable](releaseupdatedb60-retail-updateretailstafftable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStaffTable Upgrade Script](releaseupdatedb60-retail-updateretailstafftable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementJour](releaseupdatedb60-retail-updateretailstatementjour.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementJour Upgrade Script](releaseupdatedb60-retail-updateretailstatementjour-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementLine](releaseupdatedb60-retail-updateretailstatementline.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementLine Upgrade Script](releaseupdatedb60-retail-updateretailstatementline-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementTable](releaseupdatedb60-retail-updateretailstatementtable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementTable Upgrade Script](releaseupdatedb60-retail-updateretailstatementtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementTrans](releaseupdatedb60-retail-updateretailstatementtrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStatementTrans Upgrade Script](releaseupdatedb60-retail-updateretailstatementtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreGroup](releaseupdatedb60-retail-updateretailstoregroup.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreGroup Upgrade Script](releaseupdatedb60-retail-updateretailstoregroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTable](releaseupdatedb60-retail-updateretailstoretable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTable Upgrade Script](releaseupdatedb60-retail-updateretailstoretable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTenderTypeCardTable](releaseupdatedb60-retail-updateretailstoretendertypecardtable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTenderTypeCardTable Upgrade Script](releaseupdatedb60-retail-updateretailstoretendertypecardtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTenderTypeTable](releaseupdatedb60-retail-updateretailstoretendertypetable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreTenderTypeTable Upgrade Script](releaseupdatedb60-retail-updateretailstoretendertypetable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreWorkShiftTable](releaseupdatedb60-retail-updateretailstoreworkshifttable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreWorkShiftTable Upgrade Script](releaseupdatedb60-retail-updateretailstoreworkshifttable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreWorkShiftTrans](releaseupdatedb60-retail-updateretailstoreworkshifttrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStoreWorkShiftTrans Upgrade Script](releaseupdatedb60-retail-updateretailstoreworkshifttrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStyleGroupTrans](releaseupdatedb60-retail-updateretailstylegrouptrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailStyleGroupTrans Upgrade Script](releaseupdatedb60-retail-updateretailstylegrouptrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTaxInformation\_IN](releaseupdatedb60-retail-updateretailtaxinformation-in.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTerminalTable](releaseupdatedb60-retail-updateretailterminaltable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTerminalTable Upgrade Script](releaseupdatedb60-retail-updateretailterminaltable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateretailTransactionPaymentTrans](releaseupdatedb60-retail-updateretailtransactionpaymenttrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateretailTransactionPaymentTrans Upgrade Script](releaseupdatedb60-retail-updateretailtransactionpaymenttrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTransactionSalesTrans](releaseupdatedb60-retail-updateretailtransactionsalestrans.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTransactionSalesTrans Upgrade Script](releaseupdatedb60-retail-updateretailtransactionsalestrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTransactionTable](releaseupdatedb60-retail-updateretailtransactiontable.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailTransactionTable Upgrade Script](releaseupdatedb60-retail-updateretailtransactiontable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailWorkShiftSetup](releaseupdatedb60-retail-updateretailworkshiftsetup.md)
+
+[ReleaseUpdateDB60\_Retail.updateRetailWorkShiftSetup Upgrade Script](releaseupdatedb60-retail-updateretailworkshiftsetup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateToRetailGroupMemberLine Upgrade Script](releaseupdatedb60-retail-updatetoretailgroupmemberline-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Retail.updateToRetailPriceGroupDistribution Upgrade Script](releaseupdatedb60-retail-updatetoretailpricegroupdistribution-upgrade-script.md)
+
+  
+**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+

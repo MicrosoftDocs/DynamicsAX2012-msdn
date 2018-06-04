@@ -1,0 +1,376 @@
+﻿---
+title: ReleaseUpdateTransformDB40_Ledger Upgrade Scripts
+TOCTitle: ReleaseUpdateTransformDB40_Ledger Upgrade Scripts
+ms:assetid: efe444c1-b060-42b9-9637-86463a9bfdc1
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ737415(v=AX.60)
+ms:contentKeyID: 49712112
+ms.date: 05/18/2015
+mtps_version: v=AX.60
+---
+
+# ReleaseUpdateTransformDB40\_Ledger Upgrade Scripts 
+
+
+_**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
+
+## In This Section
+
+[ReleaseUpdateTransformDB40\_Ledger.assetGroupDepBookTrans\_INPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-assetgroupdepbooktrans-inpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.assetGroupTrans\_INPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-assetgrouptrans-inpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.bankCodaAccountStmtLinesDeltaProcessing Upgrade Script](releaseupdatetransformdb40-ledger-bankcodaaccountstmtlinesdeltaprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.bankCodaAccountStmtLinesPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-bankcodaaccountstmtlinespreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.budgetDimensionsPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-budgetdimensionspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createDimensionFocus Upgrade Script](releaseupdatetransformdb40-ledger-createdimensionfocus-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendar\_AC Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendar-ac-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendar\_AC\_Delta Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendar-ac-delta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendar\_Ledger Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendar-ledger-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarPeriod\_ACP Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendarperiod-acp-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarPeriod\_ACP\_Delta Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendarperiod-acp-delta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarPeriod\_Ledger Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendarperiod-ledger-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarPeriod\_LP\_Delta Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendarperiod-lp-delta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarYear\_ACY Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendaryear-acy-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarYear\_ACY\_Delta Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendaryear-acy-delta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.createFiscalCalendarYear\_Ledger Upgrade Script](releaseupdatetransformdb40-ledger-createfiscalcalendaryear-ledger-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.CreateLFCP\_LPMAC\_LedgerPeriod Upgrade Script](releaseupdatetransformdb40-ledger-createlfcp-lpmac-ledgerperiod-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.CreateLFCP\_LPMAC\_LedgerPeriod\_Delta Upgrade Script](releaseupdatetransformdb40-ledger-createlfcp-lpmac-ledgerperiod-delta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.currencyDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-currencydeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.currencyLedgerAccountDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-currencyledgeraccountdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.currencyLedgerAccountPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-currencyledgeraccountpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.currencyPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-currencypreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.customsExchangeRatePreProcessing\_IN Upgrade Script](releaseupdatetransformdb40-ledger-customsexchangeratepreprocessing-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.defaultDimensionPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-defaultdimensionpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.determineBudgetType Upgrade Script](releaseupdatetransformdb40-ledger-determinebudgettype-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionFocusPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionfocuspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionHierarchyPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionhierarchypreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionsDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionsdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionsInChargeDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionsinchargedeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionsInChargePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionsinchargepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimensionsPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimensionspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimSetHierarchyTableDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimsethierarchytabledeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimSetHierarchyTablePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimsethierarchytablepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimSetRuleTableDelta Upgrade Script](releaseupdatetransformdb40-ledger-dimsetruletabledelta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.dimSetRuleTablePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-dimsetruletablepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.exchangeRateDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-exchangeratedeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.exchangeRatePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-exchangeratepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.getLedgerBudgetTransactionType Upgrade Script](releaseupdatetransformdb40-ledger-getledgerbudgettransactiontype-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.initTransformationJobs\_FiscalCalendar Upgrade Script](releaseupdatetransformdb40-ledger-inittransformationjobs-fiscalcalendar-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.inventSettlementDeltaPreUpgradeProces\_RU Upgrade Script](releaseupdatetransformdb40-ledger-inventsettlementdeltapreupgradeproces-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.inventSettlementPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-inventsettlementpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerAccountCovDeltaPreUpgProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgeraccountcovdeltapreupgprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerAccountCovPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgeraccountcovpreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerBudgetDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerbudgetdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerBudgetPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerbudgetpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerChartOfAccountsPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerchartofaccountspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlCurCodeDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolcurcodedeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlCurCodePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolcurcodepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlPostingDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolpostingdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerControlPostingDeltaPreUpProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolpostingdeltapreupprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlPostingPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolpostingpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerControlPostingPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontrolpostingpreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlUserDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontroluserdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerControlUserPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgercontroluserpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerCovDeltaPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgercovdeltapreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerCovPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgercovpreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalControlDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournalcontroldeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalControlPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournalcontrolpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournaltabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournaltablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerJournalTrans\_INDeltaPreUpgradePrcs](releaseupdatetransformdb40-ledger-ledgerjournaltrans-indeltapreupgradeprcs.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerJournalTrans\_INPreUpgradeProcess](releaseupdatetransformdb40-ledger-ledgerjournaltrans-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournaltransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournaltranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerJournalTransValidate\_Approver Upgrade Script](releaseupdatetransformdb40-ledger-ledgerjournaltransvalidate-approver-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerPostingType\_Convert\_RU Upgrade Script](releaseupdatetransformdb40-ledger-ledgerpostingtype-convert-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgerpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerSystemAccountDeltaPreUpgProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgersystemaccountdeltapreupgprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerSystemAccountPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgersystemaccountpreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTableDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertabledeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTableESPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertableespreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTableOffsetOpeningDelta Upgrade Script](releaseupdatetransformdb40-ledger-ledgertableoffsetopeningdelta-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTableOffsetOpeningPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertableoffsetopeningpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTablePreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertablepreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransChangeCompanyDimensions Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranschangecompanydimensions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransCreateDeltaStoredProcedures Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranscreatedeltastoredprocedures-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransCreateLedgerDimensions Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranscreateledgerdimensions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransCreateStoredProcedures Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranscreatestoredprocedures-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaGeneralJournalAccEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltageneraljournalaccentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaGeneralJournalEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltageneraljournalentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaGeneralJournalLine Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltageneraljournalline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaLedgerEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltaledgerentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaLedgerEntryJournal Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltaledgerentryjournal-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaLedgerEntryJournalizing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltaledgerentryjournalizing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaLedgerEntryReference Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltaledgerentryreference-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerTransDeltaPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgertransdeltapreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.LedgerTransPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranspreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToGeneralJournalAccEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstogeneraljournalaccentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToGeneralJournalEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstogeneraljournalentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToGeneralJournalHeader Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstogeneraljournalheader-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToGeneralJournalLine Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstogeneraljournalline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToLedgerEntry Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstoledgerentry-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToLedgerEntryJournal Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstoledgerentryjournal-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToLedgerEntryJournalizing Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstoledgerentryjournalizing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.ledgerTransToLedgerEntryReference Upgrade Script](releaseupdatetransformdb40-ledger-ledgertranstoledgerentryreference-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.MarkupTableDeltaPreUpgProCustPosting\_IN Upgrade Script](releaseupdatetransformdb40-ledger-markuptabledeltapreupgprocustposting-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.MarkupTableDeltaPreUpgProVendPosting\_IN Upgrade Script](releaseupdatetransformdb40-ledger-markuptabledeltapreupgprovendposting-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.MarkupTablePreUpgProCustPosting\_IN Upgrade Script](releaseupdatetransformdb40-ledger-markuptablepreupgprocustposting-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.MarkupTablePreUpgProVendPosting\_IN Upgrade Script](releaseupdatetransformdb40-ledger-markuptablepreupgprovendposting-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsBookDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralsbookdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsBookPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralsbookpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsGroupDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralsgroupdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsGroupPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralsgrouppreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsTransDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralstransdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rDeferralsTransPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rdeferralstranspreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25AccGroupDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rtax25accgroupdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25AccGroupPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rtax25accgrouppreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25ParametersDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-rtax25parametersdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25ParametersPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-rtax25parameterspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25ProfSetupDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rtax25profsetupdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.rTax25ProfSetupPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-rtax25profsetuppreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.setBudgetTransactionLineFields Upgrade Script](releaseupdatetransformdb40-ledger-setbudgettransactionlinefields-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxJournalDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-taxjournaldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxJournalPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-taxjournalpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTrans\_INDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxtrans-indeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTrans\_INPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxtrans-inpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransChangeCompanyDimensions Upgrade Script](releaseupdatetransformdb40-ledger-taxtranschangecompanydimensions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransCreateDeltaStoredProcedures Upgrade Script](releaseupdatetransformdb40-ledger-taxtranscreatedeltastoredprocedures-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransCreateLedgerDimensions Upgrade Script](releaseupdatetransformdb40-ledger-taxtranscreateledgerdimensions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransCreateStoredProcedures Upgrade Script](releaseupdatetransformdb40-ledger-taxtranscreatestoredprocedures-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxtransdeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-taxtransdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryAccountNum Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentryaccountnum-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryChargeAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrychargeaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryDeltaAccountNum Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrydeltaaccountnum-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryDeltaChargeAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrydeltachargeaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryDeltaOperationAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrydeltaoperationaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryDeltaTaxOffsetAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrydeltataxoffsetaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryOperationAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentryoperationaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransLedgerEntryTaxOffsetAccount Upgrade Script](releaseupdatetransformdb40-ledger-taxtransledgerentrytaxoffsetaccount-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxtranspreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxTransPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb40-ledger-taxtranspreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxWithholdDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-taxwithholddeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxWithholdPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-ledger-taxwithholdpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxWithholdTrans\_INDeltaPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxwithholdtrans-indeltapreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.taxWithholdTrans\_INPreProcessing Upgrade Script](releaseupdatetransformdb40-ledger-taxwithholdtrans-inpreprocessing-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateAssetBookTable Upgrade Script](releaseupdatetransformdb40-ledger-updateassetbooktable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateAssetDepBookTable Upgrade Script](releaseupdatetransformdb40-ledger-updateassetdepbooktable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateFDocFromCustInvoiceJour\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatefdocfromcustinvoicejour-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateFDocFromCustInvoiceJourDelta\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatefdocfromcustinvoicejourdelta-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateFDocFromVendInvoiceJour\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatefdocfromvendinvoicejour-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateFDocFromVendInvoiceJourDelta\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatefdocfromvendinvoicejourdelta-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateFiscalCalendarId Upgrade Script](releaseupdatetransformdb40-ledger-updatefiscalcalendarid-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateReferencedCustInvoiceJour\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatereferencedcustinvoicejour-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateReferencedCustInvoiceJourDelta\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatereferencedcustinvoicejourdelta-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateReferencedVendInvoiceJour\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatereferencedvendinvoicejour-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.updateReferencedVendInvoiceJourDelta\_BR Upgrade Script](releaseupdatetransformdb40-ledger-updatereferencedvendinvoicejourdelta-br-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateCurrency Upgrade Script](releaseupdatetransformdb40-ledger-validatecurrency-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateDimensionSetHierarchy Upgrade Script](releaseupdatetransformdb40-ledger-validatedimensionsethierarchy-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateFiscalCalendar Upgrade Script](releaseupdatetransformdb40-ledger-validatefiscalcalendar-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerAccountCov Upgrade Script](releaseupdatetransformdb40-ledger-validateledgeraccountcov-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerAccrualTable Upgrade Script](releaseupdatetransformdb40-ledger-validateledgeraccrualtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerAllocateTrans Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerallocatetrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerAllocation Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerallocation-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerBudget\_AccountDimensions Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerbudget-accountdimensions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerBudget\_VirtualCompany Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerbudget-virtualcompany-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerClosingTrans Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerclosingtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerCov Upgrade Script](releaseupdatetransformdb40-ledger-validateledgercov-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerImportMode Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerimportmode-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerInterCompany Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerintercompany-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerJournalName Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerjournalname-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerJournalTable Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerjournaltable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerJournalTrans Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerjournaltrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerJournalTransAccrualTrans Upgrade Script](releaseupdatetransformdb40-ledger-validateledgerjournaltransaccrualtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerSystemAccounts Upgrade Script](releaseupdatetransformdb40-ledger-validateledgersystemaccounts-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerTable Upgrade Script](releaseupdatetransformdb40-ledger-validateledgertable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateLedgerTrans\_AccDim Upgrade Script](releaseupdatetransformdb40-ledger-validateledgertrans-accdim-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxAdjustments Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxadjustments-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxAuthorityAddress Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxauthorityaddress-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxJournalTrans Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxjournaltrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxLedgerAccountGroup Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxledgeraccountgroup-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxPurchaseTaxTable Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxpurchasetaxtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxReportLedgerAccounts Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxreportledgeraccounts-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxTrans Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxWithholdTable Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxwithholdtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Ledger.validateTaxWithholdTrans Upgrade Script](releaseupdatetransformdb40-ledger-validatetaxwithholdtrans-upgrade-script.md)
+
+  
+**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+

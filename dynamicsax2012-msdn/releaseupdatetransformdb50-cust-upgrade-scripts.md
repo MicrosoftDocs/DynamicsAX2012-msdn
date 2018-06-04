@@ -1,0 +1,328 @@
+﻿---
+title: ReleaseUpdateTransformDB50_Cust Upgrade Scripts
+TOCTitle: ReleaseUpdateTransformDB50_Cust Upgrade Scripts
+ms:assetid: ea147d71-0edf-4adc-ae50-83170c2d24c6
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ719857(v=AX.60)
+ms:contentKeyID: 49711932
+ms.date: 05/18/2015
+mtps_version: v=AX.60
+---
+
+# ReleaseUpdateTransformDB50\_Cust Upgrade Scripts 
+
+
+_**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
+
+## In This Section
+
+[ReleaseUpdateTransformDB50\_Cust.commissionCalcDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-commissioncalcdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.commissionCalcPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-commissioncalcpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.commissionSalesRepDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-commissionsalesrepdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.commissionSalesRepPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-commissionsalesreppreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.commissionTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-commissiontransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.commissionTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-commissiontranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custConfirmJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custconfirmjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custConfirmJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custconfirmjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custConfirmTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custconfirmtransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custConfirmTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custconfirmtranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInterestJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinterestjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInterestJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinterestjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInv4PaymJurDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custinv4paymjurdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInv4PaymJurPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custinv4paymjurpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInv4PayTrnsDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custinv4paytrnsdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInv4PayTrnsPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custinv4paytrnspreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustInvoice\_CIJPrintPreUpgrade Upgrade Script](releaseupdatetransformdb50-cust-custinvoice-cijprintpreupgrade-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustInvoice\_CIJPrintUpgrade Upgrade Script](releaseupdatetransformdb50-cust-custinvoice-cijprintupgrade-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicejourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicejourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceLine\_INDeltaPreUpgradeProcess](releaseupdatetransformdb50-cust-custinvoiceline-indeltapreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustInvoiceLine\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-custinvoiceline-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustInvoiceLineDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicelinedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceLinePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicelinepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicetabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicetablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceTrans\_INDeltaPreUpgradeProces](releaseupdatetransformdb50-cust-custinvoicetrans-indeltapreupgradeproces.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustInvoiceTrans\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-custinvoicetrans-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicetransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custInvoiceTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custinvoicetranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custLetterJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custletterjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custLetterJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custletterjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custManDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custmandeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custManPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custmanpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.customJourTableDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-customjourtabledeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.customJourTablePreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-customjourtablepreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackingSlipBackorderLineValidate Upgrade Script](releaseupdatetransformdb50-cust-custpackingslipbackorderlinevalidate-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackingSlipJourValidate Upgrade Script](releaseupdatetransformdb50-cust-custpackingslipjourvalidate-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackSlipJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custpackslipjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackSlipJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custpackslipjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackSlipTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custpacksliptransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custPackSlipTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custpacksliptranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotationjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotationjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationTrans\_INDeltaPreUpgProcess](releaseupdatetransformdb50-cust-custquotationtrans-indeltapreupgprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationTrans\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-custquotationtrans-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotationtransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotationTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotationtranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotConfJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotconfjourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotConfJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotconfjourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotConfTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotconftransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custQuotConfTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custquotconftranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custSettlementDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custsettlementdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custSettlementPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custsettlementpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custTransOpenDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtransopendeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.CustTransOpenPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtransopenpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custtranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendFeeDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custvendfeedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendFeePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custvendfeepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendProposalDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custvendproposaldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendProposalPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-custvendproposalpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendTrnsLogDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custvendtrnslogdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.custVendTrnsLogPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-custvendtrnslogpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.czCustAdvInvLineDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-czcustadvinvlinedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.czCustAdvInvLinePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-czcustadvinvlinepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.czCustAdvInvTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-czcustadvinvtabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.czCustAdvInvTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-czcustadvinvtablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.factureTransDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-facturetransdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.factureTransPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-facturetranspreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.initTransformationJobs\_RU Upgrade Script](releaseupdatetransformdb50-cust-inittransformationjobs-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.insertPaymCalendarExceptions Upgrade Script](releaseupdatetransformdb50-cust-insertpaymcalendarexceptions-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.plFindNonVirtualCompany Upgrade Script](releaseupdatetransformdb50-cust-plfindnonvirtualcompany-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.plSysHolidayCalDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-plsysholidaycaldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.plSysHolidayCalendarPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-plsysholidaycalendarpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.purchTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-purchtabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.purchTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-purchtablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesBookVATOprDeltaPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-salesbookvatoprdeltapreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesBookVATOprPreUpgradeProcess\_RU Upgrade Script](releaseupdatetransformdb50-cust-salesbookvatoprpreupgradeprocess-ru-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesJnlAutoSumDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesjnlautosumdeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesJournalAutoSummPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesjournalautosummpreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesLine\_INDeltaPreUpgradeProces](releaseupdatetransformdb50-cust-salesline-indeltapreupgradeproces.md)
+
+[ReleaseUpdateTransformDB50\_Cust.SalesLine\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-salesline-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesLineDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-saleslinedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesLinePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-saleslinepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmTable\_INDeltaPreUpgradeProcess](releaseupdatetransformdb50-cust-salesparmtable-indeltapreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmTable\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-salesparmtable-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmTableDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesparmtabledeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmTablePreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesparmtablepreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmUpdateDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesparmupdatedeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesParmUpdatePreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesparmupdatepreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesPrintCopiDeltaPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb50-cust-salesprintcopideltapreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesPrintCopiesPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb50-cust-salesprintcopiespreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQParmTable\_INDeltaPreUpgradeProcess](releaseupdatetransformdb50-cust-salesqparmtable-indeltapreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQParmTable\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-salesqparmtable-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuoParmTblDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesquoparmtbldeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuoParmUpdDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesquoparmupddeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotaParmUpdatePreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesquotaparmupdatepreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotationLine\_INDeltaPreUpgrdeProcs](releaseupdatetransformdb50-cust-salesquotationline-indeltapreupgrdeprocs.md)
+
+[ReleaseUpdateTransformDB50\_Cust.SalesQuotationLine\_INPreUpgradeProcess](releaseupdatetransformdb50-cust-salesquotationline-inpreupgradeprocess.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotationLineDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salesquotationlinedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotationLinePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salesquotationlinepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotatParmTablePreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salesquotatparmtablepreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salesquottabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesQuotTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salesquottablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesSummaParaDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salessummaparadeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesSummaParameterPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salessummaparameterpreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTableDeltaPreUpgradeProces Upgrade Script](releaseupdatetransformdb50-cust-salestabledeltapreupgradeproces-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTableDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salestabledeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTableDeltaPreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salestabledeltapreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTablePreUpgradeProces Upgrade Script](releaseupdatetransformdb50-cust-salestablepreupgradeproces-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb50-cust-salestablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.salesTablePreUpgradeProcess\_IN](releaseupdatetransformdb50-cust-salestablepreupgradeprocess-in.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateBankCustPaymModeBankAccounts Upgrade Script](releaseupdatetransformdb50-cust-validatebankcustpaymmodebankaccounts-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCashDisc Upgrade Script](releaseupdatetransformdb50-cust-validatecashdisc-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCommissionTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecommissiontrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustCollectionLetterJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustcollectionletterjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustCollectionLetterLine Upgrade Script](releaseupdatetransformdb50-cust-validatecustcollectionletterline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustConfirmJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustconfirmjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustConfirmTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecustconfirmtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustEgiroFtxAnalyse Upgrade Script](releaseupdatetransformdb50-cust-validatecustegiroftxanalyse-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInterest Upgrade Script](releaseupdatetransformdb50-cust-validatecustinterest-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInterestFee Upgrade Script](releaseupdatetransformdb50-cust-validatecustinterestfee-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInterestJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustinterestjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInvoiceJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustinvoicejour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInvoiceLine Upgrade Script](releaseupdatetransformdb50-cust-validatecustinvoiceline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInvoiceTable Upgrade Script](releaseupdatetransformdb50-cust-validatecustinvoicetable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustInvoiceTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecustinvoicetrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustLedgerAccounts Upgrade Script](releaseupdatetransformdb50-cust-validatecustledgeraccounts-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPackingSlipJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustpackingslipjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPackingSlipTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecustpackingsliptrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustParameters Upgrade Script](releaseupdatetransformdb50-cust-validatecustparameters-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPaymFee Upgrade Script](releaseupdatetransformdb50-cust-validatecustpaymfee-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPaymManFee Upgrade Script](releaseupdatetransformdb50-cust-validatecustpaymmanfee-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPaymManFeeHist Upgrade Script](releaseupdatetransformdb50-cust-validatecustpaymmanfeehist-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPaymManStepPosting Upgrade Script](releaseupdatetransformdb50-cust-validatecustpaymmanstepposting-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustPaymModeTable Upgrade Script](releaseupdatetransformdb50-cust-validatecustpaymmodetable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustQuotationConfirmJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustquotationconfirmjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustQuotationConfirmTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecustquotationconfirmtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustQuotationJour Upgrade Script](releaseupdatetransformdb50-cust-validatecustquotationjour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustQuotationTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecustquotationtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustSettlement Upgrade Script](releaseupdatetransformdb50-cust-validatecustsettlement-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustTable Upgrade Script](releaseupdatetransformdb50-cust-validatecusttable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustTrans Upgrade Script](releaseupdatetransformdb50-cust-validatecusttrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustTransOpen Upgrade Script](releaseupdatetransformdb50-cust-validatecusttransopen-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustVendPaymJournalFee Upgrade Script](releaseupdatetransformdb50-cust-validatecustvendpaymjournalfee-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateCustVendPaymProposalLine Upgrade Script](releaseupdatetransformdb50-cust-validatecustvendpaymproposalline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validatePaymTerm Upgrade Script](releaseupdatetransformdb50-cust-validatepaymterm-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateSalesLine Upgrade Script](releaseupdatetransformdb50-cust-validatesalesline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateSalesQuotationLine Upgrade Script](releaseupdatetransformdb50-cust-validatesalesquotationline-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateSalesQuotationTable Upgrade Script](releaseupdatetransformdb50-cust-validatesalesquotationtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB50\_Cust.validateSalesTable Upgrade Script](releaseupdatetransformdb50-cust-validatesalestable-upgrade-script.md)
+
+  
+**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+

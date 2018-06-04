@@ -1,0 +1,1398 @@
+﻿---
+title: ReleaseUpdateDB60_Ledger Upgrade Scripts
+TOCTitle: ReleaseUpdateDB60_Ledger Upgrade Scripts
+ms:assetid: ebd9b561-6aaf-4238-8b64-ad1b96f6ba65
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ719933(v=AX.60)
+ms:contentKeyID: 49712009
+ms.date: 05/18/2015
+mtps_version: v=AX.60
+---
+
+# ReleaseUpdateDB60\_Ledger Upgrade Scripts 
+
+
+_**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
+
+## In This Section
+
+[ReleaseUpdateDB60\_Ledger.allowDupAssetDepreciationZakat\_SAAssetGr Upgrade Script](releaseupdatedb60-ledger-allowdupassetdepreciationzakat-saassetgr-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupAssetParametersDeprRates\_DEDateE Upgrade Script](releaseupdatedb60-ledger-allowdupassetparametersdeprrates-dedatee-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupAssetParametersDeprRates\_DEDEIdx Upgrade Script](releaseupdatedb60-ledger-allowdupassetparametersdeprrates-dedeidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupAssetParmDeprRtsDEVDateEffcIdx Upgrade Script](releaseupdatedb60-ledger-allowdupassetparmdeprrtsdevdateeffcidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCalendarYearNameIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcalendaryearnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCFOPMatrix\_BRCFOPMatrixIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcfopmatrix-brcfopmatrixidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCFOPTable\_BRCFOPIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcfoptable-brcfopidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupClaimPercentage\_INRGRegisterDate](releaseupdatedb60-ledger-allowdupclaimpercentage-inrgregisterdate.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupClaimPercentage\_INRGRegisterDate Upgrade Script](releaseupdatedb60-ledger-allowdupclaimpercentage-inrgregisterdate-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupClaimPerRGRegisterDateIdx\_IN](releaseupdatedb60-ledger-allowdupclaimperrgregisterdateidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupClaimPerRGRegisterDateIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupclaimperrgregisterdateidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustEinvoiceHeadereInvoiceIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcusteinvoiceheadereinvoiceidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustEinvoiceIntegrationIntIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcusteinvoiceintegrationintidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustEinvoiceIntegrationPaymModeC Upgrade Script](releaseupdatedb60-ledger-allowdupcusteinvoiceintegrationpaymmodec-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustEinvoiceIntegrationTypeRefId Upgrade Script](releaseupdatedb60-ledger-allowdupcusteinvoiceintegrationtyperefid-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustEinvoiceLineseInvoiceIdx Upgrade Script](releaseupdatedb60-ledger-allowdupcusteinvoicelineseinvoiceidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustImportInvVendAcctSetup\_IN](releaseupdatedb60-ledger-allowdupcustimportinvvendacctsetup-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustImportInvVendAcctSetup\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupcustimportinvvendacctsetup-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustomsComponentTaxCodes\_INTaxCo](releaseupdatedb60-ledger-allowdupcustomscomponenttaxcodes-intaxco.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustomsComponentTaxCodes\_INTaxCo Upgrade Script](releaseupdatedb60-ledger-allowdupcustomscomponenttaxcodes-intaxco-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustomsInvRegJourTable\_IN](releaseupdatedb60-ledger-allowdupcustomsinvregjourtable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupCustomsInvRegJourTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupcustomsinvregjourtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDefermentSchedule\_INTaxRegistrat](releaseupdatedb60-ledger-allowdupdefermentschedule-intaxregistrat.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDefermentSchedule\_INTaxRegistrat Upgrade Script](releaseupdatedb60-ledger-allowdupdefermentschedule-intaxregistrat-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDefermentScheduleTransLines\_INEx](releaseupdatedb60-ledger-allowdupdefermentscheduletranslines-inex.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDefermentScheduleTransLines\_INEx Upgrade Script](releaseupdatedb60-ledger-allowdupdefermentscheduletranslines-inex-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimDefaultingResultCacheInputIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimdefaultingresultcacheinputidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimensionAttributeSetHashIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimensionattributesethashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimensionAttributeVCHashIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimensionattributevchashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimensionAttributeVGHashIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimensionattributevghashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimensionAttributeVSHashIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimensionattributevshashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimMatrixLine\_CNDimMtrxIdx](releaseupdatedb60-ledger-allowdupdimmatrixline-cndimmtrxidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimMatrixLine\_CNDimMtrxIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimmatrixline-cndimmtrxidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupDimMethodResultCacheAcctDimIdx Upgrade Script](releaseupdatedb60-ledger-allowdupdimmethodresultcacheacctdimidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupExciseNumSequenceRef\_IN](releaseupdatedb60-ledger-allowdupexcisenumsequenceref-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupExciseNumSequenceRef\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupexcisenumsequenceref-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupExciseNumSequenceRef\_INExciseNum](releaseupdatedb60-ledger-allowdupexcisenumsequenceref-inexcisenum.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupExciseNumSequenceRef\_INExciseNum Upgrade Script](releaseupdatedb60-ledger-allowdupexcisenumsequenceref-inexcisenum-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDBKValues\_INTariffCodeIdx](releaseupdatedb60-ledger-allowdupeximdbkvalues-intariffcodeidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDBKValues\_INTariffCodeIdx Upgrade Script](releaseupdatedb60-ledger-allowdupeximdbkvalues-intariffcodeidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBDetailsTable\_IN](releaseupdatedb60-ledger-allowdupeximdepbdetailstable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBDetailsTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximdepbdetailstable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBDetailsTable\_INSchemesTa](releaseupdatedb60-ledger-allowdupeximdepbdetailstable-inschemesta.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBDetailsTable\_INSchemesTa Upgrade Script](releaseupdatedb60-ledger-allowdupeximdepbdetailstable-inschemesta-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBExportOrderTable\_IN](releaseupdatedb60-ledger-allowdupeximdepbexportordertable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBExportOrderTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximdepbexportordertable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBExportOrderTable\_INSchem](releaseupdatedb60-ledger-allowdupeximdepbexportordertable-inschem.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBExportOrderTable\_INSchem Upgrade Script](releaseupdatedb60-ledger-allowdupeximdepbexportordertable-inschem-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBScheduleTable\_INProductG](releaseupdatedb60-ledger-allowdupeximdepbscheduletable-inproductg.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximDEPBScheduleTable\_INProductG Upgrade Script](releaseupdatedb60-ledger-allowdupeximdepbscheduletable-inproductg-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximEntitlementDetails\_IN](releaseupdatedb60-ledger-allowdupeximentitlementdetails-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximEntitlementDetails\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximentitlementdetails-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximEntitlementDetails\_INSchemeL](releaseupdatedb60-ledger-allowdupeximentitlementdetails-inschemel.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximEntitlementDetails\_INSchemeL Upgrade Script](releaseupdatedb60-ledger-allowdupeximentitlementdetails-inschemel-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximExportOrderTable\_INAuthoriza](releaseupdatedb60-ledger-allowdupeximexportordertable-inauthoriza.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximExportOrderTable\_INAuthoriza Upgrade Script](releaseupdatedb60-ledger-allowdupeximexportordertable-inauthoriza-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximIncentiveSchemeData\_IN](releaseupdatedb60-ledger-allowdupeximincentiveschemedata-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximIncentiveSchemeData\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximincentiveschemedata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximIncentiveSchemeData\_INIncent](releaseupdatedb60-ledger-allowdupeximincentiveschemedata-inincent.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximIncentiveSchemeData\_INIncent Upgrade Script](releaseupdatedb60-ledger-allowdupeximincentiveschemedata-inincent-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesLine\_INProductGro](releaseupdatedb60-ledger-allowdupeximsetoffrulesline-inproductgro.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesLine\_INProductGro Upgrade Script](releaseupdatedb60-ledger-allowdupeximsetoffrulesline-inproductgro-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesTable\_IN](releaseupdatedb60-ledger-allowdupeximsetoffrulestable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximsetoffrulestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesTable\_INIncentive](releaseupdatedb60-ledger-allowdupeximsetoffrulestable-inincentive.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSetOffRulesTable\_INIncentive Upgrade Script](releaseupdatedb60-ledger-allowdupeximsetoffrulestable-inincentive-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSionTable\_IN](releaseupdatedb60-ledger-allowdupeximsiontable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSionTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximsiontable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSionTable\_INProductGroupVali](releaseupdatedb60-ledger-allowdupeximsiontable-inproductgroupvali.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximSionTable\_INProductGroupVali Upgrade Script](releaseupdatedb60-ledger-allowdupeximsiontable-inproductgroupvali-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximTaxTable\_IN](releaseupdatedb60-ledger-allowdupeximtaxtable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximTaxTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupeximtaxtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximTaxTable\_INIncentiveSchemeGr](releaseupdatedb60-ledger-allowdupeximtaxtable-inincentiveschemegr.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupEximTaxTable\_INIncentiveSchemeGr Upgrade Script](releaseupdatedb60-ledger-allowdupeximtaxtable-inincentiveschemegr-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupFiscalYearPeriodNameIdx Upgrade Script](releaseupdatedb60-ledger-allowdupfiscalyearperiodnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataElement\_CNElementIdIdx](releaseupdatedb60-ledger-allowdupgbtdataelement-cnelementididx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataElement\_CNElementIdIdx Upgrade Script](releaseupdatedb60-ledger-allowdupgbtdataelement-cnelementididx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataTable\_CNSeqIdx](releaseupdatedb60-ledger-allowdupgbtdatatable-cnseqidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataTable\_CNSeqIdx Upgrade Script](releaseupdatedb60-ledger-allowdupgbtdatatable-cnseqidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataTable\_CNTableIdx](releaseupdatedb60-ledger-allowdupgbtdatatable-cntableidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTDataTable\_CNTableIdx Upgrade Script](releaseupdatedb60-ledger-allowdupgbtdatatable-cntableidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CN](releaseupdatedb60-ledger-allowdupgbttableelements-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CN Upgrade Script](releaseupdatedb60-ledger-allowdupgbttableelements-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CNTableElementI](releaseupdatedb60-ledger-allowdupgbttableelements-cntableelementi.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CNTableElementI Upgrade Script](releaseupdatedb60-ledger-allowdupgbttableelements-cntableelementi-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CNTableSeqIdx](releaseupdatedb60-ledger-allowdupgbttableelements-cntableseqidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupGBTTableElements\_CNTableSeqIdx Upgrade Script](releaseupdatedb60-ledger-allowdupgbttableelements-cntableseqidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupHolidayCalendar\_JPHolidayCalenda](releaseupdatedb60-ledger-allowdupholidaycalendar-jpholidaycalenda.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupHolidayCalendar\_JPHolidayCalenda Upgrade Script](releaseupdatedb60-ledger-allowdupholidaycalendar-jpholidaycalenda-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupIncentiveSchemeData\_IN](releaseupdatedb60-ledger-allowdupincentiveschemedata-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupIncentiveSchemeData\_IN Upgrade Script](releaseupdatedb60-ledger-allowdupincentiveschemedata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerAccountRestriction\_CNAccou](releaseupdatedb60-ledger-allowdupledgeraccountrestriction-cnaccou.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerAccountRestriction\_CNAccou Upgrade Script](releaseupdatedb60-ledger-allowdupledgeraccountrestriction-cnaccou-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerBadDebtAccounts\_JPKey](releaseupdatedb60-ledger-allowdupledgerbaddebtaccounts-jpkey.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerBadDebtAccounts\_JPKey Upgrade Script](releaseupdatedb60-ledger-allowdupledgerbaddebtaccounts-jpkey-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerBalanceControlMainAccountI Upgrade Script](releaseupdatedb60-ledger-allowdupledgerbalancecontrolmainaccounti-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerChartOfAccountsTreeLevel\_C](releaseupdatedb60-ledger-allowdupledgerchartofaccountstreelevel-c.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerChartOfAccountsTreeLevel\_C Upgrade Script](releaseupdatedb60-ledger-allowdupledgerchartofaccountstreelevel-c-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerClosingTableShMnAcctIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgerclosingtableshmnacctidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUFieldFieldNameIdx](releaseupdatedb60-ledger-allowdupledgergdpdufieldfieldnameidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUFieldFieldNameIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdufieldfieldnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUFieldLineNumIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdufieldlinenumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdURelationRelationIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdurelationrelationidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUTableFileNameIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdutablefilenameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUTableSelectionDataSou Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdutableselectiondatasou-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerGDPdUTableTableIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgergdpdutabletableidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerLiquidityMainAccountIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgerliquiditymainaccountidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerOpeningTable\_ESShMnAcct Upgrade Script](releaseupdatedb60-ledger-allowdupledgeropeningtable-esshmnacct-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerPrintLayout\_CNLayoutCodeGr](releaseupdatedb60-ledger-allowdupledgerprintlayout-cnlayoutcodegr.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerPrintLayout\_CNLayoutCodeGr Upgrade Script](releaseupdatedb60-ledger-allowdupledgerprintlayout-cnlayoutcodegr-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerRelatedAccts\_ESTypeACIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgerrelatedaccts-estypeacidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgerRRGAccountInterval\_RU Upgrade Script](releaseupdatedb60-ledger-allowdupledgerrrgaccountinterval-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupLedgrAllBasRuleSourBasisNumIdx Upgrade Script](releaseupdatedb60-ledger-allowdupledgrallbasrulesourbasisnumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupNumberPeriod\_CNNumSeqPeriodIdx](releaseupdatedb60-ledger-allowdupnumberperiod-cnnumseqperiodidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupNumberPeriod\_CNNumSeqPeriodIdx Upgrade Script](releaseupdatedb60-ledger-allowdupnumberperiod-cnnumseqperiodidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxBookSectionTaxBookIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxbooksectiontaxbookidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxBookStatusTaxBookPeriodIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxbookstatustaxbookperiodidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxBookTaxCodesTaxBookCodesIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxbooktaxcodestaxbookcodesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxEdivatDetailDetailIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxedivatdetaildetailidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxEdivatReturnedErrorsErrorIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxedivatreturnederrorserroridx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxElecDecTransIdDateTimeIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxelecdectransiddatetimeidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxesMatrix\_BRTaxesMatrixIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxesmatrix-brtaxesmatrixidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxExportSetupClusterIdx\_CN](releaseupdatedb60-ledger-allowduptaxexportsetupclusteridx-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxExportSetupClusterIdx\_CN Upgrade Script](releaseupdatedb60-ledger-allowduptaxexportsetupclusteridx-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxExternalInvoiceExtern Upgrade Script](releaseupdatedb60-ledger-allowduptaxexternalinvoiceextern-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxIntervatDetailDetailIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxintervatdetaildetailidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxIntraCommCorrection\_NLKeyIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxintracommcorrection-nlkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxIntraCommDelivery\_NLKeyIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxintracommdelivery-nlkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedAccGrpCodeNumCompIdx\_IN](releaseupdatedb60-ledger-allowduptaxledaccgrpcodenumcompidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedAccGrpCodeNumCompIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxledaccgrpcodenumcompidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedAccSetupGrpCodeNum\_IN](releaseupdatedb60-ledger-allowduptaxledaccsetupgrpcodenum-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedAccSetupGrpCodeNum\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxledaccsetupgrpcodenum-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedgerAccounts\_INLedgerAccoun](releaseupdatedb60-ledger-allowduptaxledgeraccounts-inledgeraccoun.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedgerAccounts\_INLedgerAccoun Upgrade Script](releaseupdatedb60-ledger-allowduptaxledgeraccounts-inledgeraccoun-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedgerAccountSetup\_INLedgerAc](releaseupdatedb60-ledger-allowduptaxledgeraccountsetup-inledgerac.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxLedgerAccountSetup\_INLedgerAc Upgrade Script](releaseupdatedb60-ledger-allowduptaxledgeraccountsetup-inledgerac-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxPurchaseTaxValueDateEffcIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxpurchasetaxvaluedateeffcidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxRegistrationGroup\_INTaxRegist](releaseupdatedb60-ledger-allowduptaxregistrationgroup-intaxregist.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxRegistrationGroup\_INTaxRegist Upgrade Script](releaseupdatedb60-ledger-allowduptaxregistrationgroup-intaxregist-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxReport347AccountMainAccountId Upgrade Script](releaseupdatedb60-ledger-allowduptaxreport347accountmainaccountid-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxReport347TenantsYrPropRefIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxreport347tenantsyrproprefidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxReport347TransKeyIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxreport347transkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxReportPeriod\_INTaxReportPerio](releaseupdatedb60-ledger-allowduptaxreportperiod-intaxreportperio.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxReportPeriod\_INTaxReportPerio Upgrade Script](releaseupdatedb60-ledger-allowduptaxreportperiod-intaxreportperio-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRule\_INCompanyTypeSetOf](releaseupdatedb60-ledger-allowduptaxsetoffrule-incompanytypesetof.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRule\_INCompanyTypeSetOf Upgrade Script](releaseupdatedb60-ledger-allowduptaxsetoffrule-incompanytypesetof-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRule\_INTaxComponentColu](releaseupdatedb60-ledger-allowduptaxsetoffrule-intaxcomponentcolu.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRule\_INTaxComponentColu Upgrade Script](releaseupdatedb60-ledger-allowduptaxsetoffrule-intaxcomponentcolu-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRuleCompColumnIdx\_IN](releaseupdatedb60-ledger-allowduptaxsetoffrulecompcolumnidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxSetOffRuleCompColumnIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxsetoffrulecompcolumnidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxTurnOverLine\_NLKeyIdx Upgrade Script](releaseupdatedb60-ledger-allowduptaxturnoverline-nlkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificate\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcertificate-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificate\_INCertifi](releaseupdatedb60-ledger-allowduptaxwithholdcertificate-incertifi.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificate\_INCertifi Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcertificate-incertifi-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificatesTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcertificatestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificatesTable\_INC](releaseupdatedb60-ledger-allowduptaxwithholdcertificatestable-inc.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdCertificatesTable\_INC Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcertificatestable-inc-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdComponentTable\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcomponenttable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdComponentTable\_INType](releaseupdatedb60-ledger-allowduptaxwithholdcomponenttable-intype.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdComponentTable\_INType Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdcomponenttable-intype-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdFileHeader\_INFileHead](releaseupdatedb60-ledger-allowduptaxwithholdfileheader-infilehead.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdFileHeader\_INFileHead Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdfileheader-infilehead-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdOnItem\_THTaxItemCodeI](releaseupdatedb60-ledger-allowduptaxwithholdonitem-thtaxitemcodei.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdOnItem\_THTaxItemCodeI Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdonitem-thtaxitemcodei-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdOnItem\_THTaxItemGroup](releaseupdatedb60-ledger-allowduptaxwithholdonitem-thtaxitemgroup.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdOnItem\_THTaxItemGroup Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdonitem-thtaxitemgroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdPeriods\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdperiods-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdPeriods\_INTaxPeriodId](releaseupdatedb60-ledger-allowduptaxwithholdperiods-intaxperiodid.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdPeriods\_INTaxPeriodId Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdperiods-intaxperiodid-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportingCodes\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdreportingcodes-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportingCodes\_INType](releaseupdatedb60-ledger-allowduptaxwithholdreportingcodes-intype.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportingCodes\_INType Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdreportingcodes-intype-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportPeriod\_THTaxPer Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdreportperiod-thtaxper-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportSetup\_THVendorT Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdreportsetup-thvendort-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdReportVoucher\_THDateP Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdreportvoucher-thdatep-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdSettledPeriods\_INTax Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdsettledperiods-intax-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdSettledPeriods\_INTaxP](releaseupdatedb60-ledger-allowduptaxwithholdsettledperiods-intaxp.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdSettledPeriods\_INTaxP Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdsettledperiods-intaxp-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdThresholdLimit\_IN Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdthresholdlimit-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdThresholdLimit\_INTaxW](releaseupdatedb60-ledger-allowduptaxwithholdthresholdlimit-intaxw.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxWithholdThresholdLimit\_INTaxW Upgrade Script](releaseupdatedb60-ledger-allowduptaxwithholdthresholdlimit-intaxw-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowDupTaxYearlyComSetupExclude\_ITExclu Upgrade Script](releaseupdatedb60-ledger-allowduptaxyearlycomsetupexclude-itexclu-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupAssetDepreciationZakat\_SAAsset Upgrade Script](releaseupdatedb60-ledger-allownodupassetdepreciationzakat-saasset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupAssetParametersDeprRates\_DEDat Upgrade Script](releaseupdatedb60-ledger-allownodupassetparametersdeprrates-dedat-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupAssetParametersDeprRates\_DEDEI Upgrade Script](releaseupdatedb60-ledger-allownodupassetparametersdeprrates-dedei-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupAssetParmDeprRtsDEDateEffcIdx Upgrade Script](releaseupdatedb60-ledger-allownodupassetparmdeprrtsdedateeffcidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCalendarYearNameIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcalendaryearnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCFOPMatrix\_BRCFOPMatrixIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcfopmatrix-brcfopmatrixidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCFOPTable\_BRCFOPIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcfoptable-brcfopidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupClaimPercentage\_INRGRegisterDa](releaseupdatedb60-ledger-allownodupclaimpercentage-inrgregisterda.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupClaimPercentage\_INRGRegisterDa Upgrade Script](releaseupdatedb60-ledger-allownodupclaimpercentage-inrgregisterda-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupClaimPerRGRegstrDateIdx\_IN](releaseupdatedb60-ledger-allownodupclaimperrgregstrdateidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupClaimPerRGRegstrDateIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupclaimperrgregstrdateidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustEinvoiceHeadereInvoiceIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcusteinvoiceheadereinvoiceidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustEinvoiceIntegrationIntIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcusteinvoiceintegrationintidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustEinvoiceIntegrationPaymMod Upgrade Script](releaseupdatedb60-ledger-allownodupcusteinvoiceintegrationpaymmod-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustEinvoiceIntegrationTypeRef Upgrade Script](releaseupdatedb60-ledger-allownodupcusteinvoiceintegrationtyperef-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustEinvoiceLineseInvoiceIdx Upgrade Script](releaseupdatedb60-ledger-allownodupcusteinvoicelineseinvoiceidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustImportInvVendAcctSetup\_IN](releaseupdatedb60-ledger-allownodupcustimportinvvendacctsetup-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustImportInvVendAcctSetup\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupcustimportinvvendacctsetup-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsComponentTaxCodes\_IN](releaseupdatedb60-ledger-allownodupcustomscomponenttaxcodes-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsComponentTaxCodes\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupcustomscomponenttaxcodes-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsComponentTaxCodes\_INTax](releaseupdatedb60-ledger-allownodupcustomscomponenttaxcodes-intax.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsComponentTaxCodes\_INTax Upgrade Script](releaseupdatedb60-ledger-allownodupcustomscomponenttaxcodes-intax-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsInvRegJourTable\_IN](releaseupdatedb60-ledger-allownodupcustomsinvregjourtable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupCustomsInvRegJourTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupcustomsinvregjourtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDefermentSchedule\_INTaxRegistr](releaseupdatedb60-ledger-allownodupdefermentschedule-intaxregistr.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDefermentSchedule\_INTaxRegistr Upgrade Script](releaseupdatedb60-ledger-allownodupdefermentschedule-intaxregistr-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDefermentScheduleTransLines\_IN](releaseupdatedb60-ledger-allownodupdefermentscheduletranslines-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDefermentScheduleTransLines\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupdefermentscheduletranslines-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimDfltgResultCacheInputIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimdfltgresultcacheinputidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimensionAttributeSetHashIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimensionattributesethashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimensionAttributeVCHashIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimensionattributevchashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimensionAttributeVGHashIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimensionattributevghashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimensionAttributeVSHashIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimensionattributevshashidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimMatrixLine\_CNDimMtrxIdx](releaseupdatedb60-ledger-allownodupdimmatrixline-cndimmtrxidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimMatrixLine\_CNDimMtrxIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimmatrixline-cndimmtrxidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupDimMethodResultCacheAcctDimIdx Upgrade Script](releaseupdatedb60-ledger-allownodupdimmethodresultcacheacctdimidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupExciseNumSequenceRef\_IN](releaseupdatedb60-ledger-allownodupexcisenumsequenceref-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupExciseNumSequenceRef\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupexcisenumsequenceref-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupExciseNumSequenceRef\_INExciseN](releaseupdatedb60-ledger-allownodupexcisenumsequenceref-inexcisen.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupExciseNumSequenceRef\_INExciseN Upgrade Script](releaseupdatedb60-ledger-allownodupexcisenumsequenceref-inexcisen-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDBKValues\_INTariffCodeIdx](releaseupdatedb60-ledger-allownodupeximdbkvalues-intariffcodeidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDBKValues\_INTariffCodeIdx Upgrade Script](releaseupdatedb60-ledger-allownodupeximdbkvalues-intariffcodeidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBDetailsTable\_IN](releaseupdatedb60-ledger-allownodupeximdepbdetailstable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBDetailsTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximdepbdetailstable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBDetailsTable\_INSchemes](releaseupdatedb60-ledger-allownodupeximdepbdetailstable-inschemes.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBDetailsTable\_INSchemes Upgrade Script](releaseupdatedb60-ledger-allownodupeximdepbdetailstable-inschemes-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBExportOrderTable\_IN](releaseupdatedb60-ledger-allownodupeximdepbexportordertable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBExportOrderTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximdepbexportordertable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBExportOrderTable\_INSch](releaseupdatedb60-ledger-allownodupeximdepbexportordertable-insch.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBExportOrderTable\_INSch Upgrade Script](releaseupdatedb60-ledger-allownodupeximdepbexportordertable-insch-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBScheduleTable\_INProduc](releaseupdatedb60-ledger-allownodupeximdepbscheduletable-inproduc.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximDEPBScheduleTable\_INProduc Upgrade Script](releaseupdatedb60-ledger-allownodupeximdepbscheduletable-inproduc-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximEntitlementDetails\_IN](releaseupdatedb60-ledger-allownodupeximentitlementdetails-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximEntitlementDetails\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximentitlementdetails-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximEntitlementDetails\_INSchem](releaseupdatedb60-ledger-allownodupeximentitlementdetails-inschem.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximEntitlementDetails\_INSchem Upgrade Script](releaseupdatedb60-ledger-allownodupeximentitlementdetails-inschem-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximExportOrderTable\_INAuthori](releaseupdatedb60-ledger-allownodupeximexportordertable-inauthori.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximExportOrderTable\_INAuthori Upgrade Script](releaseupdatedb60-ledger-allownodupeximexportordertable-inauthori-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximIncentiveSchemeData\_IN](releaseupdatedb60-ledger-allownodupeximincentiveschemedata-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximIncentiveSchemeData\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximincentiveschemedata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximIncentiveSchemeData\_INInce](releaseupdatedb60-ledger-allownodupeximincentiveschemedata-inince.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximIncentiveSchemeData\_INInce Upgrade Script](releaseupdatedb60-ledger-allownodupeximincentiveschemedata-inince-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesLine\_INProductG](releaseupdatedb60-ledger-allownodupeximsetoffrulesline-inproductg.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesLine\_INProductG Upgrade Script](releaseupdatedb60-ledger-allownodupeximsetoffrulesline-inproductg-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesTable\_IN](releaseupdatedb60-ledger-allownodupeximsetoffrulestable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximsetoffrulestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesTable\_INIncenti](releaseupdatedb60-ledger-allownodupeximsetoffrulestable-inincenti.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSetOffRulesTable\_INIncenti Upgrade Script](releaseupdatedb60-ledger-allownodupeximsetoffrulestable-inincenti-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSionTable\_IN](releaseupdatedb60-ledger-allownodupeximsiontable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSionTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximsiontable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSionTable\_INProductGroupVa](releaseupdatedb60-ledger-allownodupeximsiontable-inproductgroupva.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximSionTable\_INProductGroupVa Upgrade Script](releaseupdatedb60-ledger-allownodupeximsiontable-inproductgroupva-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximTaxTable\_IN](releaseupdatedb60-ledger-allownodupeximtaxtable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximTaxTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupeximtaxtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximTaxTable\_INIncentiveScheme](releaseupdatedb60-ledger-allownodupeximtaxtable-inincentivescheme.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupEximTaxTable\_INIncentiveScheme Upgrade Script](releaseupdatedb60-ledger-allownodupeximtaxtable-inincentivescheme-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupFiscalYearPeriodNameIdx Upgrade Script](releaseupdatedb60-ledger-allownodupfiscalyearperiodnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupGBTDataElement\_CNElementIdIdx](releaseupdatedb60-ledger-allownodupgbtdataelement-cnelementididx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupGBTDataElement\_CNElementIdIdx Upgrade Script](releaseupdatedb60-ledger-allownodupgbtdataelement-cnelementididx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupGBTTableElements\_CN](releaseupdatedb60-ledger-allownodupgbttableelements-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupGBTTableElements\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupgbttableelements-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupHolidayCalendar\_JPHolidayCalen](releaseupdatedb60-ledger-allownodupholidaycalendar-jpholidaycalen.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupHolidayCalendar\_JPHolidayCalen Upgrade Script](releaseupdatedb60-ledger-allownodupholidaycalendar-jpholidaycalen-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupIncentiveSchemeData\_IN](releaseupdatedb60-ledger-allownodupincentiveschemedata-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupIncentiveSchemeData\_IN Upgrade Script](releaseupdatedb60-ledger-allownodupincentiveschemedata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerAccountRestriction\_CN](releaseupdatedb60-ledger-allownodupledgeraccountrestriction-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerAccountRestriction\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupledgeraccountrestriction-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerAccountRestriction\_CNAcc](releaseupdatedb60-ledger-allownodupledgeraccountrestriction-cnacc.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerAccountRestriction\_CNAcc Upgrade Script](releaseupdatedb60-ledger-allownodupledgeraccountrestriction-cnacc-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerBadDebtAccounts\_JPKey](releaseupdatedb60-ledger-allownodupledgerbaddebtaccounts-jpkey.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerBadDebtAccounts\_JPKey Upgrade Script](releaseupdatedb60-ledger-allownodupledgerbaddebtaccounts-jpkey-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerBalanceControlMainAccoun Upgrade Script](releaseupdatedb60-ledger-allownodupledgerbalancecontrolmainaccoun-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerChartOfAccountsTreeLevel](releaseupdatedb60-ledger-allownodupledgerchartofaccountstreelevel.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerChartOfAccountsTreeLevel Upgrade Script](releaseupdatedb60-ledger-allownodupledgerchartofaccountstreelevel-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerClosingTableShMnAcctIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgerclosingtableshmnacctidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdUFieldFieldNameIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdufieldfieldnameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdUFieldLineNumIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdufieldlinenumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdURelationRelationIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdurelationrelationidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdUTableFileNameIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdutablefilenameidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdUTableSelectionDataS Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdutableselectiondatas-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerGDPdUTableTableIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgergdpdutabletableidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerLiquidityMainAccountIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgerliquiditymainaccountidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerOpeningTable\_ESShMnAc Upgrade Script](releaseupdatedb60-ledger-allownodupledgeropeningtable-esshmnac-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayout\_CNLayoutCode](releaseupdatedb60-ledger-allownodupledgerprintlayout-cnlayoutcode.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayout\_CNLayoutCode Upgrade Script](releaseupdatedb60-ledger-allownodupledgerprintlayout-cnlayoutcode-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayoutGroup\_CN](releaseupdatedb60-ledger-allownodupledgerprintlayoutgroup-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayoutGroup\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupledgerprintlayoutgroup-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayoutLayoutCode\_CN](releaseupdatedb60-ledger-allownodupledgerprintlayoutlayoutcode-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerPrintLayoutLayoutCode\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupledgerprintlayoutlayoutcode-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerRelatedAccts\_ESTypeACIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgerrelatedaccts-estypeacidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerRRGAccountInterval\_RU Upgrade Script](releaseupdatedb60-ledger-allownodupledgerrrgaccountinterval-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerVoucherType\_CN](releaseupdatedb60-ledger-allownodupledgervouchertype-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgerVoucherType\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupledgervouchertype-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupLedgrAllBasRuleSourBasisNumIdx Upgrade Script](releaseupdatedb60-ledger-allownodupledgrallbasrulesourbasisnumidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupNumberPeriod\_CN](releaseupdatedb60-ledger-allownodupnumberperiod-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupNumberPeriod\_CN Upgrade Script](releaseupdatedb60-ledger-allownodupnumberperiod-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupNumberPeriod\_CNNumSeqPeriodIdx](releaseupdatedb60-ledger-allownodupnumberperiod-cnnumseqperiodidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupNumberPeriod\_CNNumSeqPeriodIdx Upgrade Script](releaseupdatedb60-ledger-allownodupnumberperiod-cnnumseqperiodidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxBookSectionTaxBookIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxbooksectiontaxbookidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxBookStatusTaxBookPeriodIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxbookstatustaxbookperiodidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxBookTaxCodesTaxBookCodesIdx](releaseupdatedb60-ledger-allownoduptaxbooktaxcodestaxbookcodesidx.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxBookTaxCodesTaxBookCodesIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxbooktaxcodestaxbookcodesidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxEdivatDetailDetailIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxedivatdetaildetailidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxEdivatReturnedErrorsErrIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxedivatreturnederrorserridx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxElecDecTransIdDateTimeIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxelecdectransiddatetimeidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxExportSetupClusterIdx\_CN](releaseupdatedb60-ledger-allownoduptaxexportsetupclusteridx-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxExportSetupClusterIdx\_CN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxexportsetupclusteridx-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxExternalSalesInvoiceExtern](releaseupdatedb60-ledger-allownoduptaxexternalsalesinvoiceextern.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxExternalSalesInvoiceExtern Upgrade Script](releaseupdatedb60-ledger-allownoduptaxexternalsalesinvoiceextern-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxIntervatDetailDetailIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxintervatdetaildetailidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxIntraCommCorrection\_NLKeyId Upgrade Script](releaseupdatedb60-ledger-allownoduptaxintracommcorrection-nlkeyid-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxIntraCommDelivery\_NLKeyIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxintracommdelivery-nlkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedAccGrpCodeNumCompIdx\_IN](releaseupdatedb60-ledger-allownoduptaxledaccgrpcodenumcompidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedAccGrpCodeNumCompIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxledaccgrpcodenumcompidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedAccSetupGrpCodeNum\_IN](releaseupdatedb60-ledger-allownoduptaxledaccsetupgrpcodenum-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedAccSetupGrpCodeNum\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxledaccsetupgrpcodenum-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedgerAccounts\_INLedgerAcco](releaseupdatedb60-ledger-allownoduptaxledgeraccounts-inledgeracco.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedgerAccounts\_INLedgerAcco Upgrade Script](releaseupdatedb60-ledger-allownoduptaxledgeraccounts-inledgeracco-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedgerAccountSetup\_INLedger](releaseupdatedb60-ledger-allownoduptaxledgeraccountsetup-inledger.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxLedgerAccountSetup\_INLedger Upgrade Script](releaseupdatedb60-ledger-allownoduptaxledgeraccountsetup-inledger-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxPurchaseTaxValueDateEffcIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxpurchasetaxvaluedateeffcidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxRegistrationGroup\_INTaxRegi](releaseupdatedb60-ledger-allownoduptaxregistrationgroup-intaxregi.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxRegistrationGroup\_INTaxRegi Upgrade Script](releaseupdatedb60-ledger-allownoduptaxregistrationgroup-intaxregi-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxReport347AccountMainAccount Upgrade Script](releaseupdatedb60-ledger-allownoduptaxreport347accountmainaccount-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxReport347TenantsYrPrRefIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxreport347tenantsyrprrefidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxReport347TransKeyIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxreport347transkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxReportPeriod\_INTaxReport](releaseupdatedb60-ledger-allownoduptaxreportperiod-intaxreport.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxReportPeriod\_INTaxReport Upgrade Script](releaseupdatedb60-ledger-allownoduptaxreportperiod-intaxreport-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxSetOffRuleCompColumnIdx\_IN](releaseupdatedb60-ledger-allownoduptaxsetoffrulecompcolumnidx-in.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxSetOffRuleCompColumnIdx\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxsetoffrulecompcolumnidx-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxTurnOverLine\_NLKeyIdx Upgrade Script](releaseupdatedb60-ledger-allownoduptaxturnoverline-nlkeyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdCertificate\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdcertificate-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdCertificate\_INCerti](releaseupdatedb60-ledger-allownoduptaxwithholdcertificate-incerti.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdCertificate\_INCerti Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdcertificate-incerti-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdCertTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdcerttable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdComponentTable\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdcomponenttable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdComponentTable\_INTy](releaseupdatedb60-ledger-allownoduptaxwithholdcomponenttable-inty.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdComponentTable\_INTy Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdcomponenttable-inty-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdFileHeader\_INFileHe](releaseupdatedb60-ledger-allownoduptaxwithholdfileheader-infilehe.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdFileHeader\_INFileHe Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdfileheader-infilehe-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdOnItem\_TH\_TaxItemCo Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdonitem-th-taxitemco-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdOnItem\_TH\_TaxItemGr Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdonitem-th-taxitemgr-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdPeriods\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdperiods-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdPeriods\_INTaxPeriod](releaseupdatedb60-ledger-allownoduptaxwithholdperiods-intaxperiod.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdPeriods\_INTaxPeriod Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdperiods-intaxperiod-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportingCodes\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdreportingcodes-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportingCodes\_INTy](releaseupdatedb60-ledger-allownoduptaxwithholdreportingcodes-inty.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportingCodes\_INTy Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdreportingcodes-inty-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportPeriod\_THTaxP Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdreportperiod-thtaxp-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportSetup\_THVendo Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdreportsetup-thvendo-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdReportVoucher\_THDat Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdreportvoucher-thdat-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdSettledPeriods\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdsettledperiods-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdSettledPeriods\_INTa](releaseupdatedb60-ledger-allownoduptaxwithholdsettledperiods-inta.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdSettledPeriods\_INTa Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdsettledperiods-inta-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdThresholdLimit\_IN Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdthresholdlimit-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdThresholdLimit\_INTa](releaseupdatedb60-ledger-allownoduptaxwithholdthresholdlimit-inta.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxWithholdThresholdLimit\_INTa Upgrade Script](releaseupdatedb60-ledger-allownoduptaxwithholdthresholdlimit-inta-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.allowNoDupTaxYearlyComSetupExclude\_ITExc Upgrade Script](releaseupdatedb60-ledger-allownoduptaxyearlycomsetupexclude-itexc-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createCalendarDateDimension Upgrade Script](releaseupdatedb60-ledger-createcalendardatedimension-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalCalendarForLedger Upgrade Script](releaseupdatedb60-ledger-createfiscalcalendarforledger-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalCalendarFromAsset Upgrade Script](releaseupdatedb60-ledger-createfiscalcalendarfromasset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalPeriods Upgrade Script](releaseupdatedb60-ledger-createfiscalperiods-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalPeriodsFromAsset Upgrade Script](releaseupdatedb60-ledger-createfiscalperiodsfromasset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalYearFromAsset Upgrade Script](releaseupdatedb60-ledger-createfiscalyearfromasset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFiscalYearFromLedger Upgrade Script](releaseupdatedb60-ledger-createfiscalyearfromledger-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createFTICFOPMatrix\_BR Upgrade Script](releaseupdatedb60-ledger-createfticfopmatrix-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createGeneralJournalAccountEntry\_W Upgrade Script](releaseupdatedb60-ledger-creategeneraljournalaccountentry-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createGeneralJournalEntry\_W Upgrade Script](releaseupdatedb60-ledger-creategeneraljournalentry-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createLedgerGainLossAccountForLedger Upgrade Script](releaseupdatedb60-ledger-createledgergainlossaccountforledger-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createLedgerJournalTable\_W Upgrade Script](releaseupdatedb60-ledger-createledgerjournaltable-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createRTSLGeneralJournalEntry Upgrade Script](releaseupdatedb60-ledger-creatertslgeneraljournalentry-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createSubLedgerJournalTransferBatchJob Upgrade Script](releaseupdatedb60-ledger-createsubledgerjournaltransferbatchjob-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createSubLedgerJournalTransferRule Upgrade Script](releaseupdatedb60-ledger-createsubledgerjournaltransferrule-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxExchRateForLedgerJournalTrans Upgrade Script](releaseupdatedb60-ledger-createtaxexchrateforledgerjournaltrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxExchRateFromTaxWorkRegulation Upgrade Script](releaseupdatedb60-ledger-createtaxexchratefromtaxworkregulation-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxJournalTransExchangeRateAmount Upgrade Script](releaseupdatedb60-ledger-createtaxjournaltransexchangerateamount-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxTrans\_BR Upgrade Script](releaseupdatedb60-ledger-createtaxtrans-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxTrans\_RU Upgrade Script](releaseupdatedb60-ledger-createtaxtrans-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.createTaxTrans\_W Upgrade Script](releaseupdatedb60-ledger-createtaxtrans-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.deleteDuplicatesCFOPTable\_BR Upgrade Script](releaseupdatedb60-ledger-deleteduplicatescfoptable-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.deleteDupTaxRegistrationGroup\_IN](releaseupdatedb60-ledger-deleteduptaxregistrationgroup-in.md)
+
+[ReleaseUpdateDB60\_Ledger.deleteLedgerAllocationTmpSource Upgrade Script](releaseupdatedb60-ledger-deleteledgerallocationtmpsource-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.deleteProfitTaxDeferralsSeq\_RU Upgrade Script](releaseupdatedb60-ledger-deleteprofittaxdeferralsseq-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.disableLedgerCovAccountDateIdx Upgrade Script](releaseupdatedb60-ledger-disableledgercovaccountdateidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.enableLedgerCovAccountDateIdx Upgrade Script](releaseupdatedb60-ledger-enableledgercovaccountdateidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAdjustmentAmounts\_IN Upgrade Script](releaseupdatedb60-ledger-updateadjustmentamounts-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAdvanceAdjParametersDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updateadvanceadjparametersdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAmountDiffParametersDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updateamountdiffparametersdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAssetBookTable Upgrade Script](releaseupdatedb60-ledger-updateassetbooktable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAssetDepBookTable Upgrade Script](releaseupdatedb60-ledger-updateassetdepbooktable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateAssetParametersDeprRates Upgrade Script](releaseupdatedb60-ledger-updateassetparametersdeprrates-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateBaseEnumType Upgrade Script](releaseupdatedb60-ledger-updatebaseenumtype-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateBudgetParameters Upgrade Script](releaseupdatedb60-ledger-updatebudgetparameters-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCFOPMatrix\_BR Upgrade Script](releaseupdatedb60-ledger-updatecfopmatrix-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCFOPTable\_BR Upgrade Script](releaseupdatedb60-ledger-updatecfoptable-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCityElectronicFiscalDocument\_BR Upgrade Script](releaseupdatedb60-ledger-updatecityelectronicfiscaldocument-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCityWhereServicePerformed\_BR Upgrade Script](releaseupdatedb60-ledger-updatecitywhereserviceperformed-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateClaimPercentage\_IN Upgrade Script](releaseupdatedb60-ledger-updateclaimpercentage-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCompanyInfo Upgrade Script](releaseupdatedb60-ledger-updatecompanyinfo-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateComponentAdjustment\_IN Upgrade Script](releaseupdatedb60-ledger-updatecomponentadjustment-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateComponentTransactions\_IN Upgrade Script](releaseupdatedb60-ledger-updatecomponenttransactions-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCurrency Upgrade Script](releaseupdatedb60-ledger-updatecurrency-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCurrency\_W Upgrade Script](releaseupdatedb60-ledger-updatecurrency-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCurrencyFactor\_RU Upgrade Script](releaseupdatedb60-ledger-updatecurrencyfactor-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsComponentTaxCodes\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomscomponenttaxcodes-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomsinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsInvRegJourTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomsinvregjourtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsShippingBillJour\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomsshippingbilljour-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsTotal\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomstotal-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustomsVendBOEJour\_IN Upgrade Script](releaseupdatedb60-ledger-updatecustomsvendboejour-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateCustVendEmplLedgerAccounts\_RU Upgrade Script](releaseupdatedb60-ledger-updatecustvendemplledgeraccounts-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDateEffectivityFields Upgrade Script](releaseupdatedb60-ledger-updatedateeffectivityfields-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDateTimeFields\_IN](releaseupdatedb60-ledger-updatedatetimefields-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDateTimeFields\_IN Upgrade Script](releaseupdatedb60-ledger-updatedatetimefields-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDefermentSchedule\_IN](releaseupdatedb60-ledger-updatedefermentschedule-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDefermentSchedule\_IN Upgrade Script](releaseupdatedb60-ledger-updatedefermentschedule-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDefermentScheduleTrans\_IN](releaseupdatedb60-ledger-updatedefermentscheduletrans-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDefermentScheduleTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatedefermentscheduletrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionAttribute Upgrade Script](releaseupdatedb60-ledger-updatedimensionattribute-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionAttributeSet Upgrade Script](releaseupdatedb60-ledger-updatedimensionattributeset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionAttributeValueCombination Upgrade Script](releaseupdatedb60-ledger-updatedimensionattributevaluecombination-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionAttributeValueGroup Upgrade Script](releaseupdatedb60-ledger-updatedimensionattributevaluegroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionAttributeValueSet Upgrade Script](releaseupdatedb60-ledger-updatedimensionattributevalueset-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionMatrixLine\_CN](releaseupdatedb60-ledger-updatedimensionmatrixline-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateDimensionMatrixLine\_CN Upgrade Script](releaseupdatedb60-ledger-updatedimensionmatrixline-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEnableReverseCharge\_UK Upgrade Script](releaseupdatedb60-ledger-updateenablereversecharge-uk-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseDSARegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexcisedsaregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciseinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseNumberSeqReference\_IN Upgrade Script](releaseupdatedb60-ledger-updateexcisenumberseqreference-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExcisePayableRegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexcisepayableregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExcisePLARegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciseplaregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRegistersInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciseregistersinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRG23AIRegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciserg23airegister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRG23ARegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciserg23aregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRG23CIRegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciserg23ciregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRG23CRegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciserg23cregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseRG23DRegister\_IN Upgrade Script](releaseupdatedb60-ledger-updateexciserg23dregister-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseTaxTotal\_IN Upgrade Script](releaseupdatedb60-ledger-updateexcisetaxtotal-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseType\_IN](releaseupdatedb60-ledger-updateexcisetype-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateExciseType\_IN Upgrade Script](releaseupdatedb60-ledger-updateexcisetype-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximAuthorizationSchemesLine\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximauthorizationschemesline-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximAuthorizationSchemesTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximauthorizationschemestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximCustConfirmTrans\_IN](releaseupdatedb60-ledger-updateeximcustconfirmtrans-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximCustConfirmTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximcustconfirmtrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDBKSchemesLine\_IN](releaseupdatedb60-ledger-updateeximdbkschemesline-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDBKSchemesLine\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdbkschemesline-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDBKSchemesTable\_IN](releaseupdatedb60-ledger-updateeximdbkschemestable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDBKSchemesTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdbkschemestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBDetailsTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdepbdetailstable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBExportOrderTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdepbexportordertable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBScheduleTable\_IN](releaseupdatedb60-ledger-updateeximdepbscheduletable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBScheduleTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdepbscheduletable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBSchemesLine\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdepbschemesline-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximDEPBSchemesTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximdepbschemestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximEntitlementDetails\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximentitlementdetails-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximEPCGSchemeTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximepcgschemetable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximExportOrderTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximexportordertable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximIncentiveSchemeData\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximincentiveschemedata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximIncentiveSchemeGroup\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximincentiveschemegroup-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximParameters\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximparameters-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximSetOffRulesLine\_IN](releaseupdatedb60-ledger-updateeximsetoffrulesline-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximSetOffRulesLine\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximsetoffrulesline-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximSetOffRulesTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximsetoffrulestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximSionTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximsiontable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximTaxDetails\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximtaxdetails-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximTaxTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximtaxtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximVendBOETrans\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximvendboetrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateEximVendInvoiceTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updateeximvendinvoicetrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFederalElectronicFiscalDocument\_BR Upgrade Script](releaseupdatedb60-ledger-updatefederalelectronicfiscaldocument-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFiscalCalendarPeriod\_CN](releaseupdatedb60-ledger-updatefiscalcalendarperiod-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFiscalCalendarPeriod\_CN Upgrade Script](releaseupdatedb60-ledger-updatefiscalcalendarperiod-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFiscalDocumentTypeModel\_BR Upgrade Script](releaseupdatedb60-ledger-updatefiscaldocumenttypemodel-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFiscalPeriods Upgrade Script](releaseupdatedb60-ledger-updatefiscalperiods-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateFiscalYearNameForFiscalYear Upgrade Script](releaseupdatedb60-ledger-updatefiscalyearnameforfiscalyear-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_AssetDepZakat\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-assetdepzakat-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_AssetMaximumRelation](releaseupdatedb60-ledger-updategdl-assetmaximumrelation.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_AssetMaximumRelation Upgrade Script](releaseupdatedb60-ledger-updategdl-assetmaximumrelation-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_BE\_EDT\_Records](releaseupdatedb60-ledger-updategdl-be-edt-records.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_BE\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-be-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_AccountTreeStructure](releaseupdatedb60-ledger-updategdl-cn-accounttreestructure.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_AccountTreeStructure Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-accounttreestructure-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_CopyReverseVoucher](releaseupdatedb60-ledger-updategdl-cn-copyreversevoucher.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_CopyReverseVoucher Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-copyreversevoucher-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_EDT\_Records](releaseupdatedb60-ledger-updategdl-cn-edt-records.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTMappingFields](releaseupdatedb60-ledger-updategdl-cn-gbtmappingfields.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTMappingFields Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-gbtmappingfields-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTParameters](releaseupdatedb60-ledger-updategdl-cn-gbtparameters.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTParameters Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-gbtparameters-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTTableElements](releaseupdatedb60-ledger-updategdl-cn-gbttableelements.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_CN\_GBTTableElements Upgrade Script](releaseupdatedb60-ledger-updategdl-cn-gbttableelements-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_GJAccountEntry\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-gjaccountentry-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_GJAccountEntryZak\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-gjaccountentryzak-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_GJAE\_ConsolidatedRefRecId\_BR Upgrade Script](releaseupdatedb60-ledger-updategdl-gjae-consolidatedrefrecid-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_IT\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-it-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_JP\_MappingFields](releaseupdatedb60-ledger-updategdl-jp-mappingfields.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_JP\_MappingFields Upgrade Script](releaseupdatedb60-ledger-updategdl-jp-mappingfields-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_LedgerGDPdU\_EDTRecord Upgrade Script](releaseupdatedb60-ledger-updategdl-ledgergdpdu-edtrecord-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_LedgerInfoZakat\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-ledgerinfozakat-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_LedgParameters\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-ledgparameters-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_LJTransZakat\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-ljtranszakat-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_NL\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-nl-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_NO\_EDTRecords Upgrade Script](releaseupdatedb60-ledger-updategdl-no-edtrecords-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_SP\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-sp-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TaxRep347\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-taxrep347-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TaxRep347Trans\_KeyIdx](releaseupdatedb60-ledger-updategdl-taxrep347trans-keyidx.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TaxRep347Trans\_KeyIdx Upgrade Script](releaseupdatedb60-ledger-updategdl-taxrep347trans-keyidx-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TaxRepLines\_BookType Upgrade Script](releaseupdatedb60-ledger-updategdl-taxreplines-booktype-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TaxRepLinesTaxTrans Upgrade Script](releaseupdatedb60-ledger-updategdl-taxreplinestaxtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_TH\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-th-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_US\_EDT\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-us-edt-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGDL\_VendInfoZakat\_SA\_Records Upgrade Script](releaseupdatedb60-ledger-updategdl-vendinfozakat-sa-records-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateGeneralJournalEntry Upgrade Script](releaseupdatedb60-ledger-updategeneraljournalentry-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateHolidayCalendar\_JP](releaseupdatedb60-ledger-updateholidaycalendar-jp.md)
+
+[ReleaseUpdateDB60\_Ledger.updateHolidayCalendar\_JP Upgrade Script](releaseupdatedb60-ledger-updateholidaycalendar-jp-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateIndirectTaxInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateindirecttaxinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateIndirectTaxTotal\_IN Upgrade Script](releaseupdatedb60-ledger-updateindirecttaxtotal-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateIntrastatArchiveGeneral Upgrade Script](releaseupdatedb60-ledger-updateintrastatarchivegeneral-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateInventProfile\_RU Upgrade Script](releaseupdatedb60-ledger-updateinventprofile-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateItemSalesTaxGroupHeading\_IN](releaseupdatedb60-ledger-updateitemsalestaxgroupheading-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateItemSalesTaxGroupHeading\_IN Upgrade Script](releaseupdatedb60-ledger-updateitemsalestaxgroupheading-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAccountCov Upgrade Script](releaseupdatedb60-ledger-updateledgeraccountcov-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAccRenameTableDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updateledgeraccrenametabledimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAccrualTable Upgrade Script](releaseupdatedb60-ledger-updateledgeraccrualtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocateTrans Upgrade Script](releaseupdatedb60-ledger-updateledgerallocatetrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocation Upgrade Script](releaseupdatedb60-ledger-updateledgerallocation-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocationBasisRuleSource Upgrade Script](releaseupdatedb60-ledger-updateledgerallocationbasisrulesource-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocationRule Upgrade Script](releaseupdatedb60-ledger-updateledgerallocationrule-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocationRuleDestination Upgrade Script](releaseupdatedb60-ledger-updateledgerallocationruledestination-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocationRuleSource Upgrade Script](releaseupdatedb60-ledger-updateledgerallocationrulesource-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerAllocationTrans Upgrade Script](releaseupdatedb60-ledger-updateledgerallocationtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerBalanceControl Upgrade Script](releaseupdatedb60-ledger-updateledgerbalancecontrol-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerBalanceSheet\_CZ Upgrade Script](releaseupdatedb60-ledger-updateledgerbalancesheet-cz-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerBalHeaderDim Upgrade Script](releaseupdatedb60-ledger-updateledgerbalheaderdim-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerClosingTable Upgrade Script](releaseupdatedb60-ledger-updateledgerclosingtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerClosingTrans Upgrade Script](releaseupdatedb60-ledger-updateledgerclosingtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerConsolidateHistRef Upgrade Script](releaseupdatedb60-ledger-updateledgerconsolidatehistref-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerCov Upgrade Script](releaseupdatedb60-ledger-updateledgercov-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerCurrencyParameters\_RU Upgrade Script](releaseupdatedb60-ledger-updateledgercurrencyparameters-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerEliminationRuleLine Upgrade Script](releaseupdatedb60-ledger-updateledgereliminationruleline-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerEliminationRuleLines Upgrade Script](releaseupdatedb60-ledger-updateledgereliminationrulelines-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerImportMode Upgrade Script](releaseupdatedb60-ledger-updateledgerimportmode-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerInterCompany Upgrade Script](releaseupdatedb60-ledger-updateledgerintercompany-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalControl Upgrade Script](releaseupdatedb60-ledger-updateledgerjournalcontrol-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalName Upgrade Script](releaseupdatedb60-ledger-updateledgerjournalname-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTable Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTransAccrualTrans Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltransaccrualtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTransPayment\_LV Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltranspayment-lv-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTransPaymTransCodes Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltranspaymtranscodes-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerJournalTransSymbol Upgrade Script](releaseupdatedb60-ledger-updateledgerjournaltranssymbol-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerLiquidity Upgrade Script](releaseupdatedb60-ledger-updateledgerliquidity-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerOpeningTable\_ES](releaseupdatedb60-ledger-updateledgeropeningtable-es.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerOpeningTable\_ES Upgrade Script](releaseupdatedb60-ledger-updateledgeropeningtable-es-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerOpeningTrans\_ES Upgrade Script](releaseupdatedb60-ledger-updateledgeropeningtrans-es-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerPostingType\_RU Upgrade Script](releaseupdatedb60-ledger-updateledgerpostingtype-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerRelatedAccounts\_ES Upgrade Script](releaseupdatedb60-ledger-updateledgerrelatedaccounts-es-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerRowDef Upgrade Script](releaseupdatedb60-ledger-updateledgerrowdef-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerRowDefLine Upgrade Script](releaseupdatedb60-ledger-updateledgerrowdefline-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerRRGDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updateledgerrrgdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerRRGEDSendRecvLog\_W Upgrade Script](releaseupdatedb60-ledger-updateledgerrrgedsendrecvlog-w-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerStatement\_CZ Upgrade Script](releaseupdatedb60-ledger-updateledgerstatement-cz-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerSystemAccounts Upgrade Script](releaseupdatedb60-ledger-updateledgersystemaccounts-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerTableInterval Upgrade Script](releaseupdatedb60-ledger-updateledgertableinterval-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerTableMandatoryPaymRef\_IS Upgrade Script](releaseupdatedb60-ledger-updateledgertablemandatorypaymref-is-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerTableStatus\_ES Upgrade Script](releaseupdatedb60-ledger-updateledgertablestatus-es-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerTrans Upgrade Script](releaseupdatedb60-ledger-updateledgertrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerTransTaxTransSystemSequences Upgrade Script](releaseupdatedb60-ledger-updateledgertranstaxtranssystemsequences-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerVoucherType\_CN](releaseupdatedb60-ledger-updateledgervouchertype-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLedgerVoucherType\_CN Upgrade Script](releaseupdatedb60-ledger-updateledgervouchertype-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLvOtherClients Upgrade Script](releaseupdatedb60-ledger-updatelvotherclients-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateLvOtherClientsPaymTransCodes Upgrade Script](releaseupdatedb60-ledger-updatelvotherclientspaymtranscodes-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAccountSeparateBalance Upgrade Script](releaseupdatedb60-ledger-updatemainaccountseparatebalance-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAcctControlCurCode Upgrade Script](releaseupdatedb60-ledger-updatemainacctcontrolcurcode-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAcctControlPosting Upgrade Script](releaseupdatedb60-ledger-updatemainacctcontrolposting-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAcctControlTaxCode Upgrade Script](releaseupdatedb60-ledger-updatemainacctcontroltaxcode-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAcctControlUser Upgrade Script](releaseupdatedb60-ledger-updatemainacctcontroluser-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMainAcctParent\_BR Upgrade Script](releaseupdatedb60-ledger-updatemainacctparent-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMappingGeneralJournalAccountEntry Upgrade Script](releaseupdatedb60-ledger-updatemappinggeneraljournalaccountentry-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateMappingLedgerTables Upgrade Script](releaseupdatedb60-ledger-updatemappingledgertables-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateNGPCodes Upgrade Script](releaseupdatedb60-ledger-updatengpcodes-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateNumberSequenceTableReference Upgrade Script](releaseupdatedb60-ledger-updatenumbersequencetablereference-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateOriginalTransferPolicy Upgrade Script](https://msdn.microsoft.com/en-us/library/dn702725\(v=ax.60\))
+
+[ReleaseUpdateDB60\_Ledger.updatePaymTerm\_JP](releaseupdatedb60-ledger-updatepaymterm-jp.md)
+
+[ReleaseUpdateDB60\_Ledger.updatePaymTerm\_JP Upgrade Script](releaseupdatedb60-ledger-updatepaymterm-jp-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updatePLAEnquiry\_IN Upgrade Script](releaseupdatedb60-ledger-updateplaenquiry-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updatePurchParmTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatepurchparmtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRDeferralsDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updaterdeferralsdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRTax25LedgerDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updatertax25ledgerdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRTax25RegisterDeferrals Upgrade Script](releaseupdatedb60-ledger-updatertax25registerdeferrals-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRTSLDimensionRule Upgrade Script](releaseupdatedb60-ledger-updatertsldimensionrule-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRTSLLedgerTransRule Upgrade Script](releaseupdatedb60-ledger-updatertslledgertransrule-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateRTSLRuleGroup Upgrade Script](releaseupdatedb60-ledger-updatertslrulegroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesParmTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatesalesparmtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesPurchOperationType\_BR Upgrade Script](releaseupdatedb60-ledger-updatesalespurchoperationtype-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesQuotationParmTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatesalesquotationparmtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesTaxExchangeRateDimensions Upgrade Script](releaseupdatedb60-ledger-updatesalestaxexchangeratedimensions-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesTaxInquiryTable\_IN](releaseupdatedb60-ledger-updatesalestaxinquirytable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSalesTaxInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatesalestaxinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateServiceTaxInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updateservicetaxinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateServiceTaxTotal\_IN Upgrade Script](releaseupdatedb60-ledger-updateservicetaxtotal-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateSourceDocTaxTransGenJourAccEntry Upgrade Script](https://msdn.microsoft.com/en-us/library/dn702813\(v=ax.60\))
+
+[ReleaseUpdateDB60\_Ledger.updateSysFillUtilityLog Upgrade Script](releaseupdatedb60-ledger-updatesysfillutilitylog-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxAdjustments\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxadjustments-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxAuthorityAddress Upgrade Script](releaseupdatedb60-ledger-updatetaxauthorityaddress-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxData\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxdata-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxData\_TaxSubstitutionMarkup\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxdata-taxsubstitutionmarkup-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxDimensions\_RU Upgrade Script](releaseupdatedb60-ledger-updatetaxdimensions-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxEdivatGeneral Upgrade Script](releaseupdatedb60-ledger-updatetaxedivatgeneral-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxElectronicDeclarationTrans Upgrade Script](releaseupdatedb60-ledger-updatetaxelectronicdeclarationtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxesMatrix\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxesmatrix-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxExternalInvoiceTable\_CN](releaseupdatedb60-ledger-updatetaxexternalinvoicetable-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxExternalInvoiceTable\_CN Upgrade Script](releaseupdatedb60-ledger-updatetaxexternalinvoicetable-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxExternalSalesInvoice](releaseupdatedb60-ledger-updatetaxexternalsalesinvoice.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxExternalSalesInvoice Upgrade Script](releaseupdatedb60-ledger-updatetaxexternalsalesinvoice-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxExternalSalesInvoice\_CN Upgrade Script](releaseupdatedb60-ledger-updatetaxexternalsalesinvoice-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxFileExportSetup\_CN](releaseupdatedb60-ledger-updatetaxfileexportsetup-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxFileExportSetup\_CN Upgrade Script](releaseupdatedb60-ledger-updatetaxfileexportsetup-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxFileImportSetup\_CN](releaseupdatedb60-ledger-updatetaxfileimportsetup-cn.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxFileImportSetup\_CN Upgrade Script](releaseupdatedb60-ledger-updatetaxfileimportsetup-cn-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxFiscalDocument\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxfiscaldocument-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxGroups\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxgroups-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxLedgerAccountGroup Upgrade Script](releaseupdatedb60-ledger-updatetaxledgeraccountgroup-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxLedgerAccounts\_IN](releaseupdatedb60-ledger-updatetaxledgeraccounts-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxLedgerAccounts\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxledgeraccounts-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxLedgerAccountSetup\_IN](releaseupdatedb60-ledger-updatetaxledgeraccountsetup-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxLedgerAccountSetup\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxledgeraccountsetup-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxOnItemTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxonitemtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxParameters\_IN](releaseupdatedb60-ledger-updatetaxparameters-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxParameters\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxparameters-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxParameters\_JP](releaseupdatedb60-ledger-updatetaxparameters-jp.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxParameters\_JP Upgrade Script](releaseupdatedb60-ledger-updatetaxparameters-jp-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxPurchaseTaxTable Upgrade Script](releaseupdatedb60-ledger-updatetaxpurchasetaxtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxPurchaseTaxValue Upgrade Script](releaseupdatedb60-ledger-updatetaxpurchasetaxvalue-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxRegistrationGroupSetup\_IN](releaseupdatedb60-ledger-updatetaxregistrationgroupsetup-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxRegistrationGroupSetup\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxregistrationgroupsetup-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxReport347Account Upgrade Script](releaseupdatedb60-ledger-updatetaxreport347account-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxReportDomesticTable\_IT Upgrade Script](https://msdn.microsoft.com/en-us/library/dn702817\(v=ax.60\))
+
+[ReleaseUpdateDB60\_Ledger.updateTaxReportLedgerAccounts Upgrade Script](releaseupdatedb60-ledger-updatetaxreportledgeraccounts-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxReportPeriod\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxreportperiod-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxReportVoucher\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxreportvoucher-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxServiceCodeDescription\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxservicecodedescription-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxSetOffRule\_IN](releaseupdatedb60-ledger-updatetaxsetoffrule-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxSetOffRule\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxsetoffrule-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTable\_IN](releaseupdatedb60-ledger-updatetaxtable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTable\_TaxSubstitution Upgrade Script](releaseupdatedb60-ledger-updatetaxtable-taxsubstitution-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTable\_TaxSubstitution\_BR Upgrade Script](releaseupdatedb60-ledger-updatetaxtable-taxsubstitution-br-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTrans Upgrade Script](releaseupdatedb60-ledger-updatetaxtrans-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTrans\_IN](releaseupdatedb60-ledger-updatetaxtrans-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxtrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxTrans\_RU Upgrade Script](releaseupdatedb60-ledger-updatetaxtrans-ru-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdBatchHeader\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdbatchheader-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdCertificate\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdcertificate-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdCertificatesTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdcertificatestable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdChallanDetail\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdchallandetail-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdComponentTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdcomponenttable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdDeducteeDetail\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholddeducteedetail-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdFileHeader\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdfileheader-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdHead\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdhead-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdLedgerPostingDimension](releaseupdatedb60-ledger-updatetaxwithholdledgerpostingdimension.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdLedgerPostingDimension Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdledgerpostingdimension-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdPeriods\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdperiods-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdReportingCodes\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdreportingcodes-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdReportVoucher\_IN](releaseupdatedb60-ledger-updatetaxwithholdreportvoucher-in.md)
+
+[ReleaseUpdateDB60\_Ledger.UpdateTaxWithholdSettledPeriods\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdsettledperiods-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdSettleTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdsettletrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdTable Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdtable-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdtable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdThresholdLimit\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdthresholdlimit-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdtrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxWithholdTransTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatetaxwithholdtranstable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateTaxYearlyComSetupExclued\_IT Upgrade Script](releaseupdatedb60-ledger-updatetaxyearlycomsetupexclued-it-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateUpdatePLA\_IN Upgrade Script](releaseupdatedb60-ledger-updateupdatepla-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVATInquiryTable\_IN](releaseupdatedb60-ledger-updatevatinquirytable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVATInquiryTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatevatinquirytable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendInvoiceInfoTable\_IN](releaseupdatedb60-ledger-updatevendinvoiceinfotable-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendInvoiceInfoTable\_IN Upgrade Script](releaseupdatedb60-ledger-updatevendinvoiceinfotable-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendInvoiceTrans\_IN](releaseupdatedb60-ledger-updatevendinvoicetrans-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendInvoiceTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatevendinvoicetrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendTrans\_IN](releaseupdatedb60-ledger-updatevendtrans-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendTrans\_IN Upgrade Script](releaseupdatedb60-ledger-updatevendtrans-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendTransOpen\_IN](releaseupdatedb60-ledger-updatevendtransopen-in.md)
+
+[ReleaseUpdateDB60\_Ledger.updateVendTransOpen\_IN Upgrade Script](releaseupdatedb60-ledger-updatevendtransopen-in-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.verifyUniqueGeneralJournalEntry Upgrade Script](releaseupdatedb60-ledger-verifyuniquegeneraljournalentry-upgrade-script.md)
+
+[ReleaseUpdateDB60\_Ledger.verifyUniqueLedgerEntryReference Upgrade Script](releaseupdatedb60-ledger-verifyuniqueledgerentryreference-upgrade-script.md)
+
+  
+**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
