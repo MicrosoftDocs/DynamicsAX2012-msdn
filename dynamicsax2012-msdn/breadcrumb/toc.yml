@@ -1,3 +1,10 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+  - name: Previous Versions
+    href: /previous-versions/
+    items:
+    - name: DynamicsAX-2012-developer
+      tocHref: /dynamics365/dynamicsax-2012/developer
+      topicHref: /dynamics365/dynamicsax-2012/developer
