@@ -1,1 +1,3 @@
-# Welcome to dynamicsax2012-msdn!
+﻿---
+redirect_url: 'microsoft-dynamics-ax-2012-for-developers'
+---

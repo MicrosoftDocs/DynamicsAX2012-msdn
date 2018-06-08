@@ -1,0 +1,174 @@
+﻿---
+title: ReleaseUpdateTransformDB40_Proj Upgrade Scripts
+TOCTitle: ReleaseUpdateTransformDB40_Proj Upgrade Scripts
+ms:assetid: 53ed1ade-8a94-4c01-9d54-c4ce4ca504a0
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ736132(v=AX.60)
+ms:contentKeyID: 49708308
+ms.date: 05/18/2015
+mtps_version: v=AX.60
+---
+
+# ReleaseUpdateTransformDB40\_Proj Upgrade Scripts 
+
+
+_**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
+
+## In This Section
+
+[ReleaseUpdateTransformDB40\_Proj.projControlPeriodTableDeltaPreUpgrade Upgrade Script](releaseupdatetransformdb40-proj-projcontrolperiodtabledeltapreupgrade-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projControlPeriodTablePreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projcontrolperiodtablepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projCostTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projcosttransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projCostTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projcosttranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projEmplTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projempltransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projEmplTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projempltranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastCostDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastcostdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastCostPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastcostpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastEmplDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastempldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastEmplPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastemplpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastOnAccDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastonaccdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastOnAccPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastonaccpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastRevenueDeltaPreUpgrade Upgrade Script](releaseupdatetransformdb40-proj-projforecastrevenuedeltapreupgrade-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projForecastRevenuePreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projforecastrevenuepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceCostDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicecostdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceCostPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicecostpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceEmplDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceempldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceEmplPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceemplpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceItemDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceitemdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceItemPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceitempreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicejourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicejourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceOnAccDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceonaccdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceOnAccPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoiceonaccpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceRevenueDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicerevenuedeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projInvoiceRevenuePreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projinvoicerevenuepreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projItemTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projitemtransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projItemTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projitemtranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projJournalTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projjournaltransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projJournalTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projjournaltranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projOnAccTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projonacctransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projOnAccTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projonacctranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projPostingDeltaPreUpgrade Upgrade Script](releaseupdatetransformdb40-proj-projpostingdeltapreupgrade-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projPostingPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projpostingpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projPrintCopiesDeltaPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-proj-projprintcopiesdeltapreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projPrintCopiesPreUpgradeProcess\_IN Upgrade Script](releaseupdatetransformdb40-proj-projprintcopiespreupgradeprocess-in-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalEmplDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalempldeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalEmplPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalemplpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalItemDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalitemdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalItemPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalitempreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalJourDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposaljourdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalJourPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposaljourpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalOnAccDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalonaccdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projProposalOnAccPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projproposalonaccpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projRevenueTransDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projrevenuetransdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projRevenueTransPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projrevenuetranspreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTimeSheetDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtimesheetdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTimeSheetPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtimesheetpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTransBudgetDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtransbudgetdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTransBudgetPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtransbudgetpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTransPostingDeltaPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtranspostingdeltapreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.projTransPostingPreUpgradeProcess Upgrade Script](releaseupdatetransformdb40-proj-projtranspostingpreupgradeprocess-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjControlPeriodTable Upgrade Script](releaseupdatetransformdb40-proj-validateprojcontrolperiodtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjCostTrans Upgrade Script](releaseupdatetransformdb40-proj-validateprojcosttrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjDefaultOffsetSetup Upgrade Script](releaseupdatetransformdb40-proj-validateprojdefaultoffsetsetup-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjEmplTrans Upgrade Script](releaseupdatetransformdb40-proj-validateprojempltrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjForecastCost Upgrade Script](releaseupdatetransformdb40-proj-validateprojforecastcost-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjForecastEmpl Upgrade Script](releaseupdatetransformdb40-proj-validateprojforecastempl-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjForecastOnAcc Upgrade Script](releaseupdatetransformdb40-proj-validateprojforecastonacc-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjForecastRevenue Upgrade Script](releaseupdatetransformdb40-proj-validateprojforecastrevenue-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceCost Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoicecost-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceEmpl Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoiceempl-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceItem Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoiceitem-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceJour Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoicejour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceOnAcc Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoiceonacc-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceRevenue Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoicerevenue-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjInvoiceTable Upgrade Script](releaseupdatetransformdb40-proj-validateprojinvoicetable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjItemTrans Upgrade Script](releaseupdatetransformdb40-proj-validateprojitemtrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjJournalTrnas Upgrade Script](releaseupdatetransformdb40-proj-validateprojjournaltrnas-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjOnAccTrans Upgrade Script](releaseupdatetransformdb40-proj-validateprojonacctrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjPosting Upgrade Script](releaseupdatetransformdb40-proj-validateprojposting-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjProposalJour Upgrade Script](releaseupdatetransformdb40-proj-validateprojproposaljour-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjRevenueTrans Upgrade Script](releaseupdatetransformdb40-proj-validateprojrevenuetrans-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjTable Upgrade Script](releaseupdatetransformdb40-proj-validateprojtable-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjTimeSheet Upgrade Script](releaseupdatetransformdb40-proj-validateprojtimesheet-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjTransBudget Upgrade Script](releaseupdatetransformdb40-proj-validateprojtransbudget-upgrade-script.md)
+
+[ReleaseUpdateTransformDB40\_Proj.validateProjTransPosting Upgrade Script](releaseupdatetransformdb40-proj-validateprojtransposting-upgrade-script.md)
+
+  
+**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
