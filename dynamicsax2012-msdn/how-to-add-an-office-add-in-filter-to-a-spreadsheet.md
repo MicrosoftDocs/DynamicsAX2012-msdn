@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Add an Office Add-in Filter to a Spreadsheet 
+# How to: Add an Office Add-in Filter to a Spreadsheet [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

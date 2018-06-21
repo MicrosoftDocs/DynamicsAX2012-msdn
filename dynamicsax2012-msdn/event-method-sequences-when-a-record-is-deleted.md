@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# Event Method Sequences when a Record is Deleted 
+# Event Method Sequences when a Record is Deleted [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateDB62\_Products.updateProductConfigurationModule Upgrade Script 
+# ReleaseUpdateDB62\_Products.updateProductConfigurationModule Upgrade Script [AX 2012]
 
 
 <table>

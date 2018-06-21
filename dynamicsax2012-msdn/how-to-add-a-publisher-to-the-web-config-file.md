@@ -10,7 +10,7 @@ dev_langs:
 - xml
 ---
 
-# How to: Add a Publisher to the Web.Config File 
+# How to: Add a Publisher to the Web.Config File [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateDB63\_HRMMinor.updatePositionForecastBudgetAcctLine Upgrade Script 
+# ReleaseUpdateDB63\_HRMMinor.updatePositionForecastBudgetAcctLine Upgrade Script [AX 2012]
 
 
 <table>

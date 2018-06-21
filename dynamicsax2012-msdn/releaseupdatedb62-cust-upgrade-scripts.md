@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateDB62\_Cust Upgrade Scripts 
+# ReleaseUpdateDB62\_Cust Upgrade Scripts [AX 2012]
 
 
 Insert introduction here.

@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Specify the Partition for the Form 
+# How to: Specify the Partition for the Form [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

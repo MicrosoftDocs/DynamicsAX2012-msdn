@@ -8,7 +8,7 @@ ms.date: 11/21/2012
 mtps_version: v=AX.60
 ---
 
-# How to: Add a Visual Studio Project to the AOT 
+# How to: Add a Visual Studio Project to the AOT [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

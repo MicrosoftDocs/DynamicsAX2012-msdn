@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# Affected Tables, Listed by Table, X-Z 
+# Affected Tables, Listed by Table, X-Z [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3_

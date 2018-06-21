@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# What's New for Developers in Cumulative Update 6 for Microsoft Dynamics AX 2012 
+# What's New for Developers in Cumulative Update 6 for Microsoft Dynamics AX 2012 [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3_

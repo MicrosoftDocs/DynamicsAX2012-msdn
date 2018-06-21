@@ -10,7 +10,7 @@ dev_langs:
 - html
 ---
 
-# How to: Add a Collapsible and Expandable Section 
+# How to: Add a Collapsible and Expandable Section [AX 2012]
 
 
 You can add collapsible and expandable sections to a content element. A collapsible section temporarily hides part of the content element when you click the section title. When collapsed, the section title is visible but the content is hidden. If you click the title again, the hidden content reappears. You can also collapse and expand a section by clicking the heading and then pressing the Enter key. You add collapsible sections when you want the user to select the amount of documentation that appears in the Help viewer.

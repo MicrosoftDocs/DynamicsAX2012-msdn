@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Code Example: LINQ to AX from C\# 
+# Code Example: LINQ to AX from C\# [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

@@ -8,7 +8,7 @@ ms.date: 11/07/2012
 mtps_version: v=AX.60
 ---
 
-# Enterprise Portal Two-Phase Create Dialog User Experience Guidelines 
+# Enterprise Portal Two-Phase Create Dialog User Experience Guidelines [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

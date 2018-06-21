@@ -8,7 +8,7 @@ ms.date: 05/03/2013
 mtps_version: v=AX.60
 ---
 
-# Chart Controls Overview 
+# Chart Controls Overview [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_
