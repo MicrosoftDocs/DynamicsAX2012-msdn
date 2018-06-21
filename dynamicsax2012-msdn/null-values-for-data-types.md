@@ -56,14 +56,9 @@ For each data type, however, one value is considered null (for example, when the
 <tr class="odd">
 <td><p><a href="utcdatetime.md">Utcdatetime</a></p></td>
 <td><p>Any value with its date portion as 1900-01-01 is treated as null, regardless of the time portion value. Therefore the value 1900-01-01T22:33:44 is treated as null.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Any utcDateTime value with its date portion as 1900-01-01 is displayed as blank by the X++ print statement. Only the value 1900-01-01T00:00:00 is displayed as blank by the Global::info method. That is the value from the DateTimeUtil::MinValue method.
-</div>
-</div></td>
+> [!note]  
+> <P>Any utcDateTime value with its date portion as 1900-01-01 is displayed as blank by the X++ print statement. Only the value 1900-01-01T00:00:00 is displayed as blank by the Global::info method. That is the value from the DateTimeUtil::MinValue method.</P>
+</td>
 </tr>
 </tbody>
 </table>

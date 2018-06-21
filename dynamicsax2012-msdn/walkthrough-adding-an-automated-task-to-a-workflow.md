@@ -70,14 +70,9 @@ To complete this walkthrough, you will need:
     <tr class="odd">
     <td><p><strong>Document</strong></p></td>
     <td><p>MyWorkflowDocumentClass</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This value is available only if you complete <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>This value is available only if you complete <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.</P>
+    </td>
     </tr>
     </tbody>
     </table>

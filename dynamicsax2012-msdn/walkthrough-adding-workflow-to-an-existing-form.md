@@ -62,14 +62,9 @@ To complete this walkthrough, you will need:
     <tr class="even">
     <td><p><strong>WorkflowDataSource</strong></p></td>
     <td><p><strong>CustTable</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This is the root data source specified in the query used for the <strong>Document</strong> property on the <strong>MyWorkfowType</strong> type. For more information, see <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>This is the root data source specified in the query used for the <strong>Document</strong> property on the <strong>MyWorkfowType</strong> type. For more information, see <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.</P>
+    </td>
     </tr>
     <tr class="odd">
     <td><p><strong>WorkflowType</strong></p></td>

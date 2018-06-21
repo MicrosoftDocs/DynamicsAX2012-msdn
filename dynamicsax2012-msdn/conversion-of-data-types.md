@@ -252,26 +252,16 @@ i = 34; // ...as i is an integer.</code></pre></td>
 <tr class="even">
 <td><p>3</p></td>
 <td><p>The result is undefined because a Boolean has only two legal values: false (0) and true (1). The result of the expression 10 + 33.3 is 43, which is assigned to the Boolean.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Because the internal representation is integer, you can use the Boolean in an expression and it will represent the value 43. The Boolean will be considered true.
-</div>
-</div></td>
+> [!note]  
+> <P>Because the internal representation is integer, you can use the Boolean in an expression and it will represent the value 43. The Boolean will be considered true.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>9</p></td>
 <td><p>Shows that an integer can be added to a date. The system treats the integer as a quantity of days.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The utcdatetime data type does not support arithmetic operations and implicit conversions. Instead, methods on the DateTimeUtil class can be used.
-</div>
-</div></td>
+> [!note]  
+> <P>The utcdatetime data type does not support arithmetic operations and implicit conversions. Instead, methods on the DateTimeUtil class can be used.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p>10</p></td>

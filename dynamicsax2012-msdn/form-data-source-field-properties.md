@@ -41,14 +41,9 @@ Form data source field properties are described in the following table.
 <td><p>Specify whether you can use personalization to add a field to a form.</p>
 <p>The default value is <strong>Restricted</strong>. You use Restricted when you want the field to be added as a read-only field on the form.</p>
 <p>If <strong>AllowAdd</strong> is set to <strong>Yes</strong>, you can use personalization to add the field to the form.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The container control where the field is to be added must have the <strong>AllowUserSetup</strong> property set to <strong>Yes</strong>.
-</div>
-</div></td>
+> [!note]  
+> <P>The container control where the field is to be added must have the <strong>AllowUserSetup</strong> property set to <strong>Yes</strong>.</P>
+</td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -65,14 +60,9 @@ The container control where the field is to be added must have the <strong>Allow
 <td><p><strong>Enabled</strong></p></td>
 <td><p>Allows controls that display in the field to receive focus.</p>
 <p>The default value is <strong>Yes</strong>. If set to <strong>No</strong>, controls bound to this field are disabled.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-If a field is used in several places on a form, set the <strong>Enabled</strong> property on the data source instead setting it on every control.
-</div>
-</div></td>
+> [!note]  
+> <P>If a field is used in several places on a form, set the <strong>Enabled</strong> property on the data source instead setting it on every control.</P>
+</td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -84,28 +74,18 @@ If a field is used in several places on a form, set the <strong>Enabled</strong>
 <td><p><strong>Skip</strong></p></td>
 <td><p>Determines whether controls bound to the field are skipped when the TAB key is used to navigate the form.</p>
 <p>The default value is <strong>No</strong>.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-Even if the <strong>Skip</strong> property is set to Yes, users can still select the control by using the mouse pointer. You can also set the <strong>Skip</strong> property on a specific control.
-</div>
-</div></td>
+> [!note]  
+> <P>Even if the <strong>Skip</strong> property is set to Yes, users can still select the control by using the mouse pointer. You can also set the <strong>Skip</strong> property on a specific control.</P>
+</td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Visible</strong></p></td>
 <td><p>Determines whether controls bound to the field are visible.</p>
 <p>The default value is <strong>Yes</strong>.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-You cannot use the <strong>Visible</strong> property on controls to enforce access restrictions—the user can change the visibility for the controls in the <strong>Form Setup</strong> dialog.
-</div>
-</div></td>
+> [!note]  
+> <P>You cannot use the <strong>Visible</strong> property on controls to enforce access restrictions—the user can change the visibility for the controls in the <strong>Form Setup</strong> dialog.</P>
+</td>
 <td><p></p></td>
 </tr>
 </tbody>

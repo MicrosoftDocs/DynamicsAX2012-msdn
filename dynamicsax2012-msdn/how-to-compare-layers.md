@@ -53,14 +53,9 @@ When the reference layer is not an **old** layer, such as **old sys**, the refer
     <tr class="odd">
     <td><p><strong>Reference layer</strong></p></td>
     <td><p>The layer that you want to compare to the source layer.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    You can select <strong>old sys</strong> as the reference layer. This is useful if you want to learn what application objects have changed.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>You can select <strong>old sys</strong> as the reference layer. This is useful if you want to learn what application objects have changed.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>Only include elements present in both layers</strong></p></td>

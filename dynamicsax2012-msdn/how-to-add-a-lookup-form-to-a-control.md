@@ -44,14 +44,9 @@ The following section shows how to override the lookup method of a **StringEdit*
     <tr class="odd">
     <td><p><strong>DataField</strong></p></td>
     <td><p>If you want to bind the control to a field in the form data source, select the name of the field.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-    </div>
-    <div class="mtps-row">
-    To see a list of fields, set the <strong>DataSource</strong> property before you view the <strong>DataField</strong> list.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>To see a list of fields, set the <strong>DataSource</strong> property before you view the <strong>DataField</strong> list.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>DataSource</strong></p></td>

@@ -69,14 +69,9 @@ The following table lists the methods available for forms and explains when they
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg920114(v=ax.60)">canSubmitToWorkflow</a></p></td>
 <td><p>This method is invoked in updateWorkflowControls to determine when the <strong>Submit</strong> button and context message are to be displayed.</p></td>
 <td><p>Use this method to determine whether the <strong>Submit</strong> button should be displayed.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Important" alt="Important" class="note" /><strong>Important</strong>
-</div>
-<div class="mtps-row">
-To enable workflow, you MUST override this method as the base implementation always returns False.
-</div>
-</div></td>
+> [!caution]  
+> <P>To enable workflow, you MUST override this method as the base implementation always returns False.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg920115(v=ax.60)">close</a></p></td>
@@ -124,14 +119,9 @@ To enable workflow, you MUST override this method as the base implementation alw
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906240(v=ax.60)">controlMethodOverloadObject</a></p></td>
 <td><p>Not called by the system.</p></td>
 <td><p>Enables you to specify that a user interface event should trigger a method on an object instead of on the form control. The object is specified in the parameter for the method. For example, you might want to call a clicked method on a class instead of on the form.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-If you want to call an event method on the form, use the FormRun.controlMethodOverload method instead of the controlMethodOverloadObject method.
-</div>
-</div></td>
+> [!note]  
+> <P>If you want to call an event method on the form, use the FormRun.controlMethodOverload method instead of the controlMethodOverloadObject method.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906241(v=ax.60)">copy</a></p></td>
@@ -152,27 +142,17 @@ If you want to call an event method on the form, use the FormRun.controlMethodOv
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906252(v=ax.60)">doApply</a></p></td>
 <td><p>The user closes a modal window.</p></td>
 <td><p>Use this method to follow-up on the closing of the modal window.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-A modal window is a secondary window that requires the user to complete an interaction within it and to close it before continuing with any interaction outside the window.
-</div>
-</div></td>
+> [!note]  
+> <P>A modal window is a secondary window that requires the user to complete an interaction within it and to close it before continuing with any interaction outside the window.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906253(v=ax.60)">docCursor</a></p></td>
 <td><p>Not called by the system.</p></td>
 <td><p>Returns a cursor to the current data source record. This is useful when a form has more than one data source.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-This method is used by the document management system.
-</div>
-</div></td>
+> [!note]  
+> <P>This method is used by the document management system.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906255(v=ax.60)">finalize</a></p></td>

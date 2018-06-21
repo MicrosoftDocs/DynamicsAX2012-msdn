@@ -532,14 +532,9 @@ The exception literals shown in the following table are the values of the [Excep
 <tr class="odd">
 <td><p>DuplicateKeyExceptionNotRecovered</p></td>
 <td><p>Indicates that an error has occurred in a transaction that is using Optimistic Concurrency Control. The code will not be retried.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-This exception cannot be caught inside a transaction.
-</div>
-</div></td>
+> [!note]  
+> <P>This exception cannot be caught inside a transaction.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p>Error</p></td>
@@ -569,14 +564,9 @@ This exception cannot be caught inside a transaction.
 <tr class="even">
 <td><p>UpdateConflictNotRecovered</p></td>
 <td><p>Indicates that an error has occurred in a transaction that is using Optimistic Concurrency Control. The code will not be retried.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-This exception cannot be caught within a transaction.
-</div>
-</div></td>
+> [!note]  
+> <P>This exception cannot be caught within a transaction.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Warning</p></td>
