@@ -252,8 +252,10 @@ i = 34; // ...as i is an integer.</code></pre></td>
 <tr class="even">
 <td><p>3</p></td>
 <td><p>The result is undefined because a Boolean has only two legal values: false (0) and true (1). The result of the expression 10 + 33.3 is 43, which is assigned to the Boolean.</p>
+
 > [!note]  
 > <P>Because the internal representation is integer, you can use the Boolean in an expression and it will represent the value 43. The Boolean will be considered true.</P>
+
 </td>
 </tr>
 <tr class="odd">
