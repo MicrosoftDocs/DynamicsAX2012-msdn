@@ -33,8 +33,10 @@ The following table describes the method modifier keywords of the X++ language.
 <td><p>abstract</p></td>
 <td><p>The method is declared but not implemented in a parent class. The method must be overridden in subclasses.</p>
 <p>If you try to create an object from a subclass where one or more of the abstract methods belonging to the parent class have not been overridden, you will get a compiler error.</p>
+
 > [!note]  
 > <P>Classes can also be abstract. Sometimes a class represents an abstract concept, but it should not be instantiated: Only subclasses should be instantiated. Such base classes can be declared abstract. Consider the case where the programmer wants to model the concept of an account. Accounts are abstract—only derived classes (ledger accounts and so on) exist in the real world. This would be a clear case for declaring the Account class abstract.</P>
+
 </td>
 </tr>
 <tr class="even">
