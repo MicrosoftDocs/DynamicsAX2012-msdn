@@ -532,8 +532,10 @@ The exception literals shown in the following table are the values of the [Excep
 <tr class="odd">
 <td><p>DuplicateKeyExceptionNotRecovered</p></td>
 <td><p>Indicates that an error has occurred in a transaction that is using Optimistic Concurrency Control. The code will not be retried.</p>
+
 > [!note]  
 > <P>This exception cannot be caught inside a transaction.</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -564,8 +566,10 @@ The exception literals shown in the following table are the values of the [Excep
 <tr class="even">
 <td><p>UpdateConflictNotRecovered</p></td>
 <td><p>Indicates that an error has occurred in a transaction that is using Optimistic Concurrency Control. The code will not be retried.</p>
+
 > [!note]  
 > <P>This exception cannot be caught within a transaction.</P>
+
 </td>
 </tr>
 <tr class="odd">
