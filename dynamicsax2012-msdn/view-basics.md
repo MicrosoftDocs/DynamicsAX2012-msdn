@@ -240,8 +240,10 @@ The following table lists the elements of a data source and describes how they a
 <tr class="odd">
 <td><p>Group By</p></td>
 <td><p>Do not specify a field in the <strong>Group By</strong> element. A view does not use the field information in the <strong>Group By</strong> element.</p>
+
 > [!note]  
 > <P>If you want to group the records in a view, replace the view data source with a query that has the specified group by information.</P>
+
 </td>
 </tr>
 <tr class="even">
