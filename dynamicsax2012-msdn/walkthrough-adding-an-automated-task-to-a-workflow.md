@@ -70,8 +70,10 @@ To complete this walkthrough, you will need:
     <tr class="odd">
     <td><p><strong>Document</strong></p></td>
     <td><p>MyWorkflowDocumentClass</p>
+    
     > [!note]  
     > <P>This value is available only if you complete <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.</P>
+    
     </td>
     </tr>
     </tbody>
