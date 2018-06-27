@@ -58,8 +58,10 @@ X++ features that are different in C\# are listed in the following table.
 <tr class="even">
 <td><p>String delimiters</p></td>
 <td><p>In X++ you can use either the single (') or double (&quot;) quotation mark as the string delimiter.</p>
+
 > [!note]  
 > <P>Usually the best practice is to use double quotation marks for strings that might be displayed to the user. However, it is convenient to delimit a string with single quotation marks when a double quotation mark is one of the characters in the string.</P>
+
 </td>
 <td><p>In C# you must use the double quotation mark as the string delimiter. This refers to the type System.String.</p></td>
 <td><p>In X++ and C# you have the option of embedding a delimiter in a literal string and escaping it with \.</p>
