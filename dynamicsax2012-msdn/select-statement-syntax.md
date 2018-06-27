@@ -183,8 +183,11 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 </tr>
 <tr class="even">
 <td><p>forceLiterals</p></td>
-<td>> [!note]  
+<td>
+    
+> [!note]  
 > <P>You are advised not to use the forceLiterals keyword in X++ select statements, because it could expose code to an SQL injection security threat.</P>
+
 <p>forceLiterals instructs the kernel to reveal the actual values that are used in where clauses to the Microsoft SQL Server database at the time of optimization.</p>
 <p>forceLiterals and forcePlaceholders are mutually exclusive.</p></td>
 <td><p></p></td>
@@ -289,8 +292,10 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 <tr class="odd">
 <td><p>index hint</p></td>
 <td><p>Gives the database a hint to use this index to sort the selected records as defined by the index. The database can ignore the hint.</p>
+
 > [!note]  
 > <P>A wrong index hint can have a big performance impact. Index hints should only be applied to SQL statements that do not have dynamic where clauses or order by clauses, and where the effect of the hint can be verified.</P>
+
 </td>
 <td><p>while select forUpdate ledgerJournalTrans</p>
 <p>    index hint NumVoucherIdx</p>
