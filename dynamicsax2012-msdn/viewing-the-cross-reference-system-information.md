@@ -78,8 +78,10 @@ The following options are available from **Tools** \>**Cross-reference**:
 <tr class="odd">
 <td><p>Reports &gt; Names/Uses</p></td>
 <td><p>Generates a report about objects in the cross reference system to show: object names, object types and paths, and the type of action on the object (for example read, write, declaration, definition, or call).</p>
+
 > [!note]  
 > <P>To avoid generating a huge report you should always select criteria. You can interrupt the report generation with CTRL+BREAK.</P>
+
 </td>
 </tr>
 </tbody>
