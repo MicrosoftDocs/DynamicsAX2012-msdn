@@ -48,8 +48,10 @@ The following table lists commands that are available on the **Add-Ins** menu.
 <tr class="even">
 <td><p><strong>Check Best Practices</strong></p></td>
 <td><p>Checks whether your X++ code complies with Microsoft Dynamics AX best practices.</p>
+
 > [!note]  
 > <P>This command does not check all best practices and does not guarantee that your X++ code complies with Microsoft Dynamics AX standards. For more information, see <a href="best-practices-for-microsoft-dynamics-ax-development.md">Best Practices for Microsoft Dynamics AX Development</a>.</P>
+
 </td>
 </tr>
 <tr class="odd">
