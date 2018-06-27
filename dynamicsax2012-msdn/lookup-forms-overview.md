@@ -90,8 +90,10 @@ To add a run-time lookup form, you override the lookup or lookupReference method
 <tr class="even">
 <td><p>Control</p></td>
 <td><p>Override the lookup or lookupReference method of the control. For example, you might want to use a lookup form with an unbound control in a dialog box.</p>
+
 > [!caution]  
 > <P>Do not override the lookup method of the <strong>ReferenceGroup</strong> control. This method is not used. Always override the lookupReference method of a <strong>ReferenceGroup</strong> control.</P>
+
 </td>
 </tr>
 </tbody>
