@@ -211,8 +211,8 @@ If a control does not automatically identify a data source, use the information 
 <td><p>A control that is used to show the percentage of completion of a lengthy operation. It consists of a bar that “fills” from left to right.</p></td>
 <td><p>To use a progress control, you have to supply code that fills the progress bar.</p>
 <p>For example, you add a progress control for an operation that starts when a button is clicked. To update the progress control, you have to add code to the clicked method of the button control that fills the progress bar as the operation runs.</p></td>
-<td>
-  
+<td><p></p>
+
 > [!note]  
 > <P>Use a progress indicator from the progress indicator framework instead of a progress control. For information about how to use the progress indicator framework, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
 
