@@ -46,8 +46,10 @@ The following procedure describes how to create a new workflow task in the AOT.
     <tr class="even">
     <td><p><strong>Workflow document</strong></p></td>
     <td><p>The class that defines the workflow document for which you are creating a task.</p>
+    
     > [!note]  
     > <P>This setting must match the <strong>Document</strong> property setting used in the workflow type for the task.</P>
+    
     </td>
     </tr>
     <tr class="odd">
