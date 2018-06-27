@@ -477,8 +477,10 @@ Now you are ready to upgrade your production environment. The following table de
 <td><p>Pre-synchronization</p></td>
 <td><p>The initPreSyncJobs method is run, as the last step of pre-synchronization. Upgrade does no other processing while this step runs. The processing during this step takes table locks in the SQL database.</p>
 <p>This adds your method to a list of methods that the system will run during the post-synchronization phase.</p>
+
 > [!note]  
 > <P>Any executions of the method ReleaseUpgradeDB41_Basic ::upgradeToDateTime after post-synchronization has begun are ignored.</P>
+
 </td>
 </tr>
 <tr class="even">
