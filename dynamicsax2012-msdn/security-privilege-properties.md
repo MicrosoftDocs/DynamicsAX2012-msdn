@@ -139,8 +139,10 @@ This section describes the properties for the AOT node at **Security** \> **Priv
 <td><p>ObjectChildName</p></td>
 <td><p>Optional</p></td>
 <td><p>Represents the service method name.</p>
+
 > [!note]  
 > <P>Specify the value of this property only if the <strong>ObjectType</strong> property is set to <strong>ServiceOperation</strong>.</P>
+
 </td>
 </tr>
 <tr class="odd">
