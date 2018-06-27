@@ -67,8 +67,10 @@ The following table describes the best practices for menu item properties, which
 <tr class="odd">
 <td><p>NeededAccessLevel</p></td>
 <td><p><span id="rx09menuaccesslevno"></span>This property sets the access level needed to start the menu item.</p>
+
 > [!caution]  
 > <P>If you set the NeededAccessLevel property to NoAccess, every user has full access to the item.</P>
+
 <p>Set to View for output items and most display items. A Best Practices error occurs if you set NeededAccessLevel to NoAccess for output items and display items. <img src="images/Aa872655.ErrorIcon(AX.60).gif" title="Error icon" alt="Error icon" /></p>
 <p>Set NeededAccessLevel to Edit, Create, or Delete for action items.</p>
 <p>For menu items that run classes, see the following section.</p></td>
