@@ -41,8 +41,10 @@ The declaration of strings is described in the following table.
 <td><p>Typeoptions</p></td>
 <td><p>=</p></td>
 <td><p>[maxlength]</p>
+
 > [!caution]  
 > <P>X++ that is compiled into .NET Framework common intermediate language (CIL) code ignores the [maxlength] specification. For information about how to detect cases where strings are truncated due to a [maxlength] specification during run time, read about the logstrtrunc option in <a href="https://msdn.microsoft.com/en-us/library/aa569653(v=ax.60)">Client configuration commands</a>.</P>
+
 </td>
 </tr>
 <tr class="odd">
