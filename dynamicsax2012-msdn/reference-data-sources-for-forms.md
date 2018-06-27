@@ -48,8 +48,10 @@ You must create the reference data source before you can bind the surrogate fore
 <tr class="odd">
 <td><p>Implicit</p></td>
 <td><p>The reference data source is automatically created and configured when you drag a surrogate key field from the field list in the form data source to the <strong>Design</strong> node of the form. The reference data source retrieves the values that replace the surrogate key when you open the form.</p>
+
 > [!note]  
 > <P>If you create an implicit reference data source, the <strong>Reference Data Sources</strong> node under the <strong>Data Sources</strong> of the form does not add a node for the new reference data source. You cannot see an implicitly created reference data source in the AOT.</P>
+
 </td>
 </tr>
 <tr class="even">
