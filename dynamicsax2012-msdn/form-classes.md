@@ -66,8 +66,10 @@ The following table describes the most frequently used form classes. For a compl
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg920249(v=ax.60)">FormRun</a></p></td>
 <td><p>Use the methods of the class to execute a form. This is a form run type class.</p>
+
 > [!note]  
 > <P>To follow best practices for instantiating a form, use MenuFunction instead of FormRun.</P>
+
 </td>
 </tr>
 <tr class="odd">
