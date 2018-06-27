@@ -37,8 +37,10 @@ The following table provides terms and definitions related to the upgrade framew
 <li><p>Microsoft Dynamics AX 4.0</p></li>
 <li><p>Microsoft Dynamics AX 2009</p></li>
 </ul>
+
 > [!note]  
 > <P>The upgrade starts and the source environment is still live, but there is minimal effect to the live system.</P>
+
 </td>
 </tr>
 <tr class="even">
