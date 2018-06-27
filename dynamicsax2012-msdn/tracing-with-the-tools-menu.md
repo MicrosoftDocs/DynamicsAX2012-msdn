@@ -81,8 +81,10 @@ The warning system alerts you when code fragments or constructions force the ker
 <td><p>The field 'myTable.myField', which appears in the GROUP BY list, is not stored in the database, and is thus ignored.</p></td>
 <td><p>W-104</p></td>
 <td><p>Replace the display or virtual field that is listed in the GROUP BY clause with a field that is stored in a database table.</p>
+
 > [!note]  
 > <P>Fields that are calculated during query execution are not stored in the database.</P>
+
 </td>
 </tr>
 <tr class="odd">
@@ -119,16 +121,20 @@ The warning system alerts you when code fragments or constructions force the ker
 <td><p>Downloading the EntireTable-cached table 'myTable' in company 'DAT' exceeds the time-threshold (1000 ms): 1234 milliseconds used.</p></td>
 <td><p>W-111</p></td>
 <td><p>Modify the query to process a limited portion of the table in any one iteration or consider increasing the time threshold.</p>
+
 > [!note]  
 > <P>Increasing the time threshold might risk creating long database locks, or blocking or deadlocking other queries.</P>
+
 </td>
 </tr>
 <tr class="even">
 <td><p>Downloading the EntireTable-cached table 'myTable' in company 'DAT' exceeds the record-threshold (2000): 12345 record(s) retrieved.</p></td>
 <td><p>W-112</p></td>
 <td><p>Modify the query to process a limited portion of the table in any one iteration, or consider increasing the record-threshold.</p>
+
 > [!note]  
 > <P>Increasing the record threshold might risk creating long database locks, or blocking or deadlocking other queries.</P>
+
 </td>
 </tr>
 <tr class="odd">
