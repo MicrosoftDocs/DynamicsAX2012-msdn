@@ -100,8 +100,10 @@ The following table describes what has changed in this release:
 <li><p><a href="https://msdn.microsoft.com/en-us/library/hh202131(v=ax.60)">Configure security for integration ports</a> – Describes how to restrict service requests on an enhanced inbound integration port to a particular partition.</p></li>
 <li><p><a href="https://msdn.microsoft.com/en-us/library/jj728665(v=ax.60)">Data partitioning architecture</a> – Contains background and graphical representation of the new partitioning architecture.</p></li>
 </ul>
+
 > [!note]  
 > <P>In Microsoft Dynamics AX 2012 R2, AIF includes support for optional replacement fields for a surrogate foreign key that has multiple replacement fields. In other words, a replacement field is optional if the referring surrogate foreign key field is specified as non-mandatory on the table. In previous versions of Microsoft Dynamics AX, AIF considered all surrogate foreign key replacement fields as mandatory.  For outbound transfers, this meant that previous versions of Dynamics AX serialized each field when sending Axd documents. Therefore, in external clients written to use outbound document services in previous versions of Microsoft Dynamics AX, fields that were previously mandatory are now optional, and may be missing from the XML message.</P>
+
 </td>
 </tr>
 <tr class="odd">
