@@ -38,16 +38,20 @@ The following table lists the relational operators that can be used in X++. All 
 <p>If the expressions that you are comparing contain a file path, you need to include four backslashes between each element. For example:</p>
 <p>select * from xRefpaths</p>
 <p>    where xRefPaths.Path like “\\\\Classes\\\\AddressSelectForm”</p>
+
 > [!note]  
 > <P>like is evaluated by the underlying SQL, so the result may differ on different installations.</P>
+
 </td>
 </tr>
 <tr class="even">
 <td><p>==</p></td>
 <td><p>equal</p></td>
 <td><p>Returns true if both expressions are equal.</p>
+
 > [!note]  
 > <P>When you use == to compare objects, the object references rather than the objects themselves are compared. This may be a problem if you compare two objects that are located on the server and on the client, respectively. In such cases, you should use the equal method in the Object class, which you can override to specify what it means that two objects are equal. If equal is not overridden, the comparison is identical to the one performed by ==.</P>
+
 </td>
 </tr>
 <tr class="odd">
