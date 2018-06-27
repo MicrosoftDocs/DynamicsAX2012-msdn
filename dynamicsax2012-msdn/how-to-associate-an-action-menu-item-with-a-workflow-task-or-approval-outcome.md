@@ -62,8 +62,10 @@ Before you begin this procedure, you must create a task or approval outcome that
     <tr class="even">
     <td><p><strong>Object</strong></p></td>
     <td><p>Set to WorkflowWorkItemActionManager (for Enterprise Portal, set to EPWorkflowWorkItemActionManager) to use the default workflow action manager. Optionally, implement a custom class.</p>
+    
     > [!note]  
     > <P>The <strong>Resubmit</strong> and <strong>Submit</strong> action menu items will require a custom class as this action affects the state of your document.</P>
+    
     </td>
     </tr>
     <tr class="odd">
