@@ -81,14 +81,9 @@ The warning system alerts you when code fragments or constructions force the ker
 <td><p>The field 'myTable.myField', which appears in the GROUP BY list, is not stored in the database, and is thus ignored.</p></td>
 <td><p>W-104</p></td>
 <td><p>Replace the display or virtual field that is listed in the GROUP BY clause with a field that is stored in a database table.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Fields that are calculated during query execution are not stored in the database.
-</div>
-</div></td>
+> [!note]  
+> <P>Fields that are calculated during query execution are not stored in the database.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Field 'myTable.myField' appears more than once in select-list, only the first is actually used.</p></td>
@@ -124,27 +119,17 @@ Fields that are calculated during query execution are not stored in the database
 <td><p>Downloading the EntireTable-cached table 'myTable' in company 'DAT' exceeds the time-threshold (1000 ms): 1234 milliseconds used.</p></td>
 <td><p>W-111</p></td>
 <td><p>Modify the query to process a limited portion of the table in any one iteration or consider increasing the time threshold.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Increasing the time threshold might risk creating long database locks, or blocking or deadlocking other queries.
-</div>
-</div></td>
+> [!note]  
+> <P>Increasing the time threshold might risk creating long database locks, or blocking or deadlocking other queries.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p>Downloading the EntireTable-cached table 'myTable' in company 'DAT' exceeds the record-threshold (2000): 12345 record(s) retrieved.</p></td>
 <td><p>W-112</p></td>
 <td><p>Modify the query to process a limited portion of the table in any one iteration, or consider increasing the record-threshold.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Increasing the record threshold might risk creating long database locks, or blocking or deadlocking other queries.
-</div>
-</div></td>
+> [!note]  
+> <P>Increasing the record threshold might risk creating long database locks, or blocking or deadlocking other queries.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Calls to NEXT, update(), or delete() must be performed on the buffer on the selection transaction level, or within the same transaction (TTS) scope (RecId is XXX).</p></td>

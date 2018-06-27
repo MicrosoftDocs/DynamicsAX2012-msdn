@@ -63,14 +63,9 @@ A few properties exist only on the **Design** node. They are described in the fo
 <li><p><strong>Yes</strong> – no restrictions on user setup.</p></li>
 </ul>
 <p>The default value is <strong>Yes</strong>.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-Full user setup is not allowed if any of the parent containers for the control have restrictions on the user setup level. The <strong>AllowAdd</strong> property on form data sources determines whether a user can add a field to a form.
-</div>
-</div></td>
+> [!caution]  
+> <P>Full user setup is not allowed if any of the parent containers for the control have restrictions on the user setup level. The <strong>AllowAdd</strong> property on form data sources determines whether a user can add a field to a form.</P>
+</td>
 <td><p>AX 2012</p></td>
 </tr>
 <tr class="even">
@@ -119,14 +114,9 @@ Full user setup is not allowed if any of the parent containers for the control h
 <tr class="odd">
 <td><p><strong>Columns</strong></p></td>
 <td><p>Specifies the number of columns that display the information.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-Field groups on the underlying table are never split into more than one column.
-</div>
-</div></td>
+> [!caution]  
+> <P>Field groups on the underlying table are never split into more than one column.</P>
+</td>
 <td><p>AX 2012</p></td>
 </tr>
 <tr class="even">
@@ -137,14 +127,9 @@ Field groups on the underlying table are never split into more than one column.
 <tr class="odd">
 <td><p><strong>DataSource</strong></p></td>
 <td><p>Determines which table data is displayed from in the control. To set a particular field within this table, use the <strong>DataField</strong> property. If the control opens another form, relations between the data source specified here for the control and the data source on the other form will ensure that records in the second form are dynamically selected. For example, if a customer is selected in one form, and the control opens up a form showing customer transactions, a range of customer transactions applying to the current customer would be displayed in the second form.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, this will override any settings made on the <strong>DataMethod</strong> or <strong>ExtendedDataType</strong> properties.
-</div>
-</div></td>
+> [!caution]  
+> <P>If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, this will override any settings made on the <strong>DataMethod</strong> or <strong>ExtendedDataType</strong> properties.</P>
+</td>
 <td><p>AX 2012</p></td>
 </tr>
 <tr class="even">
@@ -256,27 +241,17 @@ If you set the <strong>DataSource</strong> and <strong>DataField</strong> proper
 <tr class="even">
 <td><p><strong>SetCompany</strong></p></td>
 <td><p>Causes the system to change the company when the form gets focus.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-If the <strong>SaveDataPerCompany</strong> property on a table is set to <strong>Yes</strong>, the <strong>SetCompany</strong> property on a form design that uses the table as a data source must also be set to <strong>Yes</strong>.
-</div>
-</div></td>
+> [!note]  
+> <P>If the <strong>SaveDataPerCompany</strong> property on a table is set to <strong>Yes</strong>, the <strong>SetCompany</strong> property on a form design that uses the table as a data source must also be set to <strong>Yes</strong>.</P>
+</td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>StatusBarStyle</strong></p></td>
 <td><p>Determines how to display the status bar on a form. Use this property to hide the status bar, display only help information, display status bar elements based on the <strong>WindowType</strong>, or to always display the full status bar.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Forms with a <strong>WindowType</strong> of <strong>ListPage</strong>, <strong>ContentPage</strong>, or <strong>Workspace</strong> ignore this property.
-</div>
-</div></td>
+> [!note]  
+> <P>Forms with a <strong>WindowType</strong> of <strong>ListPage</strong>, <strong>ContentPage</strong>, or <strong>Workspace</strong> ignore this property.</P>
+</td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -340,14 +315,9 @@ Forms with a <strong>WindowType</strong> of <strong>ListPage</strong>, <strong>C
 <tr class="even">
 <td><p><strong>Visible</strong></p></td>
 <td><p>Enables you to hide the Form.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-You cannot use the <strong>Visible</strong> property to enforce access restrictions. The user can change the visibility for the controls in the Form Setup dialog. Use the <strong>Enabled</strong> and <strong>NeededAccessLevel</strong> properties instead.
-</div>
-</div></td>
+> [!caution]  
+> <P>You cannot use the <strong>Visible</strong> property to enforce access restrictions. The user can change the visibility for the controls in the Form Setup dialog. Use the <strong>Enabled</strong> and <strong>NeededAccessLevel</strong> properties instead.</P>
+</td>
 <td><p>AX 2012</p></td>
 </tr>
 <tr class="odd">

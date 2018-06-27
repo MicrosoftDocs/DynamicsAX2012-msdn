@@ -61,14 +61,9 @@ The following table provides detail on when to use each data source type to acce
 <li><p>Data to be rendered can be accessed by calling X++ business classes.</p></li>
 <li><p>You are using the dynamic filter and want to add more filters at runtime based on UI parameters.</p></li>
 </ul>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-A query should be considered before you use a Report Data Provider class.
-</div>
-</div></td>
+> [!note]  
+> <P>A query should be considered before you use a Report Data Provider class.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/ee873271(v=ax.60)">AX Enum Provider</a></p></td>

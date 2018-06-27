@@ -41,14 +41,9 @@ The declaration of strings is described in the following table.
 <td><p>Typeoptions</p></td>
 <td><p>=</p></td>
 <td><p>[maxlength]</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-X++ that is compiled into .NET Framework common intermediate language (CIL) code ignores the [maxlength] specification. For information about how to detect cases where strings are truncated due to a [maxlength] specification during run time, read about the logstrtrunc option in <a href="https://msdn.microsoft.com/en-us/library/aa569653(v=ax.60)">Client configuration commands</a>.
-</div>
-</div></td>
+> [!caution]  
+> <P>X++ that is compiled into .NET Framework common intermediate language (CIL) code ignores the [maxlength] specification. For information about how to detect cases where strings are truncated due to a [maxlength] specification during run time, read about the logstrtrunc option in <a href="https://msdn.microsoft.com/en-us/library/aa569653(v=ax.60)">Client configuration commands</a>.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Variable</p></td>

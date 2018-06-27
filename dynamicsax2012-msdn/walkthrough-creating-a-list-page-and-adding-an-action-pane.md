@@ -142,14 +142,9 @@ In this section, you add a tab control to the action pane. The action pane, seve
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>General</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    When the action pane is displayed, this value will be the tab label.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>When the action pane is displayed, this value will be the tab label.</P>
+    </td>
     </tr>
     </tbody>
     </table>
@@ -184,14 +179,9 @@ In this section, you add two button groups to the **General** action pane tab. A
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>List</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    When the action pane is displayed, this value will be the button group label.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>When the action pane is displayed, this value will be the button group label.</P>
+    </td>
     </tr>
     </tbody>
     </table>
@@ -222,14 +212,9 @@ In this section, you add two button groups to the **General** action pane tab. A
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>Attachments</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    When the action pane is displayed, this value will be the button group label.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>When the action pane is displayed, this value will be the button group label.</P>
+    </td>
     </tr>
     </tbody>
     </table>
@@ -268,14 +253,9 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>Command</strong></p></td>
     <td><p><strong>Export To Microsoft Excel</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This is the action that the button performs when it is clicked.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>This is the action that the button performs when it is clicked.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>ImageLocation</strong></p></td>
@@ -292,14 +272,9 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>NormalImage</strong></p></td>
     <td><p><strong>10156</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-    </div>
-    <div class="mtps-row">
-    You must set the <strong>ImageLocation</strong> before entering a value in this property.
-    </div>
-    </div></td>
+    > [!caution]  
+    > <P>You must set the <strong>ImageLocation</strong> before entering a value in this property.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>Primary</strong></p></td>
@@ -350,14 +325,9 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="even">
     <td><p><strong>MenuItemName</strong></p></td>
     <td><p><strong>DocuView</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    When this button is clicked, the document handling form opens.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>When this button is clicked, the document handling form opens.</P>
+    </td>
     </tr>
     <tr class="odd">
     <td><p><strong>MultiSelect</strong></p></td>
@@ -370,14 +340,9 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>NormalImage</strong></p></td>
     <td><p><strong>10442</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-    </div>
-    <div class="mtps-row">
-    You must set the <strong>ImageLocation</strong> before entering a value in this property.
-    </div>
-    </div></td>
+    > [!caution]  
+    > <P>You must set the <strong>ImageLocation</strong> before entering a value in this property.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>Primary</strong></p></td>

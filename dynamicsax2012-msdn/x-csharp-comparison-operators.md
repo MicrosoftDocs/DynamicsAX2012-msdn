@@ -78,19 +78,14 @@ The following table lists the arithmetic operators.
 <tr class="odd">
 <td><p>*</p></td>
 <td><p>As the multiplication operator, there are no differences.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The asterisk is also used in the SQL statements that are part of the X++ language. In these SQL statements the asterisk can also be one of the following:
-<ul>
-<li><p>A wildcard indicating that all the columns should be returned.</p></li>
-<li><p>A wildcard for characters in a string that is used on a like clause.</p></li>
-</ul>
-For more information, see <a href="relational-operators.md">Relational Operators</a>.
-</div>
-</div></td>
+> [!note]  
+> <P>The asterisk is also used in the SQL statements that are part of the X++ language. In these SQL statements the asterisk can also be one of the following:
+> <ul>
+> <li><p>A wildcard indicating that all the columns should be returned.</p></li>
+> <li><p>A wildcard for characters in a string that is used on a like clause.</p></li>
+> </ul>
+> For more information, see <a href="relational-operators.md">Relational Operators</a>.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p>/</p></td>

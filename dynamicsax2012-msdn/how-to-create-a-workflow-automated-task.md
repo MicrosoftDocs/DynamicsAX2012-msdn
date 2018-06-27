@@ -56,14 +56,9 @@ You can create Microsoft Dynamics AX workflow automated tasks as a step within a
     <tr class="odd">
     <td><p><strong>Document</strong></p></td>
     <td><p>The workflow document that the automated task is associated with.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This setting must match the <strong>Document</strong> property setting used in the workflow type for the workflow.
-    </div>
-    </div></td>
+    > [!note]  
+    > <P>This setting must match the <strong>Document</strong> property setting used in the workflow type for the workflow.</P>
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>ExecutionEventHandler</strong></p></td>

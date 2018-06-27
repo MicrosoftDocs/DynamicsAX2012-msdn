@@ -55,14 +55,9 @@ The following table describes best practice rules for form data source propertie
 <tr class="even">
 <td><p>AllowCheck, AllowEdit, AllowCreate, AllowDelete</p></td>
 <td><p>Usually should be set to Yes, but you should decide what is appropriate for your application. Set to No for lookup forms.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-AllowCheck on joined data sources (inner, outer, exist, not exist) must be set to Yes (which is the default) to enforce security checking across all data sources.
-</div>
-</div></td>
+> [!note]  
+> <P>AllowCheck on joined data sources (inner, outer, exist, not exist) must be set to Yes (which is the default) to enforce security checking across all data sources.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>StartPosition</p></td>

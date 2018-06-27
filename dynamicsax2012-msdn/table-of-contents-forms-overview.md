@@ -117,14 +117,9 @@ Before you add fields and other controls to your tab page, you must add a group 
 <tr class="odd">
 <td><p>Simple list and details</p></td>
 <td><p>You can use a grid that shows a list of records together with a details section that shows information about the selected record. You should set the <strong>Style</strong> property of the details group to <strong>TOCTopicSimple</strong>.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-You should avoid using the list and details pattern. The list grid and the details section add another layer of navigation that complicates the form. You should try to fit the information into an editable grid. You can then use the grid to add or update records.
-</div>
-</div></td>
+> [!caution]  
+> <P>You should avoid using the list and details pattern. The list grid and the details section add another layer of navigation that complicates the form. You should try to fit the information into an editable grid. You can then use the grid to add or update records.</P>
+</td>
 </tr>
 </tbody>
 </table>

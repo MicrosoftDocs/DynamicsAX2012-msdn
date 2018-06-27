@@ -92,14 +92,9 @@ The following table provides information on the best practice checks.
 <td><p><strong>Use of discontinued functionality</strong></p></td>
 <td><p>Check whether functionality used in the system has been replaced by new features.</p>
 <p>If an application object is planned to be discontinued in an upcoming version, it is a best practice to not use the application object in this version. This check scans for usage of objects that are planned to be discontinued.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-It is possible that other application objects that are not checked by this method might also be discontinued.
-</div>
-</div></td>
+> [!note]  
+> <P>It is possible that other application objects that are not checked by this method might also be discontinued.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Record and table ID references</strong></p></td>
@@ -252,14 +247,9 @@ It is possible that other application objects that are not checked by this metho
 <td><p>Check the use of the <strong>CurrencyCode</strong> related properties.</p>
 <p>The <strong>CurrencyCode</strong> property must be set on all fields by using an extended data type derived from the Money system type, if the <strong>AnalysisVisibility</strong> property is set to <strong>High</strong>, <strong>Medium</strong>, or <strong>Low</strong>. It should not be set on any other fields. You must set <strong>CurrencyCode</strong> to <strong>SecondaryCurrency</strong> if the field uses an extended data type derived from AmountMSTSecondary; otherwise, set it to <strong>CurrencyCodeField</strong>.</p>
 <p>If the <strong>CurrencyCode</strong> property is set to <strong>CurrencyCodeField</strong>, you must also set the <strong>CurrencyCodeTable</strong> property to the table that contains that field, or to a table for which a relationship exists from the table that contains this field, and in which a unique index exists for the fields on the target end of the relationship. If <strong>CurrencyCode</strong> is set to <strong>CurrencyCodeField</strong>, you must also set the <strong>CurrencyCodeField</strong> property to a field that uses an extended data type derived from the <strong>CurrencyCode</strong> property.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Do not use master currency amounts to set the <strong>CurrencyCode</strong> properties, because master currency amounts are always in the master currency for the associated company.
-</div>
-</div></td>
+> [!note]  
+> <P>Do not use master currency amounts to set the <strong>CurrencyCode</strong> properties, because master currency amounts are always in the master currency for the associated company.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Currency date fields</strong></p></td>

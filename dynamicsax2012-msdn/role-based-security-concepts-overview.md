@@ -89,14 +89,9 @@ The following table summarizes role-based security system concept definitions.
 <li><p>An entry point is the object that triggers a user action to start a particular function, such as a form or a service.</p></li>
 <li><p>In Microsoft Dynamics AX, there are three different types of entry points - menu items, Web content items and service operations.</p></li>
 </ul>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Important" alt="Important" class="note" /><strong>Important</strong>
-</div>
-<div class="mtps-row">
-In the licensing model for Microsoft Dynamics AX, entry points are referred to as menu items.
-</div>
-</div></td>
+> [!caution]  
+> <P>In the licensing model for Microsoft Dynamics AX, entry points are referred to as menu items.</P>
+</td>
 </tr>
 <tr class="even">
 <td><p>Permission</p></td>
@@ -106,14 +101,9 @@ In the licensing model for Microsoft Dynamics AX, entry points are referred to a
 <li><p>Permissions group securable objects and permissions that are required for them. For example, form and report permissions.</p></li>
 <li><p>In Microsoft Dynamics AX, individual security permissions are combined into privileges, and privileges are combined into duties.</p></li>
 </ul>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Important" alt="Important" class="note" /><strong>Important</strong>
-</div>
-<div class="mtps-row">
-Be aware that modifying permissions may impact licensing requirements. For more information about how licensing relates to security, see the <a href="http://go.microsoft.com/fwlink/?linkid=228370">Security roles and licensing white paper</a> for Microsoft Dynamics AX 2012.
-</div>
-</div></td>
+> [!caution]  
+> <P>Be aware that modifying permissions may impact licensing requirements. For more information about how licensing relates to security, see the <a href="http://go.microsoft.com/fwlink/?linkid=228370">Security roles and licensing white paper</a> for Microsoft Dynamics AX 2012.</P>
+</td>
 </tr>
 <tr class="odd">
 <td><p>Permission set</p></td>

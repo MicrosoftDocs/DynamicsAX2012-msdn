@@ -60,15 +60,10 @@ The following table displays a list of syntax changes that start in Microsoft Dy
 <tr class="even">
 <td><p>Inheritance</p></td>
 <td><p>Downcasting can now be explicit.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-<br />
-It is good programming practice to avoid implicit downcasts.<br />
-</div>
-</div></td>
+> [!note]  
+> <P><br />
+It is good programming practice to avoid implicit downcasts.<br /></P>
+</td>
 <td><p>It was possible to assign a base object to a derived object with the simple assignment operator, which is the equals sign (=). The compiler accepted these assignments, but during run time any misuse of an improper downcast assignment caused an error.</p></td>
 <td><p>Now all downcasts can be explicit. This is accomplished with the new as expression operator. Explicit downcasting with the as keyword is illustrated by the following code example, in which ThingClass extends Object:</p>
 <p><br />
