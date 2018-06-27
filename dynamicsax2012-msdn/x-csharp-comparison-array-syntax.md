@@ -50,8 +50,10 @@ The following table lists areas in the \[\] syntax for arrays that are different
 <td><p>An array is declared with square brackets appended to the variable name.</p></td>
 <td><p>An array is declared with square brackets appended to the data type.</p></td>
 <td><p>int myInts[]; // X++</p>
+
 > [!note]  
 > <P>An X++ array cannot be a parameter in a method.</P>
+
 </td>
 </tr>
 <tr class="even">
