@@ -123,8 +123,10 @@ For a description of each property, see [Table Properties](https://msdn.microsof
 <td><p>SaveDataPerCompany</p></td>
 <td><p>Set to Yes for company-specific tables.</p>
 <p>Set to No if the data is related to cross-companies, installation, a database, the AOT, tracing, or OLAP. For example, SysTraceTable or OLAPServerTable.</p>
+
 > [!note]  
 > <P>If the SaveDataPerCompany property on a table is set to Yes, the SetCompany property on a form design that uses that table as a data source must also be set to Yes.</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -134,8 +136,10 @@ For a description of each property, see [Table Properties](https://msdn.microsof
 <p>Deleting records from a group table can sometimes result in an unstable situation. Enable confirm deletion. For more information, see <a href="maintaining-data-integrity.md">Maintaining Data Integrity</a>.</p>
 <p>Typical examples of Group tables from the standard application are CustGroup and VendGroup.</p>
 <p>Set to Main for tables that contain base data.</p>
+
 > [!note]  
 > <P>Consider using an alias field for all tables that have the TableGroup property set to Main. Alias fields are set by using the AliasFor property on the field. For example, a phone number could be an alias for a customer ID. When the phone number is entered, it is automatically replaced by the customer's ID.</P>
+
 </td>
 </tr>
 <tr class="odd">
