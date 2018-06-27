@@ -62,8 +62,10 @@ To complete this walkthrough, you will need:
     <tr class="even">
     <td><p><strong>WorkflowDataSource</strong></p></td>
     <td><p><strong>CustTable</strong></p>
+    
     > [!note]  
     > <P>This is the root data source specified in the query used for the <strong>Document</strong> property on the <strong>MyWorkfowType</strong> type. For more information, see <a href="walkthrough-creating-a-workflow-type.md">Walkthrough: Creating a Workflow Type</a>.</P>
+    
     </td>
     </tr>
     <tr class="odd">
