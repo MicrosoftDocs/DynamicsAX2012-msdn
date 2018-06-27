@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guidance for Choosing the Data Source Type
 TOCTitle: Guidance for Choosing the Data Source Type
 ms:assetid: 93a04e51-820b-414b-9f8a-cbeff12c1f6c
@@ -61,8 +61,10 @@ The following table provides detail on when to use each data source type to acce
 <li><p>Data to be rendered can be accessed by calling X++ business classes.</p></li>
 <li><p>You are using the dynamic filter and want to add more filters at runtime based on UI parameters.</p></li>
 </ul>
+
 > [!note]  
 > <P>A query should be considered before you use a Report Data Provider class.</P>
+
 </td>
 </tr>
 <tr class="even">
