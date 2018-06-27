@@ -51,8 +51,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>AcquireFocus</strong></p></td>
 <td><p>Specify whether a button or menu button in an action pane gets focus. Use <strong>Yes</strong> to have the button temporarily get focus when clicked. Use <strong>No</strong> when the button should not get focus. The default value is <strong>Yes</strong>.</p>
+
 > [!caution]  
 > <P>Set the property to <strong>Yes</strong> when a button or menu button control appears in an action pane.</P>
+
 </td>
 <td><p>AX 2012</p></td>
 </tr>
@@ -93,8 +95,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>AllowEdit</strong></p></td>
 <td><p>Specify whether you can modify the data in the control.</p>
 <p>When this property is set on a container control, modifications are disabled or enabled for all controls within the container.</p>
+
 > [!caution]  
 > <P>The fields that appear in a ListView control remain editable after you set <strong>AllowEdit</strong> to <strong>No</strong>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -125,8 +129,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>AnimateFile</strong></p></td>
 <td><p>Specifies the name of the .avi file to be used in an Animate control. For a list of the .avi files supplied with Microsoft Dynamics AX, see the AviFiles macro.</p>
+
 > [!note]  
 > <P>The .avi file must not have a soundtrack.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -166,8 +172,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>AutoDeclaration</strong></p></td>
 <td><p>Determines whether the system should declare a variable of the same name as the control.</p>
 <p>Set to Yes to refer to the control in X++ code on the form.</p>
+
 > [!note]  
 > <P>Each control must have a unique name.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -304,8 +312,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>Columns</strong></p></td>
 <td><p>Sets the number of columns that display the information.</p>
+
 > [!note]  
 > <P>Field groups on the underlying table are never split into more than one column.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -359,9 +369,11 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>Custom</strong></p></td>
 <td><p>Opens the property sheet for an ActiveX control.</p>
 <p>Click the button in this property field to access the ActiveX properties for control.</p>
+
 > [!note]  
 > <P>The form must be in Design view, before you select the button. Right-click on the <strong>Design</strong> node of the form and select <strong>Edit</strong>. Not all ActiveX controls have a property sheet, and some controls do not allow you to edit it.</P>
 > <P>For more information, see <a href="how-to-add-activex-controls-to-forms.md">How to: Add ActiveX Controls to Forms</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -375,8 +387,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>DataField</strong></p></td>
 <td><p>Specifies which field on the underlying table supplies data for the control.</p>
 <p>The table is set by using the <strong>DataSource</strong> property.</p>
+
 > [!note]  
 > <P>If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, any settings made on the <strong>DataMethod</strong> or <strong>ExtendedDataType</strong> properties will be overridden.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -393,8 +407,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <li><p>The <strong>Methods</strong> node within the <strong>Data Sources</strong> node on the form</p></li>
 <li><p>The <strong>Methods</strong> node on the form</p></li>
 </ul>
+
 > [!note]  
 > <P>If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, any settings made on the <strong>DataMethod</strong> property will be overridden.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -404,8 +420,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <p>To set a particular field within this table, use the <strong>DataField</strong> property.</p>
 <p>If the control opens another form, relations between the data source specified here for the control and the data source on the other form will ensure that records in the second form are dynamically selected.</p>
 <p>For example, if a customer is selected in one form, and the control opens up a form showing customer transactions, a range of customer transactions applying to the current customer would be displayed in the second form.</p>
+
 > [!note]  
 > <P>If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, this will override any settings made on the <strong>DataMethod</strong> or <strong>ExtendedDataType</strong> properties.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -440,8 +458,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>DateValue</strong></p></td>
 <td><p>Enables you to specify a specific date for a DateEdit control instead of using a data source.</p>
+
 > [!note]  
 > <P>This property is not used if the <strong>DataSource</strong> and <strong>DataField</strong> properties are set.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -471,16 +491,20 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>DefaultButton</strong></p></td>
 <td><p>Specifies whether a button control should be the default button.</p>
 <p>If this property is set to Yes, the button is selected when the user presses ENTER when the form is open.</p>
+
 > [!note]  
 > <P>The <strong>Frame</strong> property on the form design must be set to Dialog for this property to have an effect.</P>
+
 </td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Direction</strong></p></td>
 <td><p>Specifies whether the progress bar should be drawn horizontally or vertically in a Progress control.</p>
+
 > [!note]  
 > <P>Do not use a Progress control in a form. Use the Progress Indicators framework instead. For more information, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -528,8 +552,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>DragDrop</strong></p></td>
 <td><p>Enables the field to be moved with a drag-and-drop operation.</p>
+
 > [!note]  
 > <P>Drag-and-drop fields require code to support them. For examples, see the tutorial_FormListControl and tutorial_FormTreeControl forms.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -559,8 +585,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>ExtendedDataType</strong></p></td>
 <td><p>Bases the control on an extended data type.</p>
+
 > [!note]  
 > <P>If you set the <strong>DataSource</strong> and <strong>DataField</strong> properties, or the <strong>DataMethod</strong> property, this will override any settings made on the <strong>ExtendedDataType</strong> property.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -679,8 +707,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>Height</strong></p></td>
 <td><p>Changes the height of the control. The height is specified in pixels.</p>
+
 > [!note]  
 > <P>For more information about the <strong>Height</strong> and <strong>Width</strong> properties, see the tutorial_arrange form.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -688,8 +718,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>HelpText</strong></p></td>
 <td><p>Determines the Help string for the control. The Help string is shown in the status bar when a user points to the control with a mouse pointer.</p>
 <p>If you don't enter a value for this property, it will be inherited from the field or the extended data type that the control is based on.</p>
+
 > [!note]  
 > <P>You must use a label to specify the content for this property.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -950,8 +982,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>Name</strong></p></td>
 <td><p>Determines the name of the control.</p>
+
 > [!note]  
 > <P>Each control name must be unique—it allows the automatic declaration of controls as variables.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1033,8 +1067,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>Pos</strong></p></td>
 <td><p>Enables you to set a non-default initial value for a Progress control. If you don't set this property, the initial value will be the value specified by the <strong>RangeLo</strong> property. The maximum value of <strong>Pos</strong> is determined by the <strong>RangeHi</strong> property.</p>
+
 > [!note]  
 > <P>Do not use a Progress control in a form. Use the Progress Indicators framework instead. For more information, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1068,8 +1104,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>ProgressType</strong></p></td>
 <td><p>Determines how progression is shown in a Progress control (Normal or Smooth).</p>
+
 > [!note]  
 > <P>Do not use a Progress control in a form. Use the Progress Indicators framework instead. For more information, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1082,8 +1120,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>RangeHi</strong></p></td>
 <td><p>Sets the maximum range of the progress bar for a Progress control.</p>
+
 > [!note]  
 > <P>Do not use a Progress control in a form. Use the Progress Indicators framework instead. For more information, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1225,8 +1265,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="even">
 <td><p><strong>SignDisplay</strong></p></td>
 <td><p>Displays the sign of a number if the value is negative. Also determines whether the sign is displayed before or after the number. The default value is Auto.</p>
+
 > [!note]  
 > <P>If you set the property to None, the sign might not be hidden when the control appears on a form.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1263,8 +1305,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>Step</strong></p></td>
 <td><p>Defines the integer value that the progress bar increases in one step.</p>
+
 > [!note]  
 > <P>Do not use a Progress control in a form. Use the Progress Indicators framework instead. For more information, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1470,8 +1514,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>Visible</strong></p></td>
 <td><p>Enables you to hide the control.</p>
+
 > [!note]  
 > <P>You cannot use the <strong>Visible</strong> property to enforce access restrictions. The user can change the visibility for the controls in the <strong>Form Setup</strong> dialog. Use the <strong>Enabled</strong> and <strong>NeededAccessLevel</strong> Properties instead.</P>
+
 </td>
 <td><p></p></td>
 </tr>
@@ -1496,8 +1542,10 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <tr class="odd">
 <td><p><strong>Width</strong></p></td>
 <td><p>Changes the width in pixels of the control.</p>
+
 > [!note]  
 > <P>For more information about using the <strong>Height</strong> and <strong>Width</strong> properties, see the tutorial_arrange form.</P>
+
 </td>
 <td><p></p></td>
 </tr>
