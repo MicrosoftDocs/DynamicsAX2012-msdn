@@ -53,8 +53,10 @@ When the reference layer is not an **old** layer, such as **old sys**, the refer
     <tr class="odd">
     <td><p><strong>Reference layer</strong></p></td>
     <td><p>The layer that you want to compare to the source layer.</p>
+    
     > [!note]  
     > <P>You can select <strong>old sys</strong> as the reference layer. This is useful if you want to learn what application objects have changed.</P>
+    
     </td>
     </tr>
     <tr class="even">
