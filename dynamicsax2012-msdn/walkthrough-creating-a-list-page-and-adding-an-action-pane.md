@@ -142,8 +142,10 @@ In this section, you add a tab control to the action pane. The action pane, seve
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>General</strong></p>
+    
     > [!note]  
     > <P>When the action pane is displayed, this value will be the tab label.</P>
+    
     </td>
     </tr>
     </tbody>
@@ -179,8 +181,10 @@ In this section, you add two button groups to the **General** action pane tab. A
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>List</strong></p>
+    
     > [!note]  
     > <P>When the action pane is displayed, this value will be the button group label.</P>
+    
     </td>
     </tr>
     </tbody>
@@ -212,8 +216,10 @@ In this section, you add two button groups to the **General** action pane tab. A
     <tr class="even">
     <td><p><strong>Caption</strong></p></td>
     <td><p><strong>Attachments</strong></p>
+    
     > [!note]  
     > <P>When the action pane is displayed, this value will be the button group label.</P>
+    
     </td>
     </tr>
     </tbody>
@@ -253,8 +259,10 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>Command</strong></p></td>
     <td><p><strong>Export To Microsoft Excel</strong></p>
+    
     > [!note]  
     > <P>This is the action that the button performs when it is clicked.</P>
+    
     </td>
     </tr>
     <tr class="even">
@@ -272,8 +280,10 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>NormalImage</strong></p></td>
     <td><p><strong>10156</strong></p>
+    
     > [!caution]  
     > <P>You must set the <strong>ImageLocation</strong> before entering a value in this property.</P>
+    
     </td>
     </tr>
     <tr class="even">
@@ -325,8 +335,10 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="even">
     <td><p><strong>MenuItemName</strong></p></td>
     <td><p><strong>DocuView</strong></p>
+    
     > [!note]  
     > <P>When this button is clicked, the document handling form opens.</P>
+    
     </td>
     </tr>
     <tr class="odd">
@@ -340,8 +352,10 @@ In this section, you add a button to each button group that you created earlier.
     <tr class="odd">
     <td><p><strong>NormalImage</strong></p></td>
     <td><p><strong>10442</strong></p>
+    
     > [!caution]  
     > <P>You must set the <strong>ImageLocation</strong> before entering a value in this property.</P>
+    
     </td>
     </tr>
     <tr class="even">
