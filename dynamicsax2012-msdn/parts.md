@@ -54,8 +54,10 @@ There are several types of FactBoxes that you can use in the FactBox pane of a f
 <tr class="even">
 <td><p><strong>Form Part</strong></p></td>
 <td><p>A part that represents a pointer to a form. You use a form part when you want a form to appear in the FactBox pane, enhanced preview, or preview pane.</p>
+
 > [!caution]  
 > <P>Enterprise Portal does not support the use of a form as a FactBox. To use a form part with Enterprise Portal, you use the <strong>ManagedContentItem</strong> property to specify a User Control. The specified User Control appears in Enterprise Portal as the FactBox.</P>
+
 </td>
 </tr>
 <tr class="odd">
