@@ -109,8 +109,10 @@ The following table lists methods that you can override. Some of the methods are
 <td><p>data</p></td>
 <td><p>Not activated by the system.</p></td>
 <td><p>The super) call returns the contents of a cell in a table control.</p>
+
 > [!note]  
 > <P>Do not override the data method. An override might prevent users from accessing their data.</P>
+
 </td>
 </tr>
 <tr class="even">
