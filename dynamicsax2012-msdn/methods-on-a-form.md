@@ -69,8 +69,10 @@ The following table lists the methods available for forms and explains when they
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg920114(v=ax.60)">canSubmitToWorkflow</a></p></td>
 <td><p>This method is invoked in updateWorkflowControls to determine when the <strong>Submit</strong> button and context message are to be displayed.</p></td>
 <td><p>Use this method to determine whether the <strong>Submit</strong> button should be displayed.</p>
+
 > [!caution]  
 > <P>To enable workflow, you MUST override this method as the base implementation always returns False.</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -119,8 +121,10 @@ The following table lists the methods available for forms and explains when they
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906240(v=ax.60)">controlMethodOverloadObject</a></p></td>
 <td><p>Not called by the system.</p></td>
 <td><p>Enables you to specify that a user interface event should trigger a method on an object instead of on the form control. The object is specified in the parameter for the method. For example, you might want to call a clicked method on a class instead of on the form.</p>
+
 > [!note]  
 > <P>If you want to call an event method on the form, use the FormRun.controlMethodOverload method instead of the controlMethodOverloadObject method.</P>
+
 </td>
 </tr>
 <tr class="odd">
@@ -142,16 +146,20 @@ The following table lists the methods available for forms and explains when they
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906252(v=ax.60)">doApply</a></p></td>
 <td><p>The user closes a modal window.</p></td>
 <td><p>Use this method to follow-up on the closing of the modal window.</p>
+
 > [!note]  
 > <P>A modal window is a secondary window that requires the user to complete an interaction within it and to close it before continuing with any interaction outside the window.</P>
+
 </td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/en-us/library/gg906253(v=ax.60)">docCursor</a></p></td>
 <td><p>Not called by the system.</p></td>
 <td><p>Returns a cursor to the current data source record. This is useful when a form has more than one data source.</p>
+
 > [!note]  
 > <P>This method is used by the document management system.</P>
+
 </td>
 </tr>
 <tr class="even">
