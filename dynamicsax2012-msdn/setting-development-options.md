@@ -142,15 +142,19 @@ To set development options in Microsoft Dynamics AX click **Tools** \> **Options
 <td><p>Auto-refresh</p></td>
 <td><p>Select this if you want the system to update elements automatically so that elements that are made by other users become available to all users. In addition, the system updates lock indications in the Application Object Tree (AOT).</p>
 <p>You can also refresh manually by using the Refresh command in the shortcut menu, for example on the Forms or the Queries nodes.</p>
+
 > [!note]  
 > <P>Refresh is one of the three components in an update cycle, and is performed only when an update cycle interval is specified (the Auto-Update option).</P>
+
 </td>
 </tr>
 <tr class="odd">
 <td><p>Auto-save</p></td>
 <td><p>Select this if you want the system to save elements automatically. When the Auto-Save option is enabled, the system automatically saves the unsaved objects when you exit.</p>
+
 > [!note]  
 > <P>Automatic save is one of the three components in an update cycle, and is performed only when an update cycle interval is specified (the Auto-Update option).</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -167,8 +171,10 @@ To set development options in Microsoft Dynamics AX click **Tools** \> **Options
 <li><p>The element has been changed but not yet saved.</p></li>
 </ul></li>
 </ul>
+
 > [!note]  
 > <P>Garbage collection is one of the three components in an update cycle, and is performed only when an update cycle interval is specified (the Auto-Update option).</P>
+
 </td>
 </tr>
 </tbody>
