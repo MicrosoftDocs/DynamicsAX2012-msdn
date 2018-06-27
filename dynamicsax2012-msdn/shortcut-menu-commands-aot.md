@@ -63,8 +63,10 @@ In the Application Object Tree (AOT) in Microsoft Dynamics AX, there are many de
 <tr class="odd">
 <td><p><strong>Delete</strong></p></td>
 <td><p>Deletes the selected element.</p>
+
 > [!caution]  
 > <P>Use <strong>Delete</strong> with caution. Elements cannot be recovered after they have been deleted.</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -144,8 +146,10 @@ In the Application Object Tree (AOT) in Microsoft Dynamics AX, there are many de
 <tr class="even">
 <td><p><strong>Rename</strong></p></td>
 <td><p>Enables you to rename the selected element.</p>
+
 > [!note]  
 > <P>You can also rename an element in the <strong>Property</strong> sheet or by double-clicking the element.</P>
+
 </td>
 </tr>
 <tr class="odd">
