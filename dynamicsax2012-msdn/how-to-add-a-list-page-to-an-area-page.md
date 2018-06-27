@@ -88,8 +88,10 @@ The menu item specifies the list page to open. The next step is to add this menu
     <tr class="odd">
     <td><p><strong>IsDisplayedInContentArea</strong></p></td>
     <td><p><strong>Yes</strong></p>
+        
     > [!note]  
     > <P>Setting this property to <strong>Yes</strong> causes the area page to display the list page link in the <strong>Places</strong> group.</P>
+    
     </td>
     </tr>
     <tr class="even">
