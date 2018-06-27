@@ -259,8 +259,10 @@ i = 34; // ...as i is an integer.</code></pre></td>
 <tr class="odd">
 <td><p>9</p></td>
 <td><p>Shows that an integer can be added to a date. The system treats the integer as a quantity of days.</p>
+
 > [!note]  
 > <P>The utcdatetime data type does not support arithmetic operations and implicit conversions. Instead, methods on the DateTimeUtil class can be used.</P>
+
 </td>
 </tr>
 <tr class="even">
