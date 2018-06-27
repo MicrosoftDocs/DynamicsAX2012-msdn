@@ -100,8 +100,10 @@ You often use a page title when you have forms that show related data. For examp
     <td><p><strong>DataMethod</strong></p></td>
     <td><p>Specify the method from the form data source that provides the value or values that you want to appear on the form. You typically use a data method when you want the page title to specify values from a parent record.</p>
     <p>For example, you can use the parentTitleFields method of the form data source. You use this method to add the <strong>TitleField1</strong> and <strong>TitleField2</strong> values from the parent data source to the page title of the form.</p>
+    
     > [!caution]  
     > <P>To use parentTitleFields, there must be a table relation between the table in the form data source and the data source of the parent record. For more information about table relations, see <a href="defining-table-relations.md">Defining Table Relations</a>.</P>
+    
     </td>
     </tr>
     <tr class="odd">
