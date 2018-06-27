@@ -67,8 +67,10 @@ The following table describes details about the C\# source code that is written 
 <tr class="even">
 <td><p>protected methods are omitted from the proxies.</p></td>
 <td><p>You have only limited ability to create new classes in C# that inherit from a proxy class. X++ methods with the protected access modifier are excluded by the proxy generator.</p>
+
 > [!note]  
 > <P>If you want to extend a proxy class, consider instead extending the X++ class before you generate the proxy.</P>
+
 </td>
 </tr>
 <tr class="odd">
