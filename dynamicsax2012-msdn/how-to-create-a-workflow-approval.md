@@ -32,8 +32,10 @@ Depending on the needs of the business application, you can enable or disable wo
 <tr class="odd">
 <td><p>Complete</p></td>
 <td><p>Completes the workflow approval and continues the workflow forward.</p>
+
 > [!note]  
 > <P>Each approval must have one outcome of type Complete.</P>
+
 </td>
 </tr>
 <tr class="even">
@@ -81,8 +83,10 @@ Depending on the needs of the business application, you can enable or disable wo
     <tr class="even">
     <td><p><strong>Workflow document</strong></p></td>
     <td><p>The class that defines the workflow document for which you are creating an approval.</p>
+    
     > [!note]  
     > <P>This setting must match the <strong>Document</strong> property setting used in the workflow type for the approval.</P>
+    
     </td>
     </tr>
     <tr class="odd">
