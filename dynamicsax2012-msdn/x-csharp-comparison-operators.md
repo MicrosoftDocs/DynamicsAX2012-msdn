@@ -78,6 +78,7 @@ The following table lists the arithmetic operators.
 <tr class="odd">
 <td><p>*</p></td>
 <td><p>As the multiplication operator, there are no differences.</p>
+
 > [!note]  
 > <P>The asterisk is also used in the SQL statements that are part of the X++ language. In these SQL statements the asterisk can also be one of the following:
 > <ul>
@@ -85,6 +86,7 @@ The following table lists the arithmetic operators.
 > <li><p>A wildcard for characters in a string that is used on a like clause.</p></li>
 > </ul>
 > For more information, see <a href="relational-operators.md">Relational Operators</a>.</P>
+
 </td>
 </tr>
 <tr class="even">
