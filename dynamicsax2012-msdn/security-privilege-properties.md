@@ -139,14 +139,11 @@ This section describes the properties for the AOT node at **Security** \> **Priv
 <td><p>ObjectChildName</p></td>
 <td><p>Optional</p></td>
 <td><p>Represents the service method name.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Specify the value of this property only if the <strong>ObjectType</strong> property is set to <strong>ServiceOperation</strong>.
-</div>
-</div></td>
+
+> [!note]  
+> <P>Specify the value of this property only if the <strong>ObjectType</strong> property is set to <strong>ServiceOperation</strong>.</P>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>AccessLevel</p></td>

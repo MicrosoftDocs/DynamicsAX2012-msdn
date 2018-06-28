@@ -50,16 +50,11 @@ The following table lists areas in the \[\] syntax for arrays that are different
 <td><p>An array is declared with square brackets appended to the variable name.</p></td>
 <td><p>An array is declared with square brackets appended to the data type.</p></td>
 <td><p>int myInts[]; // X++</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-An X++ array cannot be a parameter in a method.
-</div>
-</div>
-<p> </p>
-<p>int[] myInts; // C#</p></td>
+
+> [!note]  
+> <P>An X++ array cannot be a parameter in a method.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Declaration</p></td>

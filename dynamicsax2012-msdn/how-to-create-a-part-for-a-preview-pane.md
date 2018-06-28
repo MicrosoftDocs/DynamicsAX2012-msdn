@@ -62,14 +62,11 @@ The following steps describe how to create an info part that appears in the prev
     <tr class="odd">
     <td><p><strong>DataField</strong> or <strong>DataMethod</strong></p></td>
     <td><p>Select the field or method from the data source that you want to appear in the title of the preview pane. Use a method if you want the title to include values from more than one field.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    To use data from more than one field, add a method to the data source table that assembles and returns the information that you want to appear in the title.
-    </div>
-    </div></td>
+    
+    > [!note]  
+    > <P>To use data from more than one field, add a method to the data source table that assembles and returns the information that you want to appear in the title.</P>
+    
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>Style</strong></p></td>

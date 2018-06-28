@@ -78,14 +78,11 @@ The following options are available from **Tools** \>**Cross-reference**:
 <tr class="odd">
 <td><p>Reports &gt; Names/Uses</p></td>
 <td><p>Generates a report about objects in the cross reference system to show: object names, object types and paths, and the type of action on the object (for example read, write, declaration, definition, or call).</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-To avoid generating a huge report you should always select criteria. You can interrupt the report generation with CTRL+BREAK.
-</div>
-</div></td>
+
+> [!note]  
+> <P>To avoid generating a huge report you should always select criteria. You can interrupt the report generation with CTRL+BREAK.</P>
+
+</td>
 </tr>
 </tbody>
 </table>

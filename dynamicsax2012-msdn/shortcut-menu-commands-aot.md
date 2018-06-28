@@ -63,14 +63,11 @@ In the Application Object Tree (AOT) in Microsoft Dynamics AX, there are many de
 <tr class="odd">
 <td><p><strong>Delete</strong></p></td>
 <td><p>Deletes the selected element.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-Use <strong>Delete</strong> with caution. Elements cannot be recovered after they have been deleted.
-</div>
-</div></td>
+
+> [!caution]  
+> <P>Use <strong>Delete</strong> with caution. Elements cannot be recovered after they have been deleted.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>Deploy Element</strong></p></td>
@@ -149,14 +146,11 @@ Use <strong>Delete</strong> with caution. Elements cannot be recovered after the
 <tr class="even">
 <td><p><strong>Rename</strong></p></td>
 <td><p>Enables you to rename the selected element.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-You can also rename an element in the <strong>Property</strong> sheet or by double-clicking the element.
-</div>
-</div></td>
+
+> [!note]  
+> <P>You can also rename an element in the <strong>Property</strong> sheet or by double-clicking the element.</P>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Restore</strong></p></td>

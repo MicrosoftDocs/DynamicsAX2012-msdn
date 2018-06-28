@@ -46,14 +46,11 @@ The following procedure describes how to create a new workflow task in the AOT.
     <tr class="even">
     <td><p><strong>Workflow document</strong></p></td>
     <td><p>The class that defines the workflow document for which you are creating a task.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This setting must match the <strong>Document</strong> property setting used in the workflow type for the task.
-    </div>
-    </div></td>
+    
+    > [!note]  
+    > <P>This setting must match the <strong>Document</strong> property setting used in the workflow type for the task.</P>
+    
+    </td>
     </tr>
     <tr class="odd">
     <td><p><strong>Document preview field group</strong></p></td>

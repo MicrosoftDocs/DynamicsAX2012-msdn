@@ -37,14 +37,11 @@ The following table provides terms and definitions related to the upgrade framew
 <li><p>Microsoft Dynamics AX 4.0</p></li>
 <li><p>Microsoft Dynamics AX 2009</p></li>
 </ul>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The upgrade starts and the source environment is still live, but there is minimal effect to the live system.
-</div>
-</div></td>
+
+> [!note]  
+> <P>The upgrade starts and the source environment is still live, but there is minimal effect to the live system.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Target environment or target system</p></td>

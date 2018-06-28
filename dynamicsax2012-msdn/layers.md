@@ -58,14 +58,11 @@ The following table describes the application object layers in Microsoft Dynamic
 <tr class="odd">
 <td><p>GLS</p></td>
 <td><p>When the application is modified to match country or region specific legal demands, these modifications are saved in the GLS layer.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The GLS layer is consolidated into the SYS layer in Microsoft Dynamics AX 2012 R3.
-</div>
-</div></td>
+
+> [!note]  
+> <P>The GLS layer is consolidated into the SYS layer in Microsoft Dynamics AX 2012 R3.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>SYS</p></td>

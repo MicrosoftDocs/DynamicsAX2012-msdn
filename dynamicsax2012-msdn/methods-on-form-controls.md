@@ -109,14 +109,11 @@ The following table lists methods that you can override. Some of the methods are
 <td><p>data</p></td>
 <td><p>Not activated by the system.</p></td>
 <td><p>The super) call returns the contents of a cell in a table control.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Do not override the data method. An override might prevent users from accessing their data.
-</div>
-</div></td>
+
+> [!note]  
+> <P>Do not override the data method. An override might prevent users from accessing their data.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>dateTextChange</p></td>

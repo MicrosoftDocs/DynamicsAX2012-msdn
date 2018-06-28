@@ -38,14 +38,11 @@ The following table compares the implementation of OOP principles between Micros
 <tr class="odd">
 <td><p>Casting</p></td>
 <td><p>Starting with Microsoft Dynamics AX 2012 the X++ language has the keywords is and as, which are used to make downcasts safe and explicit.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-In Microsoft Dynamics AX 2012 the X++ language does not require the use of the as keyword when you downcast a base class variable to a derived class variable. However, we recommend that all downcast statements use the as keyword.
-</div>
-</div></td>
+
+> [!note]  
+> <P>In Microsoft Dynamics AX 2012 the X++ language does not require the use of the as keyword when you downcast a base class variable to a derived class variable. However, we recommend that all downcast statements use the as keyword.</P>
+
+</td>
 <td><p>An object can be cast either up or down the inheritance path. Downcasts require the as keyword.</p></td>
 <td><p>For more information about the X++ keywords is and as, see <a href="expression-operators-is-and-as-for-inheritance.md">Expression Operators: Is and As for Inheritance</a>.</p></td>
 </tr>
@@ -77,14 +74,10 @@ In Microsoft Dynamics AX 2012 the X++ language does not require the use of the a
 <tr class="even">
 <td><p>Single inheritance</p></td>
 <td><p>You can derive your X++ class from another X++ class by using the extends keyword in the <strong>classDeclaration</strong> node of your class, in the AOT. No class implicitly derives directly from another class. If you want your class to directly derive from the Object class, you must use the extends keyword. You can specify only one class on the extends keyword.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-When you modify an X++ base class that other classes derive from, you must recompile that base class using the <strong>Compile forward</strong>. This option ensures that the derived classes are also recompiled. To ensure the derived classes are also recompiled, right-click the base class node, and then click <strong>Add-Ins</strong> &gt; <strong>Compile forward</strong>. The alternative of clicking <strong>Build</strong> &gt; <strong>Compile</strong> (or pressing the F7 key) is sometimes insufficientfor a base class change.
-</div>
-</div>
+
+> [!caution]  
+> <P>When you modify an X++ base class that other classes derive from, you must recompile that base class using the <strong>Compile forward</strong>. This option ensures that the derived classes are also recompiled. To ensure the derived classes are also recompiled, right-click the base class node, and then click <strong>Add-Ins</strong> &gt; <strong>Compile forward</strong>. The alternative of clicking <strong>Build</strong> &gt; <strong>Compile</strong> (or pressing the F7 key) is sometimes insufficientfor a base class change.</P>
+
 <p>A class can implement zero to many interfaces.</p>
 <p>An X++ table implicitly inherits from the Common table, and from the xRecord class.</p></td>
 <td><p>C# uses the extends keyword to derive from another class. All .NET Framework classes implicitly derive from the System.Object class, unless they explicitly derive from another class.</p></td>
@@ -157,14 +150,11 @@ The following table lists the OOP-related keywords in X++. The usage of each key
 <p>Each class has exactly one constructor, and the constructor is named new. You can decide what parameters the constructor should input.</p></td>
 <td><p>The new keyword is used to create a new instance of a class. Then the constructor is automatically called.</p>
 <p>Constructor methods themselves are not named new, they have the same name as the class.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-The new keyword can also be used on a method, to modify the way in which the method overrides the same method in the base class.
-</div>
-</div></td>
+
+> [!note]  
+> <P>The new keyword can also be used on a method, to modify the way in which the method overrides the same method in the base class.</P>
+
+</td>
 <td><p>Both X++ and C# assume a default constructor for classes that have no constructor explicitly written in their code.</p></td>
 </tr>
 <tr class="even">

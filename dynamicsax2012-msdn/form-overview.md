@@ -215,15 +215,12 @@ The following table describes the properties you can use to specify the metadata
 <tr class="even">
 <td><p><strong>Form.FormTemplate</strong></p></td>
 <td><p>You use this property to specify whether the form uses an interaction class. All list pages require that you use an interaction class. The interaction class enables the list page to appear in both the client and Enterprise Portal.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-If you specify a value for the property, you also have to populate the <strong>InteractionClass</strong> property. The property specifies the name of an interaction class. The default class for list pages is the <strong>ListPageInteraction</strong> class.
-</div>
-</div>
-<p>You can also set the <strong>FormTemplate</strong> property for a details form. You can use an interaction class to help improve the performance of the details form. However, details forms do not require an interaction class.</p></td>
+
+> [!caution]  
+> <P>If you specify a value for the property, you also have to populate the <strong>InteractionClass</strong> property. The property specifies the name of an interaction class. The default class for list pages is the <strong>ListPageInteraction</strong> class.</P>
+> <p>You can also set the <strong>FormTemplate</strong> property for a details form. You can use an interaction class to help improve the performance of the details form. However, details forms do not require an interaction class.</p>
+
+</td>
 </tr>
 </tbody>
 </table>

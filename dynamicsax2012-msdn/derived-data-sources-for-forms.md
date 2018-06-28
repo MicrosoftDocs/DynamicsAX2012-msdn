@@ -56,14 +56,11 @@ To create an inheritance hierarchy you use the following table properties to def
 <tr class="even">
 <td><p><strong>SupportInheritance</strong></p></td>
 <td><p>Specify whether the table supports inheritance. The default value is <strong>No</strong>. To include a table in an inheritance hierarchy, set the property to <strong>Yes</strong>. This is necessary for both base and derived tables.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Important" alt="Important" class="note" /><strong>Important</strong>
-</div>
-<div class="mtps-row">
-You cannot change the values of the <strong>Abstract</strong> or <strong>Extends</strong> properties until you set the <strong>SupportInheritance</strong> property to <strong>Yes</strong>.
-</div>
-</div></td>
+
+> [!caution]  
+> <P>You cannot change the values of the <strong>Abstract</strong> or <strong>Extends</strong> properties until you set the <strong>SupportInheritance</strong> property to <strong>Yes</strong>.</P>
+
+</td>
 </tr>
 </tbody>
 </table>

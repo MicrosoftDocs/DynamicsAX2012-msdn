@@ -1,4 +1,4 @@
-﻿---
+---
 title: Best Practices for Table Field Properties
 TOCTitle: Table Field Properties
 ms:assetid: 1c2161d4-0336-4b6d-8afc-81d740fcdb6b
@@ -130,14 +130,10 @@ The following table lists best practices for setting field properties.
 <li><p>A table for which a relationship exists from the table containing this field, and in which a unique index exists for the fields on the target end of the relationship</p></li>
 </ul>
 <p>If CurrencyCode is set to CurrencyCodeField, you must also set the CurrencyCodeField property to a field by using an extended data type derived from CurrencyCode, in the CurrencyCodeTable.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Do not use master currency amounts to set the CurrencyCode properties, because master currency amounts are always in the master currency for the associated company.
-</div>
-</div>
+
+> [!note]  
+> <P>Do not use master currency amounts to set the CurrencyCode properties, because master currency amounts are always in the master currency for the associated company.</P>
+
 <p><span id="yb13cdatemoneymst"></span>For reals, the CurrencyDate property must be set if the data type extends the money or moneyMST system types. For other reals, the property is not available. <img src="images/Aa658028.WarningIcon(en-us,AX.60).gif" title="Warning icon" alt="Warning icon" /> This property must be set to CurrentRate or CurrencyDateField if the AnalysisVisibility property for the field is set to DefaultField, High, or Low. If the CurrencyDate property is set to CurrencyDateField:</p>
 <ul>
 <li><p><span id="rx99cdtnorelnouidx"></span>The CurrencyDateTable property must be set to one of the following:</p>
@@ -146,7 +142,8 @@ Do not use master currency amounts to set the CurrencyCode properties, because m
 <li><p>A related table in which a unique index exists for the fields on the target end of the relationship<img src="images/Aa872655.ErrorIcon(AX.60).gif" title="Error icon" alt="Error icon" /></p></li>
 </ul></li>
 <li><p><span id="rx98curdatfedtdt"></span>The CurrencyDateField property must be set to a field by using an extended data type derived from Date. <img src="images/Aa872655.ErrorIcon(AX.60).gif" title="Error icon" alt="Error icon" /></p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

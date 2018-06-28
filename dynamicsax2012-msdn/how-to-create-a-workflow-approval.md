@@ -32,14 +32,11 @@ Depending on the needs of the business application, you can enable or disable wo
 <tr class="odd">
 <td><p>Complete</p></td>
 <td><p>Completes the workflow approval and continues the workflow forward.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Each approval must have one outcome of type Complete.
-</div>
-</div></td>
+
+> [!note]  
+> <P>Each approval must have one outcome of type Complete.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Return</p></td>
@@ -86,14 +83,11 @@ Each approval must have one outcome of type Complete.
     <tr class="even">
     <td><p><strong>Workflow document</strong></p></td>
     <td><p>The class that defines the workflow document for which you are creating an approval.</p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    This setting must match the <strong>Document</strong> property setting used in the workflow type for the approval.
-    </div>
-    </div></td>
+    
+    > [!note]  
+    > <P>This setting must match the <strong>Document</strong> property setting used in the workflow type for the approval.</P>
+    
+    </td>
     </tr>
     <tr class="odd">
     <td><p><strong>Document preview field group</strong></p></td>

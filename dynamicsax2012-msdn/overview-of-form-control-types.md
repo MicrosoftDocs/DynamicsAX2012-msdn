@@ -58,28 +58,22 @@ If a control does not automatically identify a data source, use the information 
 <td><p>Any ActiveX control available on the computer.</p></td>
 <td><p>The control type is selected when you create the control, and is displayed in the <strong>ClassName</strong> property.</p></td>
 <td><p>Enables you add ActiveX controls to a form. To learn about ActiveX controls on forms, see <a href="how-to-add-activex-controls-to-forms.md">How to: Add ActiveX Controls to Forms</a>.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Hh404129.alert_caution(en-us,AX.60).gif" title="Caution note" alt="Caution note" class="note" /><strong>Caution</strong>
-</div>
-<div class="mtps-row">
-The ActiveX control is considered deprecated. To add a Windows Form or Windows Presentation Foundation control to a form, use the <strong>ManagedHost</strong> control.
-</div>
-</div></td>
+
+> [!caution]  
+> <P>The ActiveX control is considered deprecated. To add a Windows Form or Windows Presentation Foundation control to a form, use the <strong>ManagedHost</strong> control.</P>
+
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>Animate</strong></p></td>
 <td><p>A control that is used to display an .avi file.</p></td>
 <td><p>The .avi file is set by using the <strong>AnimateFile</strong> property.</p></td>
 <td><p>Use the control to show animated images. The .avi file must not have a sound track.</p>
-<div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Tip" alt="Tip" class="note" /><strong>Tip</strong>
-</div>
-<div class="mtps-row">
-If you set the <strong>AutoPlay</strong> property to <strong>Yes</strong> and the <strong>Loops</strong> property to <strong>0</strong>, the system plays the designated .avi file indefinitely.
-</div>
-</div></td>
+
+> [!note]  
+> <P>If you set the <strong>AutoPlay</strong> property to <strong>Yes</strong> and the <strong>Loops</strong> property to <strong>0</strong>, the system plays the designated .avi file indefinitely.</P>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Button</strong></p></td>
@@ -217,14 +211,12 @@ If you set the <strong>AutoPlay</strong> property to <strong>Yes</strong> and th
 <td><p>A control that is used to show the percentage of completion of a lengthy operation. It consists of a bar that “fills” from left to right.</p></td>
 <td><p>To use a progress control, you have to supply code that fills the progress bar.</p>
 <p>For example, you add a progress control for an operation that starts when a button is clicked. To update the progress control, you have to add code to the clicked method of the button control that fills the progress bar as the operation runs.</p></td>
-<td><div class="mtps-table">
-<div class="mtps-row">
-<img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-</div>
-<div class="mtps-row">
-Use a progress indicator from the progress indicator framework instead of a progress control. For information about how to use the progress indicator framework, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.
-</div>
-</div></td>
+<td><p></p>
+
+> [!note]  
+> <P>Use a progress indicator from the progress indicator framework instead of a progress control. For information about how to use the progress indicator framework, see <a href="how-to-create-progress-indicators.md">How to: Create Progress Indicators</a>.</P>
+
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>RadioButton</strong></p></td>

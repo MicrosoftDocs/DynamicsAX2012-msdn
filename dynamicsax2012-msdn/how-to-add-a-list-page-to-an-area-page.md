@@ -88,14 +88,11 @@ The menu item specifies the list page to open. The next step is to add this menu
     <tr class="odd">
     <td><p><strong>IsDisplayedInContentArea</strong></p></td>
     <td><p><strong>Yes</strong></p>
-    <div class="mtps-table">
-    <div class="mtps-row">
-    <img src="images/Aa589339.alert_note(en-us,AX.60).gif" title="Note" alt="Note" class="note" /><strong>Note</strong>
-    </div>
-    <div class="mtps-row">
-    Setting this property to <strong>Yes</strong> causes the area page to display the list page link in the <strong>Places</strong> group.
-    </div>
-    </div></td>
+        
+    > [!note]  
+    > <P>Setting this property to <strong>Yes</strong> causes the area page to display the list page link in the <strong>Places</strong> group.</P>
+    
+    </td>
     </tr>
     <tr class="even">
     <td><p><strong>MenuItemName</strong></p></td>
