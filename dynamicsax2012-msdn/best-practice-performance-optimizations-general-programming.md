@@ -69,6 +69,7 @@ Use the += construct to add elements to a container. This construct is optimized
 
 The following example shows the two different ways of adding elements to a container.
 
+```X++
     void containerExample
     {
         container c1;
@@ -79,6 +80,7 @@ The following example shows the two different ways of adding elements to a conta
         // The optimized way to add an element.
         c1 += b;
     }
+```
 
 ## Lengthy Operations
 

@@ -82,17 +82,20 @@ The following code example is contained in a demonstration class named DirectSql
 
 This is the classDeclaration portion of the DirectSqlDataPartition class.
 
-    // The classDeclaration node under AOT > Classes > DirectSqlDataPartition.
+```X++
+// The classDeclaration node under AOT > Classes > DirectSqlDataPartition.
     
     public class DirectSqlDataPartition
     {
     }
+```
 
 ### ![JJ129502.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "JJ129502.collapse_all(en-us,AX.60).gif")Main Method
 
 This is the Main method of the DirectSqlDataPartition class. To run this code example in the MorphX development workspace, you first right-click the node for **Main**, and then click **View Code**. Then in the code editor, you press F5, or click the green **Go** arrow icon on the toolbar.
 
-    // A method under AOT > Classes > DirectSqlDataPartition.
+```X++
+// A method under AOT > Classes > DirectSqlDataPartition.
     
     static public void Main(Args _args)
     {
@@ -106,12 +109,14 @@ This is the Main method of the DirectSqlDataPartition class. To run this code ex
         info("Results:  " + sResultField);
         return;
     }
+```
 
 ### ![JJ129502.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "JJ129502.collapse_all(en-us,AX.60).gif")executeDirectSql Method
 
 The X++ language keyword server is required in the following executeDirectSql method.
 
-    // A method node under AOT > Classes > DirectSqlDataPartition.
+```X++
+// A method node under AOT > Classes > DirectSqlDataPartition.
     
     static server public str executeDirectSql(str _sSql)
     {
@@ -148,6 +153,7 @@ The X++ language keyword server is required in the following executeDirectSql me
     
         return sResultField;
     }
+```
 
 ### ![JJ129502.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "JJ129502.collapse_all(en-us,AX.60).gif")buildDirectSql Method
 
@@ -155,7 +161,8 @@ In the following buildDirectSql method, notice that the two calls to the X++ lan
 
 There is a unique index on the InventDimId field in the InventDim and InventDimCleanUp tables.
 
-    // A method node under AOT > Classes > DirectSqlDataPartition.
+```X++
+// A method node under AOT > Classes > DirectSqlDataPartition.
     
     static public str buildDirectSql()
     {
@@ -199,6 +206,7 @@ There is a unique index on the InventDimId field in the InventDim and InventDimC
     
         return sSql;
     }
+```
 
 ### ![JJ129502.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "JJ129502.collapse_all(en-us,AX.60).gif")The Built Transact-SQL
 

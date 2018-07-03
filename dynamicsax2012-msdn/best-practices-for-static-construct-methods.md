@@ -35,10 +35,12 @@ For partners and customizers, this is the point to add construction functionalit
 
 ## Example
 
-    static CustPaymManFileOpen construct()
+```X++
+  static CustPaymManFileOpen construct()
     {
         return new CustPaymManFileOpen();
     }
+```
 
 ## See also
 

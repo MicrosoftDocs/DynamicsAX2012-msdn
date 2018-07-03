@@ -53,17 +53,21 @@ The following procedures show how to add an icon to each record that meets speci
 
 1.  In the AOT, expand the **Data Dictionary** node, expand Tables, expand the table you use in the list page data source, right-click **Methods**, and then click **New Method**. The code editor window opens and displays the following.
     
-        Private void method1()
+       ```X++
+       Private void method1()
         {
         }
+       ```
 
 2.  Replace private void method1() with a display method that uses the table as a parameter. For more information about display methods, see [Using the display Method Modifier](using-the-display-method-modifier.md).
     
     The following code example adds a display method named creditRatingAlert to **CustTable**.
     
-        display int creditRatingAlert(CustTable custTable)
+       ```X++
+       display int creditRatingAlert(CustTable custTable)
         {
         }
+       ```
 
 3.  Add code to the method that determines when to display an image. The code must also return the resource ID of the image to display.
     
@@ -74,7 +78,8 @@ The following procedures show how to add an icon to each record that meets speci
     
     The following code example returns the resource ID of the alert icon when the value of the customer **CreditRating** field is set to Poor.
     
-        display int creditRatingAlert(CustTable custTable)
+       ```X++
+       display int creditRatingAlert(CustTable custTable)
         {
             // If the value in the CreditRating field 
             // is equal to Poor, return an integer equal to the
@@ -88,6 +93,7 @@ The following procedures show how to add an icon to each record that meets speci
                return 1030;
            }
         }
+       ```
 
 4.  To validate and save your code changes, click the **Compile** button in the code editor window. Close the code editor window.
 

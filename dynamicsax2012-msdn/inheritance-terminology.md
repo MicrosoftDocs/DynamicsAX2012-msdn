@@ -63,9 +63,15 @@ The following table describes the terms that are used to discuss the inheritance
 <td><p>The X++ assignment statement myCC = myAA as CC; is a downcast assignment. The as keyword is needed at compile time for downcasting. The downcast might or might not be valid at run time. For more information, see <a href="expression-operators-is-and-as-for-inheritance.md">Expression Operators: Is and As for Inheritance</a>.</p>
 <p>The Object class is said to be at the top of the inheritance hierarchy. The CC class is at the bottom of the hierarchy. Casting from class AA to CC goes down the hierarchy.</p>
 <p>The following code example illustrates an invalid downcast.</p>
-<pre><code>BB myBB = new BB();
+<p>
+
+```X++
+B myBB = new BB();
 CC myCC;
-myCC = myBB as CC;</code></pre></td>
+myCC = myBB as CC;
+```
+</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p>extends</p></td>
@@ -99,9 +105,13 @@ myCC = myBB as CC;</code></pre></td>
 <td><p>The X++ assignment statement myAA = myCC; is an upcast assignment. Upcasting is valid at compile time, and is valid during run time. The as keyword is not needed.</p>
 <p>The Object class is said to be at the top of the inheritance hierarchy. The CC class is at the bottom of the hierarchy. Casting from class CC to AA goes up the hierarchy.</p>
 <p>The following code example is an upcast.</p>
-<pre><code>BB myBB = new BB();
+
+```X++
+BB myBB = new BB();
 AA myAA;
-myAA = myBB;</code></pre></td>
+myAA = myBB;
+```
+</td>
 </tr>
 </tbody>
 </table>

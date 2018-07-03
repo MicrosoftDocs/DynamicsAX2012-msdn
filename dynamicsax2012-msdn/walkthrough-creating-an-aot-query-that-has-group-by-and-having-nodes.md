@@ -187,6 +187,7 @@ Next is an image of how the finished query looks when it is fully expanded in th
 
 You can use the following X++ code to run the AOT query created in the previous procedure. The code is an X++ job that you can paste into a new job under **AOT** \> **Jobs**.
 
+   ```X++
     static void QryGbyHavgRange23Job(Args _args)  // X++ job.
     {
         CustTable ct;
@@ -212,6 +213,7 @@ You can use the following X++ code to run the AOT query created in the previous 
     (Q23)  ,    ,  26
     Done.
     ***/
+   ```
 
 ## See also
 

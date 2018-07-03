@@ -121,7 +121,7 @@ The following code snippet is from the full code example. This snippet is for th
 
 <!-- end list -->
 
-``` 
+```X++ 
         // Read from: Government.
         if (tabParty is Government)
         {
@@ -136,6 +136,7 @@ The following code snippet is from the full code example. This snippet is for th
 
 Here is the full code example.
 
+```X++
     static void GmJob2TableDowncast(Args _args)
     {
         // Declare the variables.
@@ -258,6 +259,7 @@ Here is the full code example.
     5637144667 == tabParty.RecId
     ***/
     }
+```
 
 ### ![Gg881064.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg881064.collapse_all(en-us,AX.60).gif")Accessing Method Overrides with a Base Table Variable
 

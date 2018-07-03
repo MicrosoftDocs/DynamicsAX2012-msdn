@@ -106,11 +106,13 @@ void OpenMenuItem(string company, string menuitem, AxClientLib.AxMenuType menuit
 
 The following code example shows how to use the OpenMenuItem method from Microsoft Visual Basic Scripting Edition.
 
+```VBScript
     Dim instance
     Dim company, menuitem, menuitemType
      
     Set instance = CreateObject("DynamicsAx.Application")
     instance.OpenMenuItem company, menuitem, menuitemType
+```
 
 #### ![JJ677289.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "JJ677289.collapse_all(en-us,AX.60).gif")Return Value
 

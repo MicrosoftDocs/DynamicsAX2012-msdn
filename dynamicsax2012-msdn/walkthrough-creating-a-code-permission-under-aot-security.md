@@ -41,7 +41,8 @@ Your project gathers the application objects you are currently working on. Your 
     
     Enter the following code into the code editor for the main method.
     
-        static void main(Args _args)
+       ```X++
+       static void main(Args _args)
         {
             AccountingDistribution ad;
         
@@ -50,16 +51,19 @@ Your project gathers the application objects you are currently working on. Your 
             TestClass::postGL();
             info('Completed the code permissions test.');
         }
+       ```
 
 4.  Create another method in the **TestClass** class.
     
     Enter the following code into the code editor for the postGL method.
     
-        [SysEntryPointAttribute]
+       ```X++
+       [SysEntryPointAttribute]
         server static void postGL()
         {
             info('The postGL method is called.');
         }
+       ```
     
     The SysEntryPointAttribute attribute class is used by the system to identify methods that execute on the server tier. The system authenticates the application user who invokes these methods.
 

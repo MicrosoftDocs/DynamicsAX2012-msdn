@@ -23,7 +23,8 @@ continue ;
 
 ## Example
 
-    int i;
+```X++
+int i;
     int Iarray[100];
     ;
      
@@ -34,6 +35,7 @@ continue ;
      
         // Some statements.
     }
+```
 
 If Iarray\[i\] \<= 0, the remaining statements in the loop are not executed, and i is incremented before the if statement is tried again.
 

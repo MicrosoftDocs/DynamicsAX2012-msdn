@@ -33,6 +33,7 @@ For this topic, you must understand the information in [How to: Test a Macro Val
 
 The following code sample shows a difference in the behavior of \#define and \#globaldefine. Following the code sample is a table explaining the conclusions from the output. The primary test case in the code sample is labeled 12.
 
+```X++
     static void InteractDefineGlobalJob(Args _args)
     {
         ;
@@ -99,6 +100,7 @@ The following code sample shows a difference in the behavior of \#define and \#g
     66_GLOBAL 2.
     *****************************/
     }
+```
 
 ### ![Cc197124.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197124.collapse_all(en-us,AX.60).gif")Explanation of Outputs and Conclusions
 
@@ -145,7 +147,8 @@ The exact semantics of \#globaldefine cannot be achieved through \#if test direc
 
 The following code sample is the closest you can come to achieving the \#globaldefine semantic with other directives such as \#if.
 
-    static void IfNotDefineNestGlobalJob (Args _args)
+```X++
+static void IfNotDefineNestGlobalJob (Args _args)
     {
         ;
         #undef.MaybeMac
@@ -163,6 +166,7 @@ The following code sample is the closest you can come to achieving the \#globald
     4444
     **********************/
     }
+```
 
 ## See also
 

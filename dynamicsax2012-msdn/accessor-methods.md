@@ -17,6 +17,7 @@ If an object uses another object to do some work on its behalf, the first object
 
 This programming technique is one of the best ways to create models and simulations of complex real-world systems. The following example defines a Point class so that it uses accessor methods to access the variables x and y.
 
+```X++
     class Point
     {
         // Instance variables
@@ -54,10 +55,12 @@ This programming technique is one of the best ways to create models and simulati
             return y;
         }
     }
+```
 
 These method declarations illustrate how the Point class provides access to its variables from the outside world. Other objects can manipulate the instance variables of Point objects by using the accessor methods:
 
-    //Declare a variable to refer to a Point object
+```X++
+//Declare a variable to refer to a Point object
     Point myPoint; 
      
     //Create a Point object
@@ -66,6 +69,7 @@ These method declarations illustrate how the Point class provides access to its 
     myPoint.setX(10.0); 
     //Set the y variable by means of the accessor method
     myPoint.setY(25.7); 
+```
 
 By hiding details of the internal implementation of a class, X++ allows the programmer to change the implementation of the class in the future without breaking any code that uses that class.
 

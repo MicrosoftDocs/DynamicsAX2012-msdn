@@ -39,6 +39,7 @@ Create the DSN on the tier where the X++ code will call the DSN from. This will 
 
 The following X++ code example uses ODBC to connect to an external database. The code example assumes that you have already created the DSN in Windows.
 
+```X++
     // X++, Main method in a class.
     static public void Main(Args _args)
     {
@@ -91,6 +92,7 @@ The following X++ code example uses ODBC to connect to an external database. The
             error("Failed to log on to the database through ODBC.");
         }
     }
+```
 
 ### ![Ee677510.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Ee677510.collapse_all(en-us,AX.60).gif")32 Bit and 64 Bit Windows Operating System
 

@@ -71,12 +71,16 @@ You can also use COM in a script file that can open a specified form. This enabl
     
     The following code example uses CreateObject to create the DynamicsAx.Application interface.
     
-        Set objDynamicsAx = CreateObject("DynamicsAx.Application")
+      ```VBScript
+       Set objDynamicsAx = CreateObject("DynamicsAx.Application")
+      ```
 
 3.  To open a form, use the OpenMenuItem method of the DynamicsAx.Application interface. The method requires that you specify a company, a menu item, and the type of the menu item.
     
     The following code example uses VBScript to open a form. Notice how the script enables you to specify the company, menu item, and menu item type with the command line arguments. Also notice how the command line values are used with the OpenMenuItem method.
-    
+
+    ```VBScript
+
         '--------------------------------------------------
         '
         'Opens the Dynamics Ax Menu Item that was specified.
@@ -151,6 +155,7 @@ You can also use COM in a script file that can open a specified form. This enabl
             WScript.Echo ""
             WSCript.Quit
         End Sub
+       ```
 
 4.  Save the file.
 

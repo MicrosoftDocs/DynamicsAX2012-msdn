@@ -97,6 +97,7 @@ The X++ intrinsic type utcdatetime holds a date/time value. It also holds hidden
 
 In this example, the Timezone values applied as offsets are different for the two rows that are inserted. This difference causes the two rows to have different \*TZId values. The utcdatetime variables transfer time zone information into the database for the \*TZId columns.
 
+```X++
     static void JobApplyTimeZone(Args _args)
     {
         MeetingTable meetingXRec2;
@@ -119,6 +120,7 @@ In this example, the Timezone values applied as offsets are different for the tw
         meetingXRec2 .MeetingDateTime = utc5;
         meetingXRec2 .insert();
     }
+```
 
 ## See also
 

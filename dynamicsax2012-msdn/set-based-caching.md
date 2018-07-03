@@ -49,7 +49,8 @@ Set-based caching is implemented in code by using the RecordViewCache class. You
 
 The cache is created on the server and is only accessible by the process that creates the cache object. Once the cache is instantiated, all select statements are issued against the cache, as shown in the following X++ job code (from *Inside Dynamics AX 4.0*, Chapter 17, page 450).
 
-    static void RecordViewCache(Args _args)
+   ```X++
+   static void RecordViewCache(Args _args)
     {
         CustTrans       custTrans;
         RecordViewCache recordViewCache;
@@ -66,6 +67,7 @@ The cache is created on the server and is only accessible by the process that cr
             where custTrans.AccountNum == '4000' &&
                   custTrans.CurrencyCode == 'USD';
     }
+   ```
 
 Due to concurrency issues, the forUpdate keyword on the instantiating X++ SELECT statement should only be used when all of the records in the result set will be updated. Otherwise it's a better strategy to use select forUpdate only for the records that are to be updated.
 

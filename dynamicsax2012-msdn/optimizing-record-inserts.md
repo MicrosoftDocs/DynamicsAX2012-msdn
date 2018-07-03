@@ -21,6 +21,7 @@ You can also use [insert\_recordset](insert-recordset.md) to insert multiple row
 
 ## Example 1
 
+   ```X++
     RecordSortedList rsl;
     MyTable          myTable;
     ;
@@ -31,11 +32,13 @@ You can also use [insert\_recordset](insert-recordset.md) to insert multiple row
     myTable.field1 = 'Value2';
     rsl.ins(myTable);
     rsl.insertDatabase();
+   ```
 
 Two records, Value1 and Value2, are inserted into myTable. The values are inserted in sorted order before finally being inserted into the database.
 
 ## Example 2
 
+   ```X++
     void tutorialRecordSortedList()
     {
         RecordSortedList recordSortedList;
@@ -81,6 +84,7 @@ Two records, Value1 and Value2, are inserted into myTable. The values are insert
         info(strfmt("%1 records added, %2 records currently inserted.",
             recordsToInsert,recordsCurrentlyInserted));
     }
+   ```
 
 ## See also
 

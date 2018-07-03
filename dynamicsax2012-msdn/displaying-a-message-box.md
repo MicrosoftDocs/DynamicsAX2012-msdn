@@ -146,6 +146,7 @@ The following table describes the Box class methods and their associated DialogB
 
 The following example displays a message box that contains buttons labeled **Yes**, **No**, and **Cancel**. The **No** button has initial focus. When a button is clicked, a message is displayed in the **Print Window** to indicate which button was clicked. Run this example as a job in the Application Object Tree (AOT).
 
+```X++
     static void JobBoxDemo(Args _args)
     {
         DialogButton diagBut;
@@ -166,6 +167,7 @@ The following example displays a message box that contains buttons labeled **Yes
             }
         pause;
     }
+```
 
 ## See also
 

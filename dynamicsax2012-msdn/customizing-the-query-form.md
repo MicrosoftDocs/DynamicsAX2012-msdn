@@ -37,6 +37,7 @@ The Query form uses the [SysQueryRun](https://msdn.microsoft.com/en-us/library/g
 
 Display the Query form from code by using the [QueryRun.prompt](https://msdn.microsoft.com/en-us/library/gg923723\(v=ax.60\)) method. The following example instantiates the SalesQuotationUpdate query, displays the Query form by calling the prompt method, and then iterates through the returned records.
 
+```X++
     static void RunSalesQuotationUpdate(Args _args)
     {
     
@@ -60,6 +61,7 @@ Display the Query form from code by using the [QueryRun.prompt](https://msdn.mic
             }
         }
     }
+```
 
 ## Customize the Query Form
 

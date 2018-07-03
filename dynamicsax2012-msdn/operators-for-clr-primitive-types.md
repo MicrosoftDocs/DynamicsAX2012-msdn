@@ -21,6 +21,7 @@ You cannot use a comparison operator with CLR primitive or value types because t
 
 The following code sample shows that the X++ operator \>= cannot be used meaningfully between two System.Int32 variables. The sample also shows that the .NET Framework has methods that provide the functionality of the comparison operators. The method System.Int32.CompareTo is shown.
 
+```X++
     static void JobOperatorsForNet(Args _args)
     {
         System.Int32 netInt99
@@ -71,6 +72,7 @@ The following code sample shows that the X++ operator \>= cannot be used meaning
     xppCompare is 1, which means 99 > 8.  Good.
     *****/
     }
+```
 
 ## See also
 

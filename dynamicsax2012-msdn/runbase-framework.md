@@ -61,6 +61,7 @@ The RunBase.run method is the central method of the class. The job is done in th
 
 Skeleton:
 
+```X++
     void run()
     {
         // Local declarations.
@@ -84,6 +85,7 @@ Skeleton:
             retry;
         }
     }
+```
 
 ## pack and unpack Methods
 
@@ -97,7 +99,7 @@ If the query in a RunbaseReport depends on values from the dialog, call this.ini
 
 ### ![Aa863262.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa863262.collapse_all(en-us,AX.60).gif")Example
 
-``` 
+```X++
 private boolean getFromDialog()
 {
     ;
@@ -110,6 +112,7 @@ private boolean getFromDialog()
 
 The initQueryRun method in the previous code calls initQuery.
 
+```X++
     private Query initQuery()
     {
         query query = super();
@@ -138,6 +141,7 @@ The initQueryRun method in the previous code calls initQuery.
         + '..' + ',' + sysQuery::valueEmptyString());
         return query;
     }
+```
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).

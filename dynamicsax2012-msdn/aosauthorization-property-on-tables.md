@@ -69,7 +69,8 @@ For more information about these table methods, see [Table Methods](https://msdn
 
 Notice the calls to methods assert and skipAosValidation. Between these two methods the call to assert does need to occur first.
 
-    server static void JobPermAssertSkip(Args _args)
+```X++
+server static void JobPermAssertSkip(Args _args)
     {
         AssetTable tabAt;
         SkipAOSValidationPermission perm;
@@ -83,6 +84,7 @@ Notice the calls to methods assert and skipAosValidation. Between these two meth
             where tabAt.AssetId == "goodvalue";
         ttscommit;
     }
+```
 
 ## Logging
 

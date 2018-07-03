@@ -37,14 +37,16 @@ If you need to expose UI to configure your own custom actions, it is recommended
     
     2.  Add the following code to the initFormControls method on the EventCreateRule form:
         
-            myGroup.expand(element.runBase().parmExpandMyGroup());
+           ```X++
+           myGroup.expand(element.runBase().parmExpandMyGroup());
                 if (!MyGroup.expand())
                     MyGroup.clicked();
-    
+           ```    
     3.  Add the following code to the close method on the EventCreateRule form:
         
+           ```X++
             element.runBase().parmExpandMyGroup(MyGroup.expand());
-
+           ```
 5.  To modify the EventRule form, create a new group and drag your custom fields from the EventRule data source. Then, you can reference your custom fields in the EventRule table from your custom action classes and modify the grid by adding new fields.
 
 6.  Optionally, you can record the values of your custom fields according to each alert. To do this, add the fields to the EventInbox table and modify the EventAlertInbox form, as you did with the EventRule form.
@@ -61,6 +63,7 @@ You might also want to add custom code to your forms to hide the Alert Logging s
 
 Add the following code to the initFormControls method of the EventCreateRule form, and to the setControlsActive method on the EventRule data source of the EventRule form.
 
+```X++
     //alertLog is the name of your custom group control.
     
     if (element.eventRuleFormHandler().parmPrimTableId() == tableNum(LedgerTable))
@@ -70,6 +73,7 @@ Add the following code to the initFormControls method of the EventCreateRule for
        else
             alertLog.visible(false);
     ….
+```
 
 ## See also
 

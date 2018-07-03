@@ -33,11 +33,13 @@ select  ListOfFields1  from  SourceTable  \[ where  WhereClause  \]
 
 The records, myNum and mySum, are retrieved from the table anotherTable and inserted into the table myTable. The records are grouped according to myNum, and only the myNum records with a value less than or equal to 100 are included in the insertion.
 
+```X++
     insert_recordset myTable (myNum, mySum)
         select myNum, sum(myValue) 
             from anotherTable 
             group by myNum 
             where myNum <= 100;
+```
 
 ## Example 2: Comparing the Performance of Traditional Inserts and Insert\_recordset Inserts
 
@@ -47,6 +49,7 @@ By comparing the following two X++ code examples, you can see the performance im
 
 The following code example shows the traditional way of copying data.
 
+```X++
     ttsBegin;
     while select * from sqlDictionary
         where sqlDictionary.tabId > 0
@@ -67,11 +70,13 @@ The following code example shows the traditional way of copying data.
         operationProgress.setCount(countTables);
     }
     ttsCommit;
+```
 
 ### ![Aa635694.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa635694.collapse_all(en-us,AX.60).gif")Example 2b: Set Based Operation
 
 The following code example achieves the same outcome as the previous example, but this example is much faster. This example uses the insert\_recordset statement.
 
+```X++
     void copySQLDictionary2DictionaryLine()
     {
         SqlDictionary sqlDictionary;
@@ -87,6 +92,7 @@ The following code example achieves the same outcome as the previous example, bu
             where sqlDictionary.tabId > 0;
         ttsCommit;
     }
+```
 
 ### ![Aa635694.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa635694.collapse_all(en-us,AX.60).gif")Performance Comparison Between 2a and 2b
 
@@ -102,6 +108,7 @@ This X++ code example shows that the insert\_recordset statement can insert data
 
 
 
+```X++
     static void InsertVariable3Job(Args _args)
     {
         TableAlphabet    tabA2;
@@ -126,6 +133,7 @@ This X++ code example shows that the insert\_recordset statement can insert data
     a , apple
     ***********/
     }
+```
 
 ## Example 4: Joins
 
@@ -133,6 +141,7 @@ The following X++ code example shows a join of three tables on an insert\_record
 
 A variable is used to supply the inserted value for one column. The str variable must be declared with a length that is less than or equal to the maximum length of the corresponding database field.
 
+```X++
     static void InsertJoin42Job(Args _args)
     {
         GmTabDepartment tabDept2;
@@ -189,6 +198,7 @@ A variable is used to supply the inserted value for one column. The str variable
     Beth  --works on--  Project YY (From variable.).
     *****************/
     }
+```
 
 ### ![Aa635694.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa635694.collapse_all(en-us,AX.60).gif")Configuration Key Automation
 

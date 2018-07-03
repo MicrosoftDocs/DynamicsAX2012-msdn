@@ -128,12 +128,14 @@ This topic describes how you enable a dialog or drop dialog form to hide and the
     
     The following code example shows how to modify the clicked method.
     
-        void clicked()
+       ```X++
+       void clicked()
         {
             super();
             
             element.toggleMoreFewer(this);
         }
+       ```
 
 3.  Add the toggleMoreFewer method to the form. Right-click the **Methods** node of the form, and then click **New Method**. A new method appears in the code editor.
 
@@ -141,7 +143,8 @@ This topic describes how you enable a dialog or drop dialog form to hide and the
     
     The following code example shows the toggleMoreFewer method. Notice how the method changes the visible property of the **MoreFields** group. Also notice how the method changes the value of the normalImage and text properties of the button control.
     
-        public void toggleMoreFewer(FormButtonControl moreFewerButton)
+       ```X++
+       public void toggleMoreFewer(FormButtonControl moreFewerButton)
         {
             element.lockWindowUpdate(true);
             
@@ -164,6 +167,7 @@ This topic describes how you enable a dialog or drop dialog form to hide and the
             
             element.lockWindowUpdate(true);
         }
+       ```
 
 5.  Right-click the form and then click **Save**.
 

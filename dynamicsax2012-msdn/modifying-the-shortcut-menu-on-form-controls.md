@@ -25,7 +25,8 @@ Use showContextMenu to add your own item to the shortcut menu.
 
 ## Example
 
-    int showContextMenu(int MenuHandle)
+```X++
+int showContextMenu(int MenuHandle)
     {
         int ret;
         PopupMenu m = PopupMenu::create(MenuHandle,this.hWnd());
@@ -46,6 +47,7 @@ Use showContextMenu to add your own item to the shortcut menu.
         else
         return ret;
     }
+```
 
 Note that the draw method is called instead of super().
 
