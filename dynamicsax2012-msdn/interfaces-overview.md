@@ -64,7 +64,7 @@ Finally we examine the full implementation of the getSpeed method on the Automob
 ## 'is' Keyword Works for Interfaces
 
 The following code example demonstrates that the keyword is does work for a class that implements an interface.
-
+```X++
     static public void Main(Args _args)   // X++
     {
         IDrivable yourIDrivable;
@@ -87,7 +87,7 @@ The following code example demonstrates that the keyword is does work for a clas
     Message (06:46:33 pm)
     42
     ***/
-
+```
 The keyword is also works for a class that extends another class.
 
   

@@ -32,7 +32,7 @@ In the code sample, the two important X++ methods are:
   - Global::CLRSystemDateTime2UtcDateTime
 
 <!-- end list -->
-
+```X++  
     static void JobDateTimeGlobalMarshal(Args _args)
     {
         System.DateTime netDttm;
@@ -50,7 +50,7 @@ In the code sample, the two important X++ methods are:
         xppString = DateTimeUtil::toStr(xppDttm);
         info("xppDttm: " + xppString);
     }
-
+```
 ## Compatible String Formats
 
 The methods that you can use to pass string representations of date/time values between X++ and .NET are as follows:
@@ -94,7 +94,7 @@ This ISO string format is input into DateTimeUtil::parse and System.DateTime::Pa
 ### ![Cc553823.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc553823.collapse_all(en-us,AX.60).gif")Sample of Converting Between Date/Time and String
 
 The following X++ code sample shows how compatible strings can be passed between .NET and X++ and converted into date/time variables.
-
+```X++  
     static void JobDtimeTimeStringsNetXpp(Args _args) // X++
     {
         System.DateTime netDttm;
@@ -118,7 +118,7 @@ The following X++ code sample shows how compatible strings can be passed between
     2007-05-28T23:59:04
     **********/
     }
-
+```
 ## See also
 
 [.NET Interop from X++](net-interop-from-x.md)

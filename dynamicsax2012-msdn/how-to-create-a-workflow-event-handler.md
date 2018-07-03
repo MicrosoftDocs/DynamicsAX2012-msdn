@@ -30,23 +30,23 @@ Typically, the class and methods for a workflow event handler are created by the
 4.  Expand the new class, select **classDeclaration**, right-click the class declaration, and then click **Edit**.
 
 5.  Enter the following code in the class declaration.
-    
+    ```X++  
         public class <event handler class name> implements
             WorkflowStartedEventHandler,
             WorkflowCanceledEventHandler,
             WorkflowCompletedEventHandler
         {
         }
-
+    ```
 6.  Right-click the new class and then click **New Method**. A new method node displays under the **Classes** node.
 
 7.  Right-click the new method and then click **Edit**. Enter the following code for the started event method.
-    
+    ```X++  
         public void started(WorkflowEventArgs _workflowEventArgs)
         {;
             <insert method here>
         }
-
+    ```
 8.  Repeat steps 6 and 7 for the remaining events.
 
 9.  Right-click the node for the new class and select **Save**.
@@ -56,7 +56,7 @@ Typically, the class and methods for a workflow event handler are created by the
 ## Example
 
 The following code example shows a basic implementation of a workflow event handler for the started event of a workflow that tracks issues. The class declaration is shown first, followed by the implementation of the started method. The IssueStateChangeManager.start method updates the workflow state to Started based on the RecId parameter passed in by the workflowContext variable. For more information, see [WorkflowEventArgs Class](https://msdn.microsoft.com/en-us/library/gg831514\(v=ax.60\)) and [WorkflowContext Class](https://msdn.microsoft.com/en-us/library/gg798325\(v=ax.60\)).
-
+```X++  
     // Class Declaration
     public class IssueWorkflowEventHandler implements
         WorkflowStartedEventHandler,
@@ -78,7 +78,7 @@ The following code example shows a basic implementation of a workflow event hand
         // Sets the workflow state to Started.
         IssueStateChangeManager::start(workflowContext.parmRecId());
     }
-
+```
 You can implement the workflow canceled and completed event handler using the same code syntax shown earlier.
 
 ## See also

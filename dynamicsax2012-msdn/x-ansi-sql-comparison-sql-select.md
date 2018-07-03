@@ -84,7 +84,7 @@ The following table lists differences between the select statements of X++ SQL a
 ### ![Dd261457.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Dd261457.collapse_all(en-us,AX.60).gif")Code Example
 
 The following code example illustrates features in the previous table.
-
+```X++  
     static void OByWhere452Job(Args _args)
     {
         // Declare the table buffer variable.
@@ -104,7 +104,7 @@ The following code example illustrates features in the previous table.
     4008 , The Warehouse
     4001 , The Bulb
     ***/
-
+```
 ### ![Dd261457.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Dd261457.collapse_all(en-us,AX.60).gif")X++ SQL Keywords
 
 The following X++ SQL keywords are among those that are not part of ANSI SQL:
@@ -180,7 +180,7 @@ The following table lists differences about the join keyword of X++ SQL and ANSI
 ### ![Dd261457.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Dd261457.collapse_all(en-us,AX.60).gif")Code Example
 
 The following code example illustrates the join syntax in X++ SQL.
-
+```X++  
     static void OByWhere453Job(Args _args)
     {
         // Declare table buffer variables.
@@ -203,7 +203,7 @@ The following code example illustrates the join syntax in X++ SQL.
             info(tCustTable.AccountNum + " , " + tCustTable.Name);
         }
     }
-
+```
 ## Aggregate Fields
 
 The following table lists some differences in how aggregate fields in the select column list are referenced between X++ SQL and ANSI SQL. Aggregate fields are those that are derived by functions such as sum or avg.
@@ -237,7 +237,7 @@ The following table lists some differences in how aggregate fields in the select
 ### ![Dd261457.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Dd261457.collapse_all(en-us,AX.60).gif")Code Example
 
 In the following code example, the call to the info method illustrates the way to reference aggregate fields (see tPurchLine.QtyOrdered).
-
+```X++  
     static void Null673Job(Args _args)
     {
         PurchLine tPurchLine;
@@ -264,7 +264,7 @@ In the following code example, the call to the info method illustrates the way t
     QtyOrdered:  261,550.00
     End.
     ***/
-
+```
 ## Other Differences
 
 The following table lists other differences of the select statement between the X++ SQL and ANSI SQL.

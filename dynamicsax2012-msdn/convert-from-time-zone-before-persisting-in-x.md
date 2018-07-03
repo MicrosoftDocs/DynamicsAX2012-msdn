@@ -92,7 +92,7 @@ In the code example, some rows are inserted into MeetingTable. For each row, the
   - DateTimeUtil ::newDateTime, with implicit use of the user's preferred time zone
 
 ### ![Cc584924.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc584924.collapse_all(en-us,AX.60).gif")Code Example
-
+```X++  
     static void DateTimeInsertJob( Args _args )
     {
         MeetingTable meetingXRec; // Inherits from xRecord class.
@@ -201,7 +201,7 @@ In the code example, some rows are inserted into MeetingTable. For each row, the
         [41], MeetingId == 4, User TZ, utcDt5 == 2006-11-27T11:44:55
         **********************/
     }
-
+```
 ## See also
 
 [Time Zone Overview and Terminology](time-zone-overview-and-terminology.md)

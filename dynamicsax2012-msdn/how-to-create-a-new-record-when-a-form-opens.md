@@ -24,7 +24,7 @@ To create a new record every time that the user opens a form:
 ## Example
 
 The following example is from the run method in the PurchCreateOrder form. purchTable\_ds is the variable for the PurchTable data source on the form.
-
+```X++  
     void run()
     {
         purchTable_ds.create();
@@ -40,7 +40,7 @@ The following example is from the run method in the PurchCreateOrder form. purch
             throw Exception::Error;
         }
     } 
-
+```
 ## See also
 
 [Methods on a Form Data Source](methods-on-a-form-data-source.md)

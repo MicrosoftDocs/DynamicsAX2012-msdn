@@ -44,7 +44,7 @@ These new methods have the following characteristics:
   - Use [accessor methods](best-practices-for-accessor-methods.md) to set the class variables
 
 The static new… methods have a body that contains the following structure.
-
+```X++  
     MyClass myClass;
     ;
     
@@ -60,7 +60,7 @@ The static new… methods have a body that contains the following structure.
         throw error("Label text explaining why object was not created");
     }
     return myClass;
-
+```
 ## See also
 
 [Best Practices for Constructors](best-practices-for-constructors.md)

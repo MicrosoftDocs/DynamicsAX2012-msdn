@@ -83,7 +83,7 @@ This section provides the entire method for a computed column example. Nothing i
 The following string is returned from this method:
 
 substring(A.SUBSEGMENTID,1,1) + ' - ' + A.ACCOUNTNUM
-
+```X++  
     private static server str compColSubsegAcctMethod()
     {
         #define.ViewName(TestCompColView)
@@ -125,7 +125,7 @@ substring(A.SUBSEGMENTID,1,1) + ' - ' + A.ACCOUNTNUM
     
         return sReturn;
     }
-
+```
 The output to the Infolog from the previous method is shown in the following.
 
 <table>

@@ -32,11 +32,11 @@ To create your own project type, you must create a new class that extends the Pr
 2.  Double-click **Class1** to open the Code Editor.
 
 3.  In the Code Editor, rename the class MyProjectType and extend MyProjectType by changing the class declaration to the following:
-    
+    ```X++  
         class MyProjectType extends ProjectNode
         {
         }
-
+    ```
 4.  In the AOT, expand the **Data Dictionary** node, expand the **Base Enums** node, right-click the **SysProjectType** base enumeration, and then click **New Element**.
 
 5.  Name the element MyProjectType. The name must match the name of the class that you created.

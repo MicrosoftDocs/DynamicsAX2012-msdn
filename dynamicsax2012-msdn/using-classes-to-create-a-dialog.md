@@ -52,7 +52,7 @@ Dialog is the main class used to construct dialogs. DialogRunBase is an extensio
 ![Example of a simple dialog](images/Aa877843.PATNDIAG(en-us,AX.60).gif "Example of a simple dialog")
 
 The following code sample implements the dialog shown in the previous figure.
-
+```X++  
     boolean myDialog(str FromChequeNum="1000", str NumOfCheque="300")
     {
         Dialog dialog = new Dialog("@SYS23133");
@@ -77,7 +77,7 @@ The following code sample implements the dialog shown in the previous figure.
         }
         return false;
     }
-
+```
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
 

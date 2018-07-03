@@ -24,7 +24,7 @@ When Microsoft Dynamics AX starts, calls are made to the \*startup methods on th
 
 
 When Microsoft Dynamics AX is started, calls are executed in the sequence shown in the following code.
-
+```X++  
     appl.startup() // The SysStartupCmd class is instantiated here.
     sysStartupCmd.applInit()
     super()
@@ -34,7 +34,7 @@ When Microsoft Dynamics AX is started, calls are executed in the sequence shown 
     sysStartupCmd.infoInit()
     super()
     sysStartupCmd.infoRun()
-
+```
 ## Commands Available when Microsoft Dynamics AX Starts
 
 The commands that are available when Microsoft Dynamics AX starts are listed in the SysStartupCmd.construct method (available in the **Classes** node in the Application Object Tree (AOT)). The commands include the following:
@@ -54,7 +54,7 @@ The commands that are available when Microsoft Dynamics AX starts are listed in 
 2.  Modify the construct method on the SysStartupCmd class so that your class is called.
     
     Following is an example.
-    
+    ```X++  
         switch (s)
         {
             // Code lines are left out here. 
@@ -63,7 +63,7 @@ The commands that are available when Microsoft Dynamics AX starts are listed in 
                 break;
             // Code lines are left out here.
         }
-
+    ```
 3.  Add parameters (if necessary) to commands that are executed on startup to the **Command to run at application startup** field on the **General** tab in the Microsoft Dynamics AX Configuration Utility.
     
     Instead of giving the command from the Microsoft Dynamics AX Configuration Utility, you might choose to use the command-line parameter **-startupcmd=** MyCommand.

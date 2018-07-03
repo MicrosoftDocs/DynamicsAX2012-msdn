@@ -66,13 +66,13 @@ To create a display method, follow these steps.
       - A display method for a form data source does require a parameter. You use the parameter to specify a table buffer. The type of the table buffer has to match the type of the table in the form data source.
         
         The following example shows a display method that returns the number of customer records that appear in the form. Notice how the parameter has a type of CustTable. This table is in the form data source.
-        
+        ```X++  
             display NumberOfRecords testMethod(CustTable myTable)
             {
                NumberOfRecords recCount = this.totalNumberOfRows();
                Return recCount;
             }
-
+        ```
 ## To use a display method in a form
 
 To use a display method with a form control, the control and the return type of the method must be identical types. For example, if you have a RealEdit control on the form, the display method that you are using must return a value of type real.

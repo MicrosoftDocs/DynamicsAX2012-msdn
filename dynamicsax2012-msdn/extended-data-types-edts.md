@@ -60,13 +60,13 @@ In the AOT, the **Data Dictionary** \> **Extended Data Types** node is used to c
 
 
 where Extendedtype is the name of the extended data type in the AOT.
-
+```X++
     // A UserGroupID (integer) variable is declared and initialized to 1.
     UserGroupID groupID = 1;
     
     // An Amount (real) variable is declared.
     Amount currency;
-
+```
 ## Automatic Conversion
 
 EDTs are standard data types, but with a specific name and additional properties. EDTs undergo the same value and type conversions as do the standard data types they are based on.

@@ -26,7 +26,7 @@ break;
 ## Loops
 
 When used within a [while](while-loops.md), [do...while](do-while-loops.md), or [for](for-loops.md) loop, the loop is terminated and execution continues from the statement following the loop as shown in the following example.
-
+```X++  
     mainMenu = SysDictMenu::newMainMenu();
     enum = mainMenu.getEnumerator();
     found = false;
@@ -44,7 +44,7 @@ When used within a [while](while-loops.md), [do...while](do-while-loops.md), or 
     {
         ...
     }
-
+```
 ## Switch
 
 When break is used within a [switch](switch-statements.md) statement, the execution of the case branch terminates, and the statement following the switch is executed as shown in the following example.

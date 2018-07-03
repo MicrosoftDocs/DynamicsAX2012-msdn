@@ -28,7 +28,7 @@ The canSubmitToWorkflow method for a table controls whether a document in the ta
 3.  A method node named **canSubmitToWorkflow** displays under the **Methods** node and the **Editor** window opens.
 
 4.  In the **Editor** window, enter code to examine the current record and determine whether to enable the display of the **Submit** button. For example, the following code is the canSubmitToWorkflow method for the work order approval workflow. It examines the workflow state for the current record. If it is in the NotSubmitted state, the Submit button is enabled.
-    
+    ```X++  
         public boolean canSubmitToWorkflow(str _workflowType = '')
         {
             boolean ret;
@@ -47,7 +47,7 @@ The canSubmitToWorkflow method for a table controls whether a document in the ta
         
             return ret;
         }
-
+    ```
 5.  Close the **Editor** window and then click **Yes** to save changes.
 
 ## See also

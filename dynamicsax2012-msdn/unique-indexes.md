@@ -36,7 +36,7 @@ This error can be fixed by implementing an upgrade script called AllowDup Table
 Use this to temporarily disable the unique index. When you have removed conflicting fields, you need to run an upgrade script to re-enable the unique index.
 
 "AllowDup" scripts should contain the following code.
-
+```X++  
     {
     DictIndex  dictIndex = new DictIndex(
         tablenum(TableName),
@@ -45,20 +45,20 @@ Use this to temporarily disable the unique index. When you have removed conflict
     
         ReleaseUpdateDB::indexAllowDup(dictIndex);
     }
-
+```
 ### ![Aa884122.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa884122.collapse_all(en-us,AX.60).gif")"DeleteDup" scripts
 
 Use this to delete all conflicting fields.
 
 "DeleteDup" scripts should contain the following code.
-
+```X++  
     {
         ;
         ReleaseUpdateDB::deleteDuplicatesUsingIds(
             tablenum(TableName),
             fieldnum(TableName, UniqueIndexField));
     }
-
+```
 ## See also
 
 [Best Practices for Indexes](best-practices-for-indexes.md)

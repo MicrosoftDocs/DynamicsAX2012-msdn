@@ -22,18 +22,18 @@ If the update method is overridden, the implementation falls back to a classic l
 ## Example 1: Assigning from a Math Expression
 
 This example updates the table myTableBuffer and increments the value in field1 by ten percent in all records in the table.
-
+```X++
     MyTable myTableBuffer;
     ;
     update_recordset myTableBuffer
     setting field1 = field1 * 1.10;
-
+```
 ## Example 2: Using a Where Clause
 
 This example updates the table myTable in all records where field1 has the value 0. field1 is assigned the new value 1; field2 is assigned the value of the sum of fieldX and fieldY.
 
 This example updates multiple fields at the same time, and it updates only those rows that satisfy the where clause.
-
+```X++
     MyTable myTableBuffer;
     ;
     update_recordset myTableBuffer
@@ -41,11 +41,11 @@ This example updates multiple fields at the same time, and it updates only those
         field1 = 1,
         field2 = fieldX + fieldY
     where field1 == 0;
-
+```
 ## Example 3: Joining Tables in an Update
 
 This example shows that the update\_recordset statement supports the joining of several tables. Data from the joined tables can be used to assign values to fields in the table that is being updated.
-
+```X++
     static void Join22aJob(Args _args)
     {
         TableEmployee tabEmpl;
@@ -64,7 +64,7 @@ This example shows that the update\_recordset statement supports the joining of 
         info(strFmt("Number of records updated is %1."
             ,tabEmpl .rowCount()));
     }
-
+```
 ## See also
 
 [Speeding Up SQL Operations](speeding-up-sql-operations.md)

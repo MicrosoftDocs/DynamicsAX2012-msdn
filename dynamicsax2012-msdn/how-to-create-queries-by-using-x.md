@@ -24,7 +24,7 @@ You can also create a query by using the AOT. For more information, see [How to:
 2.  Add a class method that creates a query by using the Query system classes.
     
     In the following example, the QueryRun class runs the query specified by the **q** object. The addDataSource method specifies **CustTable** as the data source for the query. The addRange and value methods specify account numbers between 4000 and 4022. The addSortField method specifies that data is sorted on the **DlvMode** field.
-    
+    ```X++  
         public void runMyDynamicQuery2()
         {
             Query q;
@@ -48,7 +48,7 @@ You can also create a query by using the AOT. For more information, see [How to:
         
             pause;
         }
-
+    ```
 ## Access the Query by Using a Menu Item
 
 1.  Add a main method to the class, and call the method that you created in step 2.
@@ -69,7 +69,7 @@ The following procedure is a job that you can run in the AOT to create a query c
 1.  In the AOT, right-click **Jobs**, and then click **New Job**. The **Code editor** window opens.
 
 2.  In the **Code editor** window, copy the following code, and then paste it in the **Code editor**.
-    
+    ```X++  
         static void CreateQuery6Job(Args _args)
         {
             TreeNode                treeNodeObj;
@@ -116,7 +116,7 @@ The following procedure is a job that you can run in the AOT to create a query c
             treeNodeObj = treeNodeObj.AOTfindChild(queryName);
             treeNodeObj.AOTdelete();
         }
-
+    ```
 3.  Press F7 to compile, and then press F5 to run the job. A query named MyQuery1 is created in the **Queries** node. The query is run, and then is deleted.
 
 ## SysQueryRangeUtil Class has Incompatibilities with .NET CIL

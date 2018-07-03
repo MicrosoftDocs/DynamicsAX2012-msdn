@@ -88,7 +88,7 @@ public void printAccountNo();
 }
 
 The syntax, however, also allows various possibilities for referencing fields in records, for example by using the TableName.(FieldId) syntax. The following example prints the contents of the fields in the current record in the Customer table.
-
+```X++  
     public void printCust()
     {
         int i, n, k;
@@ -109,7 +109,7 @@ The syntax, however, also allows various possibilities for referencing fields in
             pause;
         }
     }
-
+```
 
 > [!NOTE]
 > <P>The previous example uses the fieldCnt and fieldCnt2Id methods. The fieldCnt method counts the number of fields in a table, while fieldCnt2Id returns the ID for a field number. For example, you can use the fieldCnt2Id method to find out that field number 6 in a table has the ID 54. It is necessary to perform this conversion because it is not guaranteed that the IDs of the fields in a table are consecutive.</P>

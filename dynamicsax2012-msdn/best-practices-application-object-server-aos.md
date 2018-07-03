@@ -64,15 +64,15 @@ You should add the AOSRunOn hint to class static methods set to RunOn Called fr
 ## Queries
 
 The [QueryRun Class](https://msdn.microsoft.com/en-us/library/gg923354\(v=ax.60\)) object should always run from the same tier where the query is read. The QueryRun class accesses the tables defined in the data sources in the call to the [QueryRun.next Method](https://msdn.microsoft.com/en-us/library/gg923364\(v=ax.60\)) as shown in the following code example.
-
+  ```X++  
     queryRun.next()
-
+  ```
 When a QueryRun object is created from a query on another tier, a pack operation is implicitly performed. This is invisible to the user, except if the query contains, for example, links to buffers outside the query itself. These references are not valid on another tier and an error is generated.
 
 Use the [QueryRun.newObject Method](https://msdn.microsoft.com/en-us/library/gg923363\(v=ax.60\)) to create a new QueryRun object as shown in the following code example.
-
+  ```X++  
     myNewQueryRun = myOldQueryRun.newObject(query);
-
+  ```
 The myNewQueryRun instance is a new QueryRun object that is created on the same tier as myOldQueryRun object. The arguments for the newObject method are the same as the QueryRun object.
 
 ## Client/Server Neutral Functions

@@ -178,7 +178,7 @@ All table buffer variables inherit the methods of the xRecord class. One such me
 ## X++ Code Example
 
 The following X++ code example assumes that a TempDB table which is named **MyTempdb** has already been defined under **AOT** \> **Data Dictionary** \> **Tables**. The **MyTempdb** table has one column that is the same type as the **AccountNum** column on the **CustTable** table. The while select statement in the example contains a JOIN clause that cannot be used with temporary InMemory tables.
-
+```X++
     server public static void main(Args _args)
     {
         MyTempdb xrecMyTempdb;
@@ -215,7 +215,7 @@ The following X++ code example assumes that a TempDB table which is named **MyTe
     4004 , 0
     4005 , 1
     ***/
-
+```
 ## See also
 
 [Temporary Tables and the TableType Property](temporary-tables-and-the-tabletype-property.md)

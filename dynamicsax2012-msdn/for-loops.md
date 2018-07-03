@@ -24,27 +24,27 @@ These additions make it especially useful for traversing lists, containers, and 
 ## Syntax
 
 The body of the for loop may be executed zero or more times according to the results of the condition test. Placeholders are enclosed in parentheses.
-
+```X++  
     for ( Initialization ; Test ; Increment ) 
     {
         Statement 
     }
-
+```
 ## Example
 
 Print all items in a fixed array called ra with 100 reals.
-
+```X++  
     int i; // Control variable.
     ;
     for (i=1; i<=100; i+=1)
     {
         print ra[i];
     }
-
+```
 ## Comparison to while Loop
 
 The previous example can also be written using a while loop.
-
+```X++  
     int i; // Control variable.
     ;
     i = 1;
@@ -53,7 +53,7 @@ The previous example can also be written using a while loop.
         print ra[i];
         i++;
     }
-
+```
 In general, there is a direct correspondence between for and while loops as shown in the following table.
 
 <table>

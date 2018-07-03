@@ -20,7 +20,7 @@ X++ code performs file input and output (IO) by using the TextIo class. TextIo u
 The following X++ job code sample creates a file and writes to it. Next the code reads from the file, and prints every record to the Infolog.
 
 The use of the FileIOPermission class is also illustrated. FileIoPermission is used to assert that the current method has the authority to call another method that checks for such authority. For more information, see [Code Access Security](code-access-security.md).
-
+```X++  
     static void Job_File_IO_TextIo_Write_Read(Args _args)
     {
         TextIo txIoRead,
@@ -92,7 +92,7 @@ The use of the FileIOPermission class is also illustrated. FileIoPermission is u
         // because the job (or method) is ending.
         CodeAccessPermission::revertAssert();
     }
-
+```
 ## X++ Sample Output
 
 The following is the actual Infolog output.
@@ -102,14 +102,14 @@ The following is the actual Infolog output.
 > <P>Several spaces between Hello and World are condensed to one space in the output. This occurs because the read method uses a string of one or more space characters as a delimiter of tokens, and only the tokens are put into the returned container.</P>
 
 
-
+```X++  
     Message (14:12:47)
     File is at: C:\DOCUME~1\myalias\LOCALS~1\Temp\Test_File_IO.txt
     Hello World.
     The sky is blue.
     
     // EOFile
-
+```
 ## See also
 
 [Microsoft Dynamics AX Class Overview](microsoft-dynamics-ax-class-overview.md)

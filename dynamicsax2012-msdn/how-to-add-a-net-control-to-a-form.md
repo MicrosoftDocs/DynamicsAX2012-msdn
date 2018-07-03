@@ -108,7 +108,7 @@ The .NET and ManagedHost control are added to the form. To integrate the .NET co
 4.  To populate the initial property values of the .NET control, double-click the **init** method. The method opens in the code editor. Use the code editor to add code that populates the required properties of the .NET control. Add your initialization code after the code that declares the control and adds the event handlers.
     
     The following code example shows how to add code to the **init** method that populates the **Text** property of a LinkLabel control named **\_LinkLabelManagedHost\_Control**. The **Text** property specifies the text message that the LinkLabel displays on the form.
-    
+    ```X++  
         public void init()
         {
            super();
@@ -121,16 +121,16 @@ The .NET and ManagedHost control are added to the form. To integrate the .NET co
            // The following code initializes the Text property of the .NET LinkLabel control.
            _LinkLabelManagedHost_Control.set_Text(“Go to MSDN”);
         }
-
+    ```
 5.  To customize the actions that occur when a .NET control event occurs, return to the AOT and double-click the name of the event handler method that was created earlier. The specified method opens in the code editor. Add code that performs actions for that event.
     
     The following code example shows the event handler method for a .NET LinkLabel control. The method opens the specified web site when the text in the control is clicked.
-    
+    ```X++  
         void ManagedHost_LinkClicked(System.Object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
         {
            WINAPI::shellExecute(“iexplore.exe”, “MSDN.Microsoft.com”);
         }
-
+    ```
 6.  To validate and save your code changes, click the **Compile** button of the code editor window.
 
 ## See also

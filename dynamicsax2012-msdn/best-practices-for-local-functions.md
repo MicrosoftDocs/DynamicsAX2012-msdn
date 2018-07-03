@@ -18,7 +18,7 @@ Use private class methods instead of local functions (local methods) wherever po
 Local functions follow all other standards for methods—name, style, layout, and so on. However, local functions cannot be used from outside the method where they are defined.
 
 Local function declarations should be indented to the same level as the types in the variable declarations. Like other declarations, they should be at the top of the code block and separated from other code by a semicolon (;) on a blank line. An example follows.
-
+```X++
     protected void setValueQty()
     {
         InventTransPosting  inventTransPosting;
@@ -33,7 +33,7 @@ Local function declarations should be indented to the same level as the types in
         ; // Semicolon at the end of the declarations
           // ... More code
     }
-
+```
 ## See also
 
 [Best Practices for Methods](best-practices-for-methods.md)

@@ -127,7 +127,7 @@ The following X++ features are demonstrated:
   - The behavior after an Exception::Error exception occurs.
 
 ### ![Cc967369.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967369.collapse_all(en-us,AX.60).gif")X++ Sample
-
+```X++  
     static void JobRs008a_Exceptions(Args _args)
     {
         str sStrings[4];
@@ -165,7 +165,7 @@ The following X++ features are demonstrated:
     
         info("End of program.");
     }
-
+```
 #### ![Cc967369.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967369.collapse_all(en-us,AX.60).gif")Output
 
 Here is the actual output from the Infolog window:

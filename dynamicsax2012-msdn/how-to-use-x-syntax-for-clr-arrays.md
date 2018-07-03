@@ -18,7 +18,7 @@ X++ has syntax that you can use to directly create and handle .NET Framework arr
 ## Code Sample for .NET Framework and Native Arrays in X++
 
 The following X++ code sample creates a .NET Framework array, populates the array, and then prints the contents of the array. For comparisons, it also does the same tasks with a standard X++ array.
-
+```X++  
     static void JobTestNetArray()
     {
         System.Int32[] iNetNumbers; // .NET Framework array
@@ -49,7 +49,7 @@ The following X++ code sample creates a .NET Framework array, populates the arra
         {
             info(int2str(iXppNumbers[i]));
         }
-    
+
     /***** Actual infolog output
     Message (07:31:10 am)
     Next, .NET Framework array by special X++ syntax.
@@ -60,7 +60,7 @@ The following X++ code sample creates a .NET Framework array, populates the arra
     2202
     *****/
     }
-
+```
 ## Syntax Differences Between .NET Framework Arrays vs. Native Arrays in X++
 
 In X++ there are important syntax differences between how you handle .NET Framework arrays versus standard X++ arrays. The differences are as follows:

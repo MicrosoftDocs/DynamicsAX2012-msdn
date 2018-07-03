@@ -38,20 +38,20 @@ This check ensures that no record can be updated or deleted except from within t
 
 
 Statements between ttsBegin and ttsCommit may include one or more transaction blocks as shown in the following example.
-
+```X++  
     ttsBegin;
         // Some statements.
     ttsBegin;
         // More statements.
     ttsCommit;
     ttsCommit;
-
+```
 In such cases, nothing is actually committed until the successful exit from the final ttsCommit.
 
 ## Examples
 
 ### ![Aa622564.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa622564.collapse_all(en-us,AX.60).gif")Example use of ttsBegin and ttsCommit
-
+```X++  
     Custtable custTable;
     ;
     ttsBegin;
@@ -61,9 +61,9 @@ In such cases, nothing is actually committed until the successful exit from the 
     custTable.update();
      
     ttsCommit;
-
+```
 ### ![Aa622564.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa622564.collapse_all(en-us,AX.60).gif")Examples of Code Rejected by the two Transaction Integrity Checks
-
+```X++  
     ttsBegin;
      
     select myTable; // Rejected by the forUpdate check.
@@ -82,7 +82,7 @@ In such cases, nothing is actually committed until the successful exit from the 
     myTable.update(); // Rejected by the ttsLevel check.
      
     ttsCommit;
-
+```
 The first failure is because the forupdate keyword is missing.
 
 The second failure is because the update is in another transaction scope rather than the one that the record was selected in ttsCommit for update.

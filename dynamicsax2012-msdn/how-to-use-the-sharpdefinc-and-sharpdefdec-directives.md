@@ -26,7 +26,7 @@ For this topic, you must understand the information in [How to: Test a Macro Val
 ## Code Sample Using \#defInc and \#defDec
 
 In the following code sample, the initial value of the macro CounterMacroA is a string that can be converted into an integer. The sample shows how the \#defInc and \#defDec directives can be used for this macro name.
-
+```X++  
     static void SimpleDefINCJob(Args _args)
     {
         ;
@@ -56,7 +56,7 @@ In the following code sample, the initial value of the macro CounterMacroA is a 
     mg24: # if confirms CounterMacroA == 1
     **************/
     }
-
+```
 ## Treatment of Special Values
 
 It is recommended that the \#defInc and \#defDec directives only be used for macros that have an integer value. The precompiler follows special rules for \#defInc when the macro value is not an integer, or when the value is unusual or extreme.

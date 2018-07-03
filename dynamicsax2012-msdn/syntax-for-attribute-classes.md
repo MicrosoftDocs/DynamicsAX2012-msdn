@@ -20,7 +20,7 @@ The SysAttribute class cannot be used as an attribute because it is declared abs
 ## Syntax for Defining an Attribute Class
 
 The following example shows the declaration and design of an ordinary attribute class that you could create.
-
+```X++
     public class PracticeAttribute extends SysAttribute
     {
         // Fields in the classDeclaration.
@@ -36,11 +36,11 @@ The following example shows the declaration and design of an ordinary attribute 
     
         // Other methods can go here.
     }
-
+```
 ## Syntax for Decorating a Class
 
 The following example shows a class and a method that are decorated with the PracticeAttribute given in the previous example.
-
+```X++
     [PracticeAttribute(StartEnd::End, "Use the RegularClass class at the end.")]
     public class RegularClass
     {
@@ -51,7 +51,7 @@ The following example shows a class and a method that are decorated with the Pra
         }
         // More fields and methods belong here.
     }
-
+```
 If the constructor of the attribute takes no parameters, the parentheses for the parameters are optional. The attribute decoration could be \[ AnotherAttribute \] without parentheses.
 
 ## The Attribute Constructor and its Role

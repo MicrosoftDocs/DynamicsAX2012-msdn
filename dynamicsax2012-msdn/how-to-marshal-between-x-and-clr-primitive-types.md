@@ -82,7 +82,7 @@ Each row in the following table lists a pairing of types that are implicitly mar
 ## Code Sample for System.Boolean
 
 The following code sample shows the marshaling between the .NET Framework System.Boolean type and its X++ counterpart boolean.
-
+```X++  
     static void JobBooleanMarshal(Args _args) // X++ job.
     {
         System.Boolean netBool; // .NET
@@ -123,11 +123,11 @@ The following code sample shows the marshaling between the .NET Framework System
     A1. Good, .NET was marshaled to X++.
     B1. Good, X++ was marshaled to .NET.
     ******/
-
+```
 ## Code Sample for System.DateTime
 
 The following code sample shows the marshaling between the .NET Framework System.DateTime type and the X++ date type. From System.DateTime, there is no marshaling to the X++ utcdatetime type, and there is no marshaling to the timeOfDay extended data type (which is an int).
-
+```X++  
     static void JobDateTimeMarshal(Args _args)
     {
         System.DateTime netDttm;
@@ -158,11 +158,11 @@ The following code sample shows the marshaling between the .NET Framework System
             info("B2. Bad, X++ was not marshaled to .NET.");
         }
     }
-
+```
 ## Code Sample for System.Int32
 
 The following code sample shows the marshaling between the .NET Framework System.Int32 type and its X++ counterpart int.
-
+```X++  
     static void JobInt32Marshal(Args _args)
     {
         System.Int32 netInt;
@@ -196,7 +196,7 @@ The following code sample shows the marshaling between the .NET Framework System
             info("B2. Bad, X++ was not marshaled to .NET.");
         }
     }
-
+```
 ### ![Cc584291.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc584291.collapse_all(en-us,AX.60).gif")X++ int Does Not Marshal to System.Int64
 
 Automatic marshaling works between the X++ int64 type and the .NET Framework type System.Int64, just as marshaling works between the X++ int and the .NET System.Int32.
@@ -212,7 +212,7 @@ The following code sample shows the marshaling between the .NET Framework System
 > <P>An error occurs if an assignment is made to an X++ str variable from a System.String variable that is currently null.</P>
 
 
-
+```X++  
     static void JobStringMarshal(Args _args)
     {
         System.String netString;
@@ -252,7 +252,7 @@ The following code sample shows the marshaling between the .NET Framework System
     B1. Good, X++ was marshaled to .NET.
     *****/
     }
-
+```
 ### ![Cc584291.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc584291.collapse_all(en-us,AX.60).gif")X++ Strings Declared with a Maximum Length
 
 As an option in X++, str variables can be declared with a maximum length. The following str declaration sets the maximum length at 8. The assignment would end with the value of myStr being "12345678", with the "9" being truncated:
@@ -270,7 +270,7 @@ When X++ is run as p-code rather than as CIL, instances of str truncation can be
 ## Code Sample for System.Guid
 
 The following code sample shows the marshaling between the .NET Framework System.Guid type and its X++ counterpart guid.
-
+```X++  
     static void JobGuidMarshal(Args _args)
     {
         System.Guid netGuid;
@@ -305,11 +305,11 @@ The following code sample shows the marshaling between the .NET Framework System
             info("B2. Bad, X++ was not marshaled to .NET.");
         }
     }
-
+```
 ## Code Sample for System.Single and System.Double
 
 The following code sample shows the marshaling between the .NET Framework types System.Single and System.Double, and their mutual X++ counterpart real. The sample shows that the X++ real does marshal in both directions, with both .NET Framework types.
-
+```X++  
     static void JobRealMarshal(Args _args)
     {
         str xppStr;
@@ -343,7 +343,7 @@ The following code sample shows the marshaling between the .NET Framework types 
     Message (01:39:56 pm)
     1230500
     *****/
-
+```
   
 The following line of X++ code fails to compile. The reason is that the literal 98.76 is treated as a System.Decimal, which cannot be directly assigned to a System.Double.
 
@@ -361,7 +361,7 @@ The following X++ code example is artificially forced for simplicity. But it dem
   - System.Enum::ToObject
 
 <!-- end list -->
-
+```X++  
     static void GmEnumTest37Job(Args _args) // X++ job, in AOT > Jobs.
     {
         System.AttributeTargets  // Full .NET type name.
@@ -396,7 +396,7 @@ The following X++ code example is artificially forced for simplicity. But it dem
     A_FALSE:   (enumAttribTarg1 == netInt)
     B_TRUE:    (enumAttribTarg1 == enumAttribTarg2)
     *****/
-
+```
 ## Operator Limitations
 
 When you work with .NET primitive types in X++ code, you can use the X++ equal sign (=) assignment operator. However, no other operators can be used with CLR primitives. For instance, you cannot use the comparison operators (such as == or \>). Also, you cannot use bitwise operators (such as & or |).

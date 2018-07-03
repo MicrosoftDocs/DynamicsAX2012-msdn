@@ -22,7 +22,7 @@ The class that you use to submit items to workflow must support submissions from
 ## Example
 
 The following X++ code example is the main method of the **FCMSubmitWorkOrderToWorkflow** class from the Facility Management sample for Microsoft Dynamics AX. Notice how it examines the menu item used to start the workflow submission.
-
+```X++  
     public static void main(Args args)
     {
         // Variable declaration.
@@ -131,4 +131,4 @@ The following X++ code example is the main method of the **FCMSubmitWorkOrderToW
             }
         }
     }
-
+```

@@ -56,7 +56,7 @@ fieldStr(MyTable,B), y)
 ## Example of adding a range to a query
 
 The following code programmatically adds a range to a query and uses string substitution to specify the data source and field name. The range expression is associated with the CustTable.AccountNum field; however, because the expression specifies the data sources and field names, the expression can be associated with any field in the CustTable table.
-
+```X++  
     static void AddRangeToQuery3Job(Args _args)
     {
         Query q = new Query();  // Create a new query.
@@ -100,7 +100,7 @@ The following code programmatically adds a range to a query and uses string subs
         }
         pause;
     }
-
+```
 ## See also
 
 [Accessing Data](accessing-data.md)

@@ -77,7 +77,7 @@ This section provides the X++ code for all the methods in a class that is named 
 The countNestedLoops method can be run by the X++ interpreter, or it can be run as CIL. The technique is to call the Global::runClassMethodIL method. This involves writing additional methods that wrap the countNestedLoops method. The method modifiers server static are necessary for this scenario.
 
 The following countNestedLoops method is simple.
-
+```X++  
     // Called by:  main, countNestedLoopsContainer.
     public server static str countNestedLoops(int _numOfLoops)
     {
@@ -92,9 +92,9 @@ The following countNestedLoops method is simple.
         }
         return "Final sum is: " + int2str(runningSum);
     }
-
+```
 Next, the countNestedLoopsWrapper method takes in a container as its parameter, and returns another container. This is the signature that is required by the Global::runClassMethodIL method. Notice this method is intended to be private, not public.
-
+```X++  
     // Called by:  countNestedLoopsWrapper.
     private server static container countNestedLoopsContainer(container _cNumOfLoops)
     {
@@ -109,9 +109,9 @@ Next, the countNestedLoopsWrapper method takes in a container as its parameter, 
     
         return conPoke(cReturn, 1, sSumInString);
     }
-
+```
 Next, the countNestedLoopsWrapper method makes the call to the Global::runClassMethodIL method.
-
+```X++  
     // Called by:  main.
     public server static str countNestedLoopsWrapper(int _numOfLoops)
     {
@@ -127,11 +127,11 @@ Next, the countNestedLoopsWrapper method makes the call to the Global::runClassM
         
         return conPeek(cFromCIL,1);
     }
-
+```
 Finally we have the main method which initiates the run of the scenario. The main method calls the countNestedLoops and countNestedLoopsWrapper methods. The durations of each method are compared.
 
 To run this method, open its source code in the MorphX client code editor, and then press F5 or click the green arrow icon.
-
+```X++  
     // Run this method, from the MorphX code editor,
     // or from a job under AOT > Jobs.
     public server static void main(Args _args)
@@ -166,7 +166,7 @@ To run this method, open its source code in the MorphX client code editor, and t
     Final sum is: 974169 (Interpreted: 406), (CIL: 0).
     ***/
     }
-
+```
 The **Infolog** message that is commented at the bottom of the main method shows that the CIL run completed much faster than the interpreted run.
 
 ## Methods on Queries and Forms Cannot Compile to CIL

@@ -100,7 +100,7 @@ The following table lists several expressions and indicates whether they evaluat
 </tbody>
 </table>
 
-
+```X++  
     // Simple declaration of a boolean variable, b
     boolean b; 
      
@@ -112,7 +112,7 @@ The following table lists several expressions and indicates whether they evaluat
      
     // Declares a dynamic array of Booleans
     boolean b4[]; 
-
+```
 ## Automatic Conversions
 
 Because the internal representation of a boolean is an integer, boolean values are automatically converted into integers and reals.
@@ -120,7 +120,7 @@ Because the internal representation of a boolean is an integer, boolean values a
 ## Using Booleans in Expressions
 
 You usually use Booleans in conditional statements, or as parts or results of logical expressions. The following example shows both.
-
+```X++  
     void main()
     {
         //Declares a boolean called exprValue
@@ -135,7 +135,7 @@ You usually use Booleans in conditional statements, or as parts or results of lo
             print "OK";
         } 
     }
-
+```
 Here, the variable exprValue contains the value true, because 7\*6 is equal to 42; so, the expression is true. The conditional statement is true; the word "OK" is displayed on the screen.
 
 ## Overview of Booleans

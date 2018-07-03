@@ -60,7 +60,7 @@ The base class defines several macros in its class declaration. Its descendant c
 The base class also defines a macro inside one of its methods. A second method in this class determines the macro is defined out of range and cannot be referenced in the second method.
 
 The \#undef.MacroRange333 in the method UseOtherMethodMacro affects the availability of macro MacroRange333 in the rest of that method. Descendant classes can still reference MacroRange333.
-
+```X++  
     public class ClassInheritanceOfMacrosCBase1
     {
         //   Unless disturbed by other directives, these macros can
@@ -96,13 +96,13 @@ The \#undef.MacroRange333 in the method UseOtherMethodMacro affects the availabi
             #undef.MacroRange333
         }
     }
-
+```
 #### ![Cc197108.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197108.collapse_all(en-us,AX.60).gif")The Mid-Level Inheritance Class
 
 The mid-level inheritance class undefines the macro MacroRangeA that is defined in its parent class. This makes the macro unavailable to any class that extends the present class.
 
 The present class also redefines the macro MacroRangeB that is defined in its parent class. This changes the value of the macro (from positive to negative).
-
+```X++  
     public class ClassInheritanceOfMacrosCMid3 extends
             ClassInheritanceOfMacrosCBase1
     {
@@ -123,13 +123,13 @@ The present class also redefines the macro MacroRangeB that is defined in its pa
                 + " (Is now negative due to later redefinition.)");
         }
     }
-
+    ```
 #### ![Cc197108.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197108.collapse_all(en-us,AX.60).gif")The Grandchild Class
 
 The grandchild class uses \#ifnot to demonstrate that it cannot access the MacroRangeA macro that its grandparent class defines. The reason is that the mid-level class undefined the macro.
 
 The grandchild class also demonstrates that it can access the macro MacroRange333 that its grandparent class defines.
-
+```X++  
     public class ClassInheritanceOfMacrosCGrandchild5 extends
             ClassInheritanceOfMacrosCMid3
     {
@@ -148,13 +148,13 @@ The grandchild class also demonstrates that it can access the macro MacroRange33
                 + " (Defined in grandparent class CBase1.)");
         }
     }
-
+    ```
 ### ![Cc197108.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197108.collapse_all(en-us,AX.60).gif")A Job to Run the Inheritance Test
 
 The following X++ job calls the demonstration methods of the parent/child/grandchild classes, and displays the results.
 
 The **Infolog** output from a job run is given in a comment box in the code.
-
+```X++  
     static void JobClassesCC(Args _args)
     {
         ;
@@ -172,7 +172,7 @@ The **Infolog** output from a job run is given in a comment box in the code.
     CGrandchild5_h: #MacroRange333 == 333 (Defined in grandparent class CBase1.)
     ****************/
     }
-
+```
 ## See also
 
 [Macros in X++](macros-in-x.md)

@@ -40,27 +40,27 @@ You can use a segmented entry control to view or update an account number from t
 ### To Add Actions to the Segmented Entry Control
 
 1.  Expand the **Methods** node of the form, right-click **ClassDeclaration**, and then click **View Code**. The method opens in the code editor. Add an instance of the [LedgerDimensionAccountController](https://msdn.microsoft.com/en-us/library/gg764214\(v=ax.60\)) class to the form. The following code example adds a declaration for the class.
-    
+    ```X++  
         public class FormRun extends ObjectRun
         {
             LedgerDimensionAccountController ledgerDimensionAccountController;
         }
-
+    ```
 2.  Right-click the **Methods** node of the form, click **Override method**, and then click **init**. The init method opens in the code editor. Create an instance of the LedgerDimensionAccountController class and specify the data source and field that you want to associate with the segmented entry control.
     
     The following code example instantiates the class. Notice how the parameters specify the [LedgerJournalTrans](https://msdn.microsoft.com/en-us/library/gg860017\(v=ax.60\)) table as the data source and LedgerDimension as the field.
-    
+    ```X++  
         public void init()
         {
             super();
             
             ledgerDimensionAccountController = LedgerDimensionAccountController::construct(LedgerJournalTrans_DS, fieldstr(LedgerJournalTrans, LedgerDimension));
         }
-
+    ```
 3.  Expand the **Data Sources** node of the form, expand the data source table, expand **Fields**, and then expand the field that you want to appear on the form. Right-click **Methods**, click **Override method**, and then click **resolveReference**. The method opens in the code editor. Replace the existing code in the method with a call to the resolveReference method of the LedgerDimensionAccountController class.
     
     The following code example overrides the resolveReference method of the field. Notice how comments are used to remove the existing code.
-    
+    ```X++  
         public Common resolveReference(FormReferenceControl _formReferenceControl)
         {
             //Common ret;
@@ -71,33 +71,33 @@ You can use a segmented entry control to view or update an account number from t
             
             return ledgerDimensionAccountController.resolveReference();
         }
-
+    ```
 4.  Expand the **Design** node of the form, expand the segmented entry control that you added, right-click **Methods**, click **Override method**, and then click **jumpRef**. The jumpRef method opens in the code editor. Add a call to the jumpRef method of the LedgerDimensionAccountController class.
     
     The following code example shows how to override the jumpRef method of the control.
-    
+    ```X++  
         public void jumpRef()
         {
             ledgerDimensionAccountController.jumpRef();
             
             super();
         }
-
+    ```
 5.  Right-click **Methods** of the segmented entry control, click **Override method**, and then click **loadAutoCompleteData**. The loadAutoCompleteData method opens in the code editor. Add a call to the loadAutoCompleteData method of the LedgerDimensionAccountController class.
     
     The following code example shows how to override the loadAutoCompleteData method of the control. Notice how the loadAutoCompleteData method of the LedgerDimensionAccountController uses the input parameter of the control method.
-    
+    ```X++  
         Public void loadAutoCompleteData(loadAutoCompleteDataEventArgs _e)
         {
             super(_e);
             
             ledgerDimensionAccountController.loadAutoCompleteData(_e);
         }
-
+    ```
 6.  Right-click the **Methods** node of the segmented entry control, click **Override method**, and then click **loadSegments**. The loadSegments method opens in the code editor. Add a call to the parmControl, parmDimensionAccountStorageUsage, and loadSegments methods of the LedgerDimensionAccountController class.
     
     The following code example overrides the loadSegments method of the control. Notice the use of the parmControl method. You use this method to bind the instance of the LedgerDimensionAccountController class to the segmented entry control.
-    
+    ```X++  
         public void loadSegments()
         {
             super();
@@ -105,20 +105,20 @@ You can use a segmented entry control to view or update an account number from t
             ledgerDimensionAccountController.parmControl(this);
             ledgerDimensionAccountController.loadSegments();
         }
-
+    ```
 7.  Right-click the **Methods** node of the segmented entry control, click **Override method**, and then click **segmentValueChanged**. The segmentValueChanged method opens in the code editor. Add a call to the segmentValueChanged method of the LedgerDimensionAcccountController class.
     
     The following code example shows how to override the segmentValueChanged method of the control. Notice how the segmentValueChanged method of the LedgerDimensionAccountController class uses the input parameter of the control method.
-    
+    ```X++  
         public void segmentValueChanged(SegmentValueChangedEventArgs _e)
         {
             super(_e);
             
             ledgerDimensionAccountController.segmentValueChanged(_e);
         }
-
+    ```
 8.  Right-click the **Methods** node of the segmented entry control, click **Override method**, and then click **validate**. The validate method opens in the code editor. Add a call to the validate method of the LedgerDimensionAccountController class. The following code examples shows how to override the validate method of the control.
-    
+    ```X++  
         public boolean validate()
         {
             boolean ret;
@@ -129,7 +129,7 @@ You can use a segmented entry control to view or update an account number from t
             
             return ret;
         }
-
+    ```
 9.  Save the form and close the code editor.
 
 ## See also

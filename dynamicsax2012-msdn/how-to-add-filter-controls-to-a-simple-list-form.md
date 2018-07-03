@@ -82,7 +82,7 @@ To enable a form to be filtered, you add one or more controls to the custom filt
 4.  Add code to the method that updates the form by using the specified filter value. Add the code after the call to super in the modified method.
     
     The following code example shows how to refresh the form after a value is selected in the filter control. In this example, Table1\_ds is the data source for the form. To follow the example, you would replace Table1\_ds with the name of the table in the data source of the form.
-    
+    ```X++  
         public boolean modified()
         {
             boolean ret;
@@ -94,18 +94,18 @@ To enable a form to be filtered, you add one or more controls to the custom filt
             
             return ret;
         }
-
+    ```
 ### To use the control value to filter the form
 
 1.  Expand the **Methods** node of the form, right-click **classDeclaration**, and then click **View Code**. The method opens in the **Editor** window.
 
 2.  In the classDeclaration method, declare a variable of type **QueryFilter**. The following code example shows how to declare a variable named queryFilter.
-    
+    ```X++  
         public class FormRun extends ObjectRun
         {
             QueryFilter queryFilter;
         }
-
+    ```
 3.  Expand the **Data Sources** node, and then find the table that has the field that has the values that you will use to filter the list.
 
 4.  Expand the table node, right-click **Methods**, click **Override method**, and then click **init**. The method opens in the **Editor** window.
@@ -113,7 +113,7 @@ To enable a form to be filtered, you add one or more controls to the custom filt
 5.  Use the addQueryFilter method of the data source query to initialize queryFilter. Add your code after the call to **super**. Use the addQueryFilter method to specify the table and field you will use to filter the list. The method returns a QueryFilter object. For information about the QueryFilter class, see [How to: Use the QueryFilter Class with Outer Joins](how-to-use-the-queryfilter-class-with-outer-joins.md).
     
     The following code example initializes queryFilter. In this example, Table1\_ds represents the data source for the form. In addition, relatedID specifies the name of a field in Table1. To follow the example, replace Table1\_ds and relatedID with the name of a table and a field from the data source of the form.
-    
+    ```X++  
         public void init()
         {
             super();
@@ -121,13 +121,13 @@ To enable a form to be filtered, you add one or more controls to the custom filt
             // Add a filter to the query. Specify the field to use in the filter.
             queryFilter = Table1_ds.query().addQueryFilter(Table1_ds.queryBuildDataSource(),"relatedID");
         }
-
+    ```
 6.  In the same table, right-click the **Methods**, click **Override method**, and then click **executeQuery**. The method opens in the **Editor** window.
 
 7.  Associate the value of the filter group control you added earlier with the queryFilter object. Add your code before the call to **super**.
     
     The following code example uses the value of a control named ComboBox to specify the value for the queryFilter object. To follow the example, replace **ComboBox** with name of the filter control you added earlier.
-    
+    ```X++  
         public void executeQuery()
         {
             // Get the filter value from the filter control.
@@ -135,7 +135,7 @@ To enable a form to be filtered, you add one or more controls to the custom filt
             
             super();
         }
-    
+    ```
 
     > [!NOTE]
     > <P>If you find the filter creates a new record when you expect the form to be empty. Set the <STRONG>ViewEditMode</STRONG> property in the <STRONG>Design</STRONG> node of the form to <STRONG>View</STRONG>.</P>

@@ -46,7 +46,7 @@ The range of reals is -(10)127 to (10)127 with a precision of 16 significant dig
 </tbody>
 </table>
 
-
+```X++  
     // Simple declaration of a real variable, r
     real r;
      
@@ -58,7 +58,7 @@ The range of reals is -(10)127 to (10)127 with a precision of 16 significant dig
      
     // Declaration of a dynamic array of reals
     real r4[];
-
+```
 ## Decimal Literals
 
 You can use decimal literals anywhere where a real is expected. A decimal literal is the decimal written directly in the code, for instance 2.123876. The range of reals is shown above, and all reals in this range can be used as literals in X++.
@@ -66,7 +66,7 @@ You can use decimal literals anywhere where a real is expected. A decimal litera
 ## Exponential Notation
 
 Real literals can also be written using exponential notation. Examples are:
-
+```X++
     real r;
     ;
     r = 1.000e3;
@@ -74,13 +74,13 @@ Real literals can also be written using exponential notation. Examples are:
     r = 1.2345e+03;
     r = 1234.5e40;
     r = 1.0e; // Means 1.0E1
-
+```
 ## Automatic Conversions
 
 X++ performs automatic conversion of reals to Booleans, enums, and integers in expressions, depending on the result of the expression.
 
 If the result is an integer or the operator is an integer-operator, reals are converted into integers. If the result is a Boolean, reals are converted to Booleans, and so on. For example:
-
+```X++
     void main()
     {
         //Declares a variable of type integer with the name exprValue
@@ -91,13 +91,13 @@ If the result is an integer or the operator is an integer-operator, reals are co
         ;
         exprValue = Area/3;
     }
-
+```
 The expression Area/3 is a real expression because division is a real operator, and the result is 1.047176. This result is automatically converted (actually truncated) to an integer with the value 1, because exprValue is an integer.
 
 ### ![Aa878630.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa878630.collapse_all(en-us,AX.60).gif")Conversion to .NET System.Decimal
 
 Direct assignments between X++ real and .NET Framework System.Decimal convert the value correctly without the need to call any conversion function. This is demonstrated in the following code example.
-
+```X++  
     static public void Main(Args _args)
     {
         real real9;
@@ -113,11 +113,11 @@ Direct assignments between X++ real and .NET Framework System.Decimal convert t
     Message (05:48:43 pm)
     strFmt says real9 == 2.35
     ***/
-
+```
 ## Using Reals in Expressions
 
 Reals can be used in all expressions and with both relational operators and arithmetic operators as shown in the following example:
-
+```X++  
     void myMethod() 
     {
         // Two real variables are declared and initialized
@@ -136,7 +136,7 @@ Reals can be used in all expressions and with both relational operators and arit
             print "Oops"; // else "Oops" is printed
         }
     }
-
+```
 ## Overview of Reals
 
 <table>

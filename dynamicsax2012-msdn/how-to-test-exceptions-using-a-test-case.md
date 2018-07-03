@@ -44,7 +44,7 @@ In this section you will add a method to the Employee class that throws an excep
 3.  In the AOT, right-click Employee, point to **New**, and then click **Method**.
 
 4.  In the Code Editor, change the method to the following code.
-    
+    ```X++  
         public void retire()
         {
             // If retired, throw an exception. 
@@ -54,7 +54,7 @@ In this section you will add a method to the Employee class that throws an excep
         
             retired = true;
         }
-
+    ```
 5.  In the AOT, right-click the Employee class and click **Compile**.
 
 ## Adding an Exception Test Class
@@ -68,12 +68,12 @@ In this procedure, you will create a class named EmployeeTest that extends the S
 2.  Double-click **Class1** to open the Code Editor.
 
 3.  In the Code Editor, extend SysTestCase by changing the class declaration to the following code.
-    
+    ```X++  
         [SysTestTargetAttribute('Employee',UtilElementType::Class)]
         class EmployeeTest extends SysTestCase
         {
         }
-
+    ```        
 ## Adding an Exception Test Method
 
 In this procedure you will add a test method named testRetire. You will do this by adding a method to the EmployeeTest class. If an employee is already retired you should receive an exception if the retire method is called again. You will verify that the expected exception is thrown when an employee is set to retire more than one time.
@@ -83,7 +83,7 @@ In this procedure you will add a test method named testRetire. You will do this 
 1.  In the AOT, right-click EmployeeTest, point to **New**, and then click **Method**.
 
 2.  In the Code Editor, change the method to the following code.
-    
+    ```X++  
         [SysTestMethodAttribute]
         void testRetire()
         {
@@ -99,7 +99,7 @@ In this procedure you will add a test method named testRetire. You will do this 
             // Call the retire method. An exception is expected.
             employee.retire();
         }
-
+    ```
 ## Running the Exception Test Case
 
 In this procedure, you will access the Unit Test toolbar to run the exception test case.

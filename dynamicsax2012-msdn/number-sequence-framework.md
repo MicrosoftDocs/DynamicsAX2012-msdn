@@ -34,12 +34,12 @@ The first step to implementing number sequences for a new module is to create a 
 3.  Create a new number sequence class named NumberSeqModule MyModule. This class must extend the NumberSeqApplicationModule class. For the Facility Management module, this class is named NumberSeqModuleFacilityManagement.
 
 4.  Add the numberSeqModule method to the new number sequence class. This method must return the element for your module from the NumberSeqModule base enum. The following code shows how this is done for the Facility Management module.
-    
+    ```X++
         public NumberSeqModule numberSeqModule()
         {
            return NumberSeqModule::FCM;
         }
-
+    ```
 5.  Implement the numberSeqModule method for the parameters table.
     
     Copy this method from one of the other parameter tables such as BOMParameters. Change the return value of the numberSeqModule method so that it references the number sequence for your module.
@@ -59,7 +59,7 @@ Next, you will make number sequence data types for the number sequences you are 
 1.  In your number sequence module class, override the loadModule method.
 
 2.  In this new method, specify the characteristics of each number sequence data type that you need in the new module. For example, the following code is from the loadModule method of the NumberSeqModuleFacilityManagement class. It defines a number sequence that is used by the Facility Management module to provide work order numbers.
-    
+    ```X++
         protected void loadModule()
         {
             NumberSeqDatatype datatype = NumberSeqDatatype::construct();
@@ -77,7 +77,7 @@ Next, you will make number sequence data types for the number sequences you are 
             datatype.addParameterType(NumberSeqParameterType::DataArea, true, false);
             this.create(datatype);
         }
-
+    ```
 
 > [!TIP]
 > <P>For details about how to set the properties for a data type, see the descriptions of the methods for the <A href="https://msdn.microsoft.com/en-us/library/gg745013(v=ax.60)">NumberSeqDatatype Class</A>.</P>
@@ -89,14 +89,14 @@ Next, you will make number sequence data types for the number sequences you are 
 After you create the number sequence module class and define the number sequence data types for your module, you must load the number sequence information into Microsoft Dynamics AX. This must be done only one time. Typically, this is a step that is performed when the module is installed.
 
 A simple way to load the number sequence information for a module is to create a job in the AOT that creates an instance of the number sequence module and runs the loadModule() method. The following example is the InstallFacilityManagement job in the AOT. It creates an instance of the NumberSeqModuleFacilityManagement class, and then calls the loadModule() method. The job must be run only one time by the person who is installing the Facility Management module.
-
+```X++
     static void InstallFacilityManagement(Args _args)
     {
         NumberSeqModuleFacilityManagement n = new NumberSeqModuleFacilityManagement();
     
         n.loadModule();
     }
-
+```
 ## Generating Number Sequences
 
 After the number sequence information has been loaded for the module, you must use the **Set up number sequences** wizard to generate the number sequences that you defined.
@@ -116,13 +116,13 @@ For each data type specified in NumberSeqModule MyModule .loadModule, you must
 2.  Change the name of the method to numRef MyDataType.
 
 3.  Add code that will return a number sequence reference object for that specific data type. For example, the following method retrieves the number sequence reference object that is used for the WorkOrderNum field. This is the number sequence that is defined for the Facility Management sample application.
-    
+    ```X++
         client server static NumberSequenceReference numRefWorkOrderNum()
         {
             NumberSeqScope scope = NumberSeqScopeFactory::createDataAreaScope(curext());
             return NumberSeqReference::findReference(extendedtypenum(WorkOrderNum), scope);
         }
-
+    ```
 ## Using Number Sequences in an Application
 
 To use the number sequence for a form in Microsoft Dynamics AX or in Enterprise Portal, you will typically add code to the data source for the form or data set. You can also retrieve a number sequence value directly in code. For example, the following example retrieves the next available work order number from the number sequence used for the WorkOrderNum field and displays it in the Infolog.
@@ -134,14 +134,14 @@ To use the number sequence for a form in Microsoft Dynamics AX or in Enterprise 
 To use a number sequence for a form in Microsoft Dynamics AX, follow these steps.
 
 1.  In the classDeclaration method of the form that will be accessing data, add a variable declaration for the number sequence handler. The following example shows the variable definition for a number sequence handler.
-    
+    ```X++
         public class FormRun extends ObjectRun
         {
             NumberSeqFormHandler numberSeqFormHandler;
         }
-
+    ```
 2.  Add the NumberSeqFormHandler method to the form. The code in this method will create an instance of the number sequence form handler and return it. The following example shows the code that returns the number sequence form handler for the FCMWorkOrders form of the Facility Management sample module.
-    
+    ```X++
         NumberSeqFormHandler numberSeqFormHandler()
         {
             if (!numberSeqFormHandler)
@@ -154,9 +154,9 @@ To use a number sequence for a form in Microsoft Dynamics AX, follow these steps
             }
             return numberSeqFormHandler;
         }
-
+    ```
 3.  Add create, delete, and write methods to the data source of the table that contains the field for which the number sequence is being used. The following code examples show these methods that are added to the data source for the FCMWorkOrders table to support the number sequence for the WorkOrderNum field.
-    
+    ```X++
         public void create(boolean _append = false)
         {
             element.numberSeqFormHandler().formMethodDataSourceCreatePre();
@@ -175,20 +175,20 @@ To use a number sequence for a form in Microsoft Dynamics AX, follow these steps
             super();
             element.numberSeqFormHandler().formMethodDataSourceWrite();
         }
-
+    ```
 ### ![Aa608474.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa608474.collapse_all(en-us,AX.60).gif")Enterprise Portal
 
 To use a number sequence for a form in Enterprise Portal, follow these steps.
 
 1.  In the classDeclaration method of the data set that will be accessing data, add a variable declaration for the number sequence handler. The following example shows the variable definition for a number sequence handler.
-    
+    ```X++
         public class DatSetRun extends ObjectRun
         {
             NumberSeqFormHandler numberSeqFormHandler;
         }
-
+    ```
 2.  Add the NumberSeqFormHandler method to the data set. The code in this method will create an instance of the number sequence form handler and return it. The following example shows the code that returns the number sequence form handler for the FCMWorkOrderAddEdit data set of the Facility Management sample module.
-    
+    ```X++
         NumberSeqFormHandler numberSeqFormHandler()
         {
             if (!numberSeqFormHandler)
@@ -201,9 +201,9 @@ To use a number sequence for a form in Enterprise Portal, follow these steps.
             }
             return numberSeqFormHandler;
         }
-
+    ```
 3.  Add create, delete, and write methods to the data source for the data set that contains the field for which the number sequence is being used. The following code examples show these methods that are added to the data source for the FCMWorkOrders table to support the number sequence for the WorkOrderNum field.
-    
+    ```X++
         public void create(boolean _append = false)
         {
             element.numberSeqFormHandler().formMethodDataSourceCreatePre();
@@ -222,7 +222,7 @@ To use a number sequence for a form in Enterprise Portal, follow these steps.
             element.numberSeqFormHandler().formMethodDataSourceWrite();
             super();
         }
-
+    ```
 ## See also
 
 [Number sequences in Microsoft Dynamics AX](https://msdn.microsoft.com/en-us/library/hh209291\(v=ax.60\))

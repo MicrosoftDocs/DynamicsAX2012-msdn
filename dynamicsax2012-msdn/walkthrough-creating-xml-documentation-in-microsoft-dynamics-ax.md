@@ -80,13 +80,13 @@ In this procedure, you will create a method.
 1.  Right-click **Math** and select **New Method**.
 
 2.  In the Code Editor, change the method to the following code.
-    
+    ```X++  
         int add(int a, int b)
         {
             ;
             return a + b;
         }
-
+    ```
 3.  Save the method.
 
 ## Adding Documentation to the Method

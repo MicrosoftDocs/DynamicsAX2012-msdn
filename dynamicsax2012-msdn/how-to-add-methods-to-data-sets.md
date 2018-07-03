@@ -48,7 +48,7 @@ this.AxDataSource1.GetDataSet().DataSetRun.AxaptaObjectAdapter.Call("DataSetMeth
 ## Example
 
 The following example is an X++ method named MyWorkOrders that was added to the FCMWorkOrderList data set for the Facility Management sample application. This method clears any existing range for the data set, and then applies a new range that limits the data accessed to include the work orders for only the current worker.
-
+```X++  
     void MyWorkOrders()
     {
         QueryBuildDataSource qbds;
@@ -66,7 +66,7 @@ The following example is an X++ method named MyWorkOrders that was added to the 
         qbr.status(RangeStatus::Open);
         FCMWorkOrders_ds.executeQuery();
     }
-
+```
 A standard ASP.NET button was added to the WorkOrderList User Control. The following using statement was added to the C\# code for the User Control:
 
 using Microsoft.Dynamics.AX.Framework.Portal.Data;

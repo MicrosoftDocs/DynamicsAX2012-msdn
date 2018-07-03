@@ -32,7 +32,7 @@ When a primitive data type (such as an X++ int) is passed by value, a copy of th
 The following code example has a section for the caller method and a section for the called method. Both are X++ methods. The called method adds 456 to its parameter variable iTest. The caller method cannot detect that the addition occurred.
 
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Caller Method
-
+```X++  
     public void CallerMethodByValueInt() // X++
     {
         int iTest = 3;
@@ -43,16 +43,16 @@ The following code example has a section for the caller method and a section for
             info("Good, == 3.")
         }
     }
-
+```
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Called Method
-
+```X++  
     static public void CalledMethodByValueInt // X++
             (int iTest) // by value
     {
         ;
         iTest = iTest + 456; // Caller can not detect.
     }
-
+```
 ### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Object By Value
 
 When an object is passed by value, a copy of the pointer (to the object) is given to the called method. Assignments made to this copy are not detectable by the caller method.
@@ -62,7 +62,7 @@ The following code example has a section for the caller method and a section for
 The called method makes an assignment to its meTest1 variable, but the caller cannot detect the assignment. The called method also calls a method on the object pointed to by meTest2, and the caller can detect the resulting change in the state of the object.
 
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Caller Method
-
+```X++  
     public void CallerMethodByValueObject // X++
     {
         MyEntity meTest1;
@@ -81,9 +81,9 @@ The called method makes an assignment to its meTest1 variable, but the caller ca
             info("Good, == 36");
         }
     }
-
+```
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Called Method
-
+```X++  
     static public void CalledMethodByValueObject // X++
             (
             MyEntity meTest1  // by value
@@ -94,7 +94,7 @@ The called method makes an assignment to its meTest1 variable, but the caller ca
         meTest1 = new MyEntity(555); // Caller can not detect.
         meTest2 .AddToCounter(3); // Caller can detect.
     }
-
+```
 ## By Reference
 
 When a parameter is passed by reference, the pointer (that points to the object) is given to the called method. No copy of the pointer is created. Assignments made by the called method to its parameter variable are detectable by the caller method.
@@ -116,7 +116,7 @@ Changes made to the int parameter variable by the called method are detectable b
 The following code example has a section for the X++ caller method and a section for the C\# called method. The called method adds 456 to its parameter variable iTest. The caller method can detect that the addition occurred.
 
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Caller Method
-
+```X++  
     public void CallerMethodByReferenceInt // X++
     {
         int iTest = 3;
@@ -128,7 +128,7 @@ The following code example has a section for the X++ caller method and a section
             info("Good, == 459.")
         }
     }
-
+```
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Called Method
 
 ``` csharp
@@ -150,7 +150,7 @@ The following code example has a section for the X++ caller method and a section
 The called method makes an assignment to its meTest1 variable, and the caller can detect the assignment. The called method also calls a method on the object pointed to by meTest2, and the caller can detect the resulting change in the state of the object.
 
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Caller Method
-
+```X++  
     public void CallerMethodByReferenceObject // X++
     {
         MyEntity meTest1;
@@ -169,7 +169,7 @@ The called method makes an assignment to its meTest1 variable, and the caller ca
             info("Good, == 36");
         }
     }
-
+```
 #### ![Cc586700.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc586700.collapse_all(en-us,AX.60).gif")Called Method
 
 ``` csharp

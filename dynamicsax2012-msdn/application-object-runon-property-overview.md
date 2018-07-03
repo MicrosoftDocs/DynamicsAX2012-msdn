@@ -106,21 +106,21 @@ A best practice warning is generated if a method set to client makes a call to t
 // AOSRunMode:: \<tier\>
 
 The value of \<tier\> can be server, client, or calledFrom and set to the same RunOn property value as the method. For example, a main method that runs on the server and needs to make a call to the client could use the following code.
-
+```X++  
     // AOSRunMode::server.
     public static server void main (Args args)
     {
         // ToDo Add method code here.
     }
-
+```
 A best practice warning is generated if the AOSRunMode hint tier does not match the method tier, as shown in the following code example.
-
+```X++  
     // AOSRunMode::client.
     public static server void main (Args args)
     {
         // ToDo Change the AOSRunMode hint to server.
     }
-
+```
 ## See also
 
 [AOS Overview](aos-overview.md)

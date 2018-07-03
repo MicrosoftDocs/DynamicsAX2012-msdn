@@ -109,11 +109,11 @@ If the output options provided by Microsoft Dynamics AX do not meet your needs, 
 2.  Double-click the new class to open it in the Code Editor.
 
 3.  Change the code to the following.
-    
+    ```X++  
         public class AlternativeListener implements SysTestListener
          {
          }
-
+    ```
 4.  Add methods to provide the behavior of the alternative listener.
 
 5.  Press F7 to compile the class.

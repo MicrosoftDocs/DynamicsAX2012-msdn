@@ -100,7 +100,7 @@ The following code example shows a sample implementation of the static main meth
 This code example uses the IssueStateChangeManager class to change the state of the business document as the workflow progresses. You can also manage the state change that results from workflow activation directly in the SubmitToWorkflow class that you create for the SubmitToWorkflowMenuItem property setting in the workflow type.
 
 When the workflow is activated, the following code will open a dialog box to add user comments.
-
+```X++  
     public static void main(Args args)
     {
         // Variable declaration.
@@ -146,7 +146,7 @@ When the workflow is activated, the following code will open a dialog box to add
             }
         }
     }
-
+```
 ## See also
 
 [How to: Create a New Workflow Type](how-to-create-a-new-workflow-type.md)

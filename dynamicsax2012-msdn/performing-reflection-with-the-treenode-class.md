@@ -54,7 +54,7 @@ The example uses the following methods on the TreeNode class:
   - findNode
 
 ### ![Cc967395.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967395.collapse_all(en-us,AX.60).gif")Code
-
+```X++  
     static void Job_TreeNode_AOTsave_Reflection(Args _args)
     {
         // #AOT is defined in the AOT under Macros.
@@ -166,7 +166,7 @@ The example uses the following methods on the TreeNode class:
                 + "], because the add did not work.");
         }
     }
-
+```
 #### ![Cc967395.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967395.collapse_all(en-us,AX.60).gif")Output
 
 The output to the Infolog is as follows:

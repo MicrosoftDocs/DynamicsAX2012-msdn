@@ -34,14 +34,14 @@ The system provides several attributes, including the SysObsoleteAttribute class
 The system provides several attributes, including the [SysObsoleteAttribute](https://msdn.microsoft.com/en-us/library/gg962438\(v=ax.60\)) class. One use of the SysObsoleteAttribute class is to tell the X++ compiler that it should fail if a particular method is called in the source code. The X++ compiler rejects the compile, and it displays the specific message that is stored in this use of the attribute. The SysObsoleteAttribute class can also be used to tell the compiler to issue warning messages instead of errors.
 
 ### ![Gg864301.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg864301.collapse_all(en-us,AX.60).gif")Code Example
-
+```X++  
     // X++
     [SysObsoleteAttribute("The Automobile class might be a better choice for faster performance.", false)]
     class Bicycle
     {
         // Members of the Bicycle class go here.
     }
-
+```
 ## Reflection on Attribute Metadata
 
 You can perform reflection to find the attribute metadata that is attached to a class. The classes to use for attribute reflection are as follows:

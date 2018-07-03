@@ -122,9 +122,9 @@ You can associate context-sensitive help with menu items. The following examples
 However, not all forms open directly from a menu item. For example, you might have X++ code that uses a menu item to open a form. In this case, you have to be careful about how you use the menu item. If your code does not specifically include the menu item, the menu item ID is not included in the list of IDs sent to the Help server. As a result, any context-sensitive help associated with the menu item will not appear in the Help viewer.
 
 The following X++ code example shows how to have the menu item included in the list of IDs. Notice how the MenuFunction object specifies the menu item, and then uses the create method to open the form.
-
+```X++  
     purchRFQEditLines = new MenuFunction(menuitemDisplayStr(PurchRFQEditLines), MenutItemType::Display).create(FormLetter::newClientArgs(formStr(PurchRFQEditLines), this)); 
-
+```
   
 **Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
 
