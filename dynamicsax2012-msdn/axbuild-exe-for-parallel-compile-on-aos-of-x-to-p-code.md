@@ -348,23 +348,34 @@ The simple solution is to use another common syntax that explicitly gives the co
 <td><p>Example that <strong>Fails</strong></p></td>
 <td><p>This X++ code example syntactically chains the method2 call to the end of the method1 call. The server compiler reports an error for the method2 call.</p>
 <p><em>Underlying Details:</em> Often COM objects that are called by X++ code are installed only on the client tier, and are not installed on the server tier. In the preceding code example, the underlying problem is that the server compiler cannot know the return type from method1. Its return type could be another COM object or just an integer. If the return type from method1 were an integer, the chained call to method2 would certainly be invalid. The compiler issues an error because it cannot prove that method1 returns another COM object.</p></td>
-<td><pre><code>void methodXpp()
+<td>
+
+```X++
+void methodXpp()
 {
     COM comInstanceA = new COM(&quot;MyCOMType_A&quot;);
     comInstanceA.method1().method2();
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Example that <strong>Succeeds</strong></p></td>
 <td><p>This X++ code example eliminates the chain, and succeeds.</p>
 <p><em>Underlying Details:</em> In the preceding code example, the server compiler is told by an explicit type declaration that variable comInstanceB is a COM object. This gives the compiler justification to insert a call to the dispatch method for method2.</p></td>
-<td><pre><code>void methodXpp()
+<td>
+
+```X++
+void methodXpp()
 {
     COM comInstanceA = new COM(&quot;MyCOMType_A&quot;);
     COM comInstanceB;
     comInstanceB = comInstanceA.method1();
     comInstanceB.method2();
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 </tbody>
 </table>

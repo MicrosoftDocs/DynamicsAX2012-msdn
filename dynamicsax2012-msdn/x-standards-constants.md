@@ -101,8 +101,12 @@ Follow the best practices rules about using constants. These are designed to mak
 <tr class="odd">
 <td><p><span id="rx82uidquoteslab"></span>Do not use labels. You will get a warning if a label is used inside single quotes.<br />
 Example:</p>
-<pre><code>#define.Filename(&#39;myFile.txt&#39;)
-Filename filename = #Filename;</code></pre></td>
+
+```X++
+#define.Filename('myFile.txt')
+Filename filename = #Filename;
+```
+</td>
 <td><p>Warning</p></td>
 </tr>
 </tbody>

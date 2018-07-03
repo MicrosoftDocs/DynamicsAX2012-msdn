@@ -123,12 +123,15 @@ The present class also redefines the macro MacroRangeB that is defined in its pa
                 + " (Is now negative due to later redefinition.)");
         }
     }
-    ```
+
+```
+
 #### ![Cc197108.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197108.collapse_all(en-us,AX.60).gif")The Grandchild Class
 
 The grandchild class uses \#ifnot to demonstrate that it cannot access the MacroRangeA macro that its grandparent class defines. The reason is that the mid-level class undefined the macro.
 
 The grandchild class also demonstrates that it can access the macro MacroRange333 that its grandparent class defines.
+
 ```X++  
     public class ClassInheritanceOfMacrosCGrandchild5 extends
             ClassInheritanceOfMacrosCMid3
@@ -148,7 +151,8 @@ The grandchild class also demonstrates that it can access the macro MacroRange33
                 + " (Defined in grandparent class CBase1.)");
         }
     }
-    ```
+```
+
 ### ![Cc197108.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197108.collapse_all(en-us,AX.60).gif")A Job to Run the Inheritance Test
 
 The following X++ job calls the demonstration methods of the parent/child/grandchild classes, and displays the results.
@@ -173,6 +177,7 @@ The **Infolog** output from a job run is given in a comment box in the code.
     ****************/
     }
 ```
+
 ## See also
 
 [Macros in X++](macros-in-x.md)

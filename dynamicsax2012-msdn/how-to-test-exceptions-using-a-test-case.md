@@ -39,7 +39,9 @@ In this section you will add a method to the Employee class that throws an excep
 
 2.  In the Code Editor, add the following member variable in the **classDeclaration** braces.
     
-        boolean retired;
+       ```X++
+       boolean retired;
+       ```
 
 3.  In the AOT, right-click Employee, point to **New**, and then click **Method**.
 

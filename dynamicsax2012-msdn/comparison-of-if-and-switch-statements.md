@@ -35,54 +35,68 @@ When you need your X++ code to branch based on one of several values of a single
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>static void ConditionalJob1i(Args _args)
+<td>
+
+```X++
+static void ConditionalJob1i(Args _args)
 {
     int account = 1000;
+
     if (account == 200)
     {
-        print &quot;a&quot;;
+        print "a";
     }
     else if (account == 500)
     {
-        print &quot;b&quot;;
+        print "b";
     }
     else if (account == 1000)
     {
-        print &quot;c&quot;;
+        print "c";
     }
     else if (account == 2000)
     {
-        print &quot;d&quot;;
+        print "d";
     }
     else
     {
-        print &quot;e&quot;;
+        print "e";
     }
+
     pause;
-}</code></pre></td>
-<td><pre><code>static void ConditionalJob1s(Args _args)
+}
+```
+
+</td>
+<td>
+
+```X++
+static void ConditionalJob1s(Args _args)
 {
     int account = 1000;
+
     switch (account)
     {
         case 200:
-            print &quot;a&quot;;
+            print "a";
             break;
         case 500:
-            print &quot;b&quot;;
+            print "b";
             break;
         case 1000:
-            print &quot;c&quot;;
+            print "c";
             break;
         case 2000:
-            print &quot;d&quot;;
+            print "d";
             break;
         default:
-            print &quot;e&quot;;
+            print "e";
             break;
     }
     pause;
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 </tbody>
 </table>
@@ -108,16 +122,20 @@ When your X++ code must branch based on groups of values for a variable, the swi
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>static void ConditionalJob2i(Args _args)
+<td>
+
+```X++
+static void ConditionalJob2i(Args _args)
 {
     int firstNumber = 210;
     int numDivTen = firstNumber / 10;
+
     if ((numDivTen == 10) ||
         (numDivTen == 12) ||
         (numDivTen == 14)
        )
     {
-        print &quot;f&quot;;
+        print "f";
     }
     else
     {
@@ -127,32 +145,43 @@ When your X++ code must branch based on groups of values for a variable, the swi
             (numDivTen == 500)
            )
         {
-            print &quot;g&quot;;
+            print "g";
         }
         else
         {
-            print &quot;h&quot;;
+            print "h";
         }
     }
+
     pause;
-}</code></pre></td>
-<td><pre><code>static void ConditionalJob2s(Args _args)
+}
+```
+
+</td>
+<td>
+
+```X++
+static void ConditionalJob2s(Args _args)
 {
     int firstNumber = 210;
+
     switch (firstNumber / 10)
     {
         case 10,12,14:
-            print &quot;f&quot;;
+            print "f";
             break;
         case 13,17,21,500:
-            print &quot;g&quot;;
+            print "g";
             break;
         default:
-            print &quot;h&quot;;
+            print "h";
             break;
     }
     pause;
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 </tbody>
 </table>
@@ -175,15 +204,26 @@ If you do not use the break statement, the program flow in the switch statement 
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>case 13:
+<td>
+
+```X++
+case 13:
 case 17:
 case 21:
 case 500:
-    print &quot;g&quot;;
-    break;</code></pre></td>
-<td><pre><code>case 13,17,21,500:
-    print &quot;g&quot;;
-    break;</code></pre></td>
+    print "g";
+    break;
+```
+</td>
+<td>
+
+```X++
+case 13,17,21,500:
+    print "g";
+    break;
+```
+
+</td>
 </tr>
 </tbody>
 </table>
