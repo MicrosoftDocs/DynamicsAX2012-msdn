@@ -121,7 +121,9 @@ DimIdx when viewed as the underlying T-SQL. Notice the two additional fields at 
 <td><p>A method on the InventDim table.</p>
 <p>This method is called by the hashValue method. The hashKey method returns a string containing the values of the additional InventDim fields above the 14 field limit.</p>
 <p>Partners whose customizations need more than 14 dimensions in the InventDim table must edit this method to add their new field names. The edit must be similar to the following X++ code which shows a pretend dimension field named FluffinessQuotientId. The field is added near the end of the hashKey method:</p>
-<pre><code>public str hashKey()   // X++, method on InventDim table.
+
+```X++
+public str hashKey()   // X++, method on InventDim table.
 {
     str     hashKey = &#39;&#39;;
     #InventDimDevelop
@@ -143,7 +145,9 @@ DimIdx when viewed as the underlying T-SQL. Notice the two additional fields at 
             + &#39;FluffinessQuotientId:&#39; + this.FluffinessQuotientId;
     }
     return hashKey;
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>hashValue</p></td>
@@ -171,7 +175,9 @@ DimIdx when viewed as the underlying T-SQL. Notice the two additional fields at 
 <td><p>A static method on the InventDim table. The method is used to retrieve a record from the InventDim table.</p>
 <p>The findDim method has been updated to use the hashing infrastructure described in this document. Therefore any new fields added to the hashed field collection are used to find matching InventDim records.</p>
 <p>Whenever you modify the schema of dimension fields on the InventDim table, you must modify the findDim method to concur with the modification. Any new dimensions that you add to the hashKey, what we call secondary dimensions, have no effect on the code in the findDim method. But if you add a primary dimension field to the InventDim table, you must also add the field to both long lists of dimensions that are in the code of the findDim method. For example, in the following X++ code, the pretend dimension field named FluffinexxQuotientId has been added as a primary.</p>
-<pre><code>client server static public InventDim findDim(
+
+```X++
+client server static public InventDim findDim(
     InventDim   _inventDim,
     boolean     _forupdate = false)
 {
@@ -234,7 +240,10 @@ DimIdx when viewed as the underlying T-SQL. Notice the two additional fields at 
     }
     #inventDimDevelop
     return inventDim;
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 </tbody>
 </table>
