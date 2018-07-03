@@ -27,12 +27,14 @@ The name, or identifier, for a variable points to a memory location where inform
 
 The following four variables that are declared in the myMethod method have valid names in X++:
 
-    private void myMethod(int _, str _myParameter2)
+```X++
+private void myMethod(int _, str _myParameter2)
     {
         str I;
         str XppAllowsVeryLongVariableNamesWhichTireOurFingers;
         …
     }
+```
 
 According to convention, variable names should begin with a lowercase letter. Variables of specialized types should be named like these examples:
 

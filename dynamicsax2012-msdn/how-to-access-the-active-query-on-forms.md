@@ -27,11 +27,13 @@ Modify the system-generated query to display a different set of data as the resu
 
 Declare a variable of the type QueryBuildRange in the class declaration method on your form. Following is an example.
 
-    class FormRun extends ObjectRun
+```X++
+class FormRun extends ObjectRun
     {
         QueryBuildRange   criteriaOpen;
         ...
     }
+```
 
 QueryBuildRange is a system class used to specify the search scope of a query.
 
@@ -41,13 +43,15 @@ Initialize the QueryBuildRange variable in the init method on the form data sour
 
 The initialization must be after the super() call that generates the query. Following is an example.
 
-    void init()
+```X++
+void init()
     {
         super();
         criteriaOpen = this.Query().DataSourceNo(1).addRange(
             fieldNum(CustTrans,Open));
         ...
     }
+```
 
 Placing the initialization after the super() call in init is equivalent to placing it before the super() call in the run method.
 
@@ -81,7 +85,8 @@ The executeQuery method on the form data source is activated when the form is op
 
 In the following example, the switch statement performs a test on the IncludeAll variable. The QueryBuildRange variable (criteriaOpen) is set to 1 or 0..1, depending on the value of the member variable Value. The query can now be executed.
 
-    void executeQuery()
+```X++
+void executeQuery()
     {
         switch (IncludeAll.Value())
         {
@@ -94,6 +99,7 @@ In the following example, the switch statement performs a test on the IncludeAll
         }
         super();
     }
+```
 
 ## See also
 

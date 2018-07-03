@@ -29,6 +29,7 @@ This scenario starts when an X++ job passes an X++ DictClass object to a C\# met
 
 ### ![Gg862008.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg862008.collapse_all(en-us,AX.60).gif")1a: The X++ Job
 
+```X++
     static void StartInteropFromXppJob2a(Args _args)  // X++
     {
         DictClass dictClass2;
@@ -46,6 +47,7 @@ This scenario starts when an X++ job passes an X++ DictClass object to a C\# met
     /*** Output copied from the Infolog:
     64900 , DateTimeUtil
     ***/
+```
 
 ### ![Gg862008.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg862008.collapse_all(en-us,AX.60).gif")1b: The C\# Method
 

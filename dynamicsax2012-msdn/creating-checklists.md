@@ -45,23 +45,28 @@ Checklists can be used during setup and upgrade. The checklist concept provides 
 
 5.  Run the following code when the checklist tasks are completed.
     
+       ```X++
         SysCheckList::finished(classnum(SysCheckListItem_MyNewItem))
+       ```
 
 6.  Add the ID for the class you created in step 1 to the [::checkListItems](https://msdn.microsoft.com/en-us/library/gg943719\(v=ax.60\)) static method.
 
 7.  If a menu item requires restarting the system, call [SysCheckList.needReStart](https://msdn.microsoft.com/en-us/library/gg943997\(v=ax.60\)) in the [SysCheckListItem.setStatus](https://msdn.microsoft.com/en-us/library/gg924170\(v=ax.60\)) method as shown in the following example.
     
-        if (status == SysCheckListStatus::finished &&   !this.find())
+       ```X++
+       if (status == SysCheckListStatus::finished &&   !this.find())
         {
             this.save();
             SysCheckList.needRestart(true);
         }
+       ```
 
 The following code shows a call to the [SysCheckListItem.placeAfter](https://msdn.microsoft.com/en-us/library/gg924163\(v=ax.60\)) method that sets the sequence in the list and a call to the [SysCheckListItem.indeterminate](https://msdn.microsoft.com/en-us/library/gg924131\(v=ax.60\)) method that indicates that a menu item can be skipped. When a user clicks the item, the status changes to finished.
 
 The placeAfter method depends on the [SysCheckList.sortWithStatusPreference](https://msdn.microsoft.com/en-us/library/gg944034\(v=ax.60\)) method.
 
-    super();
+   ```X++
+   super();
     this.indeterminate(true); // You can skip this item
     this.placeAfter(classnum(SysCheckListItem_Synchronize));
      
@@ -70,6 +75,7 @@ The placeAfter method depends on the [SysCheckList.sortWithStatusPreference](htt
      
     // Can only run after compile or licensecode
     this.addDependency( [classnum(SysCheckListItem_Compile),   classnum(SysCheckListItem_LicenseCode)} ); 
+   ```
 
 ## See also
 

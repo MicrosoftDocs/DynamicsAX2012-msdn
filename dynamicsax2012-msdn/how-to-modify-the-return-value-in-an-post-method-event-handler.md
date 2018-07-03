@@ -40,15 +40,23 @@ The following table displays the AOT elements that work together to process the 
 <tbody>
 <tr class="odd">
 <td><p>Plain method: as a member of a class.</p></td>
-<td><pre><code>public int numberOfExpectedAttendees
+<td>
+
+```X++
+public int numberOfExpectedAttendees
         (int _numOfInvites, int _numOfDeclines)
 {
     return _numOfInvites - _numOfDeclines;
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Event handler: starts as a method of a class.</p></td>
-<td><pre><code>// CalledWhen = Post.
+<td>
+
+```X++
+// CalledWhen = Post.
 static public void numberOfExpectedAttendeesEhAfter
         (XppPrePostArgs ppArgs)
 {
@@ -61,7 +69,9 @@ static public void numberOfExpectedAttendeesEhAfter
         intAttendees = 0;
         ppArgs.setReturnValue(intAttendees);
     }
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Node relationship in the AOT.</p></td>
@@ -72,7 +82,10 @@ static public void numberOfExpectedAttendeesEhAfter
 </tr>
 <tr class="even">
 <td><p>Job: to run the simple method.</p></td>
-<td><pre><code>static void Job2ReturnTestEhAfter(Args _args)
+<td>
+
+```X++
+static void Job2ReturnTestEhAfter(Args _args)
 {
     TestClass testClass9;
     int attendeeCountReturned;
@@ -87,7 +100,10 @@ static public void numberOfExpectedAttendeesEhAfter
 }
 /*** Output displayed in the Infolog:
 0 == the number of expected attendees.
-***/</code></pre></td>
+***/
+```
+
+</td>
 </tr>
 </tbody>
 </table>

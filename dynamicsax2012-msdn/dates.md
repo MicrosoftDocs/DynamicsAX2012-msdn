@@ -47,6 +47,7 @@ The date data type can hold dates in the closed interval \[1\\1\\1900; 31\\12\\2
 </table>
 
 
+```X++
     //Simple declaration of a date variable, d
     date d; 
     //Multiple declaration of two date variables
@@ -55,12 +56,15 @@ The date data type can hold dates in the closed interval \[1\\1\\1900; 31\\12\\2
     date d3 = 21\11\1998;
     //Declaration of a dynamic array of dates
     date d4[]; 
+```
 
 ## Date Literals
 
 Dates can be written as literals in X++ by using the syntax:
 
-    Date literal = day \ month \ year
+```X++
+Date literal = day \ month \ year
+```
 
 You must use four digits for the year.
 
@@ -68,7 +72,8 @@ You must use four digits for the year.
 
 Dates are not automatically converted into other types, but you can use integer values in the computation of dates. For example:
 
-    void myMethod()
+```X++
+void myMethod()
     {
         int anInteger;
         date aDate;
@@ -82,6 +87,7 @@ Dates are not automatically converted into other types, but you can use integer 
         // Sets aDate to aDate + 30; that is the 31st of January 1998
         aDate = aDate + anInteger;
     }
+```
 
 ## Using Dates in Expressions
 

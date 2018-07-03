@@ -27,6 +27,7 @@ For this topic, you must understand the information in [How to: Use \#define and
 
 The following code sample shows a macro symbol \#MyMacro. The symbol is replaced by the value of the macro.
 
+```X++
     static void MacroWithIntValueJob(Args _args)
     {
         int iTest = 8;
@@ -49,6 +50,7 @@ The following code sample shows a macro symbol \#MyMacro. The symbol is replaced
     32
     **********/
     }
+```
 
 ## See also
 

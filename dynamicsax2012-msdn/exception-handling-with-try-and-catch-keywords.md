@@ -139,10 +139,12 @@ This section describes some Global class methods in more detail.
 
 The error method is declared as follows:
 
+```X++
     server client static Exception error
         (SysInfoLogStr txt,
         URL helpURL = '',
         SysInfoAction _sysInfoAction = null)
+```
 
 The return type is the Exception::Error enum value. The error method does not throw an exception. It only provides an enum value that could be used in a throw statement. The throw statement throws the exception.
 
@@ -221,6 +223,7 @@ The next sections have the following code samples:
 
 This X++ code sample shows that a direct throw of Exception::Error does not display a message in the **Infolog**. That is why we recommend the Global::error method.
 
+```X++
     static void TryCatchThrowError1Job(Args _args)
     {
     /***
@@ -243,11 +246,13 @@ This X++ code sample shows that a direct throw of Exception::Error does not disp
     Caught 'Exception::Error'.
     **********/
     }
+```
 
 ## Sample 2: error Method to Write Exception to Infolog
 
 The sample shows that use of the Global::error method is a reliable way to display exceptions in the **Infolog**.
 
+```X++
     static void TryCatchGlobalError2Job(Args _args)
     {
     /***
@@ -271,11 +276,13 @@ The sample shows that use of the Global::error method is a reliable way to displ
     Caught 'Exception::Error'.
     **********/
     }
+```
 
 ## Sample 3: Handle a CLRError
 
 This sample shows that a CLRError exception is not displayed in the **Infolog** (unless you catch the exception and manually call the info method). The use of the CLRInterop::getLastException method is also demonstrated.
 
+```X++
     static void TryCatchCauseCLRError3Job(Args _args)
     {
     /***
@@ -313,6 +320,7 @@ This sample shows that a CLRError exception is not displayed in the **Infolog** 
        at ClrBridgeImpl.InvokeClrInstanceMethod(ClrBridgeImpl* , ObjectWrapper* objectWrapper, Char* pszMethodName, Int32 argsLength, ObjectWrapper** arguments, Boolean* argsAreByRef, Boolean* isException)
     **********/
     }
+```
 
 For more information, see [How to: Catch Exceptions Thrown from CLR Objects](how-to-catch-exceptions-thrown-from-clr-objects.md).
 
@@ -320,6 +328,7 @@ For more information, see [How to: Catch Exceptions Thrown from CLR Objects](how
 
 This sample shows how to use the retry statement. The print statements are included because retry causes earlier **Infolog** messages to be erased.
 
+```X++
     static void TryCatchRetry4Job(Args _args)
     {
     /***
@@ -369,11 +378,13 @@ This sample shows how to use the retry statement. The print statements are inclu
     This warning will not be caught. [3]
     **********/
     }
+```
 
 ## Sample 5: Exception Thrown Inside a Transaction
 
 This sample uses three levels of try nesting to illustrate where an exception is caught when the exception is thrown inside a ttsBegin - ttsCommit transaction block.
 
+```X++
     static void TryCatchTransaction5Job(Args _args)
     {
     /***
@@ -413,6 +424,7 @@ This sample uses three levels of try nesting to illustrate where an exception is
     End of job.
     **********/
     }
+```
 
 ## Sample 6: use Global::error with a SysInfoAction parameter
 
@@ -426,6 +438,7 @@ The following code sample is shown in two parts. The first part shows a job that
 
 #### ![Aa893385.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa893385.collapse_all(en-us,AX.60).gif")Part 1: The Job that calls Global::error
 
+```X++
     static void Job_SysInfoAction(Args _args)
     {
         ;
@@ -442,9 +455,11 @@ The following code sample is shown in two parts. The first part shows a job that
             warning("Issuing a warning from the catch block.");
         }
     }
+```
 
 #### ![Aa893385.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa893385.collapse_all(en-us,AX.60).gif")Part 2: the SysInfoAction\_PrintWindow\_Demo class
 
+```X++
     public class SysInfoAction_PrintWindow_Demo
         extends SysInfoAction
     {
@@ -488,6 +503,7 @@ The following code sample is shown in two parts. The first part shows a job that
             return true;
         }
     }
+```
 
 ## List of Exceptions
 

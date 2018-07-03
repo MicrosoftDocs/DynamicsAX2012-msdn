@@ -76,6 +76,7 @@ If a Length is specified, the array is a fixed-length array with Length elements
 
 If Memory is specified, it is a partly on disk array.
 
+```X++
     static void Job1(Args _args)
     {
         // A dynamic array of integers
@@ -94,6 +95,7 @@ If Memory is specified, it is a partly on disk array.
         print "Done.";
         pause;
     }
+```
 
 ## Array Indices
 

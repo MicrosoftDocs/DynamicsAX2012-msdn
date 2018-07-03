@@ -93,6 +93,7 @@ value = globalCache.get(str  owner , anytype  key , anytype  returnValue  
 
 ## Example
 
+```X++
     void new(Integer _width  = Imagelist::smallIconWidth(),
              Integer _height = Imagelist::smallIconHeight())
     {
@@ -127,6 +128,7 @@ value = globalCache.get(str  owner , anytype  key , anytype  returnValue  
             this.unpack(packedData);
         }
     }
+```
 
 ## Client/Server Considerations
 

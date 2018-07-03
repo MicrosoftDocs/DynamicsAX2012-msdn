@@ -41,15 +41,18 @@ Next is the CalculateAgeAsOfDate method, for which the following are true:
 
 <!-- end list -->
 
+```X++
     public real CalculateAgeAsOfDate  // X++
             ( date _calcToDate = today() )  // Parameter is optional for callers.
     {
         return (_calcToDate - birthDate) / 365;
     }
+```
 
 Next is the Main method which calls the CalculateAgeAsOfDate method twice.
 
-    static public void Main(Args _args)
+```X++
+static public void Main(Args _args)
     {
         MyClass1 mc = new MyClass1(13\5\2010);   // birthDate is initialized.
     
@@ -61,11 +64,13 @@ Next is the Main method which calls the CalculateAgeAsOfDate method twice.
     
         pause;
     }
+```
 
 ## Code Example 2: Invalid Sequence of Parameters
 
 All required parameters must be listed before the first optional parameter. In the following invalid example, the required parameter \_i3 is listed after the optional parameter \_i2.
 
+```X++
     static public int AddThreeIntsA  // Invalid X++, does not compile.
             (int _i1,
              int _i2 = 3,
@@ -73,6 +78,7 @@ All required parameters must be listed before the first optional parameter. In t
     {
         return _i1 + _i2 + _i3;
     }
+```
 
 ## Code Example 3: Cannot Skip to Second Optional Parameter
 
@@ -80,17 +86,20 @@ When calling a method, the caller cannot override the default value of the final
 
 In the following example, the first method has two optional parameters. The second method is a caller of the first method. The caller wants to override only the \_i3 default value, but the compiler requires that all prior optional parameters also be overridden in the call.
 
-    static public int AddThreeIntsB
+```X++
+static public int AddThreeIntsB
             (int _i1,
              int _i2 = 2,
              int _i3 = 3)
     {
         return _i1 + _i2 + _i3;
     }
+```
 
 Next, the second method has a commented section showing the failed attempt to accept the default of the first optional parameter \_i2 while trying to override the final optional parameter \_i3.
 
-    static public void Main(Args _args)
+```X++
+static public void Main(Args _args)
     { 
         // No way to skip the first optional parameter (so it can default)
         // while also specifying the value of the second optional parameter.
@@ -103,6 +112,7 @@ Next, the second method has a commented section showing the failed attempt to ac
         print MyClass1::AddThreeIntsB(1, 2, 99);
         pause;
     }
+```
 
 ## See also
 

@@ -47,6 +47,7 @@ The classes QueryRun and Query both have the **AllowCrossCompany** property, but
 
 You can override methods on the AOT report node to control the details of cross-company behavior. For example, you could override the report's **init** method with the following X++ code.
 
+```X++
     public void init()
     {
         super();
@@ -54,6 +55,7 @@ You can override methods on the AOT report node to control the details of cross-
         this.query().addCompanyRange( "dat" );
         this.query().addCompanyRange( "dmo" );
     }
+```
 
 ## See also
 

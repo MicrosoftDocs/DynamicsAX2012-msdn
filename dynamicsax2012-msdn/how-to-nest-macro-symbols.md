@@ -31,7 +31,8 @@ For this topic, you must understand the information in [How to: Use the \#localm
 
 In the following code sample, the value of the first \#define variable includes a symbol (\#D) of the second \#define variable. This works even though the expansion symbol \#D occurs before macro D is defined.
 
-    static void NestMacroJobA1(Args _args)
+   ```X++
+   static void NestMacroJobA1(Args _args)
     {
         ;
         #define.Cd("Cd +: # D == " + #D)
@@ -49,6 +50,7 @@ In the following code sample, the value of the first \#define variable includes 
     Cd +: # D == D
     ************/
     }
+   ```
 
 ## No Transitive Substitution in Directives
 
@@ -58,7 +60,8 @@ This section shows where a macro symbol substitution is attempted in the value o
 
 The following code sample tries to determine whether two macro variables have the same value, without specifying what that value might be. The output shows that this determination cannot be made..
 
-    static void NestMacroJobA2(Args _args)
+   ```X++
+   static void NestMacroJobA2(Args _args)
     {
         ;
         #define.A1(5)
@@ -80,6 +83,7 @@ The following code sample tries to determine whether two macro variables have th
     No, symbol substitution does not work on # IF test.
     ************/
     }
+   ```
 
 ### ![Cc197109.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197109.collapse_all(en-us,AX.60).gif")No Transitive Substitution in \#defInc Directives
 
@@ -87,6 +91,7 @@ The following code sample shows that the \#defInc directive does not lead to tra
 
 After the \#defInc.E2 directive, the subsequent output value for \#E2 shows the value for E2 is converted to zero (0) by \#defInc.E2 before it is incremented to one (1). Before the conversion, the value of E2 was the three characters \#E2. The output for test case 36 shows the value has been converted to 1.
 
+   ```X++
     static void NestMacroJobA4(Args _args)
     {
         ;
@@ -120,12 +125,14 @@ After the \#defInc.E2 directive, the subsequent output value for \#E2 shows the 
     36: After Inc.E2,  # E2 == 1
     ************/
     }
+   ```
 
 ## Macro Within a Macro
 
 A \#define directive can be given inside a \#localmacro directive, and a \#localmacro can be inside a \#define. This is shown in the following code sample.
 
-    static void NestMacroJobB5(Args _args)
+   ```X++
+   static void NestMacroJobB5(Args _args)
     {
         int iTest = 31;
         ;
@@ -152,6 +159,7 @@ A \#define directive can be given inside a \#localmacro directive, and a \#local
     K: Directive nesting works if 33 appears: iTest == 33
     **************/
     }
+   ```
 
 ## See also
 

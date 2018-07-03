@@ -37,38 +37,46 @@ For example, you have created a form with an unbound Window control (a control w
 
 1.  Declare a variable for the bitmap in the classDeclaration method on the form.
     
-        class FormRun extends ObjectRun
+       ```X++
+       class FormRun extends ObjectRun
         {
             FormWindowControl compLogo;
         }
+       ```
     
     FormWindowControl is a system class that implements all the properties of a Window control, and also contains methods to change the control.
 
 2.  Override the init method for the form to add the code that accesses the CompanyLogo control.
     
-        void init()
+       ```X++
+       void init()
         {
             super();
             compLogo = element.design().control(control::CompanyLogo);
         }
+       ```
 
 3.  Write the code to initialize the bitmap display in the run method for the form.
     
-        void run()
+       ```X++
+       void run()
         {
             super();
             compLogo.imageName('Image.bmp');
         }
+       ```
     
     In this example, the bitmap is located in the current directory. The complete path must be specified if the file is located elsewhere.
 
 4.  To make sure that that the image is updated (if you decide to link to another form), insert the code in the linkActive method on the form’s **Data Sources** node.
     
-        void linkActive()
+       ```X++
+       void linkActive()
         {
             super();
             compLogo.imageName('Image.bmp');
         }
+       ```
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).

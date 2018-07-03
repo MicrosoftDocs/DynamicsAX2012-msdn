@@ -27,7 +27,8 @@ An attempt to run this code example causes an error message that states that the
 
 This code represents the server method that is called from the client.
 
-    public class RunOnTheServerClass
+```X++
+public class RunOnTheServerClass
     {
         public static server System.String GetASystemStringMethod()
         {
@@ -40,11 +41,13 @@ This code represents the server method that is called from the client.
             return sNet;
         }
     }
+```
 
 ### ![Cc308397.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc308397.collapse_all(en-us,AX.60).gif")Client Method, the Caller
 
 This code represents the client job that calls the server method.
 
+```X++
     static void RunOnClientJob(Args _args)
     {
         System.String sNet;
@@ -56,6 +59,7 @@ This code represents the client job that calls the server method.
         strXpp = sNet;
         info(strXpp);
     }
+```
 
 ## See also
 

@@ -23,7 +23,8 @@ There is a difference between a normal select statement and a field select sta
 
 ## Example
 
-    void selectFieldExamples ()
+```X++
+  void selectFieldExamples ()
     {
         ;
         // Prints the NameRef field from the selected customer
@@ -35,6 +36,7 @@ There is a difference between a normal select statement and a field select sta
           print "This customer has a credit maximum less than $50,000.";
           pause;
     }
+```
 
 ## See also
 

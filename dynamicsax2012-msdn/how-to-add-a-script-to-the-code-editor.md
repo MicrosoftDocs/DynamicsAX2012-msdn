@@ -37,7 +37,8 @@ To create a new script:
 
 4.  Write the X++ code to perform the desired task, for example.
     
-        void sendTo_mailRecipient(Editor editor)
+       ```X++
+       void sendTo_mailRecipient(Editor editor)
         {
             SysINetMail mail = new SysINetMail();
             ;
@@ -47,6 +48,7 @@ To create a new script:
                 EditorScripts::getSelectedText(e),
                 true);
         }
+       ```
 
 ## See also
 
