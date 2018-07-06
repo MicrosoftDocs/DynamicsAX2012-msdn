@@ -54,10 +54,10 @@ The following image displays a project that contains almost everything in the pr
 
 You can create field permissions for **TestFieldPrivilege** by following these steps:
 
-1.    
+1.
    Add the **Person** table to the **TestFieldPrivilege** privilege. Do this by dragging the node  
      **AOT** \> **Data Dictionary** \> **Tables** \> **Person**   
-    onto the node at  
+   onto the node at  
      **AOT** \> **Security** \> **Privileges** \> **TestFormPrivilege** \> **Permissions** \> **Tables**.
 
    > [!TIP]
