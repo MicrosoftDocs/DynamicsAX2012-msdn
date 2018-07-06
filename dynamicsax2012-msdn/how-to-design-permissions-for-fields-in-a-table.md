@@ -59,10 +59,9 @@ You can create field permissions for **TestFieldPrivilege** by following these s
      **AOT** \> **Data Dictionary** \> **Tables** \> **Person**   
     onto the node at  
      **AOT** \> **Security** \> **Privileges** \> **TestFormPrivilege** \> **Permissions** \> **Tables**.
-    
 
-    > [!TIP]
-    > <P>Drag operations are easier when you have two AOT windows open. You can drag from one AOT to the other.</P>
+   > [!TIP]
+   > <P>Drag operations are easier when you have two AOT windows open. You can drag from one AOT to the other.</P>
 
 
 
