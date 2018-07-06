@@ -55,7 +55,7 @@ The following image displays a project that contains almost everything in the pr
 You can create field permissions for **TestFieldPrivilege** by following these steps:
 
 1.    
-    Add the **Person** table to the **TestFieldPrivilege** privilege. Do this by dragging the node  
+   Add the **Person** table to the **TestFieldPrivilege** privilege. Do this by dragging the node  
      **AOT** \> **Data Dictionary** \> **Tables** \> **Person**   
     onto the node at  
      **AOT** \> **Security** \> **Privileges** \> **TestFormPrivilege** \> **Permissions** \> **Tables**.
@@ -66,11 +66,11 @@ You can create field permissions for **TestFieldPrivilege** by following these s
 
 
 
-2.  On the new **Person** node, set the **EffectiveAccess** property to **Update**.
+2. On the new **Person** node, set the **EffectiveAccess** property to **Update**.
 
-3.  At **Data Dictionary** \> **Tables** \> **Person** \> **Fields**, highlight all fields and drag them onto the **TestFieldPrivilege** \> **Permissions** \> **Tables** \> **Person** node.
+3. At **Data Dictionary** \> **Tables** \> **Person** \> **Fields**, highlight all fields and drag them onto the **TestFieldPrivilege** \> **Permissions** \> **Tables** \> **Person** node.
 
-4.  Set the **EffectiveAccess** property for each new field node as follows:
+4. Set the **EffectiveAccess** property for each new field node as follows:
     
       - City – Update
     
