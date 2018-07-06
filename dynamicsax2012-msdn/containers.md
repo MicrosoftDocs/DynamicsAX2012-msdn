@@ -158,6 +158,7 @@ There are two code samples in the following table. In only the List class sample
 <tbody>
 <tr class="odd">
 <td>
+
 ```X++
 static void JobC(Args _args)
 {
@@ -171,6 +172,7 @@ static void JobC(Args _args)
 ```
 </td>
 <td>
+
 ```X++
 static void JobL(Args _args)
 {
