@@ -157,7 +157,9 @@ There are two code samples in the following table. In only the List class sample
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>static void JobC(Args _args)
+<td>
+```X++
+static void JobC(Args _args)
 {
     container variable2
         ,variable33;
@@ -165,8 +167,12 @@ There are two code samples in the following table. In only the List class sample
     variable2 += [98];
     variable33 = variable2;
     variable2 += [97];
-}</code></pre></td>
-<td><pre><code>static void JobL(Args _args)
+}
+```
+</td>
+<td>
+```X++
+static void JobL(Args _args)
 {
     List variable2
         ,variable33;
@@ -176,7 +182,9 @@ There are two code samples in the following table. In only the List class sample
     variable2.addEnd(98);
     variable33 = variable2;
     variable2.addEnd(97);
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 </tbody>
 </table>
@@ -207,7 +215,7 @@ The following statements all create a new container:
 The X++ function conPeek returns an anytype type. The flexibility of anytype makes container a good way to store values of different types together. This makes it easier to read the values from a container when you do not know what type each value is. An anytype can be assigned to any X++ value type, as long as the value can be converted.
 
 The automatic conversion by anytype also applies to the special syntax for making multiple assignments from a container in one statement. This is shown in the following code example, which assigns a str to an int, and an int to a str.
-
+```X++  
     static void JobContainerMultiAssignmentUsesAnytype(Args _args)
     {
         container con2;
@@ -223,7 +231,7 @@ The automatic conversion by anytype also applies to the special syntax for makin
     Message (10:36:22 am)
     int4==11==(11), str7==222==(222)
     ***/
-
+```
 Your code is easier to read when it avoids implicit data type conversions. Assign values from a container to the same data type that was used to put the value into the container.
 
 You must not assign a container to an anytype, because the system is unable to determine the correct conversions in some cases. In these cases, unexpected behavior or errors might occur.
