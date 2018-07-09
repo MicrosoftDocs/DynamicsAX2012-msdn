@@ -127,7 +127,9 @@ For each data type specified in NumberSeqModule MyModule .loadModule, you must
 
 To use the number sequence for a form in Microsoft Dynamics AX or in Enterprise Portal, you will typically add code to the data source for the form or data set. You can also retrieve a number sequence value directly in code. For example, the following example retrieves the next available work order number from the number sequence used for the WorkOrderNum field and displays it in the Infolog.
 
+```X++
     Info(NumberSeq::newGetNum(FCMParameters::numRefWorkOrderNum()).num());
+```    
 
 ### ![Aa608474.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa608474.collapse_all(en-us,AX.60).gif") Forms
 

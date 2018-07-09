@@ -157,7 +157,10 @@ There are two code samples in the following table. In only the List class sample
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code>static void JobC(Args _args)
+<td>
+
+```X++
+static void JobC(Args _args)
 {
     container variable2
         ,variable33;
@@ -165,8 +168,13 @@ There are two code samples in the following table. In only the List class sample
     variable2 += [98];
     variable33 = variable2;
     variable2 += [97];
-}</code></pre></td>
-<td><pre><code>static void JobL(Args _args)
+}
+```
+</td>
+<td>
+
+```X++
+static void JobL(Args _args)
 {
     List variable2
         ,variable33;
@@ -176,7 +184,9 @@ There are two code samples in the following table. In only the List class sample
     variable2.addEnd(98);
     variable33 = variable2;
     variable2.addEnd(97);
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 </tbody>
 </table>

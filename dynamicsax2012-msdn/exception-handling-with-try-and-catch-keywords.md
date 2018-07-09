@@ -72,10 +72,11 @@ If a catch is found that handles the kind of exception that is being thrown, pro
 The catch statements are processed in the same sequence that they appear in the X++ code. It is common to have the first catch statement handle the Exception::Error enumeration value.
 
 One strategy is to have the last catch statement leave the exception type unspecified. This means it handles all exceptions that are not handled by a previous catch. This strategy is appropriate for the outermost try - catch blocks.
-
+  ```X++
     try { /* Code here. */ }
     catch (Exception::Numeric) { info("Caught a Numeric exception."); }
     catch { info("Caught an exception."); }
+  ```
 
 ### ![Aa893385.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa893385.collapse_all(en-us,AX.60).gif")The retry Statement
 

@@ -20,7 +20,7 @@ A scope defines the area in which an item can be accessed:
   - Local variables can be accessed only in the block in which they were defined. All variables created by users have local scope.
 
 ## Example
-
+ ```X++
     class ANewClass
     {
         int a;
@@ -30,7 +30,7 @@ A scope defines the area in which an item can be accessed:
             int b;
         }
     }
-
+ ```
 A variable, a, is declared in the class and a variable, b, is declared in the aNewMethod method.
 
 As the method is declared in the class block, it can access all variables defined in the class. The aNewMethod method has access to variable a.
