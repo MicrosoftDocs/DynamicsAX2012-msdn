@@ -74,7 +74,7 @@ The <strong>Print</strong> window has no scrollbars, and you cannot give the <st
 ## X++ Code Example
 
 The following X++ job demonstrates that the print statement automatically converts any data type to a string. To create a job in the AOT, right-click the **Jobs** node, and then click **New Job**.
-
+```X++  
     static void PrintJob2(Args _args)
     {
         str s1 = "Hello";
@@ -102,7 +102,7 @@ The following X++ job demonstrates that the print statement automatically conver
     Message (02:18:10 pm)
     User clicked 'Yes' to continue to this call to info.
     ***/
-
+```
 ## See also
 
 [Statements and Loops](statements-and-loops.md)

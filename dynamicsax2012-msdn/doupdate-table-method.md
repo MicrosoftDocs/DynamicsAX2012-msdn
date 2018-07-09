@@ -23,7 +23,8 @@ void doUpdate()
 
 ## Example
 
-    static void Job1(Args _args)
+   ```X++
+   static void Job1(Args _args)
     {
         CustTable custTable;
         ttsBegin;
@@ -39,6 +40,7 @@ void doUpdate()
     
     }
     ttsCommit;
+   ```
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).

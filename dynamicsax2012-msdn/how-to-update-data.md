@@ -26,7 +26,7 @@ The ttsBegin and ttsCommit keywords are used to help ensure the integrity of the
 > <P>Microsoft Dynamics AX does not allow you to pass unbounded string parameters in where clauses. You create a bounded string by declaring a character limit after you specify the data type. In the example below, you declare the customer account number parameter as str 30 AccountNum.</P>
 
 
-
+```X++  
     static void UpdateCustomerCreditMax(str 30 AccountNum, real newMaximum)
     {
         CustTable custTable;
@@ -46,7 +46,7 @@ The ttsBegin and ttsCommit keywords are used to help ensure the integrity of the
         
         ttsCommit;
     }
-
+```
 ## See also
 
 [Optimizing Record Inserts](optimizing-record-inserts.md)

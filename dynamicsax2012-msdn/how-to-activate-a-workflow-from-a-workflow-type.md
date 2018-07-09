@@ -115,7 +115,8 @@ This code example uses the IssueStateChangeManager class to change the state of 
 
 When the workflow is activated, this code will open a dialog box to add user comments.
 
-    public static void main(Args args)
+   ```X++
+   public static void main(Args args)
     {
         // Variable declaration.
         recId _recId = args.record().RecId;
@@ -154,6 +155,7 @@ When the workflow is activated, this code will open a dialog box to add user com
             }
         }
     }
+   ```
 
 ## See also
 

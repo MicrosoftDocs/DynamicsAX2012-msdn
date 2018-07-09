@@ -30,7 +30,7 @@ The following system classes are available for accessing information about role-
 ## Code Example 1: getRolePermissions
 
 You give the SecurityUtil::getRolePermissions method a security role ID number, and receive a set of containers that describe all the security permissions that are associated with the role. The comment in the following code example documents the elements in each returned container.
-
+```X++  
     static void GSecUtil_getRolePermissions_Job2(Args _args)
     {
         container      conrOuter, conrInner;
@@ -93,11 +93,11 @@ You give the SecurityUtil::getRolePermissions method a security role ID number, 
     getRolePermissions:  AIFSCHEMAREPOSITORY  ,  45  ,  GETSHAREDTYPESSCHEMA  ,  5.   (Class method / Full control)
     getRolePermissions:  AIFUSERSESSIONSERVICE  ,  45  ,  APPLYTIMEZONE  ,  5.   (Class method / Full control)
     ***/
-
+```
 ## Code Example 2: getRoleEffectiveAccess
 
 You give the SecurityUtil::getRoleEffectiveAccess method a role and a securable object, and receive a value of the [AccessRight](https://msdn.microsoft.com/en-us/library/gg882002\(v=ax.60\)) system enum that indicates the access rights that the role has to the object.
-
+```X++  
     static void GSecUtil_getRoleEffectiveAccess_Job3(Args _args)  // X++ job in AOT > Jobs.
     {
         AccessRight accRight;  // System enum.
@@ -121,7 +121,7 @@ You give the SecurityUtil::getRoleEffectiveAccess method a role and a securable 
     Message (12:58:54 pm)
     AccessRight:  Full control
     ***/
-
+```
 ## See also
 
 [Microsoft.Dynamics.AX.Framework.Services.Metadata.Enums.AccessRight](https://msdn.microsoft.com/en-us/library/hh186891\(v=ax.60\))

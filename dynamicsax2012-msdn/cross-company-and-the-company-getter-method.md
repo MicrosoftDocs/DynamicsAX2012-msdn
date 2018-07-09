@@ -46,9 +46,9 @@ A table buffer variable declared from a company-specific table can be populated 
 For some rows in a shared table, the dataAreaId field can have a value representing the virtual company that the table is associated with. Other rows can have dataAreaId values for real companies that are outside of the virtual company.
 
 The following X++ code example populates the table buffer with a row set from a shared table that has both kinds of dataAreaId values.
-
+```X++  
     while select crossCompany * from SH_buffer { /* X++ */ }
-
+```
 The following descriptions assume that the shared table is associated with virtual company VC9. The descriptions assume that VC9 is associated with real companies CM1 and CM2.
 
 During the while select loop that processes rows of each dataAreaId value, the company getter method on the table buffer returns values according to the following table.

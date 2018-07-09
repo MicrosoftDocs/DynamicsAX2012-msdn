@@ -29,6 +29,7 @@ The number of parameters passed can be less than, greater than, or equal to the 
 
 In the following code sample, MyMacro is defined to have a value that contains parameters. Macro substitution symbols are given with parameter values in parentheses.
 
+```X++
     static void MacroParameterSubstitutionJob(Args _args)
     {
         ;
@@ -52,6 +53,7 @@ In the following code sample, MyMacro is defined to have a value that contains p
     FF: One == [] ,  Two == []
     ************/
     }
+```
 
 ## See also
 

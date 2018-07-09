@@ -35,7 +35,8 @@ Images in the list must be registered in the resAppl macro (in the **Macros** no
 
 3.  Override the build method to add the images to the list. You must call super() before adding your own code. For example:
     
-        void build()
+       ```X++
+       void build()
         {
             super(); 
             this.Add(#ImageProduction);
@@ -46,6 +47,7 @@ Images in the list must be registered in the resAppl macro (in the **Macros** no
             this.Add(#ImageProcess);
             this.Add(#ImageQty);
         }
+       ```
 
 
 > [!TIP]
@@ -57,6 +59,7 @@ Images in the list must be registered in the resAppl macro (in the **Macros** no
 
 Wherever you use a Tree control or a ListView control in a form, make modifications that correspond to those in the following example. It uses the ImageListAppl\_Prod image list.
 
+```X++
     void classDeclaration()
     {
         #resAppl
@@ -88,6 +91,7 @@ Wherever you use a Tree control or a ListView control in a form, make modificati
         ;
         list.AddItem(item);
     }
+```
 
 ## See also
 

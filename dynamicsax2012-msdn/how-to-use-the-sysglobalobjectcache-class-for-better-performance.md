@@ -105,7 +105,7 @@ In this scenario, a best practice is for each client to obtain the record for a 
 ## Code Example
 
 The following X++ method constructs an object from the SysGlobalObjectCache class. The object has access to the cache. The method asks the object for the customer record. If the object cannot return the record, the method queries the database for the record, and then asks the object to add the record to the cache.
-
+```X++  
     // X++ method, in class AaaTestSysGlobalObjectCache.
     public CustBankAccountId getCustBankAccountId
             (CustAccount _edtCustAccount,               // EDT
@@ -169,11 +169,11 @@ The following X++ method constructs an object from the SysGlobalObjectCache clas
         return edtCustBankAccountId;
     }
     // For testing, see the following job TestCache3Job.
-
+```
 ### ![Hh608239.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Hh608239.collapse_all(en-us,AX.60).gif")X++ Job to Run the Test
 
 The following X++ job calls the previous method. The second call with the parameter value 1102 is satisfied by the cache.
-
+```X++  
     static void TestCache3Job(Args _args) // X++ job.
     {
             // Classes.
@@ -216,7 +216,7 @@ The following X++ job calls the previous method. The second call with the parame
     Key is found in cache!: 1102
     C, Key == 1102, Value == : 1234 a 
     *****/
-
+```
 ## See also
 
 [SysGlobalObjectCache](https://msdn.microsoft.com/en-us/library/gg926679\(v=ax.60\))

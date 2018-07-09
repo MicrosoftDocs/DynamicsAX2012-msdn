@@ -42,12 +42,12 @@ All classes are public, but all member variables are implicitlyprotected. Even t
     str firstName;
 
 The X++ code for the classDeclaration now looks like the following.
-
+```X++  
     public class Class1
     {
         str firstName;
     }
-
+```
 You can provide access to a member variable by returning it from a simple instance public methods that get and set its value.
 
 For information about how to write variable declarations, see [Declaration of Variables](declaration-of-variables.md).
@@ -65,12 +65,12 @@ Follow these steps to add a method that gets or returns the value of a member va
 2.  Rename the **method1** node to **getFirstName**.
 
 3.  In the code **Editor** window, paste in the following X++ code for the method.
-    
+    ```X++  
         public str getFirstName()
         {
             return firstName;
         }
-    
+    ```
 
     > [!NOTE]
     > <P>The this keyword cannot be used to reference member variables such as firstName.</P>
@@ -86,16 +86,16 @@ Follow these steps to add a method that sets the value of a member variable:
 2.  Rename the **method1** node to **setFirstName**.
 
 3.  In the code **Editor** window, paste in the following X++ code for the method.
-    
+    ```X++  
         public void setFirstName(str _firstName)
         {
             firstName = _firstName;
         }
-
+    ```
 ## Test the Accessor Methods
 
 The following X++ job tests the preceding getter and setter accessor methods.
-
+```X++  
     static void AccessorJob61(Args _args)
     {
         Class1 c1;
@@ -108,7 +108,7 @@ The following X++ job tests the preceding getter and setter accessor methods.
     Isaac
     ***/
     }
-
+```
 ## See also
 
 [Best Practices for Class Declarations](best-practices-for-class-declarations.md)

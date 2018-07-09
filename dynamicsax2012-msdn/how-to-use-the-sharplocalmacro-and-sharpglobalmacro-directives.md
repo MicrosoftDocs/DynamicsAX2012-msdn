@@ -28,7 +28,7 @@ For this topic, you must understand the information in [How to: Use Parameters w
 ## Using \#localmacro
 
 The following code sample shows how to use the \#localmacro directive. It demonstrates that the \#undef directive does not affect \#localmacro macros. It also shows that \#if tests cannot determine whether a \#localmacro macro has been defined.
-
+```X++  
     static void LocalMacroJob(Args _args)
     {
         ;
@@ -59,7 +59,7 @@ The following code sample shows how to use the \#localmacro directive. It demons
     g22: Greetings World  --LM, Infolog.
     *************/
     }
-
+```
 ## Differences Between \#define and \#localmacro
 
 There are differences between \#define and \#localmacro.
@@ -97,7 +97,7 @@ This same problem occurs with [\#globaldefine](how-to-use-the-sharpglobaldefine-
 ### ![Cc197110.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197110.collapse_all(en-us,AX.60).gif")Code Sample Comparing \#globalmacro and \#localmacro
 
 The following X++ code sample shows that \#localmacro overrides a \#globalmacro of the same macro name, but that \#globalmacro does not override \#localmacro.
-
+```X++  
     static void GlobalMacroNotOverrideJob(Args _args)
     {
         ;
@@ -131,7 +131,7 @@ The following X++ code sample shows that \#localmacro overrides a \#globalmacro 
     LGMb: Loc 25
     ****************/
     }
-
+```
 ### ![Cc197110.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197110.collapse_all(en-us,AX.60).gif")No Special Precedence Between Macro and Define Directives
 
 Where both macro names and values are supplied, the \#globalmacro directive cannot override the \#define directive. Also, the \#globaldefine directive cannot override the \#localmacro directive.

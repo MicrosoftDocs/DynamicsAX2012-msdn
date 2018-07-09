@@ -18,7 +18,7 @@ Add a custom action by using an action menu item and a static execute method. An
 ## Add a Custom Action
 
 1.  Implement your custom action class. The custom logic for processing your event should be added to the existing code in the execute method of your action class. The execute method has the following parameters.
-    
+    ```X++  
         public void execute(
             EventRule   eventRule,
             EventType   eventType,
@@ -27,7 +27,7 @@ Add a custom action by using an action menu item and a static execute method. An
             EventAlertCreatedDate   eventCreatedDate = systemdateget(),
             EventAlertCreatedTime   eventCreatedTime = timenow()
             )
-    
+    ```
     The parameters of the execute method are defined as follows:
     
       - eventRule - The rule that has generated the alert.
@@ -55,13 +55,13 @@ Alerts can be customized so that they are generated on certain tables, and they 
 The following example is a step-by-step demonstration of how a custom action can be added. It does not provide a real-world example of an alerts customization in Microsoft Dynamics AX. A more realistic example of a custom action would be to send alerts as instant messages or into a Really Simple Syndication (RSS) feed.
 
 1.  Create your custom action class by using the following code.
-    
+    ```X++  
         class EventActionLogging extends EventAction
         {
         }
-
+    ```
 2.  Implement the execute method by using the following code.
-    
+    ```X++  
         public void execute(
             EventRule   eventRule,
             EventType   eventType,
@@ -88,9 +88,9 @@ The following example is a step-by-step demonstration of how a custom action can
             }
         
         }
-
+    ```
 3.  Modify the logic that adds action IDs to rules in the EventCreateRule class by using the following code.
-    
+    ```X++  
         protected boolean initEventRule()
         {
         
@@ -109,9 +109,9 @@ The following example is a step-by-step demonstration of how a custom action can
                 actions.addEnd(classNum(EventActionLogging));
         
             
-        
+    
         }
-
+    ```
 
 > [!NOTE]
 > <P>If you also want to send your alerts as instant messages, implement a Real Time Communication client DLL that communicates with your Live Communication Server. By using either .NET or the COM interoperability in Microsoft Dynamics AX, call the methods in your client DLL from the execute method.</P>

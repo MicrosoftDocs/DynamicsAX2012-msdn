@@ -57,7 +57,8 @@ static public void CalledCSharp // Method.
 
 The following X++ code sample shows how to use the byref keyword to call the example C\# method CalledCSharp.
 
-    static void JobByrefCallerXpp(Args _args)
+```X++
+static void JobByrefCallerXpp(Args _args)
     {
         int iLengthOfOldPrefix;
         str sWhole;
@@ -90,6 +91,7 @@ The following X++ code sample shows how to use the byref keyword to call the exa
     sDiscardedPrefix = Foods
     *****/
     }
+```
 
 ## See also
 

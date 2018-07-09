@@ -79,13 +79,16 @@ When you create a test case you will create a class that must use the naming con
 
 3.  In the Code Editor, extend SysTestCase by changing the class declaration to the following code and create an Employee instance to use for the test cases.
     
-        [SysTestTargetAttribute(‘Employee’,UtilElementType::Class)]
+       ```X++
+       [SysTestTargetAttribute(‘Employee’,UtilElementType::Class)]
         
         class EmployeeTest extends SysTestCase
         {
             // Create a member variable named employee.
             Employee employee;
         }
+       ``` 
+
 
 ## Setting up Data for Test Cases
 
@@ -97,6 +100,7 @@ In this procedure you will create an instance of the Employee class to use in al
 
 2.  In the Code Editor, change the setUp method to the following code.
     
+       ```X++
         public void setUp()
         {
             // Create an employee instance to use in test cases.
@@ -104,6 +108,7 @@ In this procedure you will create an instance of the Employee class to use in al
         
             super();
         }
+       ```
 
 ## Adding a Test Case for the Name Requirement
 
@@ -115,12 +120,14 @@ In this procedure you will add a test case. You will do this by adding a method 
 
 2.  In the Code Editor, change the method to the following code.
     
+       ```X++
         [SysTestMethodAttribute]
         void testName()
         {
             // Verify that the employee name is set correctly.
             this.assertEquals("your name", employee.name());
         }
+       ```
 
 You now have a failing test case therefore, you can write the feature code to allow for the test case to compile and pass. Add code to the Employee class by overriding the new method to accept a string as a parameter.
 
@@ -130,30 +137,36 @@ You now have a failing test case therefore, you can write the feature code to al
 
 2.  In the Code Editor, change the Employee **classDeclaration** to the following code.
     
-        class Employee
+       ```X++
+       class Employee
         {
             // Create member variables.
             Name name;
         }
+       ```
 
 3.  In the AOT, right-click the Employee class, point to **Override Method**, and then click **new**.
 
 4.  In the Code Editor, change the **new** method to the following code.
     
-        Public void new(Name _name)
+       ```X++
+       Public void new(Name _name)
         {
             name = _name;
         }
+       ```
 
 5.  In the AOT, right-click the Employee class, and then click **New** \> **Method**.
 
 6.  In the Code Editor, change the method to the following code.
     
-        public Name name()
+       ```X++
+       public Name name()
         {
             // Return the expected string.
             return name;
         }
+       ```
 
 7.  In the AOT, right-click the Employee class and click **Compile**.
 
@@ -181,7 +194,8 @@ In this procedure you will make the test fail to see the fail result. In TDD, it
 
 2.  In the Code Editor, change the method to the following code.
     
-        public Name name()
+       ```X++
+       public Name name()
         {
             // Return the expected string.
             // return name;
@@ -189,6 +203,7 @@ In this procedure you will make the test fail to see the fail result. In TDD, it
             // Return an empty string to make the test case fail.
             return "";
         }
+       ```
 
 3.  In the AOT, right-click the Employee class and click **Compile**.
 
@@ -207,7 +222,8 @@ In this procedure you will make the test fail to see the fail result. In TDD, it
 
 6.  In the Code Editor, change the method to the following code.
     
-        public Name name()
+       ```X++
+       public Name name()
         {
             // Return the expected string.
             return name;
@@ -215,6 +231,7 @@ In this procedure you will make the test fail to see the fail result. In TDD, it
             // Return an empty string to make the test case fail.
             // return "";
         }
+       ```
 
 7.  In the AOT, right-click the Employee class and click **Compile**.
 
@@ -228,7 +245,8 @@ In this procedure you will add another test case for the retirement requirement.
 
 2.  In the Code Editor, change the method to the following code.
     
-        [SysTestMethodAttribute]
+       ```X++
+       [SysTestMethodAttribute]
         void testRetire()
         {
             // Call the retire method, first time should be successful.
@@ -239,6 +257,7 @@ In this procedure you will add another test case for the retirement requirement.
             this.parmExceptionExpected(true, "Already retired");
             employee.retire();
         }
+       ```
 
 The code added for the new test case will not compile until you add the retire method to the Employee class. You must also add a variable to store whether the employee is retired. To simplify this example, you will throw a string error message, in a real world example you would create a label for the error message "**Already retired.**"
 
@@ -248,13 +267,16 @@ The code added for the new test case will not compile until you add the retire m
 
 2.  In the Code Editor, add the following member variable in the **classDeclaration** braces.
     
-        boolean retired;
+       ```X++
+       boolean retired;
+      ```
 
 3.  In the AOT, right-click Employee and then click **New** \> **Method**.
 
 4.  In the Code Editor, change the method to the following code.
     
-        public void retire()
+       ```X++
+       public void retire()
         {
             // If retired, throw an exception, otherwise set the retired value to true.
             if (retired)
@@ -262,6 +284,7 @@ The code added for the new test case will not compile until you add the retire m
         
             retired = true;
         }
+       ```
 
 5.  In the AOT, right-click the Employee class and click **Compile**.
 
@@ -274,7 +297,8 @@ The code added for the new test case will not compile until you add the retire m
     > <P>Two test cases have been added so the results show <STRONG>2 run, 0 failed</STRONG>. You can make the test fail by not calling the retire method a second time in the testRetire method, an error will not be thrown. Change the code to the following.</P>
 
     
-        [SysTestMethodAttribute]
+       ```X++
+       [SysTestMethodAttribute]
         void testRetire()
         {
             // Call the retire method, first time should be successful.
@@ -284,6 +308,7 @@ The code added for the new test case will not compile until you add the retire m
             this.parmExceptionExpected(true, "Already retired");
             // employee.retire();
         }
+       ```
 
 ## Capturing Code Coverage
 
@@ -357,11 +382,13 @@ The isolation level of a test case varies based on the changes that the test cas
 
 4.  In the Code Editor, change the EmployeeTest createSuite method to the following code.
     
-        public SysTestSuite createSuite()
+       ```X++
+       public SysTestSuite createSuite()
         {
             // Specify the isolation level that constructs an empty company account for the entire test class and then deletes when complete.
             return new SysTestSuiteCompanyIsolateClass(this);
         }
+       ```
 
 5.  In the AOT, right-click EmployeeTest and then click **Compile**.
 

@@ -92,7 +92,7 @@ A form must fit a screen that has a 1024 x 768 resolution. Because the status 
 ## Form Initialization
 
 If a form cannot be started (initialized) correctly, you must inform the user and end the process. For example, if the form has to be started by using certain parameters and is not, throw an error as soon as possible. Provide a straightforward, descriptive error message that states the problem. The following example shows an error being thrown.
-
+```X++  
     void init() 
     {
         if (!element.args() 
@@ -102,7 +102,7 @@ If a form cannot be started (initialized) correctly, you must inform the user an
         super();
         ...
     }
-
+```
 ## Printing from Forms
 
 By default, printing is available from all forms with a data source through the Auto Report facility.
@@ -112,13 +112,13 @@ If a special report has been created to support general printing from the form, 
 If (in rare cases) a **Print** button is needed, implement it by using a **Print CommandButton** control.
 
 Implement the call to the report by using its menu item (depending on the functionality needed) as shown in the following example.
-
+```X++  
     void print()
     {
         new MenuFunction(menuItemOutputStr(...),
                          MenuItemType::Output).run([...]); 
     }
-
+```
 Reports with more specialized functionality should be added to the form by using menu item buttons.
 
 ## ActiveX Control Security

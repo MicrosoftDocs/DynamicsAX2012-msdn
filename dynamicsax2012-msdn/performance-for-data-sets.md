@@ -29,13 +29,16 @@ For Enterprise Portal, the action being performed is specified by a parameter pa
 
 To find the action being performed, add a definition for the formAction variable to the class declaration for your data set.
 
+```X++
     public class DataSetRun extends ObjectRun
     {
         EPFormAction formAction;
     }
+```
 
 In the init method for the data set, add code that retrieves the value that specifies the action that is being performed. The following example shows how to do this.
 
+```X++
     public void init()
     {
         super();
@@ -45,9 +48,11 @@ In the init method for the data set, add code that retrieves the value that spec
             formAction = this.args().parmEnum();
         
     }
+```
 
 In the init method for the data source in the data set, add code that examines the action being performed. If it is an insert action, a range should be applied. The following example examines the formAction class variable to find what action is being performed. If an insert action is being performed, a range is applied that will limit the records accessed.
 
+```X++
     public void init()
     {
         QueryBuildRange rangeRecId;
@@ -63,6 +68,7 @@ In the init method for the data source in the data set, add code that examines t
             rangeRecId.status(RangeStatus::Hidden);
         }
     }
+```
 
 ## See also
 

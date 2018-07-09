@@ -48,13 +48,13 @@ To secure an API, you must call the assert method in the derived class prior to 
 3.  Create a constructor for all of the class parameters that store permission data.
 
 4.  To determine whether the permissions required to invoke the API that you are securing exist, override the [CodeAccessPermission.isSubsetOf](https://msdn.microsoft.com/en-us/library/gg803424\(v=ax.60\)) method to compare the derived permission class to CodeAccessPermission. The following code example shows how to override the [CodeAccessPermission.isSubsetOf Method](https://msdn.microsoft.com/en-us/library/gg803424\(v=ax.60\)) to determine whether permissions stored in the current object exist in \_target.
-    
+    ```X++  
         public boolean isSubsetOf(CodeAccessPermission _target)
         {
             SysTestCodeAccessPermission sysTarget = _target;
             return this.handle() == _target.handle();
         }
-
+    ```
 5.  Override the [CodeAccessPermission.copy](https://msdn.microsoft.com/en-us/library/gg803415\(v=ax.60\)) method to return a copy of an instance of the class created in step 1. This helps to prevent the class object from being modified and passed to the API being secured.
 
 6.  Call the [CodeAccessPermission.demand](https://msdn.microsoft.com/en-us/library/gg803416\(v=ax.60\)) method before executing the API functionality that you are securing. The method checks the call stack to determine whether the permission required to invoke the API has been granted to the calling code.

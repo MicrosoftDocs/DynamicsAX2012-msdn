@@ -45,6 +45,8 @@ Run the following X++ code to delete all rows.
 
 Notice that the deletions are performed in a while loop one row at a time, rather than all rows being deleted in one set operation. Tables with their **ValidTimeStateFieldType** property set to **Yes** cannot have deletes, inserts, or updates performed in one multi-row operation. If your X++ SQL code is designed to perform a multi-row operation, the system internally transforms it into many single-row operations.
 
+   ```X++
+
     static void Vts2_DeleteVtsJob25(Args _args) // X++ Job, in AOT > Jobs.
     {
         TabEmplProjVts xEP;
@@ -57,12 +59,14 @@ Notice that the deletions are performed in a while loop one row at a time, rathe
     Message (06:17:57 pm)
     ALL rows deleted from TabEmplProjVts, not just current rows.
     **/
+   ```
 
 ## Insert Rows into the Table
 
 Run the following X++ job code. The data to be inserted has been designed so that no two rows with the same combination of employee plus project have an overlap in the date range.
 
-    static void Vts2_InsertVtsJob30(Args _args)
+   ```X++
+   static void Vts2_InsertVtsJob30(Args _args)
     {
         //-------- Inner function.
         void OneEP
@@ -101,6 +105,7 @@ Run the following X++ job code. The data to be inserted has been designed so tha
     Message (02:32:45 pm)
     7 rows are inserted.
     **/
+   ```
 
 ## Examine All Rows in the Table
 
@@ -108,7 +113,8 @@ Run the following X++ code to display all the rows that were inserted into the t
 
 Notice the validTimeState keyword that appears after the select keyword. Two date values are passed in as parameters. In this case, they represent the largest possible date range, so that all rows can be selected.
 
-    static void Vts2_SelectVtsJob10(Args _args)
+   ```X++
+   static void Vts2_SelectVtsJob10(Args _args)
     {
         TabEmplProjVts xEP;
         date dateFrom, dateTo;
@@ -148,6 +154,7 @@ Notice the validTimeState keyword that appears after the select keyword. Two dat
     em22 , pr45 ;  1936-05-16 -- 1948-06-17 ;  key66 ;  Indigo ;  Lemon
     em22 , pr45 ;  2111-07-18 -- 2119-08-19 ;  key67 ;  Violet ;  Melon
     ***/
+   ```
 
 The output from the preceding X++ job Select has two rows that begin with the values em21 , pr44. Notice that the date ranges of these two rows make one larger uninterrupted range. However, the two rows for em22 , pr44 have a gap between their two date ranges. This gap is allowed, because the **ValidTimeStateMode** property is set to **Gap** on the idxEPAltKeyVts index.
 
@@ -159,7 +166,8 @@ The select statement has the option to include the validTimeState keyword, and t
 
 Another select in the example omits the validTimeState keyword. This is equivalent to including validTimeState with one target date parameter whose value is equal to today().
 
-    static void Vts2_SelectVtsJob40(Args _args)
+   ```X++
+   static void Vts2_SelectVtsJob40(Args _args)
     {
         TabEmplProjVts xEP;
         date dateTarget;
@@ -246,6 +254,7 @@ Another select in the example omits the validTimeState keyword. This is equivale
     For target 2012-07-17 :  em21 , pr44 ;  2004-01-01 -- 2039-12-31 ;  key62 ;  Orange ;  Banana
     For target 2012-07-17 :  em22 , pr44 ;  2009-01-01 -- 2038-12-31 ;  key64 ;  Green ;  Fig
     **/
+   ```
 
 Consider the output of the Select statements from the preceding code example. Notice that, within each subset of returned rows, all the date ranges include the date that is specified in the validTimeState keyword. Also, no rows that have em22 , pr45 are returned, because the specified dates fall in the gap between the date ranges for those rows.
 
@@ -302,6 +311,7 @@ The code example in this section performs three updates, as described in the fol
 </table>
 
 
+   ```X++
     static void Vts2_UpdateVtsJob54(Args _args)
     {
         TabEmplProjVts xEP;
@@ -390,6 +400,7 @@ The code example in this section performs three updates, as described in the fol
     Update_RecordSet to Peach is done, for ALL records.
     Update job has reached its end.
     ***/
+   ```
 
 ### ![Gg843767.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg843767.collapse_all(en-us,AX.60).gif")Select of Updated Records Shows That ValidFrom Was Automatically Modified
 

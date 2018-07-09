@@ -23,13 +23,15 @@ To override the behavior of update, use the [doUpdate](doupdate-table-method.md)
 
 ## Example
 
-    CustTable custTable;
+```X++
+  CustTable custTable;
         ttsBegin;
           select forUpdate custTable
           where custTable.AccountNum == '4000'; 
           custTable.CreditMax = 5000; 
           custTable.update(); 
         ttsCommit;
+```
 
 The example selects the table custTable for update. Any records with the AccountNum equal to 4000 are updated (in this case only one). The CreditMax field is changed to 5000.
 

@@ -25,6 +25,7 @@ For this topic, you must understand the information in [How to: Use \#define and
 
 In the following code sample, the macro MyMacro is undefined by using the \#undef directive. The \#undef occurs between the two \#if tests for its existence. The output shows only the first \#if test was true.
 
+```X++
     static void UndefMacroJob(Args _args)
     {
         ;
@@ -45,6 +46,7 @@ In the following code sample, the macro MyMacro is undefined by using the \#unde
     Macro is defined (1)
     *************/
     }
+```
 
 ## See also
 

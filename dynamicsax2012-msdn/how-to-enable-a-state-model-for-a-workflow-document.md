@@ -64,18 +64,18 @@ After a state model is defined, you can enable forms and lists to work with work
 4.  Right-click the new class and then click **New Method**. A method node named **method1** displays under the **Classes** node.
 
 5.  Right-click **method1** and then click **Edit**. Enter the following code for the started event method.
-    
+    ```X++  
         public static void started(RecID _recID)
         {
             <insert method here>
         }
-
+    ```
 6.  Repeat steps 4 and 5 for the remaining states.
 
 ## Example
 
 The following code is part of the setWorkflowState on the [PurchReqTable Table](https://msdn.microsoft.com/en-us/library/gg926866\(v=ax.60\)). This method sets the workflow state field in the table and updates the user interface with a user friendly status, and then updates the state in the database.
-
+```X++  
     static void setWorkflowState(RecId _purchReqRecId, PurchReqWorkflowState _purchReqWorkflowState)
     {
         // Declare variables.
@@ -114,7 +114,7 @@ The following code is part of the setWorkflowState on the [PurchReqTable Table](
      
         ttscommit;
     }
-
+```
 ## See also
 
 [Requirements for Enabling Workflow in an Application Module](requirements-for-enabling-workflow-in-an-application-module.md)

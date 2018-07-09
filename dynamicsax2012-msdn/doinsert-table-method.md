@@ -17,7 +17,8 @@ The doInsert method generates values for the RecId field and other system fields
 
 ## Example
 
-    ttsBegin;
+   ```X++
+   ttsBegin;
      
     myTable.name = 'Flemming Pedersen';
     myTable.value = 100;
@@ -25,6 +26,7 @@ The doInsert method generates values for the RecId field and other system fields
     myTable.doInsert();
      
     ttsCommit;
+   ```
 
 A new record is inserted with the name Flemming Pedersen in the name field and the value 100 in the value field.
 

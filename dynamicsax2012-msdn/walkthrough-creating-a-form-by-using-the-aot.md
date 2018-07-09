@@ -66,7 +66,7 @@ In this section you add a button control to the form. The button shows a list of
 4.  Right-click the **clicked** node, and then click **View Code**. The clicked method opens in the code editor.
 
 5.  Copy the following example code, paste the code into the **Editor** window.
-    
+    ```X++  
         void clicked()
         {
             AssetTable assetTable;
@@ -79,7 +79,7 @@ In this section you add a button control to the form. The button shows a list of
         
             super();
         }
-
+    ```
 6.  Click the **Save** button and then close the editor.
 
 7.  To save your changes, right-click the form, and then click **Save**.

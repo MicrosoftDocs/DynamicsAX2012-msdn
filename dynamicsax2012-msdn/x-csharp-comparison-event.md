@@ -106,6 +106,7 @@ The important things to notice in the X++ example are the following:
 
 <!-- end list -->
 
+```X++
     // X++
     // Simple job to start the delegate event test.
     static void DelegateEventTestJob()
@@ -146,6 +147,7 @@ The important things to notice in the X++ example are the following:
             myXppClass.myDelegate(_stringFromJob);
         }
     }
+```
 
 The output from the previous X++ job is as follows:
 

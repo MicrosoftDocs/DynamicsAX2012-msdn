@@ -109,6 +109,7 @@ X++ functions that input or output the guid type are listed in the following tab
 
 The following X++ code example illustrates how to use the GUID functions.
 
+```X++
     static void GuidRoundTripJob(Args _args)
     {
         guid guid2;
@@ -142,6 +143,7 @@ The following X++ code example illustrates how to use the GUID functions.
         string3 = guid2str(guid2);
         info(strFmt("Info_d1:  Braces {} are optional (%1)", string3));
     }
+```
 
 #### ![Cc967363.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967363.collapse_all(en-us,AX.60).gif")Output
 

@@ -52,13 +52,13 @@ In other words, if the new value of a numeric field has been increased by X by a
 X is the parameter of the new custom event type.
 
 1.  Create a new class called EventTypeCUDIncreasedAtLeastBy inheriting from EventTypeCUDIncreased by using the following code.
-    
+    ```X++  
         class EventTypeCUDIncreasedAtLeastBy extends EventTypeCUDIncreased
         {
         }
-
+    ```
 2.  Override the following methods by using the following code.
-    
+    ```X++  
         public EventTypeDescription description()
         {
             return "has increased at least by:"; //hardcoded for demo purpose only
@@ -74,7 +74,7 @@ X is the parameter of the new custom event type.
         {
             return true;
         }
-
+    ```
 You do not need to override the isValidEventType method because your custom event type is valid for exactly the same data types as the EventTypeCUDIncreased event type, from which it inherits.
 
 The same applies for the isFieldRelated method because this method is overridden in the EventTypeCUD class, which is a parent of your custom EventTypeCUDIncreasedAtLeastBy class.

@@ -23,13 +23,15 @@ statement can be replaced by a block of statements.
 
 ## Example
 
-    int no = 1;
+   ```X++
+   int no = 1;
     ;
     while (no <= conlen(cont))
     {
         print conpeek(cont,no);
         no = no + 1;
     } 
+   ```
 
 This traverses a container, cont, and prints out the contents of the container.
 

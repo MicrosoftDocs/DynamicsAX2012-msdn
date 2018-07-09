@@ -35,7 +35,8 @@ An InMemory table is instantiated when the first record is inserted. The instant
 
 To add data to an InMemory table, you must declare the record buffer and call the insert method. The following code example uses the TmpCustLedger table which has its **TableType** property set to **InMemory** in the AOT.
 
-    static void TableTmpInsertRecord(Args _args)
+```X++
+static void TableTmpInsertRecord(Args _args)
     {
         TmpCustLedger custTmpLedger;
         ;
@@ -43,6 +44,7 @@ To add data to an InMemory table, you must declare the record buffer and call th
         custTmpLedger.Balance01 = 2345000;
         custTmpLedger.insert();
     }
+```
 
 To free the memory and delete the file for the InMemory table, set the record buffer variable to null as follows.
 
@@ -50,7 +52,8 @@ custTmpLedger = null;
 
 The following code example copies data from the CustTable table into an InMemory table that is a copy of the CustTable table structure. The setTmp method is used to create an InMemory table that matches the CustTable table. The setTmp method changes the value that is returned from the getTableType method, from TableType::Regular to TableType::InMemory.
 
-    static void CopyPersistedTableToInMemoryJob(Args _args)
+```X++
+static void CopyPersistedTableToInMemoryJob(Args _args)
     {
         CustTable custTable;
         CustTable custTmpLedger;
@@ -67,6 +70,7 @@ The following code example copies data from the CustTable table into an InMemory
     
         custTmpLedger = null;
     }
+```
 
 ## Indexes
 

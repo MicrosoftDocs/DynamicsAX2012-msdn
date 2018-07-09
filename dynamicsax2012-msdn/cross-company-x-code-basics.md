@@ -30,7 +30,7 @@ The cross-company query is useful if at least one of the tables has the **SaveDa
 You can create a cross-company query by using the crossCompany keyword on the X++ select statement. You have the option of adding a container variable of company identifiers immediately after the crossCompany keyword (separated by a colon). The container restricts the selected rows to those with a dataAreaId that match a value in the container.
 
 The following code example populates a table buffer with all the BankAccountTable rows that have a dataAreaId of either cm1 or cm2 or dat. This example assumes that the user has authority to access data for these three companies. The first two dataAreaId values that are found will be printed.
-
+```X++  
     static void JobDemoCrossCompany(Args _args)
     {
         BankAccountTable tabBAT; // saveDataPerCompany == true.
@@ -57,13 +57,13 @@ The following code example populates a table buffer with all the BankAccountTabl
         }
         return;
     }
-
+```
 ## Query Class
 
 In X++ code you can use the Query .allowCrossCompany property method to achieve the same result as you can with the crossCompany keyword on a select statement. The calls to the Query .addCompanyRange method are the same as appending a container of companies to the crossCompany keyword.
 
 You cannot perform data source level filtering by company in a cross-company query. This is why the call to qbds3 .company is commented out in the following code example.
-
+```X++  
     static void JobDemoAllowCrossCompany(Args _args)
     {
         BankAccountTable tabBAT; // saveDataPerCompany == true.
@@ -106,7 +106,7 @@ You cannot perform data source level filtering by company in a cross-company que
         pause;
         return;
     }
-
+```
 ## Query in the AOT
 
 In the AOT, you can get cross-company functionality from a query node by setting the **AllowCrossCompany** property to **Yes** (the equivalent of true in X++ code). You can override methods on the node of your query to call the Query.addCompanyRange method.

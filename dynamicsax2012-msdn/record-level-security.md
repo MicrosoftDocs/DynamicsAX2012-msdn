@@ -56,7 +56,7 @@ Record-level security is not required in these situations:
 Populating a FormListControl, FormTreeControl, or TableListControl with data from a query could lead to unwanted information disclosure. In these cases you should manually enable record-level security.
 
 The following example illustrates how to manually enable record-level security:
-
+```X++  
     public void run
     {
         CustTable custTable;
@@ -71,13 +71,13 @@ The following example illustrates how to manually enable record-level security:
             listView.add(custTable.AccountNum);
         }
     }
-
+```
 ## Using a Temporary Table as a Data Source
 
 When the form cache is being filled with data from a temporary table, you must make sure that the data uses record-level security. This includes tables that are declared as temporary in the code or where the **Temporary** property of a table in the Application Object Tree (AOT) has been set to **Yes**.
 
 The following example shows how to use record-level security with a temporary table.
-
+```X++  
     public void run
     {
         CustTable custTable, tmpDatasource;
@@ -97,7 +97,7 @@ The following example shows how to use record-level security with a temporary ta
     
         super();
     }
-
+```
 ## Using Database Tracing to Identify Where Record-Level Security Is Applied
 
 When the database trace is started, the output that it sends to the message window includes information about which statements have record-level security applied. A line displaying (RLS) at the end indicates that record-level security was enabled on the call to that method.

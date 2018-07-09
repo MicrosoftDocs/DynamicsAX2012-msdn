@@ -32,12 +32,12 @@ To create a Microsoft Dynamics AX list page, you use the Application Object Tree
 4.  To modify the class declaration, click **classDeclaration**, and then add extends ListPageInteraction to the class declaration.
     
     The following code example declares an interaction class for a list page named RoomsListPage.
-    
+    ```X++
         public class RoomsListPageInteraction extends ListPageInteraction 
         {
         .. 
         }
-
+    ```
 5.  Click **Save** and then close the Editor window. If you view the properties for the class, the **Extends** property is now set to **ListPageInteraction**.
 
 ### To create the list page form

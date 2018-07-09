@@ -55,7 +55,8 @@ In this procedure you override the collectESignature method. You must put in cod
 
 3.  Save the code. Press F7 to compile the code.
     
-        boolean collectESignature(DatabaseLogType _logType, Common _record)
+       ```X++
+       boolean collectESignature(DatabaseLogType _logType, Common _record)
         {
             DictEnum dEnum;
             ;
@@ -72,6 +73,7 @@ In this procedure you override the collectESignature method. You must put in cod
         
             return true;
         }
+       ```
 
 ## Inserting Into the DatabaseLog Table
 
@@ -123,7 +125,8 @@ You can use the function tableName2Id to find the table ID for the CustTable.
 
 2.  In the code editor, enter the following X++ code:
     
-        static void Job1(Args _args)
+       ```X++
+       static void Job1(Args _args)
         {
             ;
             Info(strFmt("%1" ,tableName2Id("BankAccountTable")));
@@ -132,6 +135,7 @@ You can use the function tableName2Id to find the table ID for the CustTable.
         7
         ***/
         }
+       ```
 
 3.  Save the code.
 
@@ -149,7 +153,8 @@ You can run an X++ job to find the RecId for the target row from the DatabaseLog
 
 2.  In the code editor, enter the following X++ code:
     
-        static void DatabaseLogTableLookups44Job(Args _args)
+       ```X++
+       static void DatabaseLogTableLookups44Job(Args _args)
         {
             DatabaseLog dablogTable;
             ;
@@ -169,6 +174,7 @@ You can run an X++ job to find the RecId for the target row from the DatabaseLog
         7 Update: 5637144576
         ********/
         }
+       ```
 
 3.  If necessary, change the where clause values in the job code. For example, the VendTable has a different table ID than the 7 shown in the example.
 

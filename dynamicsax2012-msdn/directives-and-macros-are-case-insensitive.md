@@ -22,7 +22,7 @@ For this topic, you must understand the information in [How to: Test a Macro Val
 ## Code Sample
 
 The following X++ code sample shows mismatches in casing. The output shows that the precompiler is case-insensitive.
-
+```X++  
     static void CaseInsensitiveDirectiveMacroJob(Args _args)
     {
         ;
@@ -45,7 +45,7 @@ The following X++ code sample shows mismatches in casing. The output shows that 
     The # if test for value is case-insensitive for the value.
     ************/
     }
-
+```
 ## See also
 
 [Macros in X++](macros-in-x.md)

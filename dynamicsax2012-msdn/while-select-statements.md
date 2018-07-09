@@ -20,7 +20,7 @@ while select loops over many records (meeting certain criteria) and can execute 
 When you perform data manipulation by using the while select statement, you would typically do this in a [transaction](transaction-integrity.md) to ensure data integrity.
 
 In a while select, the select statement itself is executed only one time, immediately before the first iteration of the statements in the loop. Also, any Boolean expressions (such as iCounter \< 1) added to the while select are tested only one time. This differs from how the while statement behaves in languages such as C++ and C\#. For example, in X++ the following loop could iterate more than one time.
-
+```X++  
     static void JobWhileSelect(Args _args) // X++ job.
     {
         int iCounter = 0;
@@ -39,7 +39,7 @@ In a while select, the select statement itself is executed only one time, immedi
     2 , STB-DKK
     3 , STB-EUR
     ***/
-
+```
 The results of a while select statement are returned in a table buffer variable. If you use a field list in the select statement, only those fields are available in the table variable. If you use aggregate functions such as sum or count, the results are returned in the fields you perform the sum or count over. You can only count, average, or sum the integer and real fields.
 
 ## Syntax
@@ -49,7 +49,7 @@ The syntax of a while select statement resembles that of a select statement exce
 ## Examples
 
 ### ![Aa558063.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa558063.collapse_all(en-us,AX.60).gif")Printing a Sorted Telephone List for Some Customers
-
+```X++  
     static void JobPrintTel(Args _args)
     {
         CustTable xrecCT;
@@ -77,11 +77,11 @@ The syntax of a while select statement resembles that of a select statement exce
     4020 , 
     4024 , 
     ***/
-
+```
 This prints the name reference and telephone number of customers in CustTable who have an account number within a specified range.
 
 ### ![Aa558063.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa558063.collapse_all(en-us,AX.60).gif")deleteTransFromVoucher Method in the LedgerJournalTrans Table
-
+```X++  
     static void LedgerJob(Args _args)
     {
         LedgerJournalTrans ledgerJournalTrans;
@@ -113,13 +113,13 @@ This prints the name reference and telephone number of customers in CustTable wh
         
         Global::info(strFmt("counter = %1", counter));
     }
-
+```
 The previous code example uses the X++ forUpdate keyword.
 
 ## Deleting a Set of Records
 
 Use a while select statement to loop over a set of records that meet some criteria and perform an action on each record. One such action is to delete.
-
+```X++  
 {   
    TableName myXrec;   
    while select myXrec   
@@ -128,15 +128,15 @@ Use a while select statement to loop over a set of records that meet some criter
      myXrec.delete();   
    }   
  }
-
+```
 You can economize your X++ statements and achieve the same effect using the [delete\_from](delete-from.md) keyword.
-
+```X++  
 {   
    TableName myXrec;   
    delete\_from myXrec   
      where  Conditions ;   
  }
-
+```
 ## See also
 
 [Aggregate Functions: Differences Between X++ and SQL](aggregate-functions-differences-between-x-and-sql.md)

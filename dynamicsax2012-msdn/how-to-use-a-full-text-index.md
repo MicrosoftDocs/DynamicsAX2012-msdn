@@ -37,6 +37,7 @@ The following X++ code example uses a full text index that exists on a table and
 
 
 
+```X++
     static void GmFTIndexQueryJob6(Args _args)
     {
         FtiTable recFtiTable; // Specified in the prerequisite topic.
@@ -80,6 +81,7 @@ The following X++ code example uses a full text index that exists on a table and
         print "End the job.";
         pause;
     }
+```
 
 ## See also
 

@@ -76,30 +76,30 @@ This topic provides a summary of the attributes and how they are used in code. F
 ### To specify the target class for your test
 
   - This example illustrates how to attach an attribute to a class to specify that it should be used for a test. This example attaches the SysTestTargetAttribute attribute to specify the class that is tested is the Employee class.
-    
+    ```X++  
         [SysTestTargetAttribute(classStr(Employee), UtilElementType::Class)]
         class EmployeeTest extends SysTestCase
         {
         }
-
+    ```
 ### To specify which methods on the unit test class are test methods
 
   - The following code example illustrates how to attach an attribute to a method to indicate that it is a test method.
-    
+  ```X++    
         [SysTestMethodAttribute]
         public void myTest()
         {
         }
-
+  ```
 ### To specify which tests are tests for check in and integrate with a version control system
 
   - You can run and classify the most critical test methods as check in tests. When you set up the version control system, you can specify which test project to run during check in. You can also specify whether to run all test methods, or only the test methods that are marked as check in tests. If all tests pass, the code will be submitted in the version control system. For more information about version control, see [Version Control System](version-control-system.md).The following code example illustrates how to attach an attribute to a method to indicate that it is a check in test method.
-    
+  ```X++   
         [SysTestCheckInTestAttribute]
         public void myCheckInTest()
         {
         }
-
+  ```
 ## See also
 
 [Unit Test Framework](unit-test-framework.md)

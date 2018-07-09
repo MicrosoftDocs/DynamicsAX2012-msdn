@@ -158,7 +158,7 @@ The **CacheLookup** property of the table defines how and when records are cache
 ## Transaction Boundaries for Caching
 
 The Found and FoundAndEmpty caches across transaction boundaries. The NotInTTS cache is newly created inside a transaction. The following code example is from Greef, Pontoppidan, et al. 2006. *Inside Microsoft Dynamics AX 4.0*. 445. Redmond: Microsoft Press. This example, modified for the purposes of this topic, demonstrates how records are retrieved from the cache when the table's **CacheLookup** property is set to NotInTTS, and the **PrimaryIndex** property is set to a unique index on the AccountNum field.
-
+```X++  
     static void NotInTTSCache(Args _args) // X++, in AOT > Jobs.
     {
         CustTable custTable;
@@ -198,7 +198,7 @@ The Found and FoundAndEmpty caches across transaction boundaries. The NotInTTS c
         select custTable
             where custTable.AccountNum == '4000'; 
     }
-
+```
 Reproduced by permission from Greef, Pontoppidan, et al, *Inside Microsoft Dynamics AX 4.0* (Redmond, WA: Microsoft Press, 2006), 445.
 
 
@@ -212,7 +212,7 @@ If the table’s **CacheLookup** property was set to **Found** or **FoundAndEmpt
 ## Code Example to Demonstrate Performance
 
 The following X++ code example is a job that selects one record from the CustTable table numerous times in two loops. Caching is disabled for the first loop by a call to the disableCache method. Caching is enabled for the second loop. The comment at the end of the code displays the timed results. The results show that the first loop took 148 seconds to complete, whereas the second loop took only 1 second.
-
+```X++  
     static void SingleRecordCachePerfTest3Job(Args _args) // X++, under AOT > Jobs.
     {
         /***
@@ -275,7 +275,7 @@ The following X++ code example is a job that selects one record from the CustTab
     Time2: 31449
     Time3: 31450
     *****/
-
+```
 In the preceding X++ job, caching occurs because there is a unique index on the AccountNum field.
 
 Message (08:56:13 am)   

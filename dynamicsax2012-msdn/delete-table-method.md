@@ -24,7 +24,7 @@ The delete method can be overridden, for example, to add extra validation before
 If you override the delete method, the original version of the delete method can be executed instead by calling the doDelete method. It is equivalent to calling super() in the delete method; doDelete executes the base version of the delete method.
 
 ## Example
-
+```X++  
     ttsBegin;
      
     while select forUpdate myTable
@@ -33,7 +33,7 @@ If you override the delete method, the original version of the delete method can
         myTable.delete();
     }
     ttsCommit;
-
+```
 All records in the MyTable table that satisfy the where clause criterion (any record with an Account number equal to 1000) are deleted from the database. These records are deleted one at a time.
 
   

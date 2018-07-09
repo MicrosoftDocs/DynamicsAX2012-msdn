@@ -78,12 +78,12 @@ Following is an example of how to customize your newly created wizard. This is m
         –or–
     
     2.  Add the description method to the wizard's class:
-        
+        ```X++  
             static str description()
             {
                 return "Formal Offer Reply wizard";
             }
-    
+        ```
     If the Caption property and the description method are set to different values, the user sees the Caption property's text.
 
 2.  Navigate to each **TabPage** node, and set the Caption property. This caption appears as the header title immediately below the title bar.

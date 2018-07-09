@@ -63,7 +63,7 @@ The declaration of strings is described in the following table.
 
 The Typeoptions specify an optional maximum length and a comparison scheme.
 
-``` 
+```X++  
  
 //Dynamic string of unlimited length
 str indefiniteString;
@@ -98,7 +98,7 @@ There is no automatic conversion of strings.
 ## Using Strings in Expressions
 
 You can use strings in logical expressions, such as comparisons. You can also concatenate strings by using the + operator, as follows:
-
+```X++  
     void myMethod()
     {
         // Two strings are declared and initialized
@@ -109,7 +109,7 @@ You can use strings in logical expressions, such as comparisons. You can also co
         print a+" "+b;
         pause;
     }
-
+```
 ## Overview of Strings
 
 <table>

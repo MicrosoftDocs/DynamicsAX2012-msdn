@@ -19,15 +19,18 @@ If a display method returns data from another table (or another row in the same 
 
 ## Example: (Table: InventItemGroup)
 
-    display ForecastHasSales hasSalesBudget()
+   ```X++
+   display ForecastHasSales hasSalesBudget()
     {
         return (select forecastSales
                     where forecastSales.itemGroupId == this.itemGroupId).recId != 0;
     }
+   ```
 
 ## Example: (Table: CustInterestJour)
 
-    server display InterestAmountCur sumInterestAmount()
+   ```X++
+   server display InterestAmountCur sumInterestAmount()
     {
         InterestAmountCur   interestAmountCur;
         CustInterestTrans   custInterestTrans;
@@ -41,6 +44,7 @@ If a display method returns data from another table (or another row in the same 
         }
         return interestAmountCur;
     }
+   ```
 
 ## Mitigations
 

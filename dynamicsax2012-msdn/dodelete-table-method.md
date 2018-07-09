@@ -18,7 +18,7 @@ Deletes the current record from the database.
 Use the doDelete method if the [delete table method](delete-table-method.md) has been overridden, and you want to use the original version of the delete method. The doDelete method executes the base version of the delete method instead of the overridden version—it is equivalent to executing super()in the delete method.
 
 ## Example
-
+```X++  
     ttsBegin;
     while select forUpdate myTable
         where myTable.AccountNum >='200';
@@ -26,7 +26,7 @@ Use the doDelete method if the [delete table method](delete-table-method.md) has
         myTable.doDelete();
     }
     ttsCommit;
-
+```
 The previous code deletes all records in the myTable table that have an account number that is greater than or equal to 200.
 
   

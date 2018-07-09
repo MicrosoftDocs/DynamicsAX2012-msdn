@@ -34,7 +34,7 @@ For more information about valid time state tables, see [Valid Time State Tables
 The following code example uses the Query class to read all of the rows from a valid time state table. Pay attention to the validTimeStateDateRange method.
 
 If you want to run the following code example, you must first run the code examples in the topic [Effects of Valid Time State Tables on Read and Write Operations](effects-of-valid-time-state-tables-on-read-and-write-operations.md).
-
+```X++  
     static void QueryVtsJob60(Args _args)  // X++ job, under AOT > Jobs.
     {
         TabEmplProjVts xEP;
@@ -67,7 +67,7 @@ If you want to run the following code example, you must first run the code examp
             Global::info(sDisplay);
         }
     }
-
+```
 ### ![Gg844050.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg844050.collapse_all(en-us,AX.60).gif")Infolog Display
 
 In the following output, you can see that the retrieved rows include a variety of date ranges, even for the same pairs of employee plus project. The varied date ranges displayed in the output indicate that the validTimeStateDateRange method did override the default of the current system date. For instance, no single date can retrieve the rows that have key61 and key62.

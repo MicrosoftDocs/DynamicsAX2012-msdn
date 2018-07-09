@@ -28,12 +28,12 @@ It is recommended that you designate a class to run as a server-bound batch job.
 1.  Create a class that extends the [RunBaseBatch](https://msdn.microsoft.com/en-us/library/gg822687\(v=ax.60\)) class.
 
 2.  Override the [RunBaseBatch.runsImpersonated](https://msdn.microsoft.com/en-us/library/gg822697\(v=ax.60\)) method to return a value of true, as shown in the following example.
-    
+    ```X++  
         public boolean runsImpersonated()
         {
             return true;
         }
-
+    ```
 3.  Confirm that the class calls only the following Info and Global class methods:
     
       - [add](https://msdn.microsoft.com/en-us/library/gg820509\(v=ax.60\))

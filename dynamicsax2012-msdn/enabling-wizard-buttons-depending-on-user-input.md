@@ -28,7 +28,7 @@ For example, the **Next** button for the **Naming** tab page in the Wizard Wizar
 The setupNavigation method allows you to set the initial states of the **Back** and **Next** buttons on your wizard. This method is available if you have based your wizard on the SysWizard class, for example, by [using the Wizard Wizard](how-to-create-wizards.md).
 
 For example, the setupNavigation method for the Wizard Wizard is shown in the following example.
-
+```X++  
     void setupNavigation()
     {
     // First, complete the name.
@@ -36,13 +36,13 @@ For example, the setupNavigation method for the Wizard Wizard is shown in the fo
     // Default data tabbed page.
         skipTab[formRun.defaultDataSetupTabIdx()]   = true;  
     }
-
+```
 ## Testing the user input
 
 You can test to discover whether the user has entered the required information, and whether the enabling of the **Next** button is performed on the relevant form control method.
 
 For example, the code that enables the **Next** button on the **Naming** tab page in the Wizard Wizard is located in the textChange method on the StringEdit:WizardName control of the SysWizardWizard form.
-
+```X++  
     if (this.text())
     {
         if   (!sysWizard.isNextEnabled())
@@ -55,7 +55,7 @@ For example, the code that enables the **Next** button on the **Naming** tab pag
         if   (sysWizard.isNextEnabled())
             sysWizard.nextEnabled(false,   sysWizard.curTab(), false);
     }
-
+```
 The first line of the code tests whether text has been entered in the **Specify the Name of your Wizard** box. If it has, the **Next** button is enabled.
 
 The second and third parameters in nextEnabled are optional. The second parameter specifies the tab page where the **Next** button should be enabled. The default is the current tab page. The third parameter indicates whether focus should be moved to the **Next** button; the default is true.

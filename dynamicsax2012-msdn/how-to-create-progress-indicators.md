@@ -38,7 +38,7 @@ The hourglass pointer is displayed until you call the endLengthyOperation method
 ### ![Aa841990.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa841990.collapse_all(en-us,AX.60).gif")Example: Display an Hourglass Pointer
 
 The following example overrides the clicked method on a form control to refresh the database log.
-
+```X++  
     void clicked()
     {
         super();
@@ -46,7 +46,7 @@ The following example overrides the clicked method on a form control to refresh 
         sysDatabaseLog_ds.research();
         endLengthyOperation();
     }
-
+```
 ## Display a Progress Bar
 
 1.  Initialize a SysOperationProgress variable.
@@ -62,13 +62,13 @@ The following example overrides the clicked method on a form control to refresh 
     This is needed for the time-remaining calculation. If you do not set the total number of operation steps, the progress indicator is not shown. The total is often a count of the number of records, and may be time-consuming to calculate. Don't specify the total if the time is taken to calculate the records is comparable to the total time taken for the operation.
 
 5.  Perform the operation. For each step, specify a description and a step number. For example:
-    
+    ```X++  
         for (i = 1; i <= 100; i++)
         {
             progress.setText(strfmt("Step %1", i));
             progress.incCount();
         }
-    
+    ```
     The description must be short and informative because it might change quickly during the execution.
     
     As an alternative to incCount() you can use setCount(int i).
@@ -86,7 +86,7 @@ The default update interval is 3 seconds. If the task of updating the display ta
 ### ![Aa841990.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa841990.collapse_all(en-us,AX.60).gif")Example: Use a Single Progress Indicator
 
 The following example creates a simple progress indicator.
-
+```X++  
     static void operationProgress(Args _args)
     {
         #AviFiles
@@ -104,7 +104,7 @@ The following example creates a simple progress indicator.
             progress.setCount(i, 1);
         }
     }
-
+```
 ## Use More Than One Progress Indicator
 
 If you have a more complex operation, you can have more than one progress indicator. All of the previously described methods have a default parameter that indicates which progress indicator (or bar) is being referred to.
@@ -116,7 +116,7 @@ If you have a more complex operation, you can have more than one progress indica
 
 
 ### ![Aa841990.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa841990.collapse_all(en-us,AX.60).gif")Example: Use Three Progress Indicators
-
+```X++  
     static void SysOperationProgress(Args _args)
     {
         #define.count1(10)
@@ -160,7 +160,7 @@ If you have a more complex operation, you can have more than one progress indica
             }
         }
     }
-
+```
 ## User Input During an Operation
 
 Following are progress indicator options for user input during an operation:
@@ -174,20 +174,20 @@ Following are progress indicator options for user input during an operation:
 Runbase is the standard framework for job execution, and must have a progress indicator. In the standard application, most progress indicators are used from the RunBase framework.
 
 Use the RunBase.progressInit method to initialize the progress indicator:
-
+```X++  
     public void progressInit(
         str       caption,
         int       total,
         Filename  animation,
         int       updateInterval = 1,
         int       numOfBars      = 1)
-
+```
 Indicating progress during the actual operation is similar to the standard Operation Progress framework. Use the member variable progress:
 
 progress.incCount();
 
 If you have more than one progress bar, use the progress variable defined in RunBase. It points to the Progress class initialized in the progressInit method. For example:
-
+```X++  
     {
         this.progressInit("Caption",10,#AviFileCopy,1,2);
         progress.setCount(bar1count);
@@ -196,7 +196,7 @@ If you have more than one progress bar, use the progress variable defined in Run
         ...
         progress.setCount(bar2count,2);
     }
-
+```
 ## See also
 
 [RunBase Framework](runbase-framework.md)

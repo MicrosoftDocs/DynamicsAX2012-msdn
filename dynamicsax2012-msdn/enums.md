@@ -76,13 +76,13 @@ You must create an enum type in the AOT before you can declare it.
 </tbody>
 </table>
 
-
+```X++
     //A NoYes enum
     NoYes done;
      
     //An array of Criteria enums 
     Criteria crit[100];
-
+```
 ## Referencing Enums in X++
 
 To reference an enum, use the name of the enum, followed by the name of the literal, separated by two colons:

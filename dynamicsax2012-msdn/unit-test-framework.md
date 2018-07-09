@@ -61,12 +61,12 @@ If code coverage is enabled and the type and name point to a valid code element,
 ### ![Aa874515.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa874515.collapse_all(en-us,AX.60).gif")Example
 
 This example illustrates how to declare a test class. You can attach an attribute to the class. This example attaches the SysTestTargetAttribute attribute to specify the target class that is tested Employee. This is usually used to redirect the target to a table.
-
+  ```X++  
     [SysTestTargetAttribute('Employee', UtilElementType::Class)]
     class EmployeeTest extends SysTestCase
     {
     }
-
+  ```
 #### ![Aa874515.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa874515.collapse_all(en-us,AX.60).gif")Test Creation Guidelines
 
 The following list contains suggested guidelines for creating tests.
@@ -319,14 +319,14 @@ The isolation level of a test case varies based on the changes that the test cas
 ### ![Aa874515.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa874515.collapse_all(en-us,AX.60).gif")Example
 
 The following code example illustrates how to use one of the different levels of isolation. You will override the createSuite method in your test case and set the return value to the appropriate test suite.
-
+  ```X++  
     class SysTestSuite createSuite()
     {
         // Set the isolation level to construct a company account for the
         // entire test class.
         return new SysTestSuiteCompanyIsolateClass(this);
     }
-
+  ```
 For a detailed example that creates, runs, and evaluates a test case, see [Walkthrough: Testing a Class Using the Unit Test Framework](walkthrough-testing-a-class-using-the-unit-test-framework.md).
 
 ## See also

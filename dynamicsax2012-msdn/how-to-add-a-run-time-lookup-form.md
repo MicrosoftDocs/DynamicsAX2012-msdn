@@ -30,7 +30,7 @@ The following steps show how to override the lookupReference method of a field.
 3.  Expand **Data Sources**, expand **Fields**, find and expand the field you identified in the previous step. Right-click **Methods**, click **Override method**, and then click **lookupReference**. The **lookupReference** method appears in the code editor.
 
 4.  Comment out the existing contents of the method. If you do not comment out the call to the super method, the standard lookup form might appear. The following code example shows the lookupReference method for a field.
-    
+    ```X++  
         public Common lookupReference(FormReferenceControl _formReferenceControl)
         {
             //Common ret;
@@ -39,10 +39,10 @@ The following steps show how to override the lookupReference method of a field.
             
             //return ret;
         }
-
+    ```
 5.  Add code to the lookupReference method that specifies the table you want to use in the lookup form and creates a query object. The following code example adds the HcmWorker table and a query object named lookupQuery.
     
-    ``` 
+    ```X++   
         HcmWorker worker;
         Query lookupQuery;
     ```
@@ -51,20 +51,20 @@ The following steps show how to override the lookupReference method of a field.
     
     The following code example creates a SysReferenceTableLookup object. Notice how the method parameters associate the HcmWorker table and the **ReferenceGroup** control with the lookup form.
     
-    ``` 
+    ```X++  
         SysReferenceTableLookup sysTableLookup = SysReferenceTableLookup::newParameters(tableNum(HcmWorker), _formReferenceControl, true);
     ```
 
 7.  Specify the fields that appear in the lookup form. The following code examples add the **Name** and **PersonnelNumber** fields from the HcmWorker table.
     
-    ``` 
+    ```X++   
         sysTableLookup.addLookupMethod(“Name”); 
         sysTableLookup.addLookupfield(fieldNum(HcmWorker, PersonnelNumber));
     ```
 
 8.  Use a query to retrieve the records that appear in the lookup form. The following code example uses the query to retrieve a list of workers. Notice how the parmQuery method adds the list to the lookup form.
     
-    ``` 
+    ```X++   
         lookupQuery = new Query();
         lookupQuery.addDataSource(tableNum(HcmWorker)); 
         
@@ -73,13 +73,13 @@ The following steps show how to override the lookupReference method of a field.
 
 9.  Use the peformFormLookup method to open the lookup form. The performFormLookup method returns the selected value from the lookup form. The following code example opens the lookup form and populates the worker object by using the selected record.
     
-    ``` 
+    ```X++  
         worker = sysTableLookup.performFormLookup();
     ```
 
 10. Use return to provide the ID of the selected record to the field in the form data source. The following code example returns the selected worker object to the field in the form data source.
     
-    ``` 
+    ```X++  
         return worker;
     ```
 
@@ -131,7 +131,7 @@ The following steps show how to use the performTypeLookup and performFormLookup 
 
     
     In the following code example, formStringControl represents a string edit control that is bound to the field. Notice how the **HcmPersonRecId** EDT is passed to the performTypeLookup method. If you view the **FormHelp** property of the **HcmPersonRecId** EDT, you will find that the EDT specifies **HcmPersonLookup** as the lookup form.
-    
+    ```X++  
         public void lookup()
         {
             FormStringControl formStringControl;
@@ -139,9 +139,9 @@ The following steps show how to use the performTypeLookup and performFormLookup 
             formStringControl = element.design().controlname("myStringEditControl");
             formStringControl.performTypeLookup(extendedtypenum(HcmPersonRecId));
         }
-    
+    ```
     If you want to specify a form instead of an EDT, you can use the performFormLookup method. The following code example uses the FormRun object to pass the **CustTable** form to the performFormLookup method. The **CustTable** form will appear when you click the lookup button.
-    
+    ```X++  
         public void lookup()
         {
             FormRun formRun;
@@ -152,7 +152,7 @@ The following steps show how to use the performTypeLookup and performFormLookup 
             formRun.init();
             this.performFormLookup(formRun);
         }
-
+    ```
 6.  Use the selected record from the lookup form to update the field. To retrieve the ID of the record, you might have to add code to the run or init method of the form that you specified as the lookup form.
     
 
@@ -161,14 +161,14 @@ The following steps show how to use the performTypeLookup and performFormLookup 
 
     
     The following code example adds the selectMode method to the run method of a form. In the example, element represents the calling form. Notice how the parameter for the selectMode method specifies the name of a control. Use the name of the control that contains the ID value that you want to return to the calling form.
-    
+    ```X++  
         Public void run()
         {
             element.selectMode(myIdControl);
             
             super();
         }
-
+    ```
 7.  Click **Save** and close the code editor.
 
 ## See also

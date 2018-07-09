@@ -30,7 +30,7 @@ Near the end of the X++ code there is an \#ifnot.MyMacro test. Because MyMacro i
 After the precompile phase ends for this job, the MyMacro definition goes out of scope and is no longer known to the system.
 
 ### ![Cc197117.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc197117.collapse_all(en-us,AX.60).gif")Code Sample
-
+```X++  
     static void SimpleDefineIfJob(Args _args)
     {
         str sTest = "Initial value.";
@@ -55,7 +55,7 @@ After the precompile phase ends for this job, the MyMacro definition goes out of
     Yes, MyMacro is defined.
     **********/
     }
-
+```
 ## See also
 
 [Macros in X++](macros-in-x.md)

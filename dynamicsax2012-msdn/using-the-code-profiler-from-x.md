@@ -22,7 +22,7 @@ As an alternative to the [graphical user interface](how-to-use-the-code-profiler
 These two macros have to be in the same level in a method.
 
 Following is a simple job that shows the use of the macros:
-
+  ```X++  
     static void codeProfilerTest() 
     { 
         int   i, j; 
@@ -37,7 +37,7 @@ Following is a simple job that shows the use of the macros:
         info(strfmt("%1",j));   
         #profileEnd   
     } 
-
+  ```
 You will then have to find the collected data under **Tools** \> **Code profiler** \> **Profiler runs**, and process the data yourself by selecting **Totals** \> **Calculate sum**.
 
   

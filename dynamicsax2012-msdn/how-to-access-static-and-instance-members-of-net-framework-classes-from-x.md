@@ -30,7 +30,7 @@ In the following X++ code sample, the static and instance method calls are as fo
   - Instance: netString.Substring
 
 <!-- end list -->
-
+```X++  
     static void JobStaticInstanceSyntax95(Args _args)
     {
         System.Int32 netInt;
@@ -53,7 +53,7 @@ In the following X++ code sample, the static and instance method calls are as fo
     45
     *****/
     }
-
+```
 ## See also
 
 [.NET Interop from X++](net-interop-from-x.md)

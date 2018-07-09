@@ -72,27 +72,33 @@ The second procedure shows how to add the event handler method to the form that 
     
     The following code sample shows how to add a WPF button control from the **PresentationFramework** assembly. Notice how the declaration of the button control uses the fully qualified name of that control. Also notice how the ManagedHost control is declared.
     
-        public void init()
+       ```X++
+       public void init()
         {
            FormManagedHostControl managedHostControl;
            System.Windows.Controls.Button myButton;
         
            super();
         }
+       ```
 
 4.  Get an instance of the ManagedHost control. To get the ManagedHost instance, add X++ code that runs after the call to super() in the **init** method.
     
     The following code sample uses the **design** and **addControl** methods of the form to obtain an instance of the ManagedHost control. Notice how the parameters of the **addControl** method specify the type, and name properties of the ManagedHost control. In addition, the sample assigns the instance to the variable that was declared earlier.
     
-        managedHostControl = this.design().addControl(FormControlType::ManagedHost, “ManagedButton”);
+       ```X++
+       managedHostControl = this.design().addControl(FormControlType::ManagedHost, “ManagedButton”);
+      ```
 
 5.  Use the instance of the ManagedHost to populate the required properties of that control. Use the assemblyName and typeName properties to associate the .NET control with the ManagedHost control. Use the sizing property to specify the size of the ManagedHost control.
     
     The following code sample populates the assemblyName, sizing, and typeName properties. Notice how the values from the AOT **Reference** for the **PresentationFramework** assembly populate the assemblyName property of the ManagedHost control. Also, notice how the typeName property specifies the fully qualified typename of a WPF button control. Finally, the sizing property instructs the ManagedHost to match the display size of the WPF button control.
     
-        managedHostControl.assemblyName(“PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”);
+       ```X++
+       managedHostControl.assemblyName(“PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”);
         managedHostControl.typeName(“System.Windows.Controls.Button”);
         managedHostControl.sizing(Sizing::SizeToContent);
+       ```
 
 6.  Use the ManagedHost to obtain an instance of the .NET control. Use the instance of the .NET control to set property values of the .NET control.
     
@@ -103,27 +109,30 @@ The second procedure shows how to add the event handler method to the form that 
     > <P>While the code sample uses simple text messages, you should use labels to populate the text values of any properties that are displayed by the form. The use of labels lets you more easily localize the form.</P>
 
     
+       ```X++
         myButton = managedHostControl.control();
         myButton.set_ToolTip(“Press button to view the current time”);
         myButton.set_Content(“Time”);
+       ```
 
 7.  If you have made changes that affect the size or content of the .NET control, update the control.
     
     The following code sample uses the **UpdateLayout** method of the WPF button to reflect the changes that you made to the **Tooltip** and **Content** properties.
     
-        myButton.UpdateLayout();
+       ```X++
+       myButton.UpdateLayout();
+       ```
 
 8.  Add an event handler for each .NET control event that the form supports. Use the ManagedEventHandler class to register the .NET control event with a form method.
     
     The following code sample shows how to register an event handler for a WPF button. Notice how the parameters of the ManagedEventHandler specify the form and the name of the X++ event handler method.
     
-        myButton.add_Click(new ManagedEventHandler(this, “MyButton_Click”));
-    
+       ```X++
+       myButton.add_Click(new ManagedEventHandler(this, “MyButton_Click”));
+       ```    
 
     > [!TIP]
     > <P>Make a note of the name that you provide for the event handler. You have to add a method to the form that matches the event handler name. In the procedure that follows in the next section, you will add a method named MyButton_Click.</P>
-
-
 
 9.  To validate and save your code, click the **Compile** button of the code editor window.
 
@@ -138,15 +147,19 @@ The second procedure shows how to add the event handler method to the form that 
     
     The following code sample adds a form method that runs when the WPF button is clicked. Notice how the method name MyButton\_Click matches the event handler name that was used in the previous section of the documentation. Also, notice how the standard Object and EventArgs parameters are added to the method.
     
-        public void MyButton_Click(System.Object sender, System.EventArgs args)
+       ```X++
+       public void MyButton_Click(System.Object sender, System.EventArgs args)
         {
         }
+       ```
 
 2.  Add X++ code to the event handler method that responds to the specified .NET control event.
     
     The following code displays a window that specifies the current system time.
     
-        Box::info(“The current time: “ + time2Str(timeNow(), TimeSeparator::Colon, TimeFormat::AMPM), “Current Time”);
+       ```X++
+       Box::info(“The current time: “ + time2Str(timeNow(), TimeSeparator::Colon, TimeFormat::AMPM), “Current Time”);
+       ```
 
 3.  To validate and save your code, click the **Compile** button of the code editor window. When you open the form, the new control should be visible and should perform the specified actions.
 

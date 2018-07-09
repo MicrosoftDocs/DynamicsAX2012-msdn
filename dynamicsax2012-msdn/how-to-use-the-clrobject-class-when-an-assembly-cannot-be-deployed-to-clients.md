@@ -22,7 +22,7 @@ Your company might have a license agreement that restricts installation of a thi
 ## CLRObject Code Example
 
 The following code example is an X++ job that shows the technique for using the CLRObject class.
-
+```X++  
     static void ClrObjectXppJob(Args _args)
     {
         str sExcepMesg;
@@ -40,7 +40,7 @@ The following code example is an X++ job that shows the technique for using the 
     Message (03:02:07 pm)
     Testing CLRObject 52.
     ***/
-
+```
 ## See also
 
 [CLRObject Class](https://msdn.microsoft.com/en-us/library/gg803404\(v=ax.60\))

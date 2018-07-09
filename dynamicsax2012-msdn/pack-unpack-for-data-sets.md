@@ -31,6 +31,7 @@ In the classDeclaration for the data set, you do the following:
 
 In the following example, two int variables are defined for the data set. Notice that both variables are included in the definition of the CurrentList macro.
 
+```X++
     public class DataSetRun extends ObjectRun
     {
         int sampleValue1;
@@ -42,20 +43,24 @@ In the following example, two int variables are defined for the data set. Notice
             sampleValue1, sampleValue2
         ENDMACRO
     }
+```
 
 ### Pack method
 
 Override the pack method for the data set and supply the following code:
 
+```X++
     public container pack()
     {
        return [#CurrentVersion, #CurrentList];
     }
+```
 
 ### Unpack method
 
 Override the unpack method for the data set and supply the following code:
 
+```X++
     public boolean unpack(container _packed)
     {
         Version version = RunBase::getVersion(_packed);
@@ -72,6 +77,7 @@ Override the unpack method for the data set and supply the following code:
     
         return true;
     }
+```
 
 ## Getter and Setter Methods to Access Data Set Variables
 
@@ -79,6 +85,7 @@ The code for a User Control often must access the member variables of a data set
 
 The following code example adds a getter and a setter method for the data set to get and set the sampleValue1 variable that was defined in the previous example.
 
+```X++
     public int GetSampleValue1()
     {
         return sampleValue1;
@@ -88,6 +95,7 @@ The following code example adds a getter and a setter method for the data set to
     {
         sampleValue1 = _value;
     }
+```
 
 For more information about data set methods, see [How to: Add Methods to Data Sets](how-to-add-methods-to-data-sets.md). Because the pack/unpack design pattern is implemented for the data set, the values of the two variables are maintained through the postbacks that occur in Enterprise Portal.
 

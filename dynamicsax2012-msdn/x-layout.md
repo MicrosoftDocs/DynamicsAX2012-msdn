@@ -70,7 +70,7 @@ An indentation is equivalent to four (4) characters, which corresponds to one ta
   - If Booleans are used in a long expression, put them at the start of an indented new line.
 
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example switch-case Statement
-
+```X++
     switch (myEnum)
     {
         case ABC::A:
@@ -83,21 +83,21 @@ An indentation is equivalent to four (4) characters, which corresponds to one ta
             ...
             break;
     }
-
+```
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example select Statement
-
+```X++
     select myTable
         index hint myIndex
         where myTable.field1 == 1
             && myTable.field2 == 2;
-
+```
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example Layout of Booleans in a Long Expression
-
+```X++
     select firstOnly utilElements
         where utilElements.recordType == recordType
             && utilElements.parentId == parentID
             && utilElements.name == elementName;
-
+```
 ## Column Layout
 
 Column layout should be used where more than one line has the same structure; for example, in declarations or assignments.
@@ -107,14 +107,14 @@ Do not use column layout when there is only one row, or if consecutive rows do n
 Column format is defined using extra blanks.
 
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example Column Layout
-
+```X++
     tmpABC.refRecId     = inventTable.recId;
     tmpABC.itemGroupId  = inventTable.itemGroupId;
     tmpABC.itemId       = inventTable.itemId;
     tmpABC.amount       = amount;
     tmpABC.oldValue     = this.getCategory(inventTable);
     tmpABC write();
-
+```
 ## Layout for Methods
 
 The starting parenthesis on method declarations and calls should be the character just after the method name (no space).
@@ -122,16 +122,16 @@ The starting parenthesis on method declarations and calls should be the characte
 If there are one or two parameters, the parameters can be listed on the same line. If there are more than two parameters, move each parameter onto a new line, and indent by 4 spaces.
 
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example Layout for Method with One or Two Parameters
-
+```X++
     myMethod(parameter1, parameter2);
-
+```
 ### ![Aa619943.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa619943.collapse_all(en-us,AX.60).gif")Example Layout for Method with Many Parameters
-
+```X++
     myMethod(
         parameter1,
         parameter2,
         parameter3);
-
+```
 ## See also
 
 [X++ Coding Standards](x-coding-standards.md)

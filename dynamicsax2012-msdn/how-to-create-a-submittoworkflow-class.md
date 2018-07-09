@@ -32,7 +32,7 @@ The same procedure can be used to activate a workflow by using the workflow conf
 3.  Right-click the new class, and then click **New Method**. A new method node displays under the **Classes** node.
 
 4.  Right-click the new method and then click **Edit**. Enter the following main method code to activate the workflow from the workflow type name. This example applies to workflow submissions for the Microsoft Dynamics AX client. For an example that also works with Enterprise Portal, see [Adding Enterprise Portal Support for Workflow Submission](adding-enterprise-portal-support-for-workflow-submission.md).
-    
+    ```X++  
         public static void main(Args args)
         {
             // Variable declaration.
@@ -74,7 +74,7 @@ The same procedure can be used to activate a workflow by using the workflow conf
                 }
             }
         }
-
+    ```
 5.  Close the **Editor** window and click **Yes** to save changes.
     
 

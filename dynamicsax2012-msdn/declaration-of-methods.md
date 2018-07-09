@@ -106,7 +106,7 @@ int methodName()
 ## Examples
 
 ### ![Aa584699.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa584699.collapse_all(en-us,AX.60).gif")Method Without a Return Type
-
+```X++  
     void update ()
     {   
         // Variable declared and initialized
@@ -127,9 +127,9 @@ int methodName()
         // Commits transaction
         ttsCommit;
     }
-
+```
 ### ![Aa584699.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa584699.collapse_all(en-us,AX.60).gif")Method with Parameters
-
+```X++  
     boolean checkAccountBlocked(AmountCur amountCur)
     {
         if (this.blocked == CustVendorBlocked::All 
@@ -139,13 +139,13 @@ int methodName()
      
         return true;
     }
-
+```
 checkAccountBlocked returns a Boolean value and acts on the parameter amountCur.
 
 ### ![Aa584699.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa584699.collapse_all(en-us,AX.60).gif")Methods with Modifiers
 
 Only the method headers are shown in the following examples.
-
+```X++  
     // A method that cannot be overridden
     final int dontAlterMe() 
     
@@ -154,7 +154,7 @@ Only the method headers are shown in the following examples.
     
     // A display method that returns an integer
     display int value() 
-
+```
 ## See also
 
 [Method Modifiers](method-modifiers.md)

@@ -23,6 +23,7 @@ This code sample is a static method. In a comment block at the bottom is code fo
 
 The parmChecked method is particular to the SysEntryPointAttribute class, and it is not inherited from its base class SysAttribute. Each attribute class can have its own method name for its metadata.
 
+```X++
     static public int MetadataOfSysEntryPointAttributeOnMethod
                 (
                 str _sNameOfClass,
@@ -102,6 +103,7 @@ The parmChecked method is particular to the SysEntryPointAttribute class, and it
     }
     
     **************/
+```
 
 ## See also
 

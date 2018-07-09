@@ -66,12 +66,12 @@ The following sections show how to add a bound, unbound, or calculated control t
 1.  Create a method that calculates the value to be displayed in the control. You should add the method to the table instead of the form. If you add the method to the table, you can reuse the code in other forms.
     
     For example, you add the following subtotalSum method to a table named MyTable. The method calculates the sum of the SubTotal\_A and SubTotal\_B fields. Notice how the method includes the [display](using-the-display-method-modifier.md) modifier that enables you to show the result of the computation.
-    
+    ```X++  
         display int subtotalSum(MyTable t)
         {
             return t.SubTotal_A + t.Subtotal_B;
         }
-
+    ```
 2.  Right-click the **Design** node of the form, click **New Control**, and then click the type of control you want to add. For example, you might click IntEdit or RealEdit to add a control that can display a sum.
 
 3.  View the property sheet for the control. Set the **DataSource** property to the name of the table. Set the **DataMethod** property to the name of the method that calculates the field value. For example, you set **DataMethod** to **subtotalSum** to have the control show the value the method returns.

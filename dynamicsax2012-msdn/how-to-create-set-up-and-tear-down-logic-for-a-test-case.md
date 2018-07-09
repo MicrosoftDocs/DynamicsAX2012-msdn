@@ -33,12 +33,14 @@ As the number of test methods grows for a test case or in a suite of test cases,
 
 5.  Add the following code to create an instance of an Employee class in the setUp method.
     
-        public void setUp()
+       ```X++
+       public void setUp()
         {
             // Create an employee instance to use in test cases.
             employee = new Employee("your name");
             super();
         }
+       ```
     
 
     > [!NOTE]
@@ -58,11 +60,13 @@ This section provides the steps to create a tearDown method for a test case.
 
 3.  Add the following code to run after a test method executes.
     
-        public void tearDown()
+       ```X++
+       public void tearDown()
         {
             print 'Test method cleaning called...';
             super();
         }
+       ```
     
 
     > [!NOTE]
@@ -80,9 +84,11 @@ Depending on your testing needs, other options for setting up tests and staging 
 
 2.  Double-click the new class to open the Code Editor and change the code to the following.
     
-        public class EmployeeSuite extends SysTestSuite
+       ```X++
+       public class EmployeeSuite extends SysTestSuite
         {
         }
+       ```
 
 3.  In the AOT, right-click EmployeeSuite, and then point to **Override Method**. Select the setUp or tearDown method and include the code that you want to run before or after the suite of tests.
     

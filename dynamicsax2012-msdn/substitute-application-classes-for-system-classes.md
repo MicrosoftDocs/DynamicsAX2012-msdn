@@ -105,6 +105,7 @@ The following table lists **x** system classes for which there is a correspondin
 
 The following X++ job demonstrates the syntax for using several special X++ variables that reference instances of the substitute application classes.
 
+```X++
     static void UseSpecialSystemVariablesForXJob(Args _a)
     {
         TreeNode treeNode2;
@@ -133,6 +134,7 @@ The following X++ job demonstrates the syntax for using several special X++ vari
         Global::info("Job is ending. This is a message in the Infolog.");
         pause;
     }
+```
 
 ## See also
 

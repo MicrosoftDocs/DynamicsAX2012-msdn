@@ -20,7 +20,7 @@ A data set, typically used to access data for Enterprise Portal, can have one or
 To add a range for the data source that is used by a data set, you must override the init method for the data source. In this method, create a QueryBuildRange object that defines the range and specifies the values allowed. To prevent the range from being changed or removed, set the range status to hidden. This last step is very important to prevent data outside the range from being accessed.
 
 The following example sets a range for the ContactPerson data source in the EPCustTableInfo data set. The range prevents rows from being accessed that have empty values in the ContactPerson or CustAccount fields. The status of the range is set to hidden to make sure that the range cannot be changed or deleted.
-
+```X++  
     public void init()
     {
         QueryBuildRange    rangeCustAccount;
@@ -30,7 +30,7 @@ The following example sets a range for the ContactPerson data source in the EPCu
         rangeCustAccount.value(SysQuery::valueNotEmptyString());
         rangeCustAccount.status(RangeStatus::Hidden);
     }
-
+```
 ## See also
 
 [Data Access Overview](data-access-overview.md)

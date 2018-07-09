@@ -19,7 +19,7 @@ Suppose YourParentForm form has a button that opens YourAssociatedForm form. In 
 ## Add X++ Code to Open the Associated Form
 
 You can add a button to the YourParentForm form that uses X++ code to open the YourAssociatedForm form. The following code example shows how to open a form when the button is clicked.
-
+```X++  
     void clicked()
     {
         FormRun formRun;
@@ -31,7 +31,7 @@ You can add a button to the YourParentForm form that uses X++ code to open the Y
     
         super();
     }
-
+```
 For information about how to add a button to a form, see [Walkthrough: Creating a Form by Using the AOT](walkthrough-creating-a-form-by-using-the-aot.md).
 
 ## Add a Node under Associated Forms

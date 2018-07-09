@@ -53,6 +53,7 @@ You can CAS-enable your own APIs. For more information, see [How to: Secure an A
 
 ### ![Bb190039.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Bb190039.collapse_all(en-us,AX.60).gif")Example
 
+```X++
     {
         DictClass dictClass;
         anytype   retVal;
@@ -79,6 +80,7 @@ You can CAS-enable your own APIs. For more information, see [How to: Secure an A
         // Closes the code access permission scope.
         CodeAccessPermission::revertAssert();
     }
+```
 
 ## See also
 
