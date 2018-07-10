@@ -21,10 +21,12 @@ From within code for a User Control, you can call static X++ methods for classes
 
 To call a static method for a class, use CallStaticClassMethod() from the AxaptaAdapter object. For example, the following code defines the static method named triple for the Example class. This simple method triples the value that is passed to it.
 
-    public static int triple(int _value)
+```X++
+   public static int triple(int _value)
     {
         return 3 * _value;
     }
+```
 
 The following code for a button in a User Control takes the text from the IntValue text box. It converts it to an integer, and then uses CallStaticClassMethod() to call the triple static method that is defined for the Example class. The result is displayed in the text box.
 

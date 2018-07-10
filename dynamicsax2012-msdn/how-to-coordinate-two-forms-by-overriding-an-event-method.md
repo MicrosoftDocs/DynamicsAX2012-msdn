@@ -52,7 +52,7 @@ The BankAccountTrans form is populated only with data associated to the one bank
 ### ![Aa660749.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa660749.collapse_all(en-us,AX.60).gif")Code Example
 
 Paste the following code into the overridden clicked method as shown in step 5 of the previous scenario.
-
+```X++  
     // The override of the clicked method on the button.
     void clicked()
     {
@@ -77,7 +77,7 @@ Paste the following code into the overridden clicked method as shown in step 5 o
         myFormRun.run();
         myFormRun.wait();
     }
-
+```
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
 

@@ -361,7 +361,10 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 <tr class="odd">
 <td><p>outer</p></td>
 <td><p>Returns all rows from the first-named table, including rows that have no match in the second-named table. This is a left outer join, although there is no left keyword. There is no right outer join in X++ SQL.</p></td>
-<td><pre><code>while select AccountNum
+<td>
+
+```X++
+while select AccountNum
  from custTable
  order by AccountNum
  outer join * from custBankAccount
@@ -371,7 +374,9 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
  print custTable.AccountNum,
     &quot; , &quot;, custBankAccount.DlvMode;
 }
-pause;</code></pre></td>
+pause;
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>pessimisticLock</p></td>
@@ -403,7 +408,10 @@ pause;</code></pre></td>
 <tr class="even">
 <td><p>validTimeState</p></td>
 <td><p>Filters rows from a table that has its <strong>ValidTimeStateFieldType</strong> property set to a value other than <strong>None</strong>. For more information, see <a href="valid-time-state-tables-and-date-effective-data.md">Valid Time State Tables and Date Effective Data</a>.</p></td>
-<td><pre><code>static void VtsJob1(Args _args)
+<td>
+
+```X++
+static void VtsJob1(Args _args)
 {
     // A VTS table in AX 2012.
     CustPackingSlipTransHistory xrec1;
@@ -416,7 +424,10 @@ pause;</code></pre></td>
         FROM xrec1;
     myAnytype = xrec1.getFieldValue(&quot;RecId&quot;);
     info(myAnytype);
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 </tbody>
 </table>

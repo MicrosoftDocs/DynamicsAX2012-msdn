@@ -244,10 +244,15 @@ The following table discusses details about some of the rows in the preceding ta
 <tr class="odd">
 <td><p>2</p></td>
 <td><p>The assignment i = r + b, with r = 33.3 and b = true is calculated as follows:</p>
-<pre><code>i = 33.3 + true; // Which is evaluated as...
+
+```X++
+i = 33.3 + true; // Which is evaluated as...
 i = 33.3 + 1.0; // Which is evaluated as...
 i = 34.3; // Which is evaluated as...
-i = 34; // ...as i is an integer.</code></pre></td>
+i = 34; // ...as i is an integer.
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>3</p></td>

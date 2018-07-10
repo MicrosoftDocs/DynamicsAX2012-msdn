@@ -79,7 +79,9 @@ The following table describes the test cases in the code sample.
 <td><p>Test_3</p></td>
 <td><p>The join keyword is not supported in expression selects. This test case demonstrates a subselect. But expression selects do not support subselects that are equivalent to a standard inner join.</p>
 <p>For instance, the following X++ SQL does not compile. The problem is that it mentions two tables inside one expression select, namely inside the subselect.</p>
-<pre><code>// X++. This job does not compile.
+
+```X++
+// X++. This job does not compile.
 static void BadJob86(Args _args)
 {
     // Test_3.f
@@ -91,7 +93,9 @@ static void BadJob86(Args _args)
                     AssetTable.AssetId // Compiler rejects this line.
             ).AssetId).Name;
     info(strFmt(&quot;Test_3: %1&quot;, sName));
-}</code></pre></td>
+}
+```
+</td>
 </tr>
 </tbody>
 </table>
@@ -101,6 +105,7 @@ static void BadJob86(Args _args)
 
 The following code sample demonstrates several expression selects. Its test cases are described in the previous table.
 
+```X++
     // X++
     static void SelectAsExpression3Job(Args _args)
     {
@@ -138,6 +143,7 @@ The following code sample demonstrates several expression selects. Its test case
                 ).AssetId).Name;
         info(strFmt("Test_3: %1", sName));
     }
+```
 
 The output from a run of the previous code sample is shown in the following table.
 

@@ -54,7 +54,7 @@ The range of an int64 is: \[-9,223,372,036,854,775,808 : 9,223,372,036,854,775,8
 </tbody>
 </table>
 
-
+```X++  
     // Declaration of an integer variable, i
     int i;
     // Declaration of two int64 variables
@@ -63,7 +63,7 @@ The range of an int64 is: \[-9,223,372,036,854,775,808 : 9,223,372,036,854,775,8
     int i3 = 100;
     // Declaration of a dynamic array of integers
     int i4[];
-
+```
 
 > [!WARNING]
 > <P>If you try to assign the largest integer plus 1 to an int64, you will get the wrong result. This is because it is interpreted as a 32-bit number, and therefore the number is wrapped round and stored as -2,147,483,647 instead. To prevent this, add a "u" to the end of the number, for example: int64 i = 0x8000 0000u (0x8000 0000 is 2,147,483,648).</P>
@@ -81,7 +81,7 @@ Integers are automatically converted into boolean, enum, and real.
 ## Using Integers in Expressions
 
 Integers can be used in all expressions, and relational operators and arithmetic operators can be applied. For example:
-
+```X++  
     void element() 
     {
         // Two integer variables are declared and initialized
@@ -101,7 +101,7 @@ Integers can be used in all expressions, and relational operators and arithmetic
             print "J is NOT greater than 2";
         }
     }
-
+```
 ## Overview of Integers
 
 <table>

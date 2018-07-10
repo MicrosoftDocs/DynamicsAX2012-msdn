@@ -31,6 +31,7 @@ For this topic, you must understand the information in [How to: Use the \#localm
 
 Microsoft Dynamics AX has an AOT macro library that is named **Event**. This macro library contains the directive \#define.DefaultEventPollFrequency(15). The following code sample shows that the \#macrolib.Event directive makes the macro \#DefaultEventPollFrequency available.
 
+```X++
     static void SystemProvidedMacroLibraryJob(Args _args)
     {
         ;
@@ -44,6 +45,7 @@ Microsoft Dynamics AX has an AOT macro library that is named **Event**. This mac
     # DefaultEventPollFrequency == 15
     ***************/
     }
+```
 
 ## \#if and \#undef Do Not Apply to \#macrolib
 
@@ -57,6 +59,7 @@ The following code example shows what happens when you write a \#define for a na
 
 After a \#macrolib directive is issued for MacLib23, \#define and \#undef directives have no effect on the \#macrolib macro (see output \_BB). However, a \#define in the contents of a \#macrolib macro can be overwritten by a subsequent \#define or \#undef in the code (see output \_DD).
 
+```X++
     static void PrecedenceMacrolibDefineJob(Args _args)
     {
         ;
@@ -79,6 +82,7 @@ After a \#macrolib directive is issued for MacLib23, \#define and \#undef direct
     _DD: 33:  Plain #define in the job code, overwrite of same macro name defined inside the macrolib macro.
     ***************************/
     }
+```
 
 ## Creating a Macro Library in the AOT
 

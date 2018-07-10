@@ -31,7 +31,8 @@ Typically, the class and methods for a workflow element event handler are create
 
 5.  Enter code similar to the following in the class declaration. Include only the event handlers that you are going to implement.
     
-        public class <event handler class name> implements
+       ```X++
+       public class <event handler class name> implements
             WorkflowElementCompletedEventhandler,
             WorkflowElementCanceledEventHandler,
             WorkflowElementReturnedEventHandler,
@@ -39,15 +40,18 @@ Typically, the class and methods for a workflow element event handler are create
             WorkflowElementStartedEventHandler
         {
         }
+       ```
 
 6.  Right-click the new class and then click **New Method**. A new method node displays under the **Classes** node.
 
 7.  Right-click the new method and then click **Edit**. Enter the following code for the started event method.
     
-        public void started(WorkflowElementEventArgs _workflowElementEventArgs)
+       ```X++
+       public void started(WorkflowElementEventArgs _workflowElementEventArgs)
         {
             <insert method here>
         }
+       ```
 
 8.  Repeat steps 6 and 7 for the remaining events that you are going to implement.
 
@@ -59,7 +63,8 @@ Typically, the class and methods for a workflow element event handler are create
 
 The following code example shows a basic implementation of a workflow element event handler for the started event in a workflow that tracks issues. The class declaration is shown first, followed by the implementation of the started method. The IssueStateChangeManager.start method updates the workflow state to Started based on the RecId parameter passed in by the workflowContext variable. For more information, see [WorkflowEventArgs Class](https://msdn.microsoft.com/en-us/library/gg831514\(v=ax.60\)) and [WorkflowContext Class](https://msdn.microsoft.com/en-us/library/gg798325\(v=ax.60\)).
 
-    // Class Declaration
+   ```X++
+   // Class Declaration
     public class IssueWorkflowEventHandler implements
         WorkflowElementStartedEventHandler
     {
@@ -76,6 +81,7 @@ The following code example shows a basic implementation of a workflow element ev
         // Sets the workflow state to Started.
         IssueStateChangeManager::start(workflowContext.parmRecId());
     }
+   ```
 
 You can implement the remaining workflow element event handlers by using the same code syntax shown earlier.
 

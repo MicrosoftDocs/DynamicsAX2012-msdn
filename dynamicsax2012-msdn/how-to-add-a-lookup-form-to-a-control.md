@@ -69,29 +69,29 @@ The following section shows how to override the lookup method of a **StringEdit*
 3.  Expand the control, right-click **Methods**, click **Override method**, and then click **lookup**. The lookup method opens in the code editor.
 
 4.  In the code editor, add Query, QueryBuildDataSource, and QueryBuildRange objects. The following code example adds the classes you use to construct the query for the lookup form.
-    
+    ```X++  
         public void lookup()
         {
             Query query = new Query();
             QueryBuildDataSource queryBuildDataSource;
             QueryBuildRange queryBuildRange; 
-
+    ```
 5.  Create an instance of SysTableLookup class. The following code example creates a lookup form for customers. Notice how this in the example represents the current form control.
     
-    ``` 
+    ```X++  
         SysTableLookup sysTableLookup = SysTableLookup::newParameters(tableNum(custTable), this); 
     ```
 
 6.  Use the addLookupField method to specify the fields that appear in the lookup form. The following code example adds the **AccountNum** and **CustGroup** fields to the lookup form.
     
-    ``` 
+    ```X++  
         sysTableLookup.addLookupField(fieldNum(CustTable, AccountNum));
         sysTableLookup.addLookupField(fieldNum(CustTable, CustGroup)); 
     ```
 
 7.  Use a query to retrieve data for the lookup form. The following code example uses a range limit so that the lookup form lists customers who have the customer group of 40.
     
-    ``` 
+    ```X++  
         queryBuildDataSource = query.addDataSource(tableNum(CustTable));
     
         queryBuildRange = queryBuildDataSource.addRange(fieldNum(CustTable, CustGroup));
@@ -102,13 +102,13 @@ The following section shows how to override the lookup method of a **StringEdit*
 
 8.  Use the performFormLookup method to open the lookup form.
     
-    ``` 
+    ```X++  
         sysTableLookup.performFormLookup();
     ```
 
 9.  When you override the lookup method, comment out the call to super. If you do not comment out the call to super, the standard lookup form might appear.
     
-    ``` 
+    ```X++  
         //super();
     }
     ```
@@ -116,7 +116,7 @@ The following section shows how to override the lookup method of a **StringEdit*
 10. Right-click the form and then click **Save**. To see the lookup form, right-click the form and then click **Open**. Find the **StringEdit** control and then click the arrow to open the lookup form.
 
 The following code example shows the complete lookup method for customers:
-
+```X++  
     public void lookup()
     {
         Query query = new Query();
@@ -139,7 +139,7 @@ The following code example shows the complete lookup method for customers:
     
         //super();
     }
-
+```
 ## See also
 
 [Lookup Forms Overview](lookup-forms-overview.md)

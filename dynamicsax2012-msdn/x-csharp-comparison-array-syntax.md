@@ -121,7 +121,7 @@ The following table lists areas in the \[\] syntax for arrays that are different
 The following code samples show how arrays of primitive data types are handled. The first sample is in X++, and the second sample is in C\#. Both samples achieve the same results.
 
 ### ![Cc967423.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967423.collapse_all(en-us,AX.60).gif")X++ Sample
-
+```X++  
     static void JobRs005a_ArraySimple(Args _args)
     {
         #define.macroArrayLength(3)
@@ -148,7 +148,7 @@ The following code samples show how arrays of primitive data types are handled. 
             info(int2str(xx) + " , " + int2str(years[xx]));
         }
     }
-
+```
 #### ![Cc967423.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967423.collapse_all(en-us,AX.60).gif")Output
 
 The output to the Infolog is as follows:

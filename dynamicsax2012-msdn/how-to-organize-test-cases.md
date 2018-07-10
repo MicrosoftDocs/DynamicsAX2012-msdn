@@ -44,16 +44,16 @@ In this section you will create your own class extending from the SysTestSuite c
 1.  In the AOT, right-click the **Classes** node and then click **New Class**.
 
 2.  Double-click the new class to open the Code Editor and change the code to the following.
-    
+    ```X++  
         [SysTestTargetAttribute(‘Employee’)]
         public class EmployeeSuite extends SysTestSuite
         {
         }
-
+    ```
 3.  In the AOT, right-click EmployeeSuite, point to **Override Method**, and then click **New**.
 
 4.  Create a suite to add an existing test case to the test suite with the following code. For a complete list of steps to create the EmployeeTest test case in this example, see [Walkthrough: Testing a Class Using the Unit Test Framework](walkthrough-testing-a-class-using-the-unit-test-framework.md).
-    
+    ```X++  
         public void new()
         {
             // Create an instance of a test suite.
@@ -65,7 +65,7 @@ In this section you will create your own class extending from the SysTestSuite c
             // Add one or more test cases to the suite.
             this.add(suite);
         }
-
+    ```
 Next, you may have to create setup and tear down logic at the test case or suite of test cases level. For more information, see [How to: Create Set Up and Tear Down Logic for a Test Case](how-to-create-set-up-and-tear-down-logic-for-a-test-case.md).
 
 ## See also

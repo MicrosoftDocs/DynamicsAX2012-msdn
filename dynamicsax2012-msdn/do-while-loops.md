@@ -30,7 +30,7 @@ statement can be a block of statements.
 ## Example
 
 Following is an example of a do...while loop designed to find the smallest power of 10 that is larger than \_Value.
-
+```X++  
     int FindPower(real _Value)
     {
         int ex=-1;
@@ -47,7 +47,7 @@ Following is an example of a do...while loop designed to find the smallest power
      
        return ex;
     } 
-
+```
 ## See also
 
 [Loops](loops.md)

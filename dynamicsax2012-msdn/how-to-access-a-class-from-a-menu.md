@@ -22,15 +22,15 @@ You can access a class from a menu by using an action menu item and a static mai
 2.  Add the code you want to run, to the main method.
     
     In the following example, the main method displays a message on the screen using the print function.
-    
+    ```X++
         static void main(Args args)
         {
             print "Hello World";
             pause;
         }
-    
+    ```
     In the following example, the main method calls a class method that prints telephone numbers.
-    
+    ```X++
         static void main(Args args)
         {
             TelNumber telNumber;
@@ -39,7 +39,7 @@ You can access a class from a menu by using an action menu item and a static mai
             telNumber.printTel();
         
         }
-    
+    ```
     For more information about the print function, see [Print Statements](print-statements.md).
 
 3.  Create an action menu item that references the class you created in step 1. For more information, see [How to: Create Menus and Menu Items](how-to-create-menus-and-menu-items.md).

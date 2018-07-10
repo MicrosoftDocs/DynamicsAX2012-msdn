@@ -30,7 +30,7 @@ To override the behavior of the insert method, use the [doInsert](doinsert-table
 ## Example 1
 
 The following code example inserts a new record into the CustTable table, with the AccountNum set to 5000 and the Name set to MyCompany (other fields in the record will be blank).
-
+```X++  
     CustTable custTable;
     ;
     ttsBegin;
@@ -41,7 +41,7 @@ The following code example inserts a new record into the CustTable table, with t
     custTable.insert();
       
     ttsCommit;
-
+```
 ## Example 2: Transaction and Duplicate Key
 
 The following example shows how you can catch a DuplicateKeyException in the context of an explicit transaction. The exception is thrown when a call to xRecord .insert fails because of a duplication of an existing unique value. In the catch block, your code can take corrective action, or it can log the error for later analysis. Then your code can continue without losing all the pending work of the transaction.

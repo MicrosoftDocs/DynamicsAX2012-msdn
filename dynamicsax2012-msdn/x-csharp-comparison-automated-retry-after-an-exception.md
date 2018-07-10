@@ -23,6 +23,7 @@ C\# does not have a retry keyword. However, C\# code can be written to provide e
 
 The following X++ sample program causes an Exception::Error to be raised. This occurs when it first tries to read an element from the sStrings array by using an invalid index value. When the exception is caught, corrective action is taken during run time inside the catch block. The retry statement then jumps back to the first statement in the try block. This second iteration works without encountering any exception.
 
+```X++
     static void JobRs008b_ExceptionsAndRetry(Args _args)
     {
         str sStrings[4];
@@ -51,6 +52,7 @@ The following X++ sample program causes an Exception::Error to be raised. This o
         print("End of X++ retry program.");
         pause;
     }
+```
 
 #### ![Cc967407.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967407.collapse_all(en-us,AX.60).gif")Output
 

@@ -31,6 +31,8 @@ It is a best practice to make the new method protected, and instead, use a stati
 
 A class constructor can instantiate other objects, in addition to creating an instance of the class. The following code illustrates one such situation by declaring a Rectangle class that uses two Point objects to define its bounds.
 
+   ```X++
+
     class Rectangle
     {
         Point lowerLeft;
@@ -42,6 +44,8 @@ A class constructor can instantiate other objects, in addition to creating an in
         lowerLeft  = new Point(_topLeftX, _topLeftY);
         upperRight = new Point(_bottomRightX, _bottomRightY);
     }
+  ```
+
 
 ## Accessing Members in a Object
 

@@ -152,7 +152,7 @@ The following table presentation is designed to mimic the node hierarchy of the 
 ### ![Ee330226.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Ee330226.collapse_all(en-us,AX.60).gif")The X++ Job Code
 
 The following X++ job code shows the important lines of code for using a map in X++ code. The comments are discussed in more detail in a section that follows the code.
-
+```X++  
     // X++ job.
     static void MapJob()
     {
@@ -183,7 +183,7 @@ The following X++ job code shows the important lines of code for using a map in 
         // 7: Call the method as it is implemented on the table.
         mDevice.doubleTheVoltage("Testing");
     }
-
+```
 #### ![Ee330226.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Ee330226.collapse_all(en-us,AX.60).gif")Elaboration of the X++ Job Comments
 
 The following table presentation discusses the // comments from the previous X++ job code example.

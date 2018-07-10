@@ -25,6 +25,7 @@ The code examples in this section show that some techniques for deleting multipl
 
 The following X++ code example is an efficient way to delete multiple records.
 
+ ```X++
     static void DeleteMultiRow1aJob(Args _args)
     {
         MyWidgetTable tabWidget;
@@ -32,11 +33,13 @@ The following X++ code example is an efficient way to delete multiple records.
         delete_from tabWidget
             where tabWidget .quantity <= 100;
     }
+```
 
 ### ![Aa624886.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa624886.collapse_all(en-us,AX.60).gif")Example 1b: Delete Method Plus ForUpdate Keyword
 
 The following X++ code example is inefficient. It issues a separate SQL delete call to the database server for each record. The xRecord .delete method never deletes more than one record per call.
 
+ ```X++
     static void DeleteMultiRow1bJob(Args _args)
     {
         MyWidgetTable tabWidget; // extends xRecord.
@@ -52,6 +55,8 @@ The following X++ code example is inefficient. It issues a separate SQL delete c
         ttsCommit;
     }
 
+ ```   
+
 ## Example 2: Delete Plus Inner Join Logic
 
 X++ does not support an inner join on the delete\_from statement. Therefore you cannot use the unmodified join keyword on the delete\_from statement. However, there are other ways to logically accomplish an inner join.
@@ -62,6 +67,7 @@ The examples in this section show techniques for achieving inner join logic by a
 
 The following X++ code example is inefficient. It issues a separate SQL delete call to the database server for each record.
 
+ ```X++
     static void DeleteInnerJoin2aJob(Args _args)
     {
         MyWidgetTable tabWidget; // extends xRecord.
@@ -79,11 +85,13 @@ The following X++ code example is inefficient. It issues a separate SQL delete c
         }
         ttsCommit;
     }
+ ```
 
 ### ![Aa624886.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Aa624886.collapse_all(en-us,AX.60).gif")Example 2b: Delete\_From Plus Efficient Inner Join Logic
 
 The following X++ code example is relatively efficient. It issues a separate delete\_from statement for each loop iteration. However, each delete\_from statement can delete multiple records, a subset of all the records that the job deletes.
 
+ ```X++
     static void DeleteInnerJoin2bJob(Args _args)
     {
         MyWidgetTable tabWidget; // extends xRecord.
@@ -99,6 +107,7 @@ The following X++ code example is relatively efficient. It issues a separate del
         }
         ttsCommit;
     }
+ ```   
 
 ## Example 3: Delete\_From Notexists Join
 
@@ -110,8 +119,8 @@ The delete\_from statements in the following X++ code example are efficient. The
 > [!NOTE]
 > <P>&nbsp;&nbsp;You can also use the exists&nbsp;join clause on the delete_from statement.</P>
 
-
-
+  ```X++
+  
     static void DeleteFromNotexists3bJob(Args _args)
     {
         GmTabOrderHeader tabOHeader;
@@ -216,6 +225,8 @@ The delete\_from statements in the following X++ code example are efficient. The
     After: OLine:  OL_Data==4 re-treads. , OrderHeaderRecId==5637144608
     **************/
     }
+
+  ```  
 
 ## See also
 

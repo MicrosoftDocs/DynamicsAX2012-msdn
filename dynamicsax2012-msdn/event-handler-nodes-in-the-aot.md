@@ -34,12 +34,12 @@ The following rules apply to delegates in the AOT:
   - A delegate cannot contain code.
 
 The following code shows an example of a delegate declaration.
-
+```X++  
     delegate void myDelegateReportBalanceEvent(utcDateTime _when, str _name)
     {
         // There is never any code here inside a delegate.
     }
-
+```
 For more information, see [Walkthrough: Subscribing an Event Handler to a Delegate in the AOT](walkthrough-subscribing-an-event-handler-to-a-delegate-in-the-aot.md).
 
 ## Under a Method Node
@@ -63,12 +63,12 @@ Event handlers for host methods can use one of two parameter signatures:
   - The same parameters that are on the host method that the event handler subscribes to
 
 The following code shows an example of an event handler that has the XppPrePostArgs class as the only parameter.
-
+```X++  
     static public void myEventHandler(XppPrePostArgs _ppArgs)
     {
         // Add useful code here.
     }
-
+```
  
 
 

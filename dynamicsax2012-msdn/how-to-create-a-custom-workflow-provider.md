@@ -26,13 +26,13 @@ You create a custom workflow provider by implementing a workflow provider interf
 3.  Expand the new class, right-click **classDeclaration**, and then click **View Code**.
 
 4.  Enter the code in the class declaration to indicate which workflow provider interface the class is implementing. The following example shows the class declaration for a workflow provider that implements the WorkflowParticipantProvider interface.
-    
+    ```X++  
         public class <MyCustomWorkflowProviderClassName> implements WorkflowParticipantProvider
         {
         }
-
+    ```
 5.  Right-click in the **Editor** window, click **New**, and then enter the following code for one of the methods in the interface that you are implementing. For example, the following code shows the getParticipantTokens method that is part of the WorkflowParticipantProvider interface.
-    
+    ```X++  
         public WorkflowParticipantTokenList getParticipantTokens()
         {
             // Constructs the new user group list.
@@ -42,9 +42,9 @@ You create a custom workflow provider by implementing a workflow provider interf
         
             return userGroups;
         }
-
+    ```
 6.  Right-click in the **Editor** window, click **New**, and then create the next method for the workflow provider interface. The following code example shows the resolve method that is part of the WorkflowParticipantProvider interface.
-    
+    ```X++  
         public WorkflowUserList resolve(WorkflowContext _context,
             WorkflowParticipantToken _participantTokenName)
         {
@@ -65,7 +65,7 @@ You create a custom workflow provider by implementing a workflow provider interf
         
             return userList;
         }
-
+    ```
 7.  Continue implementing the methods for the workflow provider interface.
 
 8.  Close the **Editor** window and then click **Yes** to save changes.

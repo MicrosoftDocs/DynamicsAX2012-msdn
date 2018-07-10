@@ -68,7 +68,7 @@ This section describes how to use table definition groups to export and import d
 3.  Override other methods as needed.
 
 4.  Add the class you created in step 1 to the [SysDataTableCtrl::construct](https://msdn.microsoft.com/en-us/library/gg925940\(v=ax.60\)) method, as shown in the following example.
-    
+    ```X++  
         client server static SysDataTableCtrl construct(DictTable dt)
         {
             switch (dt.id())
@@ -82,7 +82,7 @@ This section describes how to use table definition groups to export and import d
             }
             return new SysDataTableCtrl(dt);
         }
-
+    ```
 ## See also
 
 [Manipulation of Data in Tables](manipulation-of-data-in-tables.md)

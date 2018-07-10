@@ -105,6 +105,7 @@ At the workflow level, event handlers are provided for the workflow started, com
 
 We recommend that you implement multiple event handler interfaces in a single class to reduce the number of classes shown in the Application Object Tree (AOT). For example, the following workflow event handler code example implements the Started, Canceled, and Completed event handlers in one class.
 
+```X++
     public class WorkflowEventHandler implements
         WorkflowStartedEventHandler,
         WorkflowCanceledEventHandler,
@@ -125,6 +126,7 @@ We recommend that you implement multiple event handler interfaces in a single cl
     {
         // ToDo Insert code for the workflow completed eventhandler;
     }
+```
 
 ## Element Level Event Handlers
 
@@ -194,6 +196,7 @@ We recommend that you implement multiple event handler interfaces in a single cl
 
 
 
+```X++
     Public class ApprovalEventHandler implements
         WorkflowElementStartedEventHandler,
         WorkflowElementCompletedEventhandler,
@@ -225,12 +228,14 @@ We recommend that you implement multiple event handler interfaces in a single cl
     {
         // ToDo Insert code for the approval canceled eventhandler;
     }
+```
 
 ## Implementing Event Handlers
 
 When the workflow infrastructure calls the event handlers at the workflow and the workflow element level, it passes WorkflowEventArgs or WorkflowElementEventArgs that contains the workflow context. The following example shows the workflow context for the WorkflowElementEventArgs.
 
-    class WorkflowElementEventArgs
+```X++
+class WorkflowElementEventArgs
     {
         WorkflowContext workflowContext;
     }
@@ -240,6 +245,7 @@ When the workflow infrastructure calls the event handlers at the workflow and th
         workflowContext = _workflowContext;
         return workflowContext;
     }
+```
 
 The workflow context consists of the following:
 
@@ -281,13 +287,15 @@ The workflow context consists of the following:
 
 The following code example returns the record ID workflow context for a workflow element.
 
-    void started(WorkflowElementEventArgs _workflowElementEventArgs)
+```X++
+void started(WorkflowElementEventArgs _workflowElementEventArgs)
     {
         WorkflowContext workflowContext;
         ;
         workflowContext = _workflowElementEventArgs.parmWorkflowContext();
         // ToDo <Insert code for the event> (workflowContext.parmRecId());
     }
+```
 
 ## See also
 

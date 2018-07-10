@@ -46,13 +46,13 @@ The range of a timeOfDay data type is in the closed interval \[0; 86400\]. Value
 </tbody>
 </table>
 
-
+```X++  
     //Declaration of a time variable, time1
     timeOfDay time1;
      
     //Declaration and initialization of a time variable to 00:21:35
     timeOfDay time2 = 1295;
-
+```
 ## Time Literals
 
 timeOfDay variables can be used as literals in the same way as integers are used as literals.

@@ -216,7 +216,7 @@ To create either type of dialog form, you should start with a template. The foll
 6.  To complete the action that is initiated by a dialog form, you add code to the **closeOk** method of the dialog form. The code you add to the method depends on the action or activity you want the dialog form to finish.
     
     For example, the **closeOk** method of the **CustCollectionsNewActivityAppointment** form uses the field values from the drop dialog form to create an appointment activity. The appointment is associated with the selected record in the Accounts Receivable Collections list page. The following code example shows how to use the **closeOk** method to create an activity using field values from the drop dialog form. Notice how the values of the smmActivities\_TypeId, smmActivities\_Purpose, smmActivities\_UserMemo, smmActivities\_StartDateTime, and smmActivities\_EndDateTime controls are used to populate the property values of the activity record.
-    
+    ```X++  
         public void closeOk()
         {
             RefRecId custRecId = element.args().record().RecId;
@@ -253,7 +253,7 @@ To create either type of dialog form, you should start with a template. The foll
         
             element.saveLastValues();
         }
-
+    ```
 ### To add the cancel and commit buttons
 
 1.  In the **Design** node of the form, find and then click the **DialogCommit** group control. In the property sheet, verify the following properties have the specified values:

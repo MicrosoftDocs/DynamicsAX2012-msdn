@@ -379,7 +379,7 @@ In this procedure, you will create a button that displays whether the list page 
 To view the button, right-click the form name in the AOT, and then click **Open**. The client displays the button in the list page action pane. To test the button action, click the button.
 
 The following code example shows how to override the **clicked** event. When the button is clicked, a dialog box opens and displays a message that states whether the list page displays data from a single company or from more than one company.
-
+```X++  
     void clicked()
     {
         // Declare variables
@@ -410,7 +410,7 @@ The following code example shows how to override the **clicked** event. When the
         
         dialogBox.run();
     }
-
+```
 ## See also
 
 [Action Pane Button Overview](action-pane-button-overview.md)

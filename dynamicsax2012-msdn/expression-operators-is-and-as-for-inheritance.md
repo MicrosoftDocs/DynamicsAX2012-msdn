@@ -38,7 +38,7 @@ At run time, the as keyword causes the downcast assignment statement to assign 
 ### ![Gg843452.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg843452.collapse_all(en-us,AX.60).gif")Code Example for the As Keyword
 
 In the following code example, the DerivedClass class extends the BaseClass class. The code example contains two valid assignments between its basec and derivedc variables. The upcast assignment to basec does not need the as keyword, but the downcast assignment to derivedc does need the as keyword. The following code would compile and run without errors.
-
+```X++  
     static void AsTestJob33(Args _args)
     {
         // DerivedClass extends BaseClass.
@@ -60,7 +60,7 @@ In the following code example, the DerivedClass class extends the BaseClass clas
         // AS causes this invalid downcast to assign null.
         bottomc = basec as DerivedClass;
     }
-
+```
 ## Is Keyword
 
 The is keyword ascertains whether an object is a subtype of a specified class. The is expression returns true if the object is a subtype of the class, or if the object is the same type as the class.
@@ -138,7 +138,7 @@ This is keyword is often used to safely test whether the as keyword will work.
 ### ![Gg843452.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg843452.collapse_all(en-us,AX.60).gif")Code Example
 
 The following code example contains a common use of the is keyword. The as keyword is used after the is keyword verifies that the as keyword will the object. The is and as keywords are uppercase to make them more visible in this example.
-
+```X++  
     static void IsKeywordJob46(Args _args) // X++
     {
         DerivedClass derivedc;
@@ -157,7 +157,7 @@ The following code example contains a common use of the is keyword. The as keywo
             info("Test 2: (!(basec IS DerivedClass) is true. Good."));
         }
     }
-
+```
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -187,7 +187,7 @@ The Object class can appear as a special case in inheritance functionality. The 
 
 
 Some classes inherit from the Object class, some inherit from another class, and some do not inherit from any class. The Dialog class does not inherit from any class, yet the assignment and call statements in the following code example all work.
-
+```X++  
     static void ObjectIsAsJob4(Args _args)
     {
         Bank bank4;
@@ -199,7 +199,7 @@ Some classes inherit from the Object class, some inherit from another class, and
         info("Test 4a is finished.");
         ...
     }
-
+```
 The assignment would fail at compile time if it had been bank4 = dlog3;, because the Bank and Dialog classes have no inheritance relationship to each other.
 
 The X++ compiler performs only one small check on assignments to a variable that is declared of the Object class. The compiler checks to make sure that the item being assigned to the Object variable is an instance of a class.

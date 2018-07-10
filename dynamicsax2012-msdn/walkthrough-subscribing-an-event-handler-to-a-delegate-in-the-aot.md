@@ -64,12 +64,12 @@ You can add a method to a class, and then you can subscribe the method to a dele
 5.  Make the input parameters be the same as for the earlier delegate.
 
 Here is an example of what the X++ code should look like.
-
+```X++  
     static public void reportColorEH(str _color)
     {
         info(strFmt("%1 is the color value in the event handler.",_color));
     }
-
+```
 ## Subscribe the Method to the Delegate as an Event Handler
 
 You can subscribe the **reportColorEH** method to the **reportColorDelegate** delegate as an event handler. Do as follows:
@@ -81,12 +81,12 @@ You can subscribe the **reportColorEH** method to the **reportColorDelegate** de
 ## Add a public Method that Calls the Delegate
 
 You can add a public method that calls the delegate. The X++ code in the method must look similar to the following code example.
-
+```X++  
     public void callTheDelegate()
     {
         this.reportColorDelegate("red");
     }
-
+```
 ## Run a Job that Calls the public Method
 
 You can write and run a job that calls the public method that calls the delegate. Do as follows:
@@ -94,13 +94,13 @@ You can write and run a job that calls the public method that calls the delegate
 1.  In the AOT, right-click the node **AOT** \> **Jobs**, and then click **New job**.
 
 2.  In the code **Editor** window, enter X++ code that is similar to the following.
-    
+    ```X++  
         static void Job1(Args _args)
         {
             TestDelegateClass myTestDelegateClass = new TestDelegateClass();
             myTestDelegateClass.callTheDelegate();
         }
-
+    ```
 3.  Compile the job by pressing the F1 key while focus is in the **Editor** window.
 
 4.  Run the job by pressing the F5 key.

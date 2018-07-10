@@ -173,7 +173,8 @@ To enable end-users to submit a workflow document for approval, you will have to
 
 4.  In the **Editor** window, insert the following code.
     
-        public static void main(Args args)
+       ```X++
+       public static void main(Args args)
         {
             // Variable declaration.
             recId _recId = args.record().RecId;
@@ -214,6 +215,7 @@ To enable end-users to submit a workflow document for approval, you will have to
                 }
             }
         }
+       ```
 
 5.  Close the **Editor** window and then click **Yes** to save changes.
 

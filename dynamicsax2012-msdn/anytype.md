@@ -52,11 +52,11 @@ The range of an anytype variable depends on the value first assigned to it. For 
 ## Automatic Conversions
 
 The anytype data types can be automatically converted to dates, enums, integers, reals, strings, guids, int64s, extended data types (records), classes, and containers by assigning a value to the type. For example:
-
+```X++  
     anytype a;
     ;
     a = "text";  // Assigns a string literal
-
+```
 However, after you have converted the anytype data type, you cannot then change it to another data type.
 
 ## Using anytype Variables
@@ -64,19 +64,19 @@ However, after you have converted the anytype data type, you cannot then change 
 You can use anytype variables in expressions. You can also use them in the same way that you can use the data type that you convert them to. For example, if you assign an integer, you can then apply relational and arithmetic operators to the variable.
 
 However, anytype is usually used as arguments and return types. For example:
-
+```X++  
     public static str range(anytype _from, anytype _to)
     {
         return queryValue(_from) + '..' + queryValue(_to);
     }
-
+```
 and
-
+```X++  
     void put(int position, anytype data)
     {
         record = conpoke(record, position, data);
     }
-
+```
 ## Overview of anytype Variables
 
 <table>

@@ -27,6 +27,7 @@ The following code example shows how you can use the DictMethod system class to 
 
 The most important part of the code example is the letsReflectNow method. It constructs a DictMethod object by passing in the name of the X++ method to reflect on. It also passes in the name of the X++ class that the X++ method belongs to.
 
+```X++
     public class ReflectDemoClass3  // X++ class.
     {
         /// <summary>
@@ -98,6 +99,7 @@ The most important part of the code example is the letsReflectNow method. It con
             return netString;
         }
     }
+```
 
 ### ![Hh272119.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Hh272119.collapse_all(en-us,AX.60).gif")How to Run the X++ Code Example
 

@@ -31,7 +31,7 @@ The verifyItem method parameters (identifiername menuItemName, MenuItemType menu
 
 The following code example from SysContextMenu class shows the validation when the Reverse Engineer tool is used as the parameter.
 
-``` 
+```X++  
     // Only show 'Reverse Engineer'menu item
     // on projects and perspective as we only want to reverse
     // engineer project elements

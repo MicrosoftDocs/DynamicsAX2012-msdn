@@ -19,6 +19,7 @@ All of the following examples use the CustTable.
 
 The following X++ job shows several small examples of how you can use the select statement.
 
+```X++
     static void SelectRecordExamples3Job(Args _args)
     {
         CustTable custTable;  // As of AX 2012.
@@ -95,6 +96,7 @@ The following X++ job shows several small examples of how you can use the select
     G: 29 = Count of AccountNums
     H: 103.45 = Average CreditMax
     ***/
+```
 
 ## Join Sample
 
@@ -102,6 +104,7 @@ This X++ code sample shows how an inner join can be performed as part of an SQL 
 
 The sample also shows an order by clause that has each field qualified by a table name. This enables you to control how the retrieved records are sorted by using only one order by clause.
 
+```X++
     static void SelectJoin22Job(Args _args)
     {
         CustTable xrecCustTable;
@@ -138,6 +141,7 @@ The sample also shows an order by clause that has each field qualified by a tabl
     (AccountNum:"2214"; CashDisc:"1%D07"; Description:"1% 7 days")
     *********/
     }
+```
 
 ## Group By and Order By
 
@@ -145,7 +149,8 @@ This X++ code sample shows that the fields in the group by clause can be qualifi
 
 The order by clause follows the same syntax patterns that group by follows. If provided, both clauses must appear after the join (or from) clause, and both must appear before the where clause that might exist on the same join. It is recommended that all group by and order by and where clauses appear immediately after the last join clause.
 
-    static void SelectGroupBy66Job(Args _args)
+```X++
+static void SelectGroupBy66Job(Args _args)
     {
         CustTable xrecCustTable;
         CashDisc xrecCashDisc;
@@ -180,6 +185,7 @@ The order by clause follows the same syntax patterns that group by follows. If p
     (AccountNum_Count:"1"; CashDisc:"3%D10"; Description:"")
     *********/
     }
+```
 
 ## See also
 

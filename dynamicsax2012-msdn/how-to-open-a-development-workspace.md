@@ -71,11 +71,13 @@ This topic describes:
 
 You can also open a Development Workspace directly from X++ code. For example, you can add a customized button in the Application Workspace to open a Development Workspace. The following X++ code can be used to open a Development Workspace.
 
-    static void OpenDevWorkspace(Args _args)
+```X++
+  static void OpenDevWorkspace(Args _args)
     {
         int hWorkspace;
         hWorkspace = infolog.createDevelopmentWorkspaceWindow();
     }
+```
 
 ## See also
 

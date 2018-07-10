@@ -16,7 +16,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The Strategy pattern is for doing different things in a similar manner. For example, you have similar switch statements or if statements in your code.
 
 The following code example illustrates similar switch statements:
-
+```X++  
     …
         // First operation
         switch (_direction)
@@ -40,7 +40,7 @@ The following code example illustrates similar switch statements:
             case down:
                  ...
         }
-
+```
 The following illustrates an example where you split up your code in a class hierarchy:
 
 ![Class hierarchy for a strategy pattern](images/Aa500295.ClassModelExample1(en-us,AX.60).gif "Class hierarchy for a strategy pattern")
@@ -48,7 +48,7 @@ The following illustrates an example where you split up your code in a class hie
  
 
 The following code example illustrates using a [construct](best-practices-for-static-construct-methods.md) object and a direction object at the start of your code. Then work on the correct direction object in an abstract way after.
-
+```X++  
     Direction direction = Direction::construct(_direction);
          ...
         direction.firstOperation();
@@ -59,7 +59,7 @@ The following code example illustrates using a [construct](best-practices-for-st
          ...
         direction.secondOperation();
          ...
-
+```
 The correct process will occur as the direction object is instantiated to the correct situation.
 
 ## See also

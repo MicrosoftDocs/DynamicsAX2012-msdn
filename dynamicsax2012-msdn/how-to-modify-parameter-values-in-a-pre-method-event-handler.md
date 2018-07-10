@@ -41,16 +41,25 @@ The following table displays the AOT elements that work together to process the 
 <tbody>
 <tr class="odd">
 <td><p>Plain method: as a method on the TestClass class.</p></td>
-<td><pre><code>// Called by the job later in this example.
+<td>
+
+```X++
+// Called by the job later in this example.
 public str formatWholeName
         (str _firstName, str _lastName)
 {
     return _lastName + &quot;, &quot; + _firstName;
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>Event handler: static method on a class.</p></td>
-<td><pre><code>// CalledWhen = Pre.
+<td>
+
+```X++
+// CalledWhen = Pre.
 static public void formatWholeNameEhBefore(XppPrePostArgs ppArgs)
 {
     str firstName;
@@ -64,7 +73,10 @@ static public void formatWholeNameEhBefore(XppPrePostArgs ppArgs)
     {
         ppArgs.setArg(&quot;_firstName&quot;, &quot;William&quot;);
     }
-}</code></pre></td>
+}
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Node relationship in the AOT.</p></td>
@@ -74,7 +86,10 @@ static public void formatWholeNameEhBefore(XppPrePostArgs ppArgs)
 </tr>
 <tr class="even">
 <td><p>Job: to run the simple method.</p></td>
-<td><pre><code>static void Job1NameEhBefore(Args _args)
+<td>
+
+```X++
+static void Job1NameEhBefore(Args _args)
 {
     TestClass testClass9;
     str formattedWholeName;
@@ -91,7 +106,10 @@ static public void formatWholeNameEhBefore(XppPrePostArgs ppArgs)
 }
 /*** Output displayed in the Infolog:
 Ahs, David == the formatted formal name.
-***/</code></pre></td>
+***/
+```
+
+</td>
 </tr>
 </tbody>
 </table>

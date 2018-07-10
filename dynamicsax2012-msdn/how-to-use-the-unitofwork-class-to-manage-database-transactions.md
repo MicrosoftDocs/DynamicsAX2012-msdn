@@ -120,6 +120,7 @@ The following table lists the major lines of code in the subsequent code example
 
 The following X++ code sample demonstrates the UnitOfWork class.
 
+```X++
     // X++, a method on a class. Not a job.
     server static public void RunTheUowDemoMethod()
     {
@@ -204,6 +205,7 @@ The following X++ code sample demonstrates the UnitOfWork class.
         info(strFmt("TabLineItemOfSale:  MasterSaleRecIdFky=%1 , LiosName=%2 , RecId=%3 , LiosComment=%4",
             tLineIos.MasterSaleRecIdFky, tLineIos.LiosName, tLineIos.RecId, tLineIos.LiosComment));
     }
+```
 
 The following lines of output were displayed in the **Infolog** by the previous program.
 

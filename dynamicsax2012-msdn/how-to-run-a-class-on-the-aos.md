@@ -48,29 +48,29 @@ For more information, see [Application Object RunOn Property Overview](applicati
 2.  Right-click the static method that you want to modify, and then click **Edit**. The **Class Editor** window opens.
 
 3.  In the **Class Editor**, enter one of the following static method declaration modifiers.
-    
+    ```X++
         // Sets the RunOn property to Called from.
         client server static boolean myMethod()
         {
             // ToDo Insert code here.
         }
-    
+    ```
     \- or -
-    
+    ```X++
         // Sets the RunOn property to Client.
         client static boolean myMethod()
         {
             // ToDo Insert code here.
         }
-    
+    ```
     \- or -
-    
+    ```X++
         // Sets the RunOn property to Server.
         server static boolean myMethod()
         {
             // ToDo Insert code here.
         }
-
+    ```
 4.  In the AOT, right-click the modified class, and then click **Save**.
 
 ## See also

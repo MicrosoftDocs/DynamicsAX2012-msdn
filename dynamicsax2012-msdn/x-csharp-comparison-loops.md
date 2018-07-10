@@ -126,7 +126,7 @@ A limitation of print is that you cannot copy the contents of the Print window t
 The while keyword supports looping in both X++ and C\#.
 
 ### ![Cc967439.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967439.collapse_all(en-us,AX.60).gif")X++ Sample of while
-
+```X++  
     static void JobRs002a_LoopsWhile(Args _args)
     {
         int nLoops = 1;
@@ -144,7 +144,7 @@ The while keyword supports looping in both X++ and C\#.
         beep(); // Function.
         pause; // X++ keyword.
     }
-
+```
 #### ![Cc967439.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967439.collapse_all(en-us,AX.60).gif")Output
 
 The output in the X++ Print window is as follows:
@@ -209,7 +209,7 @@ The for keyword supports looping in both X++ and C\#.
 ### ![Cc967439.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967439.collapse_all(en-us,AX.60).gif")X++ Sample of for
 
 In X++ the counter variable cannot be declared as part of the for statement.
-
+```X++  
     static void JobRs002a_LoopsWhileFor(Args _args)
     {
         int ii; // The counter.
@@ -229,7 +229,7 @@ In X++ the counter variable cannot be declared as part of the for statement.
         }
         pause; // X++ keyword.
     }
-
+```
 #### ![Cc967439.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967439.collapse_all(en-us,AX.60).gif")Output
 
 The output in the X++ Print window is as follows:

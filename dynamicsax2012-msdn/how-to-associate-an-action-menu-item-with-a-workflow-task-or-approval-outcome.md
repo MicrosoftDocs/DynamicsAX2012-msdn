@@ -95,7 +95,7 @@ After an action menu item for a task or approval outcome is created, you can imp
 4.  In the **Editor** window, insert the code for the action to take when the action menu item is selected in the user interface.
     
     The following example shows the submit action when the purchase requisition workflow is submitted. The workflow configuration is activated by calling the [Workflow::activateFromWorkflowType Method](https://msdn.microsoft.com/en-us/library/gg812416\(v=ax.60\)) method on the [Workflow Class](https://msdn.microsoft.com/en-us/library/gg812434\(v=ax.60\)) class.
-    
+    ```X++  
         void submit()
         {
             NoYes activatingFromWeb;
@@ -114,7 +114,7 @@ After an action menu item for a task or approval outcome is created, you can imp
             }
             ttscommit;
         }
-
+    ```
 5.  In the AOT, expand the **Menu Items** node.
 
 6.  Expand the **Action** node, and then select the action menu item that will use the class that you created in step 4.

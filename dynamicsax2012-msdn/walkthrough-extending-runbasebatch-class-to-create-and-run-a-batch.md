@@ -74,7 +74,8 @@ In this procedure, you will extend the RunBaseBatch class. Objects of type RunBa
     > <P>For this example, do not yet override the runsImpersonated method. The base method always returns true. true means the batch must run under the authority of the person who scheduled the batch, and that no client session is involved.</P>
 
     
-        class Batch4DemoClass extends RunBaseBatch
+```X++
+    class Batch4DemoClass extends RunBaseBatch
         {
             public void run()
             {
@@ -93,6 +94,7 @@ In this procedure, you will extend the RunBaseBatch class. Objects of type RunBa
                 return true;
             }
         }
+```
 
 ## Scheduling Your Batch
 
@@ -111,7 +113,8 @@ In this procedure, you will write an X++ job that can be run to schedule an occu
     > <P>The result of your job is that your batch is scheduled to run.</P>
 
     
-        static void Job_ScheduleBatch2(Args _args)
+       ```X++
+       static void Job_ScheduleBatch2(Args _args)
         {
             BatchHeader batHeader;
             BatchInfo batInfo;
@@ -127,6 +130,7 @@ In this procedure, you will write an X++ job that can be run to schedule an occu
             batHeader .save();
             info(strFmt("'%1' batch has been scheduled.", sParmCaption));
         }
+       ```
 
 4.  Click the **Build** menu, and then click **Generate Incremental CIL**.  
     This CIL build is necessary because batch jobs that run on the AOS can run only in .NET Framework managed mode.
@@ -162,11 +166,13 @@ In this procedure, you add an override of the runsImpersonated method to your Ba
 
 3.  View your batch on the **Batch job** form.
     
-        public boolean runsImpersonated()
+       ```X++
+       public boolean runsImpersonated()
         {
             // false means that the batch must run on a client.
             return false;
         }
+       ```
 
 ## Running Your Batch on the Client
 

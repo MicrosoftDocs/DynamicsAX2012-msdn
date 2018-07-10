@@ -24,7 +24,7 @@ You can declare local functions inside a method or a job in X++. A local functio
 ## Code Example of a Local Function
 
 The following X++ job code example shows valid declarations of two local functions named localFunc55b and localFunc66c. Calls to the local functions occur after the function declarations in the code example, as is required.
-
+```X++  
     static void G_LocalFuncJob2(Args _args) // X++ job.
     {
         int nn = 654;
@@ -56,7 +56,7 @@ The following X++ job code example shows valid declarations of two local functio
     localFunc55b: 55 , String_in_localFunc55b , 654
     Printing from inside localFunc66c.
     ***/
-
+```
 ## Declaration of Local Functions
 
   - The local functions must be declared physically above any non-declaration statements that exist in the method or job.

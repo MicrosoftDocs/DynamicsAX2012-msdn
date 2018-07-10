@@ -91,7 +91,7 @@ The following table identifies these situations.
  
 
 You may explicitly skip or ignore one or more things that would adversely impact performance by using the items shown in the far right column. If for some reason one of the previously mentioned SQL operations is downgraded to a record-by-record operation, all of the skip… settings are also ignored. For example, the insert method on myTable is executed in the following example—even though it is explicitly stated that this method should be skipped if myTable has a container or memo field defined.
-
+```X++
     public void tutorialRecordInsertList()
     {
         MyTable myTable;
@@ -107,7 +107,7 @@ You may explicitly skip or ignore one or more things that would adversely impact
         }
         insertList.insertDatabase();
     }
-
+```
  
 
 For more information about delete actions, see [Maintaining Data Integrity](maintaining-data-integrity.md).

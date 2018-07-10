@@ -24,7 +24,7 @@ When a user runs a query, the system can refuse to send data from the AOS for pa
 The following code sample scans the system tables to find fields that the current user cannot access, on tables that he can otherwise access. The code prints progress reports to the **Print** window while it runs. The final output of field names appears in the **Infolog** window.
 
 The macros near the top of the code sample are explained in a section that follows the code sample.
-
+```X++  
     static void GmTrimAccessFieldScan3Job(Args _args)
     {
         // Edit the following three macro values to your needs.  For example:
@@ -118,7 +118,7 @@ The macros near the top of the code sample are explained in a section that follo
         print "-------- Done. --------";
         pause;
     }
-
+```
 ## Explanation of the Macros
 
 This section explains the use of the macro definitions in the previous code sample.

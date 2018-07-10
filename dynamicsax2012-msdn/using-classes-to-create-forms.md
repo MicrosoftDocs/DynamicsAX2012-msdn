@@ -56,7 +56,7 @@ The following method displays the form:
   - [FormRun.detach](https://msdn.microsoft.com/en-us/library/gg906251\(v=ax.60\))
 
 <!-- end list -->
-
+```X++  
     static void createForm(Args _args)
     {
         Args args;
@@ -133,7 +133,7 @@ The following method displays the form:
         formRun.run();
         formRun.detach();
     }
-
+```
 ## See also
 
 [Methods in X++](methods-in-x.md)

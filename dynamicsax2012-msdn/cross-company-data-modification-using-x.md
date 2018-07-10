@@ -41,6 +41,7 @@ All of these options can be used in cross-company data modification processing.
 
 In X++ code, you can delete data on a cross-company basis, even though you cannot use the crossCompany keyword on the delete\_from statement. The following code example shows one way you can do this.
 
+```X++
     static void JobCCDel( Args _args )
     {
         Table21 tab21a , tab21b;
@@ -64,11 +65,13 @@ In X++ code, you can delete data on a cross-company basis, even though you canno
         }
         ttsCommit;
     }
+```
 
 ## insert Method
 
 The following X++ code example shows how to use the cross-company feature for inserting data, even though the crossCompany keyword cannot be used on the insert\_recordset command.
 
+```X++
     static void JobCCIns( Args _args )
     {
         Table21 tab21;
@@ -93,11 +96,13 @@ The following X++ code example shows how to use the cross-company feature for in
         }
         ttsCommit;
     }
+```
 
 ## update\_recordset with forUpdate on select
 
 This X++ example uses the forUpdate keyword on the while select crossCompany statement. Only one table buffer variable is declared. This example also uses the update method on the table buffer.
 
+```X++
     static void JobCCForUpdMethod( Args _args )
     {
         Table21 tab21;
@@ -117,6 +122,7 @@ This X++ example uses the forUpdate keyword on the while select crossCompany sta
         }
         ttsCommit;
     }
+```
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).

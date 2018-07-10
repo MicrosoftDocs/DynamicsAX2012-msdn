@@ -120,7 +120,7 @@ In this section you add a static method that will support the computed column th
 The support method must input an int parameter when the method is supporting a union view. The int parameter value tells the method which branch of the union the present call is meant for. The first branch is number 1, not 0. There is one branch for each data source of the **TestQryUnion** query.
 
 1.  Click **TestViewUnion** \> **Methods** \> **New Method**. This opens the code **Editor** window. Paste the following code into the **Editor** window. The method name is Comp\_Party\_LifeTime.
-    
+    ```X++  
         private static server str Comp_Party_LifeTime(int branchNum)
         {
             #define.ViewName(TestViewUnion)
@@ -179,7 +179,7 @@ The support method must input an int parameter when the method is supporting a u
         
             return sReturn;
         }
-
+    ```
 ### ![Gg846293.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg846293.collapse_all(en-us,AX.60).gif")Add a Computed Column to the View
 
 To add a computed column to the view, follow these steps:

@@ -39,9 +39,11 @@ The following procedures show how to create a workflow document class including 
 
 5.  Enter the following code in the class declaration.
     
-        class <MyWorkflowDocumentClassName> extends WorkflowDocument
+       ```X++
+       class <MyWorkflowDocumentClassName> extends WorkflowDocument
         {
         }
+       ```
 
 6.  Close the **Editor** window and click **Yes** to save changes.
 
@@ -55,10 +57,12 @@ The following procedures show how to create a workflow document class including 
 
 8.  In the **Editor** window, enter the following code for the query method.
     
-        QueryName getQueryName()
+       ```X++
+       QueryName getQueryName()
         {
             return querystr(<MyWorkflowDocumentQueryName>);
         }
+       ```
 
 After you create the workflow document class, you can bind it to the workflow type. For more information, see [How to: Associate a Workflow Document Class with a Workflow Type](how-to-associate-a-workflow-document-class-with-a-workflow-type.md).
 
@@ -78,13 +82,15 @@ To add a calculated field to the workflow document class, it must:
 
 The following code example shows how to add a calculated field to determine the total credit amount for a journal.
 
-    public TotalJournalCreditAmount parmTotalJournalCreditAmount(CompanyId _companyId, TableId _tableId, RecId _recId)
+   ```X++
+   public TotalJournalCreditAmount parmTotalJournalCreditAmount(CompanyId _companyId, TableId _tableId, RecId _recId)
     {
         // The calculateAmounts method contains business and validation logic   
         this.calculateAmounts(_companyId, _tableId, _recId);
     
         return totalJournalCreditAmount;
     }
+   ```
 
 ## See also
 

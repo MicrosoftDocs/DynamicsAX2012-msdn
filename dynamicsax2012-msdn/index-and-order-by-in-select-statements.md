@@ -66,7 +66,7 @@ The following table is an overview of how to use the index hint and order by key
 ## Example 1
 
 To select the transactions from the salestable based on a range of customers and due dates, use the following code.
-
+```X++  
     SalesTable salesTable;
         select salesTable
         index hint CustIdx
@@ -75,7 +75,7 @@ To select the transactions from the salestable based on a range of customers and
               && salesTable.CustAccount <= '4000'
                         && salesTable.FixedDueDate >= 12\12\2004
                         && salesTable.FixedDueDate <= 05\05\2009;
-
+```
 ## Using Index Hints
 
 To use index hints in queries you must first specify the use of hints on the server using the following procedure.
@@ -123,7 +123,7 @@ For example, if you run sp\_helpindex InventTable in SQL Server Management Studi
 
 
 In the following code the clustered index will be used instead of the non-clustered index specified in the index hint.
-
+```X++  
     static void IndexHint(Args _args)
     {
         InventTable inv;
@@ -131,7 +131,7 @@ In the following code the clustered index will be used instead of the non-cluste
         select * from inv index hint GroupItemIdx 
             where inv.ItemId == 'B-R14';
     }
-
+```
 ## See also
 
 [How to: Create an Index](how-to-create-an-index.md)

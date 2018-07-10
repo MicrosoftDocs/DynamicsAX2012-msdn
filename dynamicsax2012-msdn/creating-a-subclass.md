@@ -24,7 +24,7 @@ For more information about overriding a method, see [Overriding a Method](overri
 ## Example
 
 The following example creates a class called Point and extends it to create a new class called ThreePoint.
-
+```X++  
     class Point
     {
         // Instance fields.
@@ -54,7 +54,7 @@ The following example creates a class called Point and extends it to create a ne
             z = _z;
         }
     }
-
+```
 ## Preventing Class Extension
 
 You can prevent classes from being extended by using the final modifier:

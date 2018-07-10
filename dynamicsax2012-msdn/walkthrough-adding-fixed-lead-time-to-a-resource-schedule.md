@@ -442,11 +442,13 @@ To enforce the custom constraint on the temporary job created for each operation
 
 2.  Open the classDeclaration and locate the member variables. Change the type of scheduleEngine. The following code changes the schedule engine type to FixedLeadTimeEngine.
 
-    class WrkCtrSchedulerJobSchedulingEngine implements WrkCtrSchedulerEngineInterface
-    {
-        // Fixed lead time - AAA
-        // Microsoft.Dynamics.AX.Planning.JobScheduling.ISchedulingEngine scheduleEngine;
-        FixedLeadTimeEngine.FixedLeadTimeEngine scheduleEngine;
+        class WrkCtrSchedulerJobSchedulingEngine implements WrkCtrSchedulerEngineInterface.
+
+            {
+  
+            // Fixed lead time - AAA
+            // Microsoft.Dynamics.AX.Planning.JobScheduling.ISchedulingEngine scheduleEngine;
+            FixedLeadTimeEngine.FixedLeadTimeEngine scheduleEngine;
 
 Update the init method of the WrkCtrSchedulerJobSchedulingEngine class.
 

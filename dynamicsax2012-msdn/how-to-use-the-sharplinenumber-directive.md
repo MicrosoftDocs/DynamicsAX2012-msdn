@@ -22,7 +22,7 @@ For this topic, you must understand the information in [How to: Use a Macro Valu
 ## Code Sample for \#linenumber
 
 The following X++ code sample shows the behavior of the \#linenumber directive.
-
+```X++  
     static void LinenumberPhysicalJob(Args _args)
     {
         ;
@@ -38,7 +38,7 @@ The following X++ code sample shows the behavior of the \#linenumber directive.
     Physical Line 8: # linenumber == 8
     ******************/
     }
-
+```
 ## See also
 
 [Macros in X++](macros-in-x.md)

@@ -105,7 +105,7 @@ The SalesOrderLine table contains a foreign key field, named SalesOrderID, that 
 The following X++ code example uses the QueryFilter class to filter the result set from an outer join.
 
 The QrySalesAndLines query joins the parent and child tables on an equality test between parent's primary key field and child's foreign key field. The following job adds another join filter criteria which tests whether the Quantity field equals 66.
-
+```X++  
     // X++
     static void QueryFilter4fJob(Args _args)
     {
@@ -150,7 +150,7 @@ The QrySalesAndLines query joins the parent and child tables on an equality test
             info(struct5.toString());
         }
     }
-
+```
 The output results do not contain any records that are built with default values.
 
 <table>
@@ -175,7 +175,7 @@ The output results do not contain any records that are built with default values
 The following X++ code example uses the QueryBuildRange class to filter the result set from an outer join.
 
 The QrySalesAndLines query joins the parent and child tables on an equality test between parent's primary key field and child's foreign key field. The following job adds another join filter criteria which tests whether the Quantity field equals 66.
-
+```X++  
     // X++
     static void QueryBuildRange5rJob(Args _args)
     {
@@ -219,7 +219,7 @@ The QrySalesAndLines query joins the parent and child tables on an equality test
             info(struct5.toString());
         }
     }
-
+```
 The output results do contain a record that is built with default values.
 
 <table>

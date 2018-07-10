@@ -84,7 +84,7 @@ The X++ switch example shows the following:
   - case 2, (93-90), 5: to show that multiple expressions can be listed on on case clause in X++.
 
 <!-- end list -->
-
+  ```X++  
     static void GXppSwitchJob21(Args _args)  // X++ job in AOT > Jobs.
     {
       int iEnum = 3;
@@ -121,7 +121,7 @@ The X++ switch example shows the following:
     iEnum is one of these values: 2,3,5: 3
     iEnum is one of these values: 4: 3
     ***/
-
+  ```
 ### ![Cc967402.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Cc967402.collapse_all(en-us,AX.60).gif")C\# switch Example
 
 The C\# switch example shows the following:

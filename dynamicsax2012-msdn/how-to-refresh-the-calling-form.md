@@ -30,7 +30,7 @@ To refresh a parent form, you can often use a task to refresh the form. You shou
 3.  Use the FormRun class together with the \#taskF5 refresh task to refresh any form that opens this dialog or drop dialog form.
     
     The following code example shows how to get a reference to the calling form and how to refresh that form. Notice how the formRun instance is populated with a reference to the calling form. Also notice how \#taskF5 is used to force a refresh of the specified form.
-    
+	```X++    
         public void closeOk()
         {
             #Task
@@ -47,7 +47,7 @@ To refresh a parent form, you can often use a task to refresh the form. You shou
                 formRun.task(#taskF5);
             }
         }
-
+	```
 4.  In the code editor, press the compile button. When compiling is finished, close the code editor.
 
 5.  Right-click the form and then click **Save**.
@@ -72,7 +72,7 @@ The form that opens your dialog or drop dialog form might have multiple root dat
     > [!WARNING]
     > <P>In the example, the target root data source table is named Table1. You would have to change this parameter to the name of the root data source table that contains the fields updated by the dialog or drop dialog form.</P>
 
-    
+	```X++     
         public void closeOk()
         {
             FormRun formRun;
@@ -106,7 +106,7 @@ The form that opens your dialog or drop dialog form might have multiple root dat
                 }
             }
         }
-
+	```
 4.  In the code editor, press the compile button. When compiling is finished, close the code editor.
 
 5.  Right-click the form and then click **Save**.

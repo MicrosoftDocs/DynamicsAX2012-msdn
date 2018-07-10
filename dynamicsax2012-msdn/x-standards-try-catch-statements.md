@@ -18,7 +18,7 @@ Always create a try/catch deadlock/retry loop around database transactions that 
 Whenever you have a retry, all the transient variables must be set back to the value they had just before the try. The persistent variables (that is, the database and the **Infolog**) are set back automatically by the throw that leads to the catch/retry.
 
 ## Example
-
+```X++  
     try
     {
         this.createJournal();
@@ -29,7 +29,7 @@ Whenever you have a retry, all the transient variables must be set back to the v
         this.removeJournalFromList();
         retry;
     }
-
+```
 ## See also
 
 [Exception Handling with try and catch Keywords](exception-handling-with-try-and-catch-keywords.md)

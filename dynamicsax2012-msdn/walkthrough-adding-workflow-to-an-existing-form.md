@@ -93,7 +93,7 @@ After the form is enabled for workflow, you will add a canSubmitToWorkflow metho
 2.  A method node named canSubmitToWorkflow displays under the **Methods** node and the **Editor** window opens.
 
 3.  In the **Editor** window, enter the following code to enable the **Submit** button on the form for workflow.
-    
+    ```X++  
         public boolean canSubmitToWorkflow()
         {
             // ToDo This method always returns true and the Submit
@@ -102,7 +102,7 @@ After the form is enabled for workflow, you will add a canSubmitToWorkflow metho
             // Also, add code to check if a record exists in the data source.
             return true;
         }
-
+    ```
 4.  Close the **Editor** window and then click **Yes** to save changes.
 
 Now that the form is enabled for workflow, you must create a workflow configuration to display the **Submit** button on the workflow toolbar.

@@ -29,7 +29,7 @@ When you name a delegate, follow the general [Naming Conventions](naming-convent
 
   - The following example illustrates definitions of two delegates creating and created in the Invoice class that is a noun.
     
-    ``` 
+    ```X++
     class Invoice
     {
         …
@@ -43,9 +43,10 @@ When you name a delegate, follow the general [Naming Conventions](naming-convent
 
 Event handlers must have a name with the suffix EventHandler. The following example illustrates names that consist of the delegate name and the EventHandler suffix.
 
+```X++
     void createdEventHandler(object sender, InvoiceEventArgs args)
     void invoiceCreatedEventHandler(object sender, InvoiceEventArgs args)
-
+```
 
 > [!NOTE]
 > <P>Event handler naming conventions apply to pre and post event handlers.</P>

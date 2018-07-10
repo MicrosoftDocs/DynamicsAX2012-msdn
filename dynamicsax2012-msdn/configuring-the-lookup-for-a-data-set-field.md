@@ -24,7 +24,7 @@ The following illustration shows the default lookup that is displayed for the **
 The **FCMWorkOrderAddEdit** data set is used to access data for this User Control. The **FCMWorkOrders** table is the main data source for this data set. Expanding the list of fields for the **FCMWorkOrders** data source shows the **RoomRecId** field, which corresponds to the **Room** field that is displayed in the form.
 
 You can add the dataSetLookup() method to the **RoomRecId** field to specify the fields that are displayed in the lookup for it. The following code example shows how this X++ method is used to add three fields to the Room lookup.
-
+```X++  
     void dataSetLookup(SysDataSetLookup sysDataSetLookup)
     {
         List list = new List(Types::String);
@@ -47,7 +47,7 @@ You can add the dataSetLookup() method to the **RoomRecId** field to specify the
         // Pass the query to the SysDataSetLookup so that the query is used.
         sysDataSetLookup.parmQuery(query);
     }
-
+```
 The following illustration shows the method that is added to the field for the data source that is part of the data set.
 
 ![dataSetLookup Method](images/Hh830903.EP_DataSetLookupMethod(AX.60).gif "dataSetLookup Method")

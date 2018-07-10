@@ -65,7 +65,7 @@ The following examples show finding ledger transactions in account number, trans
 
 Last weeks' (few days) transactions on all the (many) Profit & Loss accounts.
 
-``` 
+```X++
 select ledgerTrans
     index hint DateIdx
     order by accountNum, transDate
@@ -77,13 +77,15 @@ select ledgerTrans
 
 Transactions for the whole year (many dates) on (the few) liquid assets accounts.
 
-    select ledgerTrans
+```X++
+select ledgerTrans
         index hint ACDate
         order by accountNum, transDate
         where ledgerTrans.accountNum >= '11100'   
             &&  ledgerTrans.accountNum <= '11190'   
             &&  ledgerTrans.transDate  >= 01\07\1999 
             &&  ledgerTrans.transDate  <= 30\06\2000;
+```
 
 ## See also
 

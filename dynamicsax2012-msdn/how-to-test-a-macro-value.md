@@ -30,7 +30,7 @@ There is no way you can test whether a defined macro has a value. You can only t
 
 
 In the following code sample, two \#if tests are run to determine whether the macro MyIntMacro exists. The \#if.MyIntMacro() test is true. This syntax behaves the same as \#if.MyIntMacro.
-
+```X++  
     static void TestMacroValue6Job(Args _args)
     {
         ;
@@ -64,11 +64,11 @@ In the following code sample, two \#if tests are run to determine whether the ma
     D: 66
     ****************/
     }
-
+```
 ## Testing a Macro Value for Equality
 
 The following code sample shows the \#if.DebugMacro(heavy) directive that tests the value of the DebugMacro macro. If the value is the five character sequence heavy, then the test is true.
-
+```X++  
     static void TestMacroSpecificValue8Job(Args _args)
     {
         ;
@@ -96,7 +96,7 @@ The following code sample shows the \#if.DebugMacro(heavy) directive that tests 
     UTC == 2007-12-05T21:58:12
     **********/
     }
-
+```
 ## See also
 
 [Macros in X++](macros-in-x.md)

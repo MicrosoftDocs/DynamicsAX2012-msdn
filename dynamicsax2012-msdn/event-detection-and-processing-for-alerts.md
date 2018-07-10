@@ -56,13 +56,13 @@ When the user closes the form, the object is packed up and stored in the EventRu
 The information about the table field in which the increases are monitored is not part of the state of the EventTypeCUDIncreasedAbove object. This information is stored separately in the EventRule table.
 
 When the event processor is matching an EventCUD record against the rule, it unpacks the EventTypeCUDIncreasedAbove object. Because the TypeTrigger of the EventTypeCUDIncreasedAbove class is set to FieldChanged, both the old value and the new value are set on the object. The processor then calls the isMatchinRule method on the EventTypeCUDIncreasedAbove class, which is shown in the following example.
-
+```X++  
     public boolean isMatchingRule()
     {
         return (currentValue > originalValue || eventRule.IsAggregated) &&
                    (currentValue > xValue);
     }
-
+```
 ## Due Date Events
 
 The processor of due date events ([EventJobDueDate Class](https://msdn.microsoft.com/en-us/library/gg759385\(v=ax.60\))) works the same way as the event processor does for CUD events. Due date events are detected at event processing time when the rules are examined one by one to determine whether the values of the monitored date fields match the criteria specified by the EventTypeDue\* objects that are packed up in the rules.

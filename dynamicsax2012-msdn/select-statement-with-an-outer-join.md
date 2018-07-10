@@ -94,6 +94,7 @@ The SalesOrderLine table contains a foreign key field, named SalesOrderID, that 
 
 The following X++ code example has a SELECT statement that reads the tables which are described in the previous section. The SELECT statement includes a left OUTER JOIN clause. The join criteria and the data filter are both on the WHERE clause.
 
+   ```X++
     static void OuterJoinSelectJob3(Args _args)
     {
         SalesOrder recSalesOrder;
@@ -123,6 +124,7 @@ The following X++ code example has a SELECT statement that reads the tables whic
             info(struct4.toString());
         }
     }
+   ```
 
 ### ![Gg845763.collapse\_all(en-us,AX.60).gif](images/Gg863931.collapse_all(en-us,AX.60).gif "Gg845763.collapse_all(en-us,AX.60).gif")Output Displayed in the Infolog
 

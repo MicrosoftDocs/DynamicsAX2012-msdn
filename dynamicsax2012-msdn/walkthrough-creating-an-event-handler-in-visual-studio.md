@@ -45,10 +45,12 @@ The following procedure explains how to create the X++ class and method. The eve
 
 2.  To add a new method, right-click the class and then click **New** \> **Method**. Replace the method code with the following code:
     
-        public void myMethod()
+       ```X++
+       public void myMethod()
         {
             info("MyClass.myMethod called.");
         }
+       ```
     
     This writes a string to the Infolog window so that you can verify that the method was called.
 
@@ -157,7 +159,8 @@ The following procedure explains how to create a job to test the event handler.
 
 3.  Replace the code with the following code that calls the MyClass.myMethod method.
     
-        static void callMyClass(Args _args)
+       ```X++
+       static void callMyClass(Args _args)
         {
         
             MyClass myClass;
@@ -166,6 +169,7 @@ The following procedure explains how to create a job to test the event handler.
             myClass.myMethod();
         
         }
+       ```
 
 4.  Press F7 to compile the class and F5 to run it. An Infolog appears that displays the string from the MyClass.myMethod method and the string from the managed event handler. This is how you can verify that both the method and the event handler were called.
 
