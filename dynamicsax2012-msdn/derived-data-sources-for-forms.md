@@ -57,7 +57,7 @@ To create an inheritance hierarchy you use the following table properties to def
 <td><p><strong>SupportInheritance</strong></p></td>
 <td><p>Specify whether the table supports inheritance. The default value is <strong>No</strong>. To include a table in an inheritance hierarchy, set the property to <strong>Yes</strong>. This is necessary for both base and derived tables.</p>
 
-> [!caution]  
+> [!Important]  
 > <P>You cannot change the values of the <strong>Abstract</strong> or <strong>Extends</strong> properties until you set the <strong>SupportInheritance</strong> property to <strong>Yes</strong>.</P>
 
 </td>
@@ -69,7 +69,7 @@ To create an inheritance hierarchy you use the following table properties to def
 To complete the table inheritance hierarchy, add an Int64 field named **InstanceRelationType** to the base table of the hierarchy. Populate the **ExtendedDataType** property of that field by using **RelationType**. Use the name of the field to populate the **InstanceRelationType** property of the base table. The field enables the tables in the hierarchy to store ID values. The client framework populates the ID values and then uses them to create a query that retrieves the field values that appear in the form.
 
 
-> [!WARNING]
+> [!Caution]
 > <P>You should never bind the <STRONG>InstanceRelationType</STRONG> and <STRONG>relationType</STRONG> fields to controls. These fields contain ID values and should not appear on a form.</P>
 
 

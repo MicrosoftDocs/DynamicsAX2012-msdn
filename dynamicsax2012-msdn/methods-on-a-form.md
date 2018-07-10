@@ -70,7 +70,7 @@ The following table lists the methods available for forms and explains when they
 <td><p>This method is invoked in updateWorkflowControls to determine when the <strong>Submit</strong> button and context message are to be displayed.</p></td>
 <td><p>Use this method to determine whether the <strong>Submit</strong> button should be displayed.</p>
 
-> [!caution]  
+> [!IMPORTANT]  
 > <P>To enable workflow, you MUST override this method as the base implementation always returns False.</P>
 
 </td>

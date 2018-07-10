@@ -83,7 +83,7 @@ In this section, you create a list page interaction class, create the list page 
 
 4.  Click the **Design** node. In the properties window, set the **DataSource** and **TitleDataSource** properties to **CustTable**.
 
-5.  
+
 
 ### To specify the default action for the grid
 

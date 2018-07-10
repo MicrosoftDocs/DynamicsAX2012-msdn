@@ -147,7 +147,7 @@ In the Application Object Tree (AOT) in Microsoft Dynamics AX, there are many de
 <td><p><strong>Rename</strong></p></td>
 <td><p>Enables you to rename the selected element.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>You can also rename an element in the <strong>Property</strong> sheet or by double-clicking the element.</P>
 
 </td>

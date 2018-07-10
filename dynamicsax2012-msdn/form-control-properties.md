@@ -708,7 +708,7 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>Height</strong></p></td>
 <td><p>Changes the height of the control. The height is specified in pixels.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>For more information about the <strong>Height</strong> and <strong>Width</strong> properties, see the tutorial_arrange form.</P>
 
 </td>
@@ -1515,7 +1515,7 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>Visible</strong></p></td>
 <td><p>Enables you to hide the control.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>You cannot use the <strong>Visible</strong> property to enforce access restrictions. The user can change the visibility for the controls in the <strong>Form Setup</strong> dialog. Use the <strong>Enabled</strong> and <strong>NeededAccessLevel</strong> Properties instead.</P>
 
 </td>
@@ -1543,7 +1543,7 @@ A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, R, S, T, U, V, W
 <td><p><strong>Width</strong></p></td>
 <td><p>Changes the width in pixels of the control.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>For more information about using the <strong>Height</strong> and <strong>Width</strong> properties, see the tutorial_arrange form.</P>
 
 </td>

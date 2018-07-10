@@ -47,7 +47,7 @@ The basic steps for running X++ source code as CIL are described in the followin
 <p><strong>AOT</strong> &gt; <strong>Add-ins</strong> &gt; <strong>Incremental CIL generation from X++</strong></p>
 <p>Also, the toolbar on the development workspace has buttons for generating CIL.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>If errors occur during the generation of CIL, consider temporarily suspending the antivirus software that is running on your AOS computer. The CIL generation process writes files to an AOS installation subdirectory. The directory path could resemble the following: C:\Program Files\Microsoft Dynamics AX\60\Server\MicrosoftDynamicsAX\bin\XppIL\</P>
 
 </td>

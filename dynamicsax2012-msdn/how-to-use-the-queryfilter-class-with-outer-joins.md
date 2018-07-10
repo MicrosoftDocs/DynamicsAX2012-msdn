@@ -251,6 +251,7 @@ The following SQL SELECT statement returns the same one row that the preceding Q
 ``` sql
 -- ANSI SQL
 SELECT
+    *
     from
         SalesOrder as tSO
 
@@ -271,6 +272,7 @@ The following SQL SELECT statement returns the same two rows that the preceding 
 ``` sql
 -- ANSI SQL
 SELECT
+    *
     from
         SalesOrder as tSO
 
