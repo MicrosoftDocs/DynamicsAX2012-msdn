@@ -183,7 +183,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 </tr>
 <tr class="even">
 <td><p>forceLiterals</p></td>
-<td><p></p>
+<td>
     
 > [!note]  
 > <P>You are advised not to use the forceLiterals keyword in X++ select statements, because it could expose code to an SQL injection security threat.</P>

@@ -63,7 +63,7 @@ Form data source field properties are described in the following table.
 <td><p>Allows controls that display in the field to receive focus.</p>
 <p>The default value is <strong>Yes</strong>. If set to <strong>No</strong>, controls bound to this field are disabled.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>If a field is used in several places on a form, set the <strong>Enabled</strong> property on the data source instead setting it on every control.</P>
 
 </td>
@@ -79,7 +79,7 @@ Form data source field properties are described in the following table.
 <td><p>Determines whether controls bound to the field are skipped when the TAB key is used to navigate the form.</p>
 <p>The default value is <strong>No</strong>.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>Even if the <strong>Skip</strong> property is set to Yes, users can still select the control by using the mouse pointer. You can also set the <strong>Skip</strong> property on a specific control.</P>
 
 </td>
@@ -90,7 +90,7 @@ Form data source field properties are described in the following table.
 <td><p>Determines whether controls bound to the field are visible.</p>
 <p>The default value is <strong>Yes</strong>.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>You cannot use the <strong>Visible</strong> property on controls to enforce access restrictions—the user can change the visibility for the controls in the <strong>Form Setup</strong> dialog.</P>
 
 </td>

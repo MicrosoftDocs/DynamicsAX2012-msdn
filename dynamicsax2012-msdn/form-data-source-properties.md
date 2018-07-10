@@ -51,7 +51,7 @@ The following table describes the properties that are available for form data so
 <td><p><strong>AllowEdit</strong></p></td>
 <td><p>Specifies whether users can make modifications to fields on the form.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>You can set the AllowEdit property for the entire form here, but to prohibit modifications for individual fields, the same property exists on each field in the data source.</P>
 
 </td>
@@ -90,7 +90,7 @@ The following table describes the properties that are available for form data so
 <td><p><strong>CrossCompanyAutoQuery</strong></p></td>
 <td><p>Specifies whether the data source retrieves data from more than one company database.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>To display company information, add the <strong>DataAreaId</strong> field from the data source to the form.</P>
 > <P>For more information about cross-company queries, see <a href="cross-company-data-access.md">Cross-Company Data Access</a>.</P>
 
@@ -102,7 +102,7 @@ The following table describes the properties that are available for form data so
 <td><p>Enables you to delay the execution of the data source’s active method.</p>
 <p>If this property is set to Yes, the active method is activated only after a delay of 20 milliseconds. When a user scrolls through a data source, the active method is not called on every record—on only the final record that the user selects.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>This property is particularly useful when two data sources are linked (when the LinkType property is set to Delayed).</P>
 > <P>This property forms part of the <a href="autojoin-system.md">AutoJoin System</a>.</P>
 

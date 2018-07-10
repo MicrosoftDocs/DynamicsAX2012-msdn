@@ -39,7 +39,7 @@ The following table compares the implementation of OOP principles between Micros
 <td><p>Casting</p></td>
 <td><p>Starting with Microsoft Dynamics AX 2012 the X++ language has the keywords is and as, which are used to make downcasts safe and explicit.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>In Microsoft Dynamics AX 2012 the X++ language does not require the use of the as keyword when you downcast a base class variable to a derived class variable. However, we recommend that all downcast statements use the as keyword.</P>
 
 </td>

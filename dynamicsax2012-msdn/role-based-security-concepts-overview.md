@@ -90,7 +90,7 @@ The following table summarizes role-based security system concept definitions.
 <li><p>In Microsoft Dynamics AX, there are three different types of entry points - menu items, Web content items and service operations.</p></li>
 </ul>
 
-> [!caution]  
+> [!IMPORTANT]  
 > <P>In the licensing model for Microsoft Dynamics AX, entry points are referred to as menu items.</P>
 
 </td>
@@ -104,7 +104,7 @@ The following table summarizes role-based security system concept definitions.
 <li><p>In Microsoft Dynamics AX, individual security permissions are combined into privileges, and privileges are combined into duties.</p></li>
 </ul>
 
-> [!caution]  
+> [!IMPORTANT]  
 > <P>Be aware that modifying permissions may impact licensing requirements. For more information about how licensing relates to security, see the <a href="http://go.microsoft.com/fwlink/?linkid=228370">Security roles and licensing white paper</a> for Microsoft Dynamics AX 2012.</P>
 
 </td>

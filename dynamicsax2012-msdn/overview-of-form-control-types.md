@@ -70,7 +70,7 @@ If a control does not automatically identify a data source, use the information 
 <td><p>The .avi file is set by using the <strong>AnimateFile</strong> property.</p></td>
 <td><p>Use the control to show animated images. The .avi file must not have a sound track.</p>
 
-> [!note]  
+> [!TIP]  
 > <P>If you set the <strong>AutoPlay</strong> property to <strong>Yes</strong> and the <strong>Loops</strong> property to <strong>0</strong>, the system plays the designated .avi file indefinitely.</P>
 
 </td>
