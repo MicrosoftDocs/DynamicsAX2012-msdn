@@ -20,15 +20,11 @@
       - name: X++ for Developers
         href: what-s-new-x-for-developers-in-microsoft-dynamics-ax-2012.md
     - name: Lifecycle Services for Microsoft Dynamics User Guide (LCS)
-      href: lifecycle-services-for-microsoft-dynamics-user-guide-lcs.md
+      href: /dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide
     - name: Debugging
       href: debugging-in-microsoft-dynamics-ax-2012.md
     - name: White Papers about Microsoft Dynamics AX for Developers
       href: white-papers-about-microsoft-dynamics-ax-for-developers.md
-    - name: Searching for Documentation with WebSearchAx
-      href: searching-for-documentation-with-websearchax.md
-    - name: Database ERDs on the AxErd Website
-      href: database-erds-on-the-axerd-website.md
     - name: What's New for Developers in Cumulative Update 6 for Microsoft Dynamics AX 2012
       href: what-s-new-for-developers-in-cumulative-update-6-for-microsoft-dynamics-ax-2012.md
   - name: Help System
@@ -14615,6 +14611,9 @@
           href: releaseupdatedb60-lean-updatekanbanjobs-upgrade-script.md
         - name: ReleaseUpdateDB60_Lean.updateNumberSequences Upgrade Script
           href: releaseupdatedb60-lean-updatenumbersequences-upgrade-script.md
+  - name: Reference
+    href: /dynamics/ax-2012/reference/aa626373(v=ax.60)/toc.yml
+    items: []
   - name: Debugging
     href: debugging-in-microsoft-dynamics-ax-2012.md
     items:
