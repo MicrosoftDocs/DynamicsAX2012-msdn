@@ -14612,7 +14612,7 @@
         - name: ReleaseUpdateDB60_Lean.updateNumberSequences Upgrade Script
           href: releaseupdatedb60-lean-updatenumbersequences-upgrade-script.md
   - name: Reference
-    href: /dynamics/ax-2012/reference/aa626373(v=ax.60)/toc.yml
+    href: /previous-versions/dynamics/ax-2012/reference/aa626373(v=ax.60)/toc.yml
     items: []
   - name: Debugging
     href: debugging-in-microsoft-dynamics-ax-2012.md
