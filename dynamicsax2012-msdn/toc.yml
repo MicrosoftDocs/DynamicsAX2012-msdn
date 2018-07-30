@@ -14612,7 +14612,38 @@
         - name: ReleaseUpdateDB60_Lean.updateNumberSequences Upgrade Script
           href: releaseupdatedb60-lean-updatenumbersequences-upgrade-script.md
   - name: Reference
-    href: /previous-versions/dynamics/ax-2012/reference/aa626373(v=ax.60)/toc.yml
+    items:
+        - name: Tables
+          href: /previous-versions/dynamics/ax-2012/reference/cc652476(v=ax.60)
+        - name: Maps
+          href: /previous-versions/dynamics/ax-2012/reference/gg876618(v=ax.60)
+        - name: Views
+          href: /previous-versions/dynamics/ax-2012/reference/gg901392(v=ax.60)
+        - name: Classes
+          items: 
+            - name: Application Classes A-H
+              href: /previous-versions/dynamics/ax-2012/application-classes/aa573512(v=ax.60)
+            - name: Application Classes I-P
+              href: /previous-versions/dynamics/ax-2012/application-classes/hh272072(v=ax.60)
+            - name: Application Classes R-Z
+              href: /previous-versions/dynamics/ax-2012/application-classes/hh272080(v=ax.60)
+            - name: System Classes
+              href: /previous-versions/dynamics/ax-2012/system-classes/hh272088(v=ax.60)
+
+        - name: Functions
+          href: /previous-versions/dynamics/ax-2012/reference/aa856741(v=ax.60)
+        - name: Base Enums
+          href: /previous-versions/dynamics/ax-2012/reference/gg901759(v=ax.60)
+        - name: System Enums
+          href: /previous-versions/dynamics/ax-2012/reference/gg901197(v=ax.60)
+        - name: Extended Data Types
+          href: /previous-versions/dynamics/ax-2012/reference/gg901615(v=ax.60)
+        - name: System Data Types
+          href: /previous-versions/dynamics/ax-2012/reference/gg895122(v=ax.60)
+        - name: Properties of AOT Elements
+          href: /previous-versions/dynamics/ax-2012/reference/gg731856(v=ax.60)
+        - name: .NET Framework Classes for Microsoft Dynamics AX
+          href: /previous-versions/dynamics/ax-2012/reference/gg990362(v=ax.60)
   - name: Debugging
     href: debugging-in-microsoft-dynamics-ax-2012.md
     items:
