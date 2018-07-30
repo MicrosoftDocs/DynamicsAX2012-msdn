@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Dynamics AX 2012 for Developers
 TOCTitle: Microsoft Dynamics AX 2012 for Developers
 ms:assetid: 577fa6fd-ed8a-4363-a986-7544d49e30e3
@@ -62,10 +62,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 [Using the Microsoft Dynamics AX glossary](using-the-microsoft-dynamics-ax-glossary.md)
 
-## See also
 
-Microsoft Dynamics AX 2012 on TechNet, for System Administrators and Application Users
 
-  
-**Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
 
