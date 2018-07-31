@@ -20,7 +20,7 @@
       - name: X++ for Developers
         href: what-s-new-x-for-developers-in-microsoft-dynamics-ax-2012.md
     - name: Lifecycle Services for Microsoft Dynamics User Guide (LCS)
-      href: /dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide
+      href: /dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamicsax-2012/developer/toc.json
     - name: Debugging
       href: debugging-in-microsoft-dynamics-ax-2012.md
     - name: White Papers about Microsoft Dynamics AX for Developers
@@ -14787,7 +14787,7 @@
       - name: Best practice parameters
         href: best-practice-parameters.md
       - name: LCS customization analysis
-        href: lifecycle-services-lcs-customization-analysis.md
+        href: /dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamicsax-2012/developer/toc.json
     - name: Best Practices for Application Objects
       href: best-practices-for-application-objects.md
       items:
