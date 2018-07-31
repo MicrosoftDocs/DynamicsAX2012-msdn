@@ -52,7 +52,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 [Data Upgrade Scripts for Microsoft Dynamics AX 2012](data-upgrade-scripts-for-microsoft-dynamics-ax-2012.md)
 
-[Reference](https://msdn.microsoft.com/en-us/library/aa626373\(v=ax.60\))
+[Reference](/previous-versions/dynamics/ax-2012/reference/aa626373\(v=ax.60\))
 
 [Debugging in Microsoft Dynamics AX 2012](debugging-in-microsoft-dynamics-ax-2012.md)
 
