@@ -360,5 +360,5 @@ This topic lists scripts that disable unique indexes for a table so that duplica
 [How to Write Data Upgrade Scripts for Microsoft Dynamics AX 2012](http://go.microsoft.com/fwlink/?linkid=223208)
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

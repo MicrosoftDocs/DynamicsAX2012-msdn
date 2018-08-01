@@ -91,5 +91,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This upgrade will create records in the HcmWorkerBankAccount table and the PayrollBankAccountDisbursement table from the fields in the DEL\_PRLEmplBankAccount table. Records in the HcmWorkerBankAccount table will only be created if one does not already exist for the employee ID and account number combination. If the account number does exist, fields that were not previously initialized will be filled in from the DEL\_PRLEmplBankAccount table. The record ID of the new or found HcmWorkerBankAccount table will be used to fill in the WorkerBankAccount field of the record that was added to the PayrollBankAccountDisbursement table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

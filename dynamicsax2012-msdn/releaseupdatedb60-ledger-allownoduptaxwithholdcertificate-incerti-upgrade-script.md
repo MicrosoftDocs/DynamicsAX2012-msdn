@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 As per standard method name should be the allowNoDupTaxWithholdCertificate\_INCertificateNoIdx method, since the name exceeds the maximum characters allowed some of the charectres from the index part has been truncated, so method name after truncating the characters is the allowNoDupTaxWithholdCertificate\_INCerti method.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

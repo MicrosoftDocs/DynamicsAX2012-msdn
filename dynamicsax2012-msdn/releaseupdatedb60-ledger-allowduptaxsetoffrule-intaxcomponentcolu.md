@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The Component field is replaced with the new surrogate key field TaxComponentTable in the unique index ComponentColumnIdx. Initially this field contains no value. So the index is set to allow duplicates before the field is updated with the value of the RecId field of the table TaxComponentTable\_IN. The Component field is replaced with the new surrogate key field TaxComponentTable and TaxComponentTableSetoff in the unique index ComponentColumnIdx and ComponentTypeSetOffComponentTypeIdx. Initially this field contains no value. So the index is set to allow duplicates before the field is updated with the value of the RecId field of the table TaxComponentTable\_IN.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

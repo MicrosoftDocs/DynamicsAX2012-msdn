@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Replaces removed fields from the SalesQuotation in the management statistics table. Deletes obsolete fields from the AllowedFields. Replaces old Date fields with DateTime fields from the AllowedFields. Replaces old Date values with DateTime values from Graph table. Replaces the query with reference to old Date fields with new DateTime fields.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

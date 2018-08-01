@@ -106,5 +106,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 In Microsoft Dynamics AX 2009, all workflow and alert rule tables were bound by company. In Microsoft Dynamics AX 2012 these tables are global. As a consequence, there will be duplicate IDs in the Microsoft Dynamics AX 2012 tables that will get created during the bulk copy from the source system to the target system. This script will remove the unique indexes on these tables thereby allowing existence of duplicate IDs.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

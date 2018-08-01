@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 For each HRP Employee record, we will create an entry in the DirPartyTable table. It also updates HRP Employee table by setting PartyIds to the newly created Party entries. This script assumes that the Party Number Sequence is already set up. This has to be the first upgrade method to be called in the series of HRP Employee Party data upgrades.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

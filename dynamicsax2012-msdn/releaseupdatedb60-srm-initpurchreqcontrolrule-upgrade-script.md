@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 A new PurchReqControlSubmissionParameter table has been introduced to validate whether a purchase requisition can be submitted to workflow. This method inserts base records into policy framework table if not already inserted and then calls the CreatePurchReqControlRule class.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

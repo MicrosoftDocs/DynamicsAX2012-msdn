@@ -97,5 +97,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The index \<c\>HcmWorker\_AK2\</c\> of the \<c\>HcmWorker\</c\> table is reset. The index \<c\>IdIdx\</c\> of the \<c\>HRMCourseInstructor\</c\> table is reset. The index \<c\>IdIdx\</c\> of the \<c\>HRMCourseTableInstructor\</c\> table is reset. The index \<c\>CoursePersonIdx\</c\> of the \<c\>HRMCourseAttendee\</c\> table is reset. The index \<c\>IdIdx\</c\> of the \<c\>HRMCourseAttendeeLine\</c\> table is reset. The index \<c\>applicationIdx\</c\> of the \<c\>HRMApplicantRouting\</c\> table is reset. The index \<c\>groupIdIdx\</c\> of the \<c\>HRMVirtualNetworkGroupRelation\</c\> table is reset.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

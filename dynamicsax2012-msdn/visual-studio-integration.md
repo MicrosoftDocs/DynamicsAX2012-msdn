@@ -17,12 +17,6 @@ Microsoft Dynamics AX development can be done in either X++ or in .NET managed c
 
 ![Visual Studio Tools for Microsoft Dynamics AX](images/Gg889299.VisualStudioToolsForMSDAX(AX.60).gif "Visual Studio Tools for Microsoft Dynamics AX")
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587%26xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## Modeling Tools
 
 Modeling tools and functionality enable you to create reports that are accessed within Microsoft Dynamics AX. For more information, see [Creating Reports Overview](https://msdn.microsoft.com/en-us/library/cc557922\(v=ax.60\)).

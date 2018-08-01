@@ -123,5 +123,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 New tax adjustments for sales order invoices in the upgraded version will be stored at the invoice line level. Existing Microsoft Dynamics AX 2009 tax adjustments stored at the invoice document level in the TaxWorkRegulation table will not be used after the upgrade.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -77,5 +77,5 @@ mtps_version: v=AX.60
 An entry for InventStyleId is added to the \<c\>PCTemplateAttribute\</c\> table. The entry might have been added to the table already and if this is the case, nothing is added.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

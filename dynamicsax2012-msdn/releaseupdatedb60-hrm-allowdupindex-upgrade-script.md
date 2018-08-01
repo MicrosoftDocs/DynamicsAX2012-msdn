@@ -97,5 +97,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The HcmWorker\_AK2 index of the HcmWorker table is disabled. The IdIdx index of the HRMCourseInstructor table is disabled. The IdIdx index of the HRMCourseTableInstructor table is disabled. The CoursePersonIdx index of the HRMCourseAttendee table is disabled. The IdIdx index of the HRMCourseAttendeeLine table is disabled. The applicationIdx index of the HRMApplicantRouting table is disabled. The groupIdIdx index of the HRMVirtualNetworkGroupRelation table is disabled.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

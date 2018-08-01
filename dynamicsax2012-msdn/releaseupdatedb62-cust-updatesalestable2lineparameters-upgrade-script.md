@@ -74,5 +74,5 @@ mtps_version: v=AX.60
 The record will only be created if other records in \<c\>SalesTable2LineParameters\</c\> table for current legal entity exist.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

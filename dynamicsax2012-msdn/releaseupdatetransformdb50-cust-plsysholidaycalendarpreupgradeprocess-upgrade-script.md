@@ -93,5 +93,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The Polish holiday calendar is being replaced by the consolidated functionality of payment calendars. The existing plSysHolidayCalendar table will not be brought forward into Microsoft Dynamics AX 2012. Upgrade scripts are required to populate the new tables with data from the existing table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

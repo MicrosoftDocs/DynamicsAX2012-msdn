@@ -26,11 +26,6 @@ You can integrate your Microsoft Dynamics AX application by using the following 
   - .NET Framework – Enables X++ code to call methods in assemblies that are managed by the common language runtime (CLR). Also provides proxy classes generated as C\# or Visual Basic source code for X++ classes in Microsoft Dynamics AX. Your C\# code can call the proxies and use them much as an X++ class would call other X++ classes directly. You generate the proxy classes by using Microsoft Visual Studio.
 
 
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## Services and AIF
 
 To support a range of options for customization and programmability, Microsoft Dynamics AX provides the following types of services:

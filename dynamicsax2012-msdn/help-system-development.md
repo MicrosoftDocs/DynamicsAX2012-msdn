@@ -19,12 +19,6 @@ This section describes how to create custom Help documentation and how to publis
 
   - The Help viewer is an application that is deployed with the Microsoft Dynamics AX client. The Help viewer displays documentation when you request Help from the application workspace.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587%26xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
 [Help System Components](help-system-components.md)

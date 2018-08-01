@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The TrvAdminCustomFields table contains data that corresponds to fields that are marked DEL\_ in Microsoft Dynamics AX 2012. This script deletes such records. It maps the city and zip code settings to the new edit methods that are added to the table and also inserts the default settings for newly added fields in the TrvExpTable and TrvExpTrans tables.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

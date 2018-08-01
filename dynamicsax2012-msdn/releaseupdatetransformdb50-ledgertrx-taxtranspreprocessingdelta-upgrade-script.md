@@ -87,5 +87,5 @@ Each TaxTrans record will be normalized into a new TaxTransGeneralJournalAccount
 This is a sergeant method that calls the other associated methods to perform the normalization against each record that has been created, updated, or deleted in the TaxTrans table since the live pre-processing step of the upgrade was run.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

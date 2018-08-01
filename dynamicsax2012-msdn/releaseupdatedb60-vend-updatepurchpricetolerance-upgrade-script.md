@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 In prior releases, a value of "\*" in the ItemRelation or AccountRelation fields in the PurchPriceTolerance table indicated that a range that was not set. This was changed in Microsoft Dynamics AX 2012 and now an empty value indicates that a range is not set.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

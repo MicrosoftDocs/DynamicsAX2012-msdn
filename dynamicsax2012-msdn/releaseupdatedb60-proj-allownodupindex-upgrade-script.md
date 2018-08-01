@@ -103,5 +103,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The ProjEmplCatDateIdx unique index of the ProjCostPriceExpense table is reset. The ProjCatEmplDateIdx unique index of the ProjCostSalesPrice table is reset. The DefaultOffsetAccountIndex unique index of the ProjDefaultOffsetSetup table is reset. The ProjEmplCatDateIdx unique index of the ProjHourCostPrice table is reset. The ProjCatEmplDateIdx unique index of the ProjHourSalesPrice table is reset. The PeriodIdIdx unique index of the ProjPeriodEmpl table is reset. The rojCatEmplDateIdx unique index of the ProjRevenueSalesPrice table is reset. The GroupEmplIdx unique index of the ProjValEmplCategorySetUp table is reset. The GroupProjIdx unique index of the ProjValEmplProjSetup table is reset. The HcmWorkerIdx unique index of the ProjExpPolicyGroupEmpl table is reset. The Idx unique index of the TSTimesheetEmployeeFilter table is reset. The SyncProjTransIdx unique index of the SyncProjTransaction table is reset.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The conversion will retain the first, or lowest Record ID, Remit-To address found for each Vendor (AddrTableId = tablenum(VendTable), by changing the Type value to AddressType::RemitTo (10). When this is done, any remaining Addresses with Type=100 will have their Type value set to AddressType::None (0).
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -17,12 +17,6 @@ This section describes how to design your code to make the upgrade process more 
 
 For information about how to upgrade from one version of Microsoft Dynamics AX to the next, see the Upgrade Guide available from the [Using Microsoft Dynamics AX](http://www.microsoft.com/download/en/details.aspx?id=12687) site.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
   - [Code Upgrade Resources](code-upgrade-resources.md)

@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The ProductGroup field is replaced with the new EximProductGroupTable surrogate key field along with the date effectivity fields in the new ProductGroupValidFromToIdx unique index. Initially the EximProductGroupTable, ValidFrom, and ValidTo fields contain no value. So the index is set to allow for duplicates before the fields are updated with the value of the RecId fields of the EximProductGroupTable\_IN table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

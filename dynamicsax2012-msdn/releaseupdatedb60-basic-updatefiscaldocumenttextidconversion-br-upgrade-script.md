@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This method replaces the legacy Microsoft Dynamics AX 2009 text IDs with the new Microsoft Dynamics AX 2012 text IDs as they were defined in the pre-processing script. These new text IDs are necessary because the removal of the sales and purchase flag that may lead to duplicated text IDs.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

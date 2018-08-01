@@ -1912,5 +1912,5 @@ This topic lists the tables whose names begin with the letter **N**.
     [ReleaseUpdateTransformDB40\_Asset.assetTableValidate\_WorkerContactName Upgrade Script](releaseupdatetransformdb40-asset-assettablevalidate-workercontactname-upgrade-script.md)
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

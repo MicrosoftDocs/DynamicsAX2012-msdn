@@ -1980,5 +1980,5 @@ This topic lists the tables whose names begin with the letter **I**.
     [ReleaseUpdateDB60\_Retail.updateRetailStoreGroup Upgrade Script](releaseupdatedb60-retail-updateretailstoregroup-upgrade-script.md)
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The IncentiveSchemeGroup field is replaced with the new Reference and EximIncentiveSchemeGroup surrogate key fields in the IncentiveSchemeIdx unique index. Initially the EximIncentiveSchemeGroup field contains no value. So the index is set to allow for duplicates before the field is updated with the value of the RecId fields in the EximIncentiveSchemeGroup\_IN table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

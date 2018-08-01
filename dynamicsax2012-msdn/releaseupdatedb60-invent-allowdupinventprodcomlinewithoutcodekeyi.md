@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 Truncated method name from allowDupInventProdComLineWithoutCodeKeyIdx. The InventProdComPeriodId field is replaced with the new surrogate key field InventProdComTable in the unique index KeyIdx. Initially this field contains no value. So the index is set to allow duplicates before the field is updated with the value of the RecId field of the table InventProdComTable.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

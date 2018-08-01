@@ -77,5 +77,5 @@ mtps_version: v=AX.60
 The upgrade script converts existing data in the ExpressionElement and ExpressionPredicate tables that are related to the VendInvoiceLine.ProcurementCategory field. The Equals operator is converted to an IsAt operator. The NotEquals operator is converted to the grouped predicate of (IsAbove OR IsBelow).
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

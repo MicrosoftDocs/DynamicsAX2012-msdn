@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The SearchString field of the PBAReuseBOMRoute table is used for the purpose of a hash key. However, this is was not the correct implementation and resulted in SQL errors when the length of the field was exceeded, which could happen even for small product models. The field is being replaced with an integer field that holds the hash key value.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

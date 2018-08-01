@@ -74,5 +74,5 @@ mtps_version: v=AX.60
 This is a minor version upgrade script. The upgrade script modifies the Tax1099Box field. The values 'OID-06', 'OID-07' and 'OID-10' are changed to 'OID-08', 'OID-09' and 'OID-12' respectively.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

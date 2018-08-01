@@ -16,11 +16,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 There are various security features in Microsoft Dynamics AX. Some security features are implemented by cooperation between the developer and the system administrator.
 
 
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
 [Using the MorphX Security System](using-the-morphx-security-system.md)

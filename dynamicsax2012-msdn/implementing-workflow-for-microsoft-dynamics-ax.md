@@ -15,12 +15,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 The Microsoft Dynamics AX workflow infrastructure enables user configurable workflows in Microsoft Dynamics AX application modules with specific focus on task and approval workflows. The workflow runtime manages configuration and execution of workflows while the application modules will manage activation and business logic associated with workflows. This section provides an overview and describes the development tasks needed to add workflow to a module.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
   - [Workflow Development Overview](workflow-development-overview.md)  

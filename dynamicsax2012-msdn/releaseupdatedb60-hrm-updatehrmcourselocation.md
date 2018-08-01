@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 creates new record in the \<c\>LogisticsLocation\</c\> table and the \<c\>LogisticsPostalAddress\</c\> table based on address information in the \<c\>HRMCourseLocation\</c\> table; and update the \<c\>Location\</c\> field of the \<c\>HRMCourseLocation\</c\> table with the corresponding value of the \<c\>RecId\</c\> field of the \<c\>LogisticsLocation\</c\> table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

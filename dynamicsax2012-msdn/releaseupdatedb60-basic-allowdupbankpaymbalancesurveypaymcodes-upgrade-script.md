@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The SurveyCode field is replaced with the new BankPaymBalanceSurvey surrogate key field in the unique SurveyCodeIdx index. Initially this field contains no value. The index is set to allow duplicate records before the field is updated with the value of the record ID field of the BankPaymBalanceSurvey table. The truncated method name from the allowDupBankPaymBalanceSurveyPaymCodesSurveyCodeIdx method due to the 40 characters length limit of the method name.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

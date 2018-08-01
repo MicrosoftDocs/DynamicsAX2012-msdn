@@ -29,12 +29,6 @@ X++ is the programming language in Microsoft Dynamics AX. X++ uses object-orient
 
 Microsoft Dynamics AX uses a layering system where layers are a hierarchy of levels in the application source code. This ensures that modifications and additions can be made without interfering with the application objects on other levels.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## See also
 
 [MorphX Concepts](morphx-concepts.md)

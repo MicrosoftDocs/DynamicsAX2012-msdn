@@ -93,5 +93,5 @@ For each user ID, there should be exactly one record with the upgrade set to Yes
 Re-running the populating script is a part of validation, since cross company duplicates of user relations setup must be resolved before the upgrade to Microsoft Dynamics AX 2012. This script searches all companies.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

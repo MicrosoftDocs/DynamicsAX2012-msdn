@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Populate \<c\>ItemType\_IT\</c\> field by calling calcItemType\_IT() method in \<c\>Intrastat\</c\> table, \<c\>InvoiceDate\</c\> field from \<c\>TransDate\</c\> of \<c\>Intrastat\</c\> table and \<c\>PaymentMethod\_IT\</c\> field by calling calcPaymentMethod() in \<c\>IntrastatTransferIT\</c\> class.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

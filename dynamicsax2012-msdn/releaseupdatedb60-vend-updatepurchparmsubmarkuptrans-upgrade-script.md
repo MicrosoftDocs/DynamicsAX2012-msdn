@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 In 6.0 release invoices reside in table hierarchy related to VendInvoiceInfoTable, while in prior releases invoices being posted resided in PurchParmTable. This method moves MarkupTrans records between the two hierarchies, by setting reference fields appropriately. After the update MarkupTrans records which were related to PurchParmSubTable record are related to VendInvoiceInfoSubTable record to which the data was copied.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

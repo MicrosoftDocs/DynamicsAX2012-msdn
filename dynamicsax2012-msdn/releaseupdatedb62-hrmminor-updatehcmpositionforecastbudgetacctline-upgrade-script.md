@@ -104,5 +104,5 @@ mtps_version: v=AX.60
 1\. Copies \<c\>HcmPositionForecastBudgetAcctLine\</c\> record and links it to the \<c\>HcmPositionForecastScenario\</c\> table. 2. Updates the \<c\>EffectiveDate\</c\> and \<c\>ExpirationDate\</c\> fields with the \<c\>HcmPositionForecastScenario\</c\> table for the \<c\>ActivationDateTime\</c\> and the \<c\>RetirementDateTime\</c\> or Budget Cycle start and end date. 2. Updates the \<c\>BudgetPurposeTypeDetail\</c\> field of the \<c\>HcmPositionForecastBudgetAcctLine\</c\> table through the references in the \<c\>HcmBudgetPurposeTypeDetail\</c\> table. 3. Updates all cost elements as fixed amount type setting the same value to the \<c\>AmountCur\</c\> field and the \<c\>BudgetAmountCur\</c\> field, setting No to the \<c\>isPercentageBased\</c\> and setting ZERO to the \<c\>PercentageOfDefaultBasisAmount\</c\> of the \<c\>HcmPositionForecastBudgetAcctLine\</c\> table. 4. Inserts notes into the \<c\>HcmPositionForecastAcctLineNote\</c\> table if the record in the \<c\>HcmPositionForecastBudgetAcctLine\</c\> table is percentage based.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

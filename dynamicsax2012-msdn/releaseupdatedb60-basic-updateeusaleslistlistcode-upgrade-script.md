@@ -139,5 +139,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 For the listed tables, any use of the EUService enumeration value is replaced by the EUSales enumeration value. For the EUSalesList table, the AmountMST value is added to the ServiceAmountMST field, and the AmountMST field is set to 0, when the EUService enumeration value was used.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

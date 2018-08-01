@@ -54,10 +54,6 @@ This section contains the following topics:
 <td><p>Contains information about white papers written about Microsoft Dynamics AX.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="searching-for-documentation-with-websearchax.md">Searching for Documentation with WebSearchAx</a></p></td>
-<td><p>Contains information about the advanced search capabilities of the WebSearchAx tool.</p></td>
-</tr>
-<tr class="even">
 <td><p><a href="database-erds-on-the-axerd-website.md">Database ERDs on the AxErd Website</a></p></td>
 <td><p>Our AxErd website provides database entity relationship diagrams (ERDs), plus organized information to help you extend our ERDs to fit your specific needs.</p></td>
 </tr>
@@ -65,11 +61,6 @@ This section contains the following topics:
 </table>
 
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-  
+ 
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
 
