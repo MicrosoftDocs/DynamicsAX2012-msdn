@@ -124,5 +124,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The script checks to see the count of records in the SysWorkflowTable table. If the count is greater than 0, it assumes that there are active workflow instances and logs an error. It also gives the user the option to fix them by providing a custom form that allows a user to select multiple running workflow instances and cancel them.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

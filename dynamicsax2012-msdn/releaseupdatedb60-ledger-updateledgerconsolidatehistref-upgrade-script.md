@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This method removes all records in the LedgerConsolidateHistRef table that are associated to ledger budget data. These records have the TransTableId field set to the LedgerBudget table ID. This method is to be run as a PostSync, Standard job.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

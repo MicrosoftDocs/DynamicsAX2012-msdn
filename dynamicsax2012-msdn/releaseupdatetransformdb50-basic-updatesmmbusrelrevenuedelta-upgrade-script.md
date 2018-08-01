@@ -85,5 +85,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This upgrade is required to convert the party ID field to the new party field for Microsoft Dynamics AX 2012. The party field for the smmBusRelRevenue table will be kept as a reference to the DirPartyTable record.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

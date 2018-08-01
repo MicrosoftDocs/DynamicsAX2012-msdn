@@ -41,12 +41,6 @@ The X++ runtime execution engines have automatic mechanisms to discard objects t
 
 Microsoft Dynamics AX supports interoperability between classes written in X++ and in C\# (or other .NET Framework languages). For more information, see [.NET Interop from X++](net-interop-from-x.md) and [Proxy Classes for .NET Interop to X++](proxy-classes-for-net-interop-to-x.md).
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
 [Variables and Data Types](variables-and-data-types.md)

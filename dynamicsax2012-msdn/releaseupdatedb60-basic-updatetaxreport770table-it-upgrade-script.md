@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The TaxReport770ExceptionalEvent\_IT::ExceptionalCircumstances enumeration element had its value changed from 5 to 9. This upgrade script makes sure the database is updated, by moving values from the TaxReport770ExceptionalEvent\_IT::DEL\_ExceptionalCircumstances enumeration element to the TaxReport770ExceptionalEvent\_IT::ExceptionalCircumstances enumeration element.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

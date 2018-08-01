@@ -82,5 +82,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Updates the TaxComponentTable\_IN TaxRegistrationNumberTable\_IN fields in the TaxTrans table with the value from the RecId field in the TaxComponentTable\_IN and TaxRegistrationNumberTable\_IN tables respectively.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

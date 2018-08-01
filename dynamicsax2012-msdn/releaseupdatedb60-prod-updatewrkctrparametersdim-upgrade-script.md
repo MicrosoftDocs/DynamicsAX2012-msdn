@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The WrkCtrParametersDim.del\_LimitCapProdPOM and WrkCtrParametersDim.del\_LimitCapProdProject fields are updated with the values of the fields that correspond to the WrkCtrParameters table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

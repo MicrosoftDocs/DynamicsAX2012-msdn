@@ -126,5 +126,5 @@ The following X++ code example shows how to have the menu item included in the l
     purchRFQEditLines = new MenuFunction(menuitemDisplayStr(PurchRFQEditLines), MenutItemType::Display).create(FormLetter::newClientArgs(formStr(PurchRFQEditLines), this)); 
 ```
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

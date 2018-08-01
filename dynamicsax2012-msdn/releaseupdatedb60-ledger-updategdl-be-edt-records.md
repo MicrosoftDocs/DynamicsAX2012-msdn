@@ -91,5 +91,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 Updates the \<c\>TaxIntervatGeneral\</c\> field in the tables \<c\>TaxIntervatDetail\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>TaxIntervatGeneral\</c\> table. Updates the \<c\>TaxEdivatErrors\</c\> field in the tables \<c\>TaxEdivatReturnedErrors\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>TaxEdivatErrors\</c\> table. Updates the \<c\>TaxEdivatGeneral\</c\> field in the tables \<c\>TaxEdivatReturnedErrors\</c\> and \<c\>TaxEdivatDetail\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>TaxEdivatGeneral\</c\> table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

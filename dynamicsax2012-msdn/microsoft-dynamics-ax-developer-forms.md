@@ -17,12 +17,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Featu
 
 The following topics describe how to use the tools in the MorphX IDE.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587%26xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
   - [ActiveX Browser Form](https://msdn.microsoft.com/en-us/library/aa616671\(v=ax.60\))  

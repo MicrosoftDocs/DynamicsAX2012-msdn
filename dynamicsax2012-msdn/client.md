@@ -15,12 +15,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 The client is a form based application that lets you interact with Microsoft Dynamics AX data. You can modify the client to display new types of data or to change how you interact with existing types of data. This section of the documentation describes how to create or modify forms, controls, data sources, menus, and other user interface components.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
 [Forms in Microsoft Dynamics AX](forms-in-microsoft-dynamics-ax.md)

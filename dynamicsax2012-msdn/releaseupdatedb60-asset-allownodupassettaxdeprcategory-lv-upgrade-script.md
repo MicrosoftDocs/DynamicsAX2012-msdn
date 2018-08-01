@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 After the data has been migrated from AX5 to AX6 and missing data has been fixed, this method turns on the indexes in the AssetTaxDeprCategory\_LV table in order to enforce the uniqueness constraint.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

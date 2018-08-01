@@ -27,13 +27,6 @@ In addition to standard relational database functionality, Microsoft Dynamics AX
 
   - [Cache](set-based-caching.md) the tables and records for faster performance.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
-
 > [!TIP]
 > <P>For Entity Relationship Diagrams (ERDs) and related information, visit our “AxErd” website (for Microsoft Dynamics AX 2012 R2).</P>
 > <P><A href="http://go.microsoft.com/fwlink/p/?linkid=296623">AxErd website</A></P>

@@ -131,13 +131,6 @@ The following feature areas are described in this topic:
 </tbody>
 </table>
 
-
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## See also
 
 [Getting Started with Microsoft Dynamics AX](getting-started-with-microsoft-dynamics-ax.md)

@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The TariffCode field is replaced with the new CustomsTariffCodeTable surrogate key field in the unique TariffCodeIdx index. Initially the CustomsTariffCodeTable surrogate key field contains no values. So the index is set to allow duplicates before the field is updated with the value of the record ID of the corresponding tables.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

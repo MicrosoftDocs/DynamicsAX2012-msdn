@@ -77,5 +77,5 @@ mtps_version: v=AX.60
 The \<c\>PositionForecastCompensationGrid\</c\> field on the \<c\>HcmPositionForecastBudgetAcctLine\</c\> record is set with the data from the \<c\>PositionForecastCompensationGrid\</c\> field on the \<c\>HcmPositionForecastScenario\</c\> table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

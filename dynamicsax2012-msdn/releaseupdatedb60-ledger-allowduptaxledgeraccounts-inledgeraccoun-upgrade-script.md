@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The TaxAccountGroup, AccountCode, and RegistrationNumber fields are replaced with the new TaxLedgerAccountSetup surrogate key field in the unique GroupCodeNumTypeComponentIdx index. The Component and LedgerAccount fields are replaced with the record ID of the TaxComponentTable\_IN and DimensionAttributeValueComibation tables. Initially these fields contain no values. So the index is set to allow duplicates before the field is updated with the value of the record ID of the corresponding tables.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This is a helper method that is called by the main live preprocessing script and delta script for the LedgerTrans table. The GeneralJournalEntry table will contain one record for every unique JournalNumber, LedgerPostingJournal, PeriodCode, OperationsTax, and Voucher value in the LedgerTrans table. This also creates a record in the subledgerVoucherGeneralJournalEntry table for an end record that is created in the GeneralJournalEntry table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

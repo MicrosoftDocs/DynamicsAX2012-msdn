@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The TaxEdivatId and TaxEdivatErrorCode fields are replaced with the new TaxEdivatGeneral and TaxEdivatErrors surrogate key fields, respectively, in the unique ErrorIdx index. Initially, these fields contain no value. Therefore, the index is set to allow for duplicate values before the fields are updated with the value of the RecId field of the TaxEdivatGeneral and TaxEdivatErrors tables, respectively.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

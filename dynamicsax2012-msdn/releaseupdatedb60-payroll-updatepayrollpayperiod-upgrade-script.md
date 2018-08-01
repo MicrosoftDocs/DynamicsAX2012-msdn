@@ -85,5 +85,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The PayPeriodID field of the PayrollPayPeriod table is new in this release and is part of an alternate key in the new table. The value is created by concatenating the year of the period and an integer representing the order of the period within the year.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

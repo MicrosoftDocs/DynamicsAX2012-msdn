@@ -15,12 +15,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 The Microsoft Dynamics AX Application Object Server (AOS) is used for sharing application objects and information as an effective tool to increase application performance. This section describes the AOS, how to develop applications for the AOS, best practices, and security.
 
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
   - [AOS Overview](aos-overview.md)  

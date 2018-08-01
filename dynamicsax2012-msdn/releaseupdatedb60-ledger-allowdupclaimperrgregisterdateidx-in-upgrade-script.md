@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The TaxComponent field is replaced with the new TaxComponentTable surrogate key field in the RGRegisterDateIdx unique index. Also, the FromDate and ToDate fields are replaced with the DateEffectivity, ValidFrom and ValidTo fields. Initially these fields contain no values. So the index is set to allow for duplicates before the field is updated with the value of the record IDs of the corresponding tables.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

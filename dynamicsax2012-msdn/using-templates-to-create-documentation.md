@@ -136,5 +136,5 @@ For more information about how to use an HTML template, see [How to: Create a He
 [How to: Publish a Help Document](how-to-publish-a-help-document.md)
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

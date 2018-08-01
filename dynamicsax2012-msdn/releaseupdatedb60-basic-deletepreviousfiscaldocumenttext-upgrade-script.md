@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 Given a Common record where the fiscal document texts are attached to, it first deletes all the related DocuRef records that have a linked DocuRefExt\_BR record, thus restricting the action to actual fiscal document texts. Secondly, it deletes all the orphan DocuRefExt\_BR records that may exist.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

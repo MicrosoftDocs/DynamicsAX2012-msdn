@@ -82,5 +82,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 All transactions with the QmmScrapped status issue should be updated. The QmmScrapped status issue has been removed and will be replaced with the Sold status. These transactions should also have the relation changed from referencing a purchase order to instead referencing the quality order directly. This means that the QmmOrderIdRef status issue will be removed from the InventTrans table and the content will be moved to the TransRefId field. The TransType field will get the new QualityOrder value and the inventTransId field will get the value from the quality order.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

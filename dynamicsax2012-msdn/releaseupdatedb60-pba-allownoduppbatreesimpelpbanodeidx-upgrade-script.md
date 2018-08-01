@@ -85,5 +85,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 As the PBANodeIdx index changed fields between Microsoft Dynamics AX 2009 and Microsoft Dynamics AX 2012, the upgrade process requires the index to be marked as non-unique during the upgrade and then restored afterwards.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

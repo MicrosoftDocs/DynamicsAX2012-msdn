@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 Truncated method name from allowNoDupItemLogisticAddressStateIdx. After updating the field LogisticsAddressStateId in TaxInventVATCommodityCode\_IN with the value of the NewStateId field of the table del\_AddressStateUpgrade, the index ItemLogisticAddressStateIdx is reset not to allow duplicate records.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The method will find any CustTable records that currently have a del\_PdsSellableDays value. For each record, an entry will be created in the PdsCustSellableDays table and the value of the PdsSellableDays field from the CustTable table will be entered as a PdsSellableDays value in the new table. Then a validation will be conducted to verify that the correct value was entered for the customer and the customer record and the PdsSellableDays field value will be set to zero and the CustTable record is updated.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

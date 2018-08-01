@@ -74,5 +74,5 @@ mtps_version: v=AX.60
 The upgrade script converts existing data in the ExpressionTable table that is related to the VendInvoiceLine.ProcurementCategory field. Data in the ExpressionTable.XPathQuery field is updated to reflect the new expression. This script is dependent on the ReleaseUpdateDB62\_Vend.updateVendInvLineProcureCatWorkflowField script.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

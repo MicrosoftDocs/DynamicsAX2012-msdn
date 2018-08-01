@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The purchase requisition upgrade path to this release does not support the upgrade of in-flight requisitions. This script validates that all requisitions are either in Draft status or the status is greater than or equal to the Approved status.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -94,5 +94,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Updates the \<c\>IntrastatArchiveGeneral\</c\> field in the table \<c\>IntrastatArchiveDetail\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>IntrastatArchiveGeneral\</c\> table. Updates the \<c\>AddressCountryRegionGroupBLWI\</c\> field in the tables \<c\>AddressCountryRegionBLWI\</c\> and \<c\>TradeBLWILines\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>AddressCountryRegionGroupBLWI\</c\> table. Updates the \<c\>BankPaymBalanceSurvey\</c\> field in the tables \<c\>TradeBLWILines\</c\> and \<c\>BankPaymBalanceSurveyPaymCodes\</c\> with the value from the \<c\>RecId\</c\> field of the \<c\>BankPaymBalanceSurvey\</c\> table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

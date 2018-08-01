@@ -18,11 +18,6 @@ Enterprise Portal for Microsoft Dynamics AX provides a web-based application fra
 For more information about how to install and configure Enterprise Portal, see [Enterprise Portal and Role Centers](https://msdn.microsoft.com/en-us/library/gg751374\(v=ax.60\)). For details about using Enterprise Portal, see [Enterprise portal (TechNet)](https://msdn.microsoft.com/en-us/library/hh272853\(v=ax.60\)).
 
 
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587%26xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
   - [Enterprise Portal Development Overview](enterprise-portal-development-overview.md)  

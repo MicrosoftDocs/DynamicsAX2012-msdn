@@ -142,5 +142,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The script upgrades the dimensions into the new default dimensions pattern. It also upgrades the SalesResponsible\_CZ field into the SalesResponsible field and converts the type from an employee ID string to a record ID of an HcmWorker worker.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

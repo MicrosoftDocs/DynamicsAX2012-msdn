@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 This step is performed before allowDupOMOperatingUnit is called to ensure that calling the allowDupOMOperatingUnit routine will not cause an index violation because the OMOperatingUnitNumber field had invalid/duplicate values.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

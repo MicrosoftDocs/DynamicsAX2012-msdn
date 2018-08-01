@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 The cash specific fields are being removed from the LedgerJournalTrans table for this release. These fields are being moved to the LedgerJournalTrans\_RCash table and linked by the LedgerJournalTrans record ID.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The ProfitId field is replaced with the new RTax25ProfitTable surrogate key field in the FactorIdx unique index. Initially this field contains no value. So the index is set to allow duplicates before the field is updated with the value of the record ID field of the RTax25ProfitTable table.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

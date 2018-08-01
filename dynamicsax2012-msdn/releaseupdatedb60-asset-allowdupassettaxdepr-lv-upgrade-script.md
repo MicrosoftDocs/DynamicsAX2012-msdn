@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 New fields and indexes have been added to the AssetTaxDepr\_LV table in AX6. Since these fields did not exist in AX5, they will be blank in AX6. Hence, we need to disable the unique indexes in the AssetTaxDepr\_LV table before migrating data from AX5 to AX6.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

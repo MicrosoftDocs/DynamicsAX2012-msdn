@@ -161,5 +161,5 @@ There are several ways that the upgrade scripts are documented in this Help file
 [How to: Write Data Upgrade Script whitepaper](http://go.microsoft.com/fwlink/?linkid=212587)
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

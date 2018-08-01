@@ -88,5 +88,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 As the history tables are new to the current version, no information is stored in these tables for upgraded purchase orders.All records are marked as modified to be included in the first copy to the history tables.The \<c\>DocumentState\</c\> field on all existing purchase orders is set to a \<c\>VersioningDocumentState::Approved\</c\> enumeration value.The method is based on direct SQL to make sure that it has best possible performance.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

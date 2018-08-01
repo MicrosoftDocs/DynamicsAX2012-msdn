@@ -82,5 +82,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Creates an entry in the dirPartyTable table and logs the mapping into the upgradeBusRel\_PartyTable and upgradeContact\_PartyTable tables, respectively. It also updates BR and the ContactPerson table by setting the party IDs to the newly created party entries. It also creates entries in the dirPartytable table for competitors who do not have corresponding business relation entries.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

@@ -32,11 +32,6 @@ Microsoft Dynamics AX includes [tools for checking best practices](best-practice
   - ![Information icon](images/Aa658028.InfoIcon(en-us,AX.60).gif "Information icon")
 
 
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
-
-
 ## In This Section
 
 The following topics are included in this section:

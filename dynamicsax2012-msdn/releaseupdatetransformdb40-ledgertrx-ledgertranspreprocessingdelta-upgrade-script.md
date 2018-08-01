@@ -84,5 +84,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 Each LedgerTrans record will be normalized across the LedgerEntryJournal, GeneralJournalEntry, GeneralJournalAccountEntry, LedgerEntry, and LedgerEntryJournalizing tables. This is a sergeant method that calls the other associated methods to preform this normalization against each record in the LedgerTrans table that has been created, updated, or deleted since the live pre-processing step of the upgrade was run.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

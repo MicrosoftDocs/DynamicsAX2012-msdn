@@ -30,5 +30,5 @@ After a page has a URL Web Menu Item defined that points to it, the page can be 
 Whenever you use SharePoint to make updates to a page, such as adding or removing web parts, you must re-import the page into the AOT.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

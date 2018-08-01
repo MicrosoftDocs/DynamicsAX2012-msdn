@@ -85,5 +85,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The data is created by using existing data in the InventDimGroup table. The criteria used for determining how the dimension groups are updated are specified by the user during the pre-upgrade process. The data that the upgrade depends on must be provided before upgrade.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

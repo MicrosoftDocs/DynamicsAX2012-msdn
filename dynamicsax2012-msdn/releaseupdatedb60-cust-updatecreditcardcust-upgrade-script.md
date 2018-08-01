@@ -143,5 +143,5 @@ The \<c\>CardNumber\</c\> field is set to the last few digits of the \<CreditCar
 </table>
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

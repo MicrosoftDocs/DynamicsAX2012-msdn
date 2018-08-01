@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 In Microsoft Dynamics AX 2012 release invoices reside in the table hierarchy related to VendInvoiceInfoTable table. In prior releases, invoices that are being posted resided in the PurchParmTable table. This method moves TaxWorkRegulation records between the two hierarchies by setting reference fields appropriately. After the update, TaxWorkRegulation records that were related to PurchParmTable records are related to VendInvoiceInfoTable records to which the data was copied.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

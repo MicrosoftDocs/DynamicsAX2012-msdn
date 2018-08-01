@@ -76,5 +76,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 A project transaction can now support multiple sales amount. For example, a project transaction can be billed to multiple customers. To support multiple sales amounts, another level of tables were created, such as the ProjInvoiceEmplDetail table, which is related to the existing ProjInvoiceEmpl table. The RefTableId and RefRecId fields of the CustVendCreditInvoicingTable table will then be updated to reference the new tables.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 

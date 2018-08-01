@@ -79,5 +79,5 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 The inventDimId field has been added to the BOMVersion and RouteVersion tables. Forms that display the BOMVersion and RouteVersion tables will have an inner join to the InventDim table. This means the inventDimId field must have a reference to an existing InventDim record.
 
   
-**Announcements:** To see known issues and recent fixes, use [Issue search](http://go.microsoft.com/fwlink/?linkid=389258) in [Microsoft Dynamics Lifecycle Services](http://go.microsoft.com/fwlink/?linkid=306505) (LCS).
+
 
