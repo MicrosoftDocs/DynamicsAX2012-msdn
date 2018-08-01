@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Dynamics AX 2012 for Developers
 TOCTitle: Microsoft Dynamics AX 2012 for Developers
 ms:assetid: 577fa6fd-ed8a-4363-a986-7544d49e30e3
@@ -12,11 +12,6 @@ mtps_version: v=AX.60
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
-
-
-> [!TIP]
-> <P>To apply advanced criteria to your search for Help about Microsoft Dynamics AX, use the <A href="http://go.microsoft.com/fwlink/?linkid=247587&amp;xver=ax060">WebSearchAx</A> tool.</P>
-
 
 
 ## In This Section
@@ -57,7 +52,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 [Data Upgrade Scripts for Microsoft Dynamics AX 2012](data-upgrade-scripts-for-microsoft-dynamics-ax-2012.md)
 
-[Reference](https://msdn.microsoft.com/en-us/library/aa626373\(v=ax.60\))
+[Reference](/previous-versions/dynamics/ax-2012/reference/aa626373\(v=ax.60\))
 
 [Debugging in Microsoft Dynamics AX 2012](debugging-in-microsoft-dynamics-ax-2012.md)
 
@@ -67,10 +62,6 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 [Using the Microsoft Dynamics AX glossary](using-the-microsoft-dynamics-ax-glossary.md)
 
-## See also
 
-Microsoft Dynamics AX 2012 on TechNet, for System Administrators and Application Users
 
-  
-**Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
 
