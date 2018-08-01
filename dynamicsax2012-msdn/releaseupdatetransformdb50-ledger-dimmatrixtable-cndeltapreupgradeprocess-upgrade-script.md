@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateTransformDB50\_Ledger.dimMatrixTable\_CNDeltaPreUpgradeProcess Upgrade Script 
+# ReleaseUpdateTransformDB50\_Ledger.dimMatrixTable\_CNDeltaPreUpgradeProcess Upgrade Script [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

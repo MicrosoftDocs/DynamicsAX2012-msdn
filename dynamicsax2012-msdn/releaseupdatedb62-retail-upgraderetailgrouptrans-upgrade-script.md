@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateDB62\_Retail.upgradeRetailGroupTrans Upgrade Script 
+# ReleaseUpdateDB62\_Retail.upgradeRetailGroupTrans Upgrade Script [AX 2012]
 
 
 <table>

@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Page Title Web Part 
+# Page Title Web Part [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

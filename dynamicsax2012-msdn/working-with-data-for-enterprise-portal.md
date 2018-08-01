@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Working with Data for Enterprise Portal 
+# Working with Data for Enterprise Portal [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

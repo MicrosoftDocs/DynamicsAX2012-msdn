@@ -17,7 +17,7 @@ f1_keywords:
 - RDP
 ---
 
-# Walkthrough: Creating a Chart Control with Data from a Report Data Provider Class 
+# Walkthrough: Creating a Chart Control with Data from a Report Data Provider Class [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_

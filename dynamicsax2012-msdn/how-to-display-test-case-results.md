@@ -13,7 +13,7 @@ f1_keywords:
 - MsDynAx060.Forms.SysTestTable
 ---
 
-# How to: Display Test Case Results 
+# How to: Display Test Case Results [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

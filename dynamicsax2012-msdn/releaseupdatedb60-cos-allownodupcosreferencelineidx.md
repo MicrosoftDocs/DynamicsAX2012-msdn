@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateDB60\_COS.allowNoDupCOSReferenceLineIdx 
+# ReleaseUpdateDB60\_COS.allowNoDupCOSReferenceLineIdx [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

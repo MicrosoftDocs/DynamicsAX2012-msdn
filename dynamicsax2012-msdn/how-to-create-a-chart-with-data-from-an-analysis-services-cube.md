@@ -8,7 +8,7 @@ ms.date: 11/07/2012
 mtps_version: v=AX.60
 ---
 
-# How to: Create a Chart with Data from an Analysis Services Cube 
+# How to: Create a Chart with Data from an Analysis Services Cube [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_

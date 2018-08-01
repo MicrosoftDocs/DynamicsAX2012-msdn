@@ -8,7 +8,7 @@ ms.date: 11/07/2012
 mtps_version: v=AX.60
 ---
 
-# How to: Install Prerequisites on the Server that Runs the Version Control System using Visual SourceSafe 
+# How to: Install Prerequisites on the Server that Runs the Version Control System using Visual SourceSafe [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

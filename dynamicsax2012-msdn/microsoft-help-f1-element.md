@@ -11,7 +11,7 @@ dev_langs:
 - xml
 ---
 
-# Microsoft.Help.F1 Element 
+# Microsoft.Help.F1 Element [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# Walkthrough: Using the Cross-Reference Tool with Visual Studio Projects 
+# Walkthrough: Using the Cross-Reference Tool with Visual Studio Projects [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

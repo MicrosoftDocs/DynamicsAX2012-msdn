@@ -10,7 +10,7 @@ f1_keywords:
 - Forms.SysVersionControlParametersAdm
 ---
 
-# How to: Configure Global Version Control System Settings (Administrator) 
+# How to: Configure Global Version Control System Settings (Administrator) [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

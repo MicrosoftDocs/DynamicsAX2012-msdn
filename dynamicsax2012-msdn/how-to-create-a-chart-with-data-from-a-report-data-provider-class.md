@@ -16,7 +16,7 @@ f1_keywords:
 - Chart Control
 ---
 
-# How to: Create a Chart with Data from a Report Data Provider Class 
+# How to: Create a Chart with Data from a Report Data Provider Class [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_

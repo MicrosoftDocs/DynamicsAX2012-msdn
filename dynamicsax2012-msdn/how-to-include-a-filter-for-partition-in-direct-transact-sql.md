@@ -10,7 +10,7 @@ dev_langs:
 - sql
 ---
 
-# How to: Include a Filter for Partition in Direct Transact-SQL 
+# How to: Include a Filter for Partition in Direct Transact-SQL [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_

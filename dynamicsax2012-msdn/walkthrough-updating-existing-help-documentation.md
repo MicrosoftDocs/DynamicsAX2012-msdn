@@ -8,7 +8,7 @@ ms.date: 11/07/2012
 mtps_version: v=AX.60
 ---
 
-# Walkthrough: Updating Existing Help Documentation 
+# Walkthrough: Updating Existing Help Documentation [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_

@@ -10,7 +10,7 @@ dev_langs:
 - sql
 ---
 
-# Walkthrough: Creating an AOT Query that has Group By and Having Nodes 
+# Walkthrough: Creating an AOT Query that has Group By and Having Nodes [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

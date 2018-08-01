@@ -10,7 +10,7 @@ dev_langs:
 - xml
 ---
 
-# User Control Changes 
+# User Control Changes [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

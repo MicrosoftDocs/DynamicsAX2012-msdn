@@ -8,7 +8,7 @@ ms.date: 05/14/2013
 mtps_version: v=AX.60
 ---
 
-# How to: Set up Developer Computers for Version Control Using Team Foundation Server 
+# How to: Set up Developer Computers for Version Control Using Team Foundation Server [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

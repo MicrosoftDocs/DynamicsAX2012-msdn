@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# ReleaseUpdateTransformDB40\_InventPurch.purchUpgradePreUpgradeProcess 
+# ReleaseUpdateTransformDB40\_InventPurch.purchUpgradePreUpgradeProcess [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_

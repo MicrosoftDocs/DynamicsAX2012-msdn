@@ -10,7 +10,7 @@ dev_langs:
 - html
 ---
 
-# How to: Add a Link to a Content Element 
+# How to: Add a Link to a Content Element [AX 2012]
 
 
 A link is the blue text that appears in the Help viewer that you click to view related Help documentation. A link provides access to other important information that helps you complete a task. You can add a link when you create or update Help documentation for the Help server. You use the link to specify the documentation you want the user to see. The sections that follow show how to add links that can open the following types of documentation:

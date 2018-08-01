@@ -10,7 +10,7 @@ dev_langs:
 - csharp
 ---
 
-# How to: Format Chart Colors 
+# How to: Format Chart Colors [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2_

@@ -10,7 +10,7 @@ f1_keywords:
 - Forms.SysVersionControlParametersDev
 ---
 
-# How to: Set Up Local Version Control Parameters (Developer) 
+# How to: Set Up Local Version Control Parameters (Developer) [AX 2012]
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
