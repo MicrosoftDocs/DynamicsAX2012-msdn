@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics AX 2012 for Developers
-TOCTitle: Microsoft Dynamics AX 2012 for Developers
+title: Microsoft Dynamics AX 2012 Developer Library
+TOCTitle: Microsoft Dynamics AX 2012 Developer Library
 ms:assetid: 577fa6fd-ed8a-4363-a986-7544d49e30e3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh881815(v=AX.60)
 ms:contentKeyID: 45769223
@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# Microsoft Dynamics AX 2012 for Developers 
+# Microsoft Dynamics AX 2012 Developer Library 
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
