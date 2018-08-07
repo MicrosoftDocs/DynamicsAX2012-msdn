@@ -14611,7 +14611,7 @@
           href: releaseupdatedb60-lean-updatekanbanjobs-upgrade-script.md
         - name: ReleaseUpdateDB60_Lean.updateNumberSequences Upgrade Script
           href: releaseupdatedb60-lean-updatenumbersequences-upgrade-script.md
-  - name: Reference
+  - name: Reference archive
     items:
         - name: Tables
           href: /previous-versions/dynamics/ax-2012/reference/cc652476(v=ax.60)
