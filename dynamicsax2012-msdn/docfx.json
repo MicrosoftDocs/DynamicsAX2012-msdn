@@ -49,15 +49,14 @@
                                          "feedback_system":  "None",
                                          "ROBOTS":  "INDEX,FOLLOW",
                                          "is_archived":  false,
-                                         "author":  "margoc",
-                                         "ms.author":  "margoc",
                                          "ms.date":  "06/03/2018",
                                          "ms.prod":  "dynamics-ax-2012",
                                          "ms.topic":  "conceptual", 
                                          "feedback_system": "GitHub",
                                          "feedback_github_repo": "MicrosoftDocs/DynamicsAX2012-msdn",
                                          "feedback_product_url": "https://community.dynamics.com/ax",
-                                         "open_to_public_contributors": true
+                                         "open_to_public_contributors": true,
+                                         "uhfHeaderId": "MSDocsHeader-Dynamics365"
                                      },
                   "fileMetadata":  {
 
