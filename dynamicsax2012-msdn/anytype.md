@@ -31,9 +31,9 @@ The range of an anytype variable depends on the value first assigned to it. For 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>anytype declaration</p></td>
+<td><p>Anytype declaration</p></td>
 <td><p>=</p></td>
-<td><p>anytype Variable { , Variable } ;</p></td>
+<td><p>Anytype variable { , Variable } ;</p></td>
 </tr>
 <tr class="even">
 <td><p>variable</p></td>
@@ -53,7 +53,7 @@ The range of an anytype variable depends on the value first assigned to it. For 
 
 The anytype data types can be automatically converted to dates, enums, integers, reals, strings, guids, int64s, extended data types (records), classes, and containers by assigning a value to the type. For example:
 ```X++  
-    anytype a;
+    Anytype a;
     ;
     a = "text";  // Assigns a string literal
 ```
@@ -65,14 +65,14 @@ You can use anytype variables in expressions. You can also use them in the same 
 
 However, anytype is usually used as arguments and return types. For example:
 ```X++  
-    public static str range(anytype _from, anytype _to)
+    public static str range(Anytype _from, Anytype _to)
     {
         return queryValue(_from) + '..' + queryValue(_to);
     }
 ```
 and
 ```X++  
-    void put(int position, anytype data)
+    void put(Int position, Anytype data)
     {
         record = conpoke(record, position, data);
     }
@@ -87,7 +87,7 @@ and
 <tbody>
 <tr class="odd">
 <td><p>Keyword</p></td>
-<td><p>anytype</p></td>
+<td><p>Anytype</p></td>
 </tr>
 <tr class="even">
 <td><p>Size</p></td>
