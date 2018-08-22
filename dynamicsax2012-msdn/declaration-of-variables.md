@@ -25,7 +25,7 @@ At times you might want a variable to have a value other than the default as soo
 
 // Assigns value of pi to 12 significant digits
 
-real pi = 3.14159265359;
+Real pi = 3.14159265359;
 
 Another syntax is needed to initialize objects because they are initialized by invoking the new method on the class:
 
@@ -39,11 +39,11 @@ X++ allows you to declare more than one variable in the same declaration stateme
 
 // Declares 2 integers, i and j
 
-int i,j;
+Int i,j;
 
 // Declares array with 100 integers with 5 in memory and b as integer with value 1
 
-int a\[100,5\], b=1;
+Int a\[100,5\], b=1;
 
 ## Summary
 
