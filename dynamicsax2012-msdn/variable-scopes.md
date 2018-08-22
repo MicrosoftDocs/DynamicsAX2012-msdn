@@ -23,11 +23,11 @@ A scope defines the area in which an item can be accessed:
  ```X++
     class ANewClass
     {
-        int a;
+        Int a;
         
         void aNewMethod()
         {
-            int b;
+            Int b;
         }
     }
  ```
