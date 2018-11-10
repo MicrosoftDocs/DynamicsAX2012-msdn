@@ -1,4 +1,4 @@
-﻿---
+---
 title: List of Error and Warning Messages
 TOCTitle: List of Error and Warning Messages
 ms:assetid: 005c5e10-e0e0-4c89-8897-232cf2daa5bb
@@ -1551,7 +1551,7 @@ The following table lists the best practice error messages. Many error messages 
 <tr class="odd">
 <td><p>Method availability can be set explicitly to %1 via the Standard Public setting.</p></td>
 <td><p>For more information, see <a href="best-practices-for-method-modifiers.md">Best Practices for Method Modifiers</a>.</p></td>
-<td><p>Method Access Can Be Set Explicitely, @SYS68392</p></td>
+<td><p>Method Access Can Be Set Explicitly, @SYS68392</p></td>
 </tr>
 <tr class="even">
 <td><p>Method contains code in unrequired braces %1 .... }</p></td>
