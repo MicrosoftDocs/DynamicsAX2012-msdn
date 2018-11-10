@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReleaseUpdateTransformDB50_Lean.createTransferJournals Upgrade Script
 TOCTitle: ReleaseUpdateTransformDB50_Lean.createTransferJournals Upgrade Script
 ms:assetid: 048d69cd-6c11-05d7-eb94-7e5260c13b79
@@ -106,7 +106,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>PlanPlanActvity</p></td>
+<td><p>PlanPlanActivity</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
