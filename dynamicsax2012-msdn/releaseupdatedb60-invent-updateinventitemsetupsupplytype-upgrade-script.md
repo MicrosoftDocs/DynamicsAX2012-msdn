@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReleaseUpdateDB60_Invent.updateInventItemSetupSupplyType Upgrade Script
 TOCTitle: ReleaseUpdateDB60_Invent.updateInventItemSetupSupplyType Upgrade Script
 ms:assetid: 045b07c3-0b24-10ab-1081-d7f7080f4da8
@@ -29,7 +29,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>Populates the DeafultOrderType field of the InventItemSetupSupplyType table.</p></td>
+<td><p>Populates the DefaultOrderType field of the InventItemSetupSupplyType table.</p></td>
 </tr>
 </tbody>
 </table>
