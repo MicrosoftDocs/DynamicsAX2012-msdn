@@ -1,4 +1,4 @@
-﻿---
+---
 title: Searching for Multiple Occurrences Design Pattern
 TOCTitle: Searching for Multiple Occurrences
 ms:assetid: c9bdeff9-acfe-4981-900f-e496db87a8f4
@@ -37,7 +37,7 @@ Use the following pattern when you search through a text for multiple (all the) 
 
 ## Example
 
-The following illustrates an example of the multiple occurences design pattern.
+The following illustrates an example of the multiple occurrences design pattern.
 
     static void textBufferFind(Args _args)
     {
