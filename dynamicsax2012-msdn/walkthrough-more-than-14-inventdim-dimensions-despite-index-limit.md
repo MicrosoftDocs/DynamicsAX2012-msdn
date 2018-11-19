@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Walkthrough: More than 14 InventDim Dimensions Despite Index Limit'
 TOCTitle: 'Walkthrough: More than 14 InventDim Dimensions Despite Index Limit'
 ms:assetid: 727b5c3d-792e-43c8-b71d-e23d098a2b3c
@@ -74,7 +74,7 @@ After the following table, the subsequent section explains the steps you can fol
 <div class="mtps-table">
 <div class="mtps-row">
 <div class="mtps-cell">
-DimIdx when viewed with the AOT: <img src="images/Dn495386.InventDim-DimIx-SHA1Hash-b2(en-us,AX.60).png" title="The SHA1Hash at the end of InventDim.DimIx." alt="The SHA1Hash at the end of InventDim.DimIx." /> <strong>SHA1Hash is the last field inthe InventDim.DimIdx index.</strong>
+DimIdx when viewed with the AOT: <img src="images/Dn495386.InventDim-DimIx-SHA1Hash-b2(en-us,AX.60).png" title="The SHA1Hash at the end of InventDim.DimIx." alt="The SHA1Hash at the end of InventDim.DimIx." /> <strong>SHA1Hash is the last field in the InventDim.DimIdx index.</strong>
 </div>
 <div class="mtps-cell">
 DimIdx when viewed as the underlying T-SQL. Notice the two additional fields at the start, namely PARTITION and DATAAREAID:
