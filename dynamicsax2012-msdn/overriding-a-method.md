@@ -23,15 +23,18 @@ public class Attribute
 
     int objectVariable;
 
+
+    void methodAtt()
+
+    {
+
+        // Some statements
+
+    }
+
 }
 
-void methodAtt()
 
-{
-
-    //Some statements
-
-}
 
 // Subclass: ColorAttribute
 
@@ -41,13 +44,14 @@ public class ColorAttribute extends Attribute
 
     int addedObjectVariable;
 
-}
 
-void methodAtt()
+    void methodAtt()
 
-{
+    {
 
-    //Some statements
+        // Some statements
+
+    }
 
 }
 
