@@ -48,7 +48,7 @@ The following table displays the AOT elements that work together to process the 
 public str formatWholeName
         (str _firstName, str _lastName)
 {
-    return _lastName + &quot;, &quot; + _firstName;
+    return _lastName + ', ' + _firstName;
 }
 ```
 
@@ -64,14 +64,14 @@ static public void formatWholeNameEhBefore(XppPrePostArgs ppArgs)
 {
     str firstName;
     //
-    firstName = ppArgs.getArg(&quot;_firstName&quot;);
-    if (&quot;Dave&quot; == firstName)
+    firstName = ppArgs.getArg('_firstName');
+    if ('Dave' == firstName)
     {
-        ppArgs.setArg(&quot;_firstName&quot;, &quot;David&quot;);
+        ppArgs.setArg('_firstName', 'David');
     }
-    else if (&quot;Bill&quot; == firstName)
+    else if ('Bill' == firstName)
     {
-        ppArgs.setArg(&quot;_firstName&quot;, &quot;William&quot;);
+        ppArgs.setArg('_firstName', 'William');
     }
 }
 ```
@@ -98,10 +98,10 @@ static void Job1NameEhBefore(Args _args)
     // Run a method that has a pre-method event handler,
     // one that starts and ends before the method starts.
     formattedWholeName = testClass9.formatWholeName
-        (&quot;Dave&quot;, &quot;Ahs&quot;);
+        ('Dave', 'Ahs');
     // The Infolog displays the effect of the before-method event handler.
     info(strFmt
-        (&quot;%1 == the formatted formal name.&quot;,
+        ('%1 == the formatted formal name.',
         formattedWholeName));
 }
 /*** Output displayed in the Infolog:
