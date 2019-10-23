@@ -15,7 +15,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 You can use the SysGlobalObjectCache system class to improve the performance of database access. An instance of the SysGlobalObjectCache class provides access to the system global object cache. Access to the global cache improves performance in scenarios where the same record is retrieved repeatedly. In comparison, repeated X++ SQL select statements to retrieve the same record from the database are inefficient and are a burden to the Application Object Server (AOS).
 
-A SysGlobalObjectCache object that is running in the AOS uses the same cache that is shared by all client sessions that are connected to that AOS. has access to a global cache that is shared by all client sessions.
+A SysGlobalObjectCache object that is running in the AOS uses the same cache that is shared by all client sessions that are connected to that AOS.
 
 Every record that is inserted into SysGlobalObjectCache is shared across multiple sessions that are in the same process. If an entry is inserted on the AOS, then all the sessions on the same AOS have access to the entry in the cache. However, any cache entries inserted on the AOS will not be automatically sent to the clients connected to that AOS. The entries will also not be sent to another AOS that is part of the deployment.
 
