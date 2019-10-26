@@ -49,7 +49,7 @@ A .NET control is a component that was developed by using the .NET Framework and
 </table>
 
 
-The ability to add a .NET control to a form gives you access to many controls that support data or activities that existing Microsoft Dynamics AX controls do not easily support. In addition, you can create or customize .NET controls that add specific types of functionality to the form. The SDK for the .NET Famework provides information about how to create or customize Windows Form controls and WPF controls.
+The ability to add a .NET control to a form gives you access to many controls that support data or activities that existing Microsoft Dynamics AX controls do not easily support. In addition, you can create or customize .NET controls that add specific types of functionality to the form. The SDK for the .NET Framework provides information about how to create or customize Windows Form controls and WPF controls.
 
 
 > [!IMPORTANT]
