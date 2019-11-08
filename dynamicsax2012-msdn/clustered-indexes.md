@@ -17,17 +17,17 @@ Organizing your tables with a clustered index usually has performance advantages
 
   - If only one index is created on the table, make it clustered. ![Warning icon](images/Aa658028.WarningIcon(en-us,AX.60).gif "Warning icon")
 
-  - Create a clustering index on the key on all group and main tables.
+  - Create a clustered index on the key on all group and main tables.
 
 
 > [!NOTE]
-> <P>The ClusterIndex table property determines which index on a table is clustered.</P>
+> <P>The ClusteredIndex table property determines which index on a table is clustered.</P>
 
 
 
 Carefully consider how to cluster your transaction tables. They have many records and receive many database operations. There is a great potential to improve speed and reduce memory usage.
 
-It advantageous if records are usually inserted at the end of the index, for example, if the index contains the current date as part of the key.
+It's advantageous if records are usually inserted at the end of the index, for example, if the index contains the current date as part of the key.
 
 The advantages of having a cluster index are as follows:
 
