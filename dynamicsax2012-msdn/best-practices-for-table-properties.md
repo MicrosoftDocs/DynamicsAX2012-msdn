@@ -111,7 +111,7 @@ For a description of each property, see [Table Properties](https://msdn.microsof
 <li><p>Is obvious that one select statement to the database outperforms select statements to the database.</p></li>
 </ul>
 <p>If a table performs poorly when the cache type is set to EntireTable, it is possible to change the cache setting to FoundAndEmpty or Found for a particular installation.</p>
-<p>Tables with the cache type set to EntireTable should have a Cluster index. This ensures that the table loads as quickly as possible.</p>
+<p>Tables with the cache type set to EntireTable should have a Clustered index. This ensures that the table loads as quickly as possible.</p>
 <p>When your code attempts to find a record in a cache by using a utility class such as SysGlobalCache or SysGlobalObjectCache, your code might get a return code which indicates the record is not in the cache. You code must then get the record by using a normal query. After the query returns the record, your code should add the record to the cache. If most of the find attempts indicate the needed records are not already in the cache, it might make sense to discontinue caching the table.</p>
 <p>Remove Found caching from tables that have no unique index.</p></td>
 </tr>
@@ -148,7 +148,7 @@ For a description of each property, see [Table Properties](https://msdn.microsof
 <p>If there is more than one unique index, this property determines which index Found caching works on.</p></td>
 </tr>
 <tr class="even">
-<td><p>ClusterIndex</p></td>
+<td><p>ClusteredIndex</p></td>
 <td><p>Set the index that the table should be organized by.</p>
 <p>Leave the index blank if performance tests on realistic data show that clustering does not work better. You can measure performance along the following dimensions:</p>
 <ul>
