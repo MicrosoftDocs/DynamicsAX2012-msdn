@@ -13,13 +13,13 @@ mtps_version: v=AX.60
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
 
-This topic describes X++ code style standards for the if...else statement and the switch statement.
+This topic describes X++ code style standards for the if ... else statement and the switch statement.
 
-## if...else
+## if ... else
 
-If you have an if...else construction, then use positive logic:
+If you have an if ... else construction, then use positive logic:
 
-Preferred:
+**Recommended:**
 
 if (true)
 
@@ -37,7 +37,7 @@ else
 
 }
 
-Avoid:
+**Avoid:**
 
 if (\!false)
 
@@ -73,7 +73,7 @@ switch (Expression)
 
 {
 
-    case: Constant:
+    case Constant:
 
         Statement;
 
@@ -85,13 +85,11 @@ switch (Expression)
 
 Do not put parentheses around cases. ![Warning icon](images/Aa658028.WarningIcon(en-us,AX.60).gif "Warning icon")
 
-There should not be a space between the case keyword and the colon character.
-
 ## Use a switch Instead of Nested if ... else Statements
 
-Use switch statements instead of nested if...else statements.
+Use switch statements instead of nested if ... else statements.
 
-Recommended:
+**Recommended:**
 
 switch (myEnum)
 
@@ -123,7 +121,7 @@ switch (myEnum)
 
 }
 
-Avoid:
+**Avoid:**
 
 if (myEnum == ABC::A)
 
