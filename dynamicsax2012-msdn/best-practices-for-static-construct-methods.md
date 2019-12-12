@@ -37,9 +37,9 @@ For partners and customizers, this is the point to add construction functionalit
 
 ```X++
   static CustPaymManFileOpen construct()
-    {
-        return new CustPaymManFileOpen();
-    }
+  {
+      return new CustPaymManFileOpen();
+  }
 ```
 
 ## See also
