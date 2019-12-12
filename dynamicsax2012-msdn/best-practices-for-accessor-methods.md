@@ -19,48 +19,40 @@ Accessor methods can set, get, or get and set the value of a variable.
 
 Accessor methods can be public or protected, and should have the same name as the member variable they access, prefixed with "parm." For example, the following accessor method gets and sets the MyVar variable.
 
-public MyType parmMyVar(MyType \_myVar = MyVar)
-
+```X++
+public MyType parmMyVar(MyType _myVar = MyVar)
 {
+    ;
 
-;
-
-MyVar = \_myVar;
-
-return MyVar;
-
+    MyVar = _myVar;
+    return MyVar;
 }
+```
 
 If the method needed only to get the value of the variable, it would be as follows.
 
+```X++
 public MyType parmMyVar()
-
 {
+    ;
 
-;
-
-return MyVar;
-
+    return MyVar;
 }
+```
 
 When variables contain huge amounts of data (for example, large containers or memo fields), it is recommended that you use the technique in the following example. The disadvantage of using it in all cases is the overhead of an additional method call.
 
-container parmCode(container \_code = conNull())
-
+```X++
+container parmCode(container _code = conNull())
 {
+    if (!prmIsDefault(_code))
+    {
+        code = _code;
+    }
 
-if (\!prmIsDefault(\_code))
-
-{
-
-code = \_code;
-
+    return code;
 }
-
-return code;
-
-}
-
+```
 
 > [!NOTE]
 > <P>You can use a code editor script to automatically create the accessor method. In the code editor, press ALT+M to open the editor scripts menu, and then select <STRONG>Template</STRONG> &gt; <STRONG>Method</STRONG> &gt; <STRONG>parm</STRONG>. Enter the data type, and then the name of the variable.</P>
