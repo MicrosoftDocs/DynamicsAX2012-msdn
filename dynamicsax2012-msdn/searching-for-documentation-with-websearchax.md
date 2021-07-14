@@ -4,7 +4,7 @@ TOCTitle: Searching for Documentation with WebSearchAx
 ms:assetid: 0161e85b-7d17-4f52-9715-452498d1f7de
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh538476(v=AX.60)
 ms:contentKeyID: 39508909
-ms.date: 05/18/2015
+ms.date: 07/14/2021
 mtps_version: v=AX.60
 ---
 
