@@ -23,16 +23,6 @@ For Microsoft Dynamics AX 2012 all Help documentation topics are published to th
 
 Only the English editions of Help topics are published to the web for Microsoft Dynamics AX 2012.
 
-## WebSearchAx Tool for Advanced Searches on the Web
-
-The [WebSearchAx.htm](http://go.microsoft.com/fwlink/?linkid=194311) page is available to provide advanced search capabilities for a variety of information about Microsoft Dynamics AX. **WebSearchAx** searches for Help topics on TechNet and MSDN. **WebSearchAx** can also search the web for white papers, code samples, and blog entries about Microsoft Dynamics AX.
-
-![WebSearchAx user interface](images/Hh538476.WebSearchAxUiPlainC2(en-us,AX.60).png "WebSearchAx user interface")
-
-**The WebSearchAx.htm page**   
-
-The labels on the **WebSearchAx** page are displayed in the language of the user. However, all Help topics found by **WebSearchAx** are in English.
-
 ## Application User Help is Installed Locally
 
 The Help server is part of a complete install of Microsoft Dynamics AX 2012. The Help server hosts Help topics for the application user audience. Each Help topic is an .htm file that can be viewed with the Help viewer or any web browser. The Help server hosts the following types of topics:
