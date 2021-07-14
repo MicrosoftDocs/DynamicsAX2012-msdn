@@ -4,7 +4,7 @@ TOCTitle: Searching for Documentation with WebSearchAx
 ms:assetid: 0161e85b-7d17-4f52-9715-452498d1f7de
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh538476(v=AX.60)
 ms:contentKeyID: 39508909
-ms.date: 05/18/2015
+ms.date: 07/14/2021
 mtps_version: v=AX.60
 ---
 
@@ -25,9 +25,12 @@ Only the English editions of Help topics are published to the web for Microsoft 
 
 ## WebSearchAx Tool for Advanced Searches on the Web
 
-The [WebSearchAx.htm](http://go.microsoft.com/fwlink/?linkid=194311) page is available to provide advanced search capabilities for a variety of information about Microsoft Dynamics AX. **WebSearchAx** searches for Help topics on TechNet and MSDN. **WebSearchAx** can also search the web for white papers, code samples, and blog entries about Microsoft Dynamics AX.
+We've had to retire the WebSearchAX page. We recommend that you use site search from your favorite search engine to replace it. For example:
 
-![WebSearchAx user interface](images/Hh538476.WebSearchAxUiPlainC2(en-us,AX.60).png "WebSearchAx user interface")
+site:technet.microsoft.com dynamics ax 2012 "search term"
+ –or–
+site:msdn.microsoft.com dynamics ax 2012 "search term" 
+
 
 **The WebSearchAx.htm page**   
 
