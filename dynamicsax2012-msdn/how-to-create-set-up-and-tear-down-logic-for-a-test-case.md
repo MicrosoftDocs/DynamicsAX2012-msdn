@@ -4,7 +4,7 @@ TOCTitle: 'How to: Create Set Up and Tear Down Logic for a Test Case'
 ms:assetid: c6ccaeea-03b8-462e-b52a-79644f6f1d2f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb496539(v=AX.60)
 ms:contentKeyID: 35251119
-ms.date: 05/18/2015
+ms.date: 01/21/2022
 mtps_version: v=AX.60
 ---
 
