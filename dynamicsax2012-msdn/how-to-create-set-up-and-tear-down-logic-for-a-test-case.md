@@ -4,7 +4,7 @@ TOCTitle: 'How to: Create Set Up and Tear Down Logic for a Test Case'
 ms:assetid: c6ccaeea-03b8-462e-b52a-79644f6f1d2f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb496539(v=AX.60)
 ms:contentKeyID: 35251119
-ms.date: 05/18/2015
+ms.date: 01/21/2022
 mtps_version: v=AX.60
 ---
 
@@ -90,11 +90,11 @@ Depending on your testing needs, other options for setting up tests and staging 
         }
        ```
 
-3.  In the AOT, right-click EmployeeSuite, and then point to **Override Method**. Select the setUp or tearDown method and include the code that you want to run before or after the suite of tests.
+3.  In the AOT, right-click EmployeeSuite, and then point to **Override Method**. Select the setupTestCase or teardownTestCase method and include the code that you want to run before or after the suite of tests.
     
 
     > [!NOTE]
-    > <P>The setUp and tearDown methods are called one time. Create a suite when you need to call setup or data staging logic before a group of tests that should only run one time. For information about how to add a test case to a test suite, see <A href="how-to-organize-test-cases.md">How to: Organize Test Cases</A>.</P>
+    > <P>The setupTestCase and teardownTestCase methods are called one time. Create a suite when you need to call setup or data staging logic before a group of tests that should only run one time. For information about how to add a test case to a test suite, see <A href="how-to-organize-test-cases.md">How to: Organize Test Cases</A>.</P>
 
 
 
