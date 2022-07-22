@@ -53,7 +53,9 @@
       "ms.topic": "conceptual",
       "feedback_system": "none",
       "open_to_public_contributors": false,
-      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "author": "kfend",
+      "ms.author": "kfend"
     },
     "fileMetadata": {
 
