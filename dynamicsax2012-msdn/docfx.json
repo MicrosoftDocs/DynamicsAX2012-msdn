@@ -55,7 +55,11 @@
       "open_to_public_contributors": false,
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "author": "kfend",
-      "ms.author": "kfend"
+      "ms.author": "kfend", 
+      "contributors_to_exclude": [
+        "buck1ey",
+        "khairunj"
+      ]
     },
     "fileMetadata": {
 
