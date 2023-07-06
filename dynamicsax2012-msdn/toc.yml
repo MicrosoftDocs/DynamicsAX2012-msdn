@@ -1050,9 +1050,9 @@
           href: activex-controls-overview.md
         - name: 'How to: Add ActiveX Controls to Forms'
           href: how-to-add-activex-controls-to-forms.md
-      - name: Applying Country Specific Functionality
+      - name: Applying Country/Region Specific Functionality
         href: applying-country-specific-functionality.md
-      - name: 'How to: Set a Form Control to be Country Specific'
+      - name: 'How to: Set a Form Control to be Country/Region Specific'
         href: how-to-set-a-form-control-to-be-country-specific.md
     - name: Parts
       href: parts.md

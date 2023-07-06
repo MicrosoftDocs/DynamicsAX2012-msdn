@@ -79,7 +79,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 
 ## Remarks
 
-The upgrade script is necessary due to the following changes in the data model from previous version. 1. The country specific fields have been moved from the BankAccounTrans table to the BankAccountTransPL table. 2. The country specific fields have been moved from the ledgerJournalTrans table to the LedgerJournalTrans\_RCash table.
+The upgrade script is necessary due to the following changes in the data model from previous version. 1. The country/region specific fields have been moved from the BankAccounTrans table to the BankAccountTransPL table. 2. The country/region specific fields have been moved from the ledgerJournalTrans table to the LedgerJournalTrans\_RCash table.
 
 ## Data Migration Section
 

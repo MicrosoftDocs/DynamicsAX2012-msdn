@@ -29,7 +29,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>Moves country specific data from the GeneralJournalAccountEntry table to the GeneralJournalAccountEntry_W table.</p></td>
+<td><p>Moves country/region specific data from the GeneralJournalAccountEntry table to the GeneralJournalAccountEntry_W table.</p></td>
 </tr>
 </tbody>
 </table>
