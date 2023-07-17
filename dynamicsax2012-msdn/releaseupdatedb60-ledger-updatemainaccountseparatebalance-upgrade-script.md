@@ -29,7 +29,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>The method populates the MainAccountSeparateBalance table from the LedgerTable table so the country specific value is stored in a separate table.</p></td>
+<td><p>The method populates the MainAccountSeparateBalance table from the LedgerTable table so the country/region specific value is stored in a separate table.</p></td>
 </tr>
 </tbody>
 </table>
@@ -73,7 +73,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 
 ## Remarks
 
-The LedgerTable table populates the MainAccount table. The MainAccount table does not store country specific fields.
+The LedgerTable table populates the MainAccount table. The MainAccount table does not store country/region specific fields.
 
 ## Data Migration Section
 

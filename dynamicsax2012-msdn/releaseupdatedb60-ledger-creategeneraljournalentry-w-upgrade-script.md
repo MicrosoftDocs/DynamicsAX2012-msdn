@@ -29,7 +29,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>Copies the country specific fields from the GeneralJournalEntry table to the GeneralJournalEntry_W table.</p></td>
+<td><p>Copies the country/region specific fields from the GeneralJournalEntry table to the GeneralJournalEntry_W table.</p></td>
 </tr>
 </tbody>
 </table>

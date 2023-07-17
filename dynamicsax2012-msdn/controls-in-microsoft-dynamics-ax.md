@@ -25,9 +25,9 @@ This section of the documentation describes the types of controls you can add to
 
 [ActiveX Controls](activex-controls.md)
 
-[Applying Country Specific Functionality](applying-country-specific-functionality.md)
+[Applying Country/region Specific Functionality](applying-country-specific-functionality.md)
 
-[How to: Set a Form Control to be Country Specific](how-to-set-a-form-control-to-be-country-specific.md)
+[How to: Set a Form Control to be Country/region Specific](how-to-set-a-form-control-to-be-country-specific.md)
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).

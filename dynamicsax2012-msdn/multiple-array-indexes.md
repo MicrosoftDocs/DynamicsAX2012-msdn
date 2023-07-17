@@ -15,7 +15,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, M
 
 Some languages, such as C++ and C\#, allow you to declare arrays with more than one index; that is, to define "arrays of arrays." You cannot directly create multiple array indexes in X++ - only one-dimensional arrays are supported. However, you can implement multiple indexes by using the following scheme.
 
-If you wanted to declare an array with two dimensions, for example, for holding an amount earned by country by dimension, and there were 10 countries and 3 dimensions, declare the following:
+If you wanted to declare an array with two dimensions, for example, for holding an amount earned by country/region by dimension, and there were 10 countries/regions and 3 dimensions, declare the following:
 
 real earning\[10, 3\];
 
