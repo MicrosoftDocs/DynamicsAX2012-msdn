@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_recordset
 TOCTitle: update_recordset
 ms:assetid: 753d8d30-8cb7-42ce-baa2-a3ef4a59e8f7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa674382(v=AX.60)
 ms:contentKeyID: 35245960
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to use the update_recordset in Microsoft Dynamics AX 2012 to update multiple rows in a single server trip, improving performance and efficiency.
 ---
 
 # update\_recordset 
