@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Expressions in Query Ranges
 TOCTitle: Using Expressions in Query Ranges
 ms:assetid: ff839bb9-67f7-4184-a5bd-a853089e5426
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa893981(v=AX.60)
 ms:contentKeyID: 35254216
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn to use expressions in query ranges with Microsoft Dynamics AX 2012. Detailed guide with examples for complex range queries.
 ---
 
 # Using Expressions in Query Ranges 
