@@ -1,4 +1,4 @@
-﻿---
+---
 title: Exception Handling with try and catch Keywords
 TOCTitle: Exception Handling with try and catch Keywords
 ms:assetid: fe47bc25-ae7f-42df-a8c3-592d9f714471
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa893385(v=AX.60)
 ms:contentKeyID: 35254212
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master exception handling in Microsoft Dynamics AX 2012 with try and catch keywords. Learn to write X++ code for error management and best practices.
 ---
 
 # Exception Handling with try and catch Keywords 

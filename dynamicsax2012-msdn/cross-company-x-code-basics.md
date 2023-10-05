@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cross-Company X++ Code Basics
 TOCTitle: Cross-Company X++ Code Basics
 ms:assetid: 0312d6e1-e409-434f-8ee6-c2081f8d4002
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Cc518738(v=AX.60)
 ms:contentKeyID: 35240189
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master cross-company queries with X++ code in Microsoft Dynamics AX 2012. Learn to use keywords, class methods, and AOT for effective data access.
 ---
 
 # Cross-Company X++ Code Basics 

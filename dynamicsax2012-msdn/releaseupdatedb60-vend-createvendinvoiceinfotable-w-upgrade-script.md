@@ -29,7 +29,7 @@ _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2_
 </tr>
 <tr class="odd">
 <td><p><strong>Description</strong></p></td>
-<td><p>Migrates country specific fields from &lt;c&gt;VendInvoiceInfoTable&lt;/c&gt; table to &lt;c&gt;VendInvoiceInfoTable_W&lt;/c&gt; table</p></td>
+<td><p>Migrates country/region specific fields from &lt;c&gt;VendInvoiceInfoTable&lt;/c&gt; table to &lt;c&gt;VendInvoiceInfoTable_W&lt;/c&gt; table</p></td>
 </tr>
 </tbody>
 </table>

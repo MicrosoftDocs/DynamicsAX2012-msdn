@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Table Keys: Surrogate, Alternate, Replacement, Primary, and Foreign'
 TOCTitle: 'Table Keys: Surrogate, Alternate, Replacement, Primary, and Foreign'
 ms:assetid: c9629d16-1698-42d5-a4d8-4047794efffc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh812105(v=AX.60)
 ms:contentKeyID: 44089904
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Explore the concepts of table keys in Microsoft Dynamics AX 2012. Learn about surrogate, alternate, replacement, primary, and foreign keys in detail.
 ---
 
 # Table Keys: Surrogate, Alternate, Replacement, Primary, and Foreign 

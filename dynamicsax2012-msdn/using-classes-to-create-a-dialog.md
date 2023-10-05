@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Classes to Create a Dialog
 TOCTitle: Using Classes to Create a Dialog
 ms:assetid: deee29e9-26d6-4889-a93b-1f7b6c4ca29c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa877843(v=AX.60)
 ms:contentKeyID: 35252087
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn to create simple, user-friendly dialogs in Microsoft Dynamics AX 2012 using the Dialog system class. Includes methods, classes, and code examples.
 ---
 
 # Using Classes to Create a Dialog 

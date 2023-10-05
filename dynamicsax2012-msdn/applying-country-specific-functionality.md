@@ -1,6 +1,6 @@
 ﻿---
-title: Applying Country Specific Functionality
-TOCTitle: Applying Country Specific Functionality
+title: Applying Country/Region Specific Functionality
+TOCTitle: Applying Country/Region Specific Functionality
 ms:assetid: 8e59cd77-c092-428f-8a4b-f85ab0bd42e3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh404126(v=AX.60)
 ms:contentKeyID: 36956794
@@ -8,7 +8,7 @@ ms.date: 05/18/2015
 mtps_version: v=AX.60
 ---
 
-# Applying Country Specific Functionality 
+# Applying Country/Region Specific Functionality 
 
 
 _**Applies To:** Microsoft Dynamics AX 2012 R3, Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 Feature Pack, Microsoft Dynamics AX 2012_
@@ -29,7 +29,7 @@ You use country and region specific functionality to help meet the legal, regula
 <tbody>
 <tr class="odd">
 <td><p>Controlling party</p></td>
-<td><p>The controlling party is defined by the Organization model in Microsoft Dynamics AX. Examples include legal entity, customer, vendor, bank, or worker. The controlling party’s role is to determine whether country-specific functionality or UI elements will be enabled on the controlled entity. If the country context of the controlling party matches the country context of the controlled entity, the functionality or UI elements will be enabled.</p>
+<td><p>The controlling party is defined by the Organization model in Microsoft Dynamics AX. Examples include legal entity, customer, vendor, bank, or worker. The controlling party’s role is to determine whether country/region-specific functionality or UI elements will be enabled on the controlled entity. If the country/region context of the controlling party matches the country/region context of the controlled entity, the functionality or UI elements will be enabled.</p>
 <p>The controlling party defaults to the legal entity.</p>
 <p>You set the country and region context of the controlling party. Any controlled entities that have matching country and region context will be displayed.</p></td>
 </tr>
@@ -77,7 +77,7 @@ In this example, customer becomes the controlling entity. The customer address i
 
 ## See also
 
-[How to: Set a Form Control to be Country Specific](how-to-set-a-form-control-to-be-country-specific.md)
+[How to: Set a Form Control to be Country/region Specific](how-to-set-a-form-control-to-be-country-specific.md)
 
   
 **Announcements:** New book: "Inside Microsoft Dynamics AX 2012 R3" now available. Get your copy at the [MS Press Store](https://www.microsoftpressstore.com/store/inside-microsoft-dynamics-ax-2012-r3-9780735685109).
