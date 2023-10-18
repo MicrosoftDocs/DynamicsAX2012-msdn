@@ -1,6 +1,6 @@
 - name: Dynamics 365
   tocHref: /dynamicsax-2012/
-  topicHref: /landingpage/index
+  topicHref: /dynamics365/index
   items:
   - name: Dynamics AX 2012
     tocHref: /dynamicsax-2012/developer/
