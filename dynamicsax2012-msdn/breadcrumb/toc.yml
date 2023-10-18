@@ -1,1 +1,7 @@
-[]
+- name: Dynamics 365
+  tocHref: /dynamicsax-2012/
+  topicHref: /landingpage/index
+  items:
+  - name: Dynamics AX 2012
+    tocHref: /dynamicsax-2012/developer/
+    topicHref: /dynamicsax-2012/developer/index
