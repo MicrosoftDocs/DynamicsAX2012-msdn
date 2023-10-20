@@ -28,10 +28,10 @@ The name, or identifier, for a variable points to a memory location where inform
 The following four variables that are declared in the myMethod method have valid names in X++:
 
 ```X++
-private void myMethod(int _, str _myParameter2)
+private void myMethod(Int _, Str _myParameter2)
     {
-        str I;
-        str XppAllowsVeryLongVariableNamesWhichTireOurFingers;
+        Str i;
+        Str xppAllowsVeryLongVariableNamesWhichTireOurFingers;
         …
     }
 ```
