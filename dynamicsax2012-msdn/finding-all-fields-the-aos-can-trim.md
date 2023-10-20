@@ -1,4 +1,4 @@
-﻿---
+---
 title: Finding All Fields the AOS can Trim
 TOCTitle: Finding All Fields the AOS can Trim
 ms:assetid: 6bdc6817-d653-419c-a41b-426927326eac
@@ -104,7 +104,7 @@ The macros near the top of the code sample are explained in a section that follo
                 } // if table is guarded by the Table Protection Framework (TPF).
             } // name is Like
     
-            // Prepare for next interation of this loop.
+            // Prepare for next iteration of this loop.
             tnTable = tnTable.AOTnextSibling();
             if (tnTable == null) break;
     
