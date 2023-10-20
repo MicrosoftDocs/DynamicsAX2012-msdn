@@ -19,9 +19,9 @@ A GUID (a globally unique identifier) is a 16 byte, or a 128 bit integer that ca
 
 Here are two examples of string literals that are valid representations of a GUID value:
 
-  - "12345678-BBBb-cCCCC-0000-123456789012"
+  - "12345678-BBBb-cCCC-0000-123456789012"
 
-  - "{12345678-BBBb-cCCCC-0000-123456789012}"
+  - "{12345678-BBBb-cCCC-0000-123456789012}"
 
 The string representation of a GUID must follow the restrictions described in the following table.
 
