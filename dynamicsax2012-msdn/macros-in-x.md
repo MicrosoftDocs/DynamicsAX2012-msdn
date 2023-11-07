@@ -1,4 +1,4 @@
-﻿---
+---
 title: Macros in X++
 TOCTitle: Macros in X++
 ms:assetid: 0de52e1d-e2f2-4b18-8927-111553a4efb2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Cc197107(v=AX.60)
 ms:contentKeyID: 35240475
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master X++ macros with Microsoft Dynamics AX 2012. Learn to use precompiler directives, handle macro values, and avoid common errors.
 ---
 
 # Macros in X++ 

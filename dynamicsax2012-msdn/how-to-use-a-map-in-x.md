@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Use a Map in X++'
 TOCTitle: 'How to: Use a Map in X++'
 ms:assetid: 81f0217c-a24f-4da7-8390-0405549d11d9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee330226(v=AX.60)
 ms:contentKeyID: 35246148
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master the use of AOT map objects in X++ with Microsoft Dynamics AX. Learn syntax, examples, and error detection for efficient runtime.
 ---
 
 # How to: Use a Map in X++ 

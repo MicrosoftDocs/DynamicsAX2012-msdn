@@ -1,4 +1,4 @@
-﻿---
+---
 title: View Basics
 TOCTitle: View Basics
 ms:assetid: 2adc61ef-0bc8-4460-b358-f8e28ee6b422
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb314551(v=AX.60)
 ms:contentKeyID: 35241783
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master Microsoft Dynamics AX 2012 with our comprehensive guide on view basics. Learn how to create, customize, and optimize views for better performance.
 ---
 
 # View Basics 

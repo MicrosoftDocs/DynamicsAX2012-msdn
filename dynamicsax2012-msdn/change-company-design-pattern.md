@@ -1,4 +1,4 @@
-﻿---
+---
 title: Change Company Design Pattern
 TOCTitle: Change Company Design Pattern
 ms:assetid: ba6e5263-279d-4525-90ae-5750461dee35
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa860755(v=AX.60)
 ms:contentKeyID: 35249904
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to change the design pattern of a company using the changeCompany function in Microsoft Dynamics AX 2012. Ideal for large companies splitting into entities.
 ---
 
 # Change Company Design Pattern 
