@@ -1,4 +1,4 @@
-﻿---
+---
 title: Performing File IO with the TextIo Class
 TOCTitle: Performing File IO with the TextIo Class
 ms:assetid: 7a5fe2a8-7f58-4502-adb3-7eac51ab7dd5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Cc967403(v=AX.60)
 ms:contentKeyID: 35246083
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to perform file input and output using the TextIo class in Microsoft Dynamics AX 2012. Includes X++ code samples and output examples.
 ---
 
 # Performing File IO with the TextIo Class 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'X++ Standards: Arrays'
 TOCTitle: 'X++ Standards: Arrays'
 ms:assetid: 14c69938-62b8-4aa8-95db-0b5f7e267198
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa587589(v=AX.60)
 ms:contentKeyID: 35240607
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn best practices for using the memory option in arrays with Microsoft Dynamics AX 2012. Optimize RAM usage and improve read performance.
 ---
 
 # X++ Standards: Arrays 

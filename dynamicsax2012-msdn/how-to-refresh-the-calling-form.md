@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Refresh the Calling Form'
 TOCTitle: 'How to: Refresh the Calling Form'
 ms:assetid: c6d3b144-f563-4d06-945b-ac26c08d0e1d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh812104(v=AX.60)
 ms:contentKeyID: 44089903
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to refresh the calling form in Microsoft Dynamics AX 2012. Step-by-step guide for developers on dialog and drop dialog forms.
 ---
 
 # How to: Refresh the Calling Form 
