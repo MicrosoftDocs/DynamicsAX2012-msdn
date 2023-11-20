@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data Sources for Forms
 TOCTitle: Data Sources for Forms
 ms:assetid: 185149d7-d5ce-4923-a751-f565f0827784
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg844014(v=AX.60)
 ms:contentKeyID: 35241366
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to use data sources for forms in Microsoft Dynamics AX 2012. Understand queries, tables, views, and more to optimize your forms.
 ---
 
 # Data Sources for Forms 

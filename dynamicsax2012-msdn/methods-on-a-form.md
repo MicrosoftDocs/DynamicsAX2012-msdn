@@ -1,4 +1,4 @@
-﻿---
+---
 title: Methods on a Form
 TOCTitle: Methods on a Form
 ms:assetid: 75a1dd66-5229-461d-9c77-77df137f7b9b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa674599(v=AX.60)
 ms:contentKeyID: 35245973
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn to override standard methods on a form in Microsoft Dynamics AX 2012. Customize form behavior, respond to UI events, and alter form appearance.
 ---
 
 # Methods on a Form 

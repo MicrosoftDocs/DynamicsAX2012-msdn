@@ -1,4 +1,4 @@
-﻿---
+---
 title: Defining Table Relations
 TOCTitle: Defining Table Relations
 ms:assetid: 7ecbfc3c-b45e-4394-bf1a-20f49f498ef1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb190076(v=AX.60)
 ms:contentKeyID: 35246127
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn to define table relations in Microsoft Dynamics AX 2012. Enhance database consistency, validate data, and auto-define relationships in queries.
 ---
 
 # Defining Table Relations 

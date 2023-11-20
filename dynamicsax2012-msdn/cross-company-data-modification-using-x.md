@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cross-Company Data Modification Using X++
 TOCTitle: Cross-Company Data Modification Using X++
 ms:assetid: ad8c30ee-9871-4a0e-bd62-f369dc88f5a7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Cc617093(v=AX.60)
 ms:contentKeyID: 35249724
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to modify cross-company data using X++ in Microsoft Dynamics AX 2012. Explore SQL statements, table buffer methods, and more.
 ---
 
 # Cross-Company Data Modification Using X++ 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create and Use Labels'
 TOCTitle: 'How to: Create and Use Labels'
 ms:assetid: 2017ee25-394b-47c1-9432-9bd5e333a402
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa620083(v=AX.60)
 ms:contentKeyID: 35241543
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to create and use labels in Microsoft Dynamics AX 2012. This guide provides step-by-step instructions for label creation and usage in forms and reports.
 ---
 
 # How to: Create and Use Labels 
