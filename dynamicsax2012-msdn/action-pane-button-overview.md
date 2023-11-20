@@ -1,4 +1,4 @@
-﻿---
+---
 title: Action Pane Button Overview
 TOCTitle: Action Pane Button Overview
 ms:assetid: 14315715-ab82-458c-9daa-a701f87337b6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Cc583412(v=AX.60)
 ms:contentKeyID: 35240601
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Explore Microsoft Dynamics AX 2012's action pane button features, types, and customization. Learn how to create and manage buttons for optimal user experience.
 ---
 
 # Action Pane Button Overview 

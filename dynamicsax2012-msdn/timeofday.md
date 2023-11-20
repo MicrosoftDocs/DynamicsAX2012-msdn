@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimeOfDay
 TOCTitle: TimeOfDay
 ms:assetid: 7569bbb9-9153-4174-90c0-e0c84440ac1c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa674480(v=AX.60)
 ms:contentKeyID: 35245965
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn about the TimeOfDay data type in Microsoft Dynamics AX 2012. Understand its range, declaration, usage, and conversions. Perfect for developers.
 ---
 
 # TimeOfDay 

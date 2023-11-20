@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create a New Record When a Form Opens'
 TOCTitle: 'How to: Create a New Record When a Form Opens'
 ms:assetid: 7ec6785f-71f3-4724-8b90-bc77d7814beb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa642442(v=AX.60)
 ms:contentKeyID: 35246125
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to create a new record every time a form opens in Microsoft Dynamics AX 2012. Step-by-step guide with examples included.
 ---
 
 # How to: Create a New Record When a Form Opens 
