@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa590501(v=AX.60)
 ms:contentKeyID: 35241446
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn the best practices for setting table field properties in Microsoft Dynamics AX 2012. Detailed guide for developers to optimize their work.
 ---
 
 # Best Practices for Table Field Properties 

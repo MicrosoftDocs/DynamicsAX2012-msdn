@@ -1,4 +1,4 @@
-﻿---
+---
 title: Classes in X++
 TOCTitle: Classes in X++
 ms:assetid: cbbd4ebc-f245-48c5-889f-f17b0235d7a0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa868834(v=AX.60)
 ms:contentKeyID: 35251525
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn about classes in X++, including variables, methods, and declarations, in Microsoft Dynamics AX 2012. Enhance your developer skills now.
 ---
 
 # Classes in X++ 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: EDT Relation Migration Tool
 TOCTitle: EDT Relation Migration Tool
 ms:assetid: da71a84d-1414-47ce-91d7-773f4a0d29bc
@@ -9,6 +9,7 @@ mtps_version: v=AX.60
 f1_keywords:
 - MsDynAx060.Forms.SysEDTMigrationForm
 - Forms.SysEDTMigrationForm
+description: Learn how to use the EDT Relation Migration Tool in Microsoft Dynamics AX 2012 to move relations from EDT nodes to table nodes effectively.
 ---
 
 # EDT Relation Migration Tool 

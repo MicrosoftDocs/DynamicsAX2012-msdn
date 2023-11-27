@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to: Create Delete Actions'
 TOCTitle: 'How to: Create Delete Actions'
 ms:assetid: c1d914d2-e2f8-463f-b9ac-4e2114520c5e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb315018(v=AX.60)
 ms:contentKeyID: 35250099
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to create and delete actions in Microsoft Dynamics AX 2012. Maintain database consistency and manage customer data effectively.
 ---
 
 # How to: Create Delete Actions 

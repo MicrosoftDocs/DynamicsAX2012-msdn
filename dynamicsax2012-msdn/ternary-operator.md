@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ternary Operator (?)
 TOCTitle: Ternary Operator (?)
 ms:assetid: 05c78c4a-f1c4-46e4-8f49-3a524b013213
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa552755(v=AX.60)
 ms:contentKeyID: 35240307
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Master the ternary operator in Microsoft Dynamics AX 2012 with our comprehensive guide. Learn syntax, examples, and comparisons to IF statements.
 ---
 
 # Ternary Operator (?) 
