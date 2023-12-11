@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReleaseUpdateTransformDB50_Cust.validateCustTable Upgrade Script
 TOCTitle: ReleaseUpdateTransformDB50_Cust.validateCustTable Upgrade Script
 ms:assetid: 2c3fb560-8a4e-7ffb-f56a-7ea8203ac4fe
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ735964(v=AX.60)
 ms:contentKeyID: 49707380
 ms.date: 05/18/2015
 mtps_version: v=AX.60
+description: Learn how to validate account and dimension data with the ReleaseUpdateTransformDB50_Cust.validateCustTable upgrade script for Dynamics AX 2012.
 ---
 
 # ReleaseUpdateTransformDB50\_Cust.validateCustTable Upgrade Script 
