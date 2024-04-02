@@ -134,7 +134,7 @@ You can economize your X++ statements and achieve the same effect using the [del
 ```X++  
 {   
    TableName myXrec;   
-   delete\_from myXrec   
+   delete_from myXrec   
      where  Conditions ;   
  }
 ```
